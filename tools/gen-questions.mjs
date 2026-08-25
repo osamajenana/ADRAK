@@ -129,7 +129,12 @@ for (const [code, generate] of Object.entries(generators)) {
 /* ----------------------------------------------------------------- report */
 
 if (errors.length) {
-  console.error('\n❌ question bank is invalid:\n' + errors.map((e) => '   • ' + e).join('\n') + '\n');
+  // A generator defect repeats once per drawn item; collapse the noise so the distinct problems
+  // stay visible instead of thirty identical lines burying each other.
+  const tally = new Map();
+  for (const e of errors) tally.set(e, (tally.get(e) ?? 0) + 1);
+  const lines = [...tally].map(([e, n]) => `   • ${e}${n > 1 ? `   (×${n})` : ''}`);
+  console.error(`\n❌ question bank is invalid — ${tally.size} distinct problem(s):\n${lines.join('\n')}\n`);
   process.exit(1);
 }
 

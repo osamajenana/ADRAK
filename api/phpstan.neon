@@ -1,0 +1,17 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    level: 6
+
+    paths:
+        - app
+        - database
+        - routes
+        - tests
+    tmpDir: storage/framework/cache/phpstan
+
+    # PHPStan's parallel workers die with exit 255 under Git Bash on Windows, which is the
+    # environment this project is actually developed in. One process is slower but it runs.
+    parallel:
+        maximumNumberOfProcesses: 1
