@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "generated_for": "NABD — Learning Recovery Platform",
+  "subject": {
+    "code": "MATH",
+    "name_ar": "الرياضيات",
+    "name_en": "Mathematics"
+  },
+  "curriculum": "المنهاج الفلسطيني — المرحلة الأساسية (الصفوف ٤–٩)",
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "notes": "الترتيب في order_index طوبولوجي: أي مهارة تأتي بعد كل متطلباتها. is_spine=true يعني أنها على العمود الفقري لمعالجة الفاقد التعليمي (بنك أسئلة مكثّف).",
+  "strands": [
+    {
+      "code": "number",
+      "name_ar": "الأعداد ونظام العدّ",
+      "name_en": "Number & Place Value"
+    },
+    {
+      "code": "operations",
+      "name_ar": "العمليات الحسابية",
+      "name_en": "Operations"
+    },
+    {
+      "code": "fractions",
+      "name_ar": "الكسور",
+      "name_en": "Fractions"
+    },
+    {
+      "code": "decimals",
+      "name_ar": "الأعداد العشرية",
+      "name_en": "Decimals"
+    },
+    {
+      "code": "ratio",
+      "name_ar": "النسبة والتناسب",
+      "name_en": "Ratio & Proportion"
+    },
+    {
+      "code": "algebra",
+      "name_ar": "الجبر",
+      "name_en": "Algebra"
+    },
+    {
+      "code": "geometry",
+      "name_ar": "الهندسة",
+      "name_en": "Geometry"
+    },
+    {
+      "code": "measurement",
+      "name_ar": "القياس",
+      "name_en": "Measurement"
+    },
+    {
+      "code": "data",
+      "name_ar": "البيانات والاحتمال",
+      "name_en": "Data & Probability"
+    }
+  ]
+}

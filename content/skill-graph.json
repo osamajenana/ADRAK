@@ -1,0 +1,1542 @@
+{
+  "version": "1.0.0",
+  "generated_for": "NABD — Learning Recovery Platform",
+  "subject": {
+    "code": "MATH",
+    "name_ar": "الرياضيات",
+    "name_en": "Mathematics"
+  },
+  "curriculum": "المنهاج الفلسطيني — المرحلة الأساسية (الصفوف 4–9)",
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "notes": "الترتيب في order_index طوبولوجي: أي مهارة تأتي بعد كل متطلباتها. is_spine=true يعني أنها على العمود الفقري لمعالجة الفاقد التعليمي (بنك أسئلة مكثّف).",
+  "strands": [
+    {
+      "code": "number",
+      "name_ar": "الأعداد ونظام العدّ",
+      "name_en": "Number & Place Value"
+    },
+    {
+      "code": "operations",
+      "name_ar": "العمليات الحسابية",
+      "name_en": "Operations"
+    },
+    {
+      "code": "fractions",
+      "name_ar": "الكسور",
+      "name_en": "Fractions"
+    },
+    {
+      "code": "decimals",
+      "name_ar": "الأعداد العشرية",
+      "name_en": "Decimals"
+    },
+    {
+      "code": "ratio",
+      "name_ar": "النسبة والتناسب",
+      "name_en": "Ratio & Proportion"
+    },
+    {
+      "code": "algebra",
+      "name_ar": "الجبر",
+      "name_en": "Algebra"
+    },
+    {
+      "code": "geometry",
+      "name_ar": "الهندسة",
+      "name_en": "Geometry"
+    },
+    {
+      "code": "measurement",
+      "name_ar": "القياس",
+      "name_en": "Measurement"
+    },
+    {
+      "code": "data",
+      "name_ar": "البيانات والاحتمال",
+      "name_en": "Data & Probability"
+    }
+  ],
+  "built_at": null,
+  "stats": {
+    "skills": 58,
+    "spine_skills": 36,
+    "max_depth": 12,
+    "misconceptions": 101,
+    "by_grade": {
+      "4": 8,
+      "5": 12,
+      "6": 10,
+      "7": 14,
+      "8": 9,
+      "9": 5
+    }
+  },
+  "skills": [
+    {
+      "code": "NUM.PV",
+      "name_ar": "القيمة المنزلية حتى الملايين",
+      "description_ar": "قراءة وكتابة ومقارنة الأعداد الكبيرة، وتحديد قيمة كل رقم حسب منزلته.",
+      "strand": "number",
+      "grade_level": 4,
+      "order_index": 1,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [],
+      "misconceptions": [
+        {
+          "tag": "pv.digit_vs_value",
+          "name_ar": "الخلط بين الرقم وقيمته المنزلية",
+          "remediation_ar": "استخدم لوحة المنازل وقطع العدّ: الرقم 7 في منزلة المئات قيمته 700 لا 7."
+        },
+        {
+          "tag": "pv.longer_is_bigger",
+          "name_ar": "اعتبار العدد الأطول دائماً أكبر",
+          "remediation_ar": "قارن منزلة بمنزلة من اليسار، وأكّد أن الأصفار البادئة لا تغيّر القيمة."
+        }
+      ],
+      "depth": 0
+    },
+    {
+      "code": "OPS.ADD",
+      "name_ar": "الجمع مع إعادة التجميع",
+      "description_ar": "جمع أعداد متعددة المنازل مع الحمل، ذهنياً وكتابياً.",
+      "strand": "operations",
+      "grade_level": 4,
+      "order_index": 2,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.PV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "add.no_carry",
+          "name_ar": "إهمال الحمل عند تجاوز العشرة",
+          "remediation_ar": "اكتب الحمل صراحةً فوق المنزلة التالية، وتحقّق بالجمع الذهني التقريبي."
+        },
+        {
+          "tag": "add.misaligned",
+          "name_ar": "عدم محاذاة المنازل",
+          "remediation_ar": "استخدم ورقة مربّعات أو خطوطاً عمودية لمحاذاة الآحاد تحت الآحاد."
+        }
+      ],
+      "depth": 1
+    },
+    {
+      "code": "OPS.MUL.FACTS",
+      "name_ar": "حقائق الضرب (جداول 1–12)",
+      "description_ar": "استرجاع حقائق الضرب الأساسية بسرعة وثقة.",
+      "strand": "operations",
+      "grade_level": 4,
+      "order_index": 3,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.ADD"
+      ],
+      "misconceptions": [
+        {
+          "tag": "mul.repeated_add_error",
+          "name_ar": "الاعتماد على الجمع المتكرر مع أخطاء عدّ",
+          "remediation_ar": "ابنِ الطلاقة بالأنماط (×9 بالأصابع، ×5 نصف ×10) قبل الحفظ."
+        },
+        {
+          "tag": "mul.confuse_add",
+          "name_ar": "الخلط بين الضرب والجمع",
+          "remediation_ar": "6×4 تعني 6 مجموعات فيها 4، لا 6+4. استخدم المصفوفات."
+        }
+      ],
+      "depth": 2
+    },
+    {
+      "code": "OPS.SUB",
+      "name_ar": "الطرح مع الاستلاف",
+      "description_ar": "طرح أعداد متعددة المنازل مع الاستلاف عبر الأصفار.",
+      "strand": "operations",
+      "grade_level": 4,
+      "order_index": 4,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.ADD"
+      ],
+      "misconceptions": [
+        {
+          "tag": "sub.smaller_from_larger",
+          "name_ar": "طرح الأصغر من الأكبر دائماً بغضّ النظر عن الترتيب",
+          "remediation_ar": "أشهر خطأ في الطرح: في 52 − 27 يطرح الطالب 2−7 بدل الاستلاف. جرّب التمثيل بقطع العشرات."
+        },
+        {
+          "tag": "sub.zero_borrow",
+          "name_ar": "الاستلاف عبر الصفر",
+          "remediation_ar": "درّب على الاستلاف المتسلسل: 300 − 145 خطوة بخطوة مع تمثيل بصري."
+        }
+      ],
+      "depth": 2
+    },
+    {
+      "code": "GEO.SHAPES",
+      "name_ar": "الأشكال الهندسية وخصائصها",
+      "description_ar": "تصنيف المضلعات والمثلثات والرباعيات حسب الأضلاع والزوايا.",
+      "strand": "geometry",
+      "grade_level": 4,
+      "order_index": 5,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [],
+      "misconceptions": [
+        {
+          "tag": "geo.orientation_matters",
+          "name_ar": "عدم التعرّف على الشكل عند تدويره",
+          "remediation_ar": "المربع يبقى مربعاً لو دُوّر. اعرض الأشكال بأوضاع مختلفة."
+        },
+        {
+          "tag": "geo.square_not_rectangle",
+          "name_ar": "نفي أن المربع مستطيل",
+          "remediation_ar": "المربع حالة خاصة من المستطيل تتساوى فيها الأضلاع. استخدم مخطط تصنيف هرمي."
+        }
+      ],
+      "depth": 0
+    },
+    {
+      "code": "GEO.PERIMETER",
+      "name_ar": "المحيط",
+      "description_ar": "حساب محيط المضلعات والأشكال المركّبة.",
+      "strand": "geometry",
+      "grade_level": 4,
+      "order_index": 6,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "GEO.SHAPES",
+        "OPS.ADD"
+      ],
+      "misconceptions": [
+        {
+          "tag": "geo.perimeter_area_swap",
+          "name_ar": "الخلط بين المحيط والمساحة",
+          "remediation_ar": "المحيط هو طول السياج حول الشكل، والمساحة هي البلاط داخله. استخدم شبكة مربعات."
+        }
+      ],
+      "depth": 2
+    },
+    {
+      "code": "MEA.TIME",
+      "name_ar": "الزمن والجداول الزمنية",
+      "description_ar": "قراءة الساعة، وحساب المدة الزمنية، والتحويل بين وحدات الزمن.",
+      "strand": "measurement",
+      "grade_level": 4,
+      "order_index": 7,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "OPS.SUB"
+      ],
+      "misconceptions": [
+        {
+          "tag": "time.decimal_subtraction",
+          "name_ar": "طرح الأوقات كأعداد عشرية",
+          "remediation_ar": "الفرق بين 3:15 و2:45 هو 30 دقيقة لا 70. الساعة ستّينية لا عشرية."
+        }
+      ],
+      "depth": 3
+    },
+    {
+      "code": "MEA.UNITS",
+      "name_ar": "وحدات القياس والتحويل بينها",
+      "description_ar": "وحدات الطول والكتلة والسعة والتحويل بينها ضمن النظام المتري.",
+      "strand": "measurement",
+      "grade_level": 4,
+      "order_index": 8,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "NUM.PV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "mea.wrong_direction",
+          "name_ar": "الضرب بدل القسمة عند التحويل",
+          "remediation_ar": "التحويل من الوحدة الصغيرة للكبيرة يكون بالقسمة. اسأل: هل العدد يجب أن يكبر أم يصغر؟"
+        },
+        {
+          "tag": "mea.wrong_factor",
+          "name_ar": "استخدام معامل تحويل خاطئ",
+          "remediation_ar": "ارسم سلّم الوحدات ولاحظ أن كل درجة تعني الضرب أو القسمة على 10."
+        }
+      ],
+      "depth": 1
+    },
+    {
+      "code": "OPS.DIV.BASIC",
+      "name_ar": "القسمة الأساسية",
+      "description_ar": "القسمة كتوزيع بالتساوي وكعملية عكسية للضرب، بدون باقٍ.",
+      "strand": "operations",
+      "grade_level": 5,
+      "order_index": 9,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.MUL.FACTS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "div.commutative",
+          "name_ar": "اعتبار القسمة إبدالية",
+          "remediation_ar": "20÷5 لا تساوي 5÷20. مثّل بالتوزيع الفعلي على مجموعات."
+        },
+        {
+          "tag": "div.always_smaller",
+          "name_ar": "الاعتقاد أن القسمة تُصغّر دائماً",
+          "remediation_ar": "أجّل التصحيح الكامل حتى قسمة الكسور، لكن مهّد بأمثلة كـ 6÷0.5."
+        }
+      ],
+      "depth": 3
+    },
+    {
+      "code": "NUM.FACTORS",
+      "name_ar": "العوامل والمضاعفات والأعداد الأولية",
+      "description_ar": "إيجاد عوامل عدد ومضاعفاته، وتمييز الأعداد الأولية، والتحليل إلى عوامل أولية.",
+      "strand": "number",
+      "grade_level": 5,
+      "order_index": 10,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.DIV.BASIC"
+      ],
+      "misconceptions": [
+        {
+          "tag": "num.factor_vs_multiple",
+          "name_ar": "الخلط بين العامل والمضاعف",
+          "remediation_ar": "العامل يقسم العدد (أصغر أو يساوي)، والمضاعف ناتج ضربه (أكبر أو يساوي)."
+        },
+        {
+          "tag": "num.one_is_prime",
+          "name_ar": "اعتبار 1 عدداً أولياً",
+          "remediation_ar": "الأولي له عاملان مختلفان بالضبط؛ للعدد 1 عامل واحد فقط."
+        }
+      ],
+      "depth": 4
+    },
+    {
+      "code": "NUM.GCF.LCM",
+      "name_ar": "القاسم المشترك الأكبر والمضاعف المشترك الأصغر",
+      "description_ar": "إيجاد ق.م.أ و م.م.أ واستخدامهما في اختزال الكسور وتوحيد المقامات.",
+      "strand": "number",
+      "grade_level": 5,
+      "order_index": 11,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.FACTORS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "num.swap_gcf_lcm",
+          "name_ar": "عكس ق.م.أ مع م.م.أ",
+          "remediation_ar": "اربط ق.م.أ بالاختزال (نقسم) و م.م.أ بتوحيد المقامات (نكبّر)."
+        }
+      ],
+      "depth": 5
+    },
+    {
+      "code": "OPS.MUL.MULTI",
+      "name_ar": "الضرب في عدد من رقمين أو أكثر",
+      "description_ar": "خوارزمية الضرب المطوّل مع إعادة التجميع.",
+      "strand": "operations",
+      "grade_level": 5,
+      "order_index": 12,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.MUL.FACTS",
+        "NUM.PV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "mul.no_placeholder",
+          "name_ar": "نسيان الصفر النائب في السطر الثاني",
+          "remediation_ar": "وضّح أن ضرب رقم العشرات يعني الضرب في مضاعف عشرة، فالنتيجة تُزاح منزلة."
+        },
+        {
+          "tag": "mul.partial_add",
+          "name_ar": "خطأ في جمع النواتج الجزئية",
+          "remediation_ar": "استخدم طريقة الشبكة (Area Model) لفصل النواتج الجزئية بوضوح."
+        }
+      ],
+      "depth": 3
+    },
+    {
+      "code": "OPS.DIV.LONG",
+      "name_ar": "القسمة المطوّلة مع الباقي",
+      "description_ar": "خوارزمية القسمة المطوّلة وتفسير الباقي في سياق المسألة.",
+      "strand": "operations",
+      "grade_level": 5,
+      "order_index": 13,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.DIV.BASIC",
+        "OPS.SUB",
+        "OPS.MUL.MULTI"
+      ],
+      "misconceptions": [
+        {
+          "tag": "div.drop_digit",
+          "name_ar": "إسقاط رقم أو تخطّي منزلة",
+          "remediation_ar": "استخدم شبكة منازل وسجّل كل خطوة (اقسم، اضرب، اطرح، أنزِل)."
+        },
+        {
+          "tag": "div.ignore_remainder",
+          "name_ar": "إهمال الباقي أو إساءة تفسيره",
+          "remediation_ar": "اربط الباقي بسياق المسألة: هل نجبره لأعلى (حافلات) أم نهمله (علب كاملة)؟"
+        }
+      ],
+      "depth": 4
+    },
+    {
+      "code": "FRC.CONCEPT",
+      "name_ar": "مفهوم الكسر وتمثيله",
+      "description_ar": "قراءة الكسر وتمثيله بالأشكال وعلى خط الأعداد، وفهم معنى البسط والمقام.",
+      "strand": "fractions",
+      "grade_level": 5,
+      "order_index": 14,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "OPS.DIV.BASIC"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.unequal_parts",
+          "name_ar": "تجزئة غير متساوية",
+          "remediation_ar": "أكّد أن الكسر يتطلّب أجزاءً متساوية تماماً؛ استخدم شرائط كسور مطوية."
+        },
+        {
+          "tag": "frc.bigger_denominator_bigger",
+          "name_ar": "اعتبار الكسر أكبر كلما كبر مقامه",
+          "remediation_ar": "1/8 أصغر من 1/4 لأن القطعة تصغر كلما زاد عدد الأجزاء. مثّل بالبيتزا."
+        }
+      ],
+      "depth": 4
+    },
+    {
+      "code": "FRC.ADD.LIKE",
+      "name_ar": "جمع وطرح كسور متشابهة المقامات",
+      "description_ar": "جمع وطرح الكسور التي لها المقام نفسه مع اختزال الناتج.",
+      "strand": "fractions",
+      "grade_level": 5,
+      "order_index": 15,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.CONCEPT"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.add_denominators_like",
+          "name_ar": "جمع المقامات أيضاً",
+          "remediation_ar": "2/7 + 3/7 = 5/7 لا 5/14. المقام هو حجم القطعة ولا يتغيّر بالجمع."
+        }
+      ],
+      "depth": 5
+    },
+    {
+      "code": "FRC.EQUIV",
+      "name_ar": "الكسور المتكافئة والاختزال",
+      "description_ar": "توليد كسور متكافئة واختزال الكسر إلى أبسط صورة.",
+      "strand": "fractions",
+      "grade_level": 5,
+      "order_index": 16,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.CONCEPT",
+        "NUM.GCF.LCM"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.add_instead_multiply",
+          "name_ar": "جمع نفس العدد للبسط والمقام بدل ضربه",
+          "remediation_ar": "2/3 لا تساوي 3/4. التكافؤ بالضرب أو القسمة على العدد نفسه، لا بالجمع."
+        },
+        {
+          "tag": "frc.partial_reduce",
+          "name_ar": "اختزال جزئي",
+          "remediation_ar": "اقسم على القاسم المشترك الأكبر مباشرة، أو كرّر الاختزال حتى لا يبقى عامل مشترك."
+        }
+      ],
+      "depth": 6
+    },
+    {
+      "code": "FRC.COMPARE",
+      "name_ar": "مقارنة الكسور وترتيبها",
+      "description_ar": "مقارنة كسور مختلفة المقامات وترتيبها تصاعدياً وتنازلياً.",
+      "strand": "fractions",
+      "grade_level": 5,
+      "order_index": 17,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.EQUIV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.compare_numerators_only",
+          "name_ar": "مقارنة البسوط فقط",
+          "remediation_ar": "3/8 ليست أكبر من 2/3. وحّد المقامات أو قارن بمرجع النصف."
+        }
+      ],
+      "depth": 7
+    },
+    {
+      "code": "GEO.ANGLES",
+      "name_ar": "الزوايا وقياسها",
+      "description_ar": "أنواع الزوايا، وقياسها بالمنقلة، والزوايا المتتامة والمتكاملة.",
+      "strand": "geometry",
+      "grade_level": 5,
+      "order_index": 18,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "GEO.SHAPES"
+      ],
+      "misconceptions": [
+        {
+          "tag": "ang.length_is_size",
+          "name_ar": "اعتبار طول ضلعي الزاوية مؤثراً في قياسها",
+          "remediation_ar": "قياس الزاوية يعتمد على الانفراج لا على طول الضلعين. مدّد الضلعين وقارن."
+        },
+        {
+          "tag": "ang.protractor_scale",
+          "name_ar": "قراءة التدريج الخاطئ في المنقلة",
+          "remediation_ar": "حدّد أولاً إن كانت الزاوية حادة أم منفرجة ثم اختر التدريج المناسب."
+        }
+      ],
+      "depth": 1
+    },
+    {
+      "code": "GEO.AREA",
+      "name_ar": "مساحة المربع والمستطيل والمثلث",
+      "description_ar": "اشتقاق قوانين المساحة وتطبيقها على الأشكال المركّبة.",
+      "strand": "geometry",
+      "grade_level": 5,
+      "order_index": 19,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "GEO.PERIMETER",
+        "OPS.MUL.MULTI"
+      ],
+      "misconceptions": [
+        {
+          "tag": "area.triangle_no_half",
+          "name_ar": "نسيان القسمة على اثنين في مساحة المثلث",
+          "remediation_ar": "المثلث نصف المستطيل الذي له القاعدة والارتفاع نفساهما. مثّل بالقص واللصق."
+        },
+        {
+          "tag": "area.slant_height",
+          "name_ar": "استخدام الضلع المائل بدل الارتفاع العمودي",
+          "remediation_ar": "الارتفاع عمودي على القاعدة دائماً. ارسمه بزاوية قائمة واضحة."
+        }
+      ],
+      "depth": 4
+    },
+    {
+      "code": "DAT.REPRESENT",
+      "name_ar": "تمثيل البيانات وقراءتها",
+      "description_ar": "قراءة وإنشاء الجداول والأعمدة والخطوط والقطاعات الدائرية.",
+      "strand": "data",
+      "grade_level": 5,
+      "order_index": 20,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "NUM.PV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dat.ignore_scale",
+          "name_ar": "إهمال مقياس الرسم في المحور",
+          "remediation_ar": "اقرأ تدريج المحور أولاً؛ قد يمثّل كل خط 5 وحدات لا وحدة واحدة."
+        }
+      ],
+      "depth": 1
+    },
+    {
+      "code": "FRC.ADD.UNLIKE",
+      "name_ar": "جمع وطرح كسور مختلفة المقامات",
+      "description_ar": "توحيد المقامات باستخدام المضاعف المشترك الأصغر ثم الجمع أو الطرح.",
+      "strand": "fractions",
+      "grade_level": 6,
+      "order_index": 21,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.ADD.LIKE",
+        "FRC.EQUIV",
+        "NUM.GCF.LCM"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.add_across",
+          "name_ar": "جمع البسط مع البسط والمقام مع المقام",
+          "remediation_ar": "أشهر مفهوم خاطئ في الرياضيات المدرسية: 1/2 + 1/3 ليست 2/5. وحّد المقام أولاً فتصبح 3/6 + 2/6 = 5/6. مثّل بشرائط الكسور."
+        },
+        {
+          "tag": "frc.lcm_only_one",
+          "name_ar": "توحيد كسر واحد فقط",
+          "remediation_ar": "بعد إيجاد المقام الموحّد، حوّل الكسرين معاً لا واحداً منهما."
+        }
+      ],
+      "depth": 7
+    },
+    {
+      "code": "FRC.MIXED",
+      "name_ar": "الأعداد الكسرية والكسور غير الفعلية",
+      "description_ar": "التحويل بين العدد الكسري والكسر غير الفعلي، وإجراء العمليات عليها.",
+      "strand": "fractions",
+      "grade_level": 6,
+      "order_index": 22,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.ADD.UNLIKE"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.mixed_ignore_whole",
+          "name_ar": "إهمال العدد الصحيح عند العملية",
+          "remediation_ar": "حوّل العدد الكسري إلى كسر غير فعلي قبل الضرب أو القسمة."
+        },
+        {
+          "tag": "frc.mixed_convert_add",
+          "name_ar": "جمع الصحيح للبسط بدل ضربه في المقام",
+          "remediation_ar": "العدد الكسري 2 و1/3 يساوي حاصل ضرب 2 في 3 مضافاً إليه 1، على 3، أي 7/3."
+        }
+      ],
+      "depth": 8
+    },
+    {
+      "code": "FRC.MUL",
+      "name_ar": "ضرب الكسور",
+      "description_ar": "ضرب كسر في كسر وفي عدد صحيح، وتفسير معنى الناتج.",
+      "strand": "fractions",
+      "grade_level": 6,
+      "order_index": 23,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.MIXED",
+        "OPS.MUL.MULTI"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.mul_needs_common_denom",
+          "name_ar": "توحيد المقامات قبل الضرب",
+          "remediation_ar": "الضرب لا يحتاج توحيد مقامات — اضرب البسط في البسط والمقام في المقام."
+        },
+        {
+          "tag": "mul.always_bigger",
+          "name_ar": "الاعتقاد أن الضرب يكبّر دائماً",
+          "remediation_ar": "1/2 في 1/3 يساوي 1/6 وهو أصغر من كليهما. الضرب في كسر أقل من واحد يصغّر."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "FRC.DIV",
+      "name_ar": "قسمة الكسور",
+      "description_ar": "القسمة على كسر باستخدام المقلوب، وتفسير المعنى.",
+      "strand": "fractions",
+      "grade_level": 6,
+      "order_index": 24,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.MUL"
+      ],
+      "misconceptions": [
+        {
+          "tag": "frc.div_flip_wrong",
+          "name_ar": "قلب الكسر الأول بدل الثاني",
+          "remediation_ar": "نقلب المقسوم عليه فقط ثم نضرب. اسأل: كم مرة يدخل 1/4 في 3؟"
+        },
+        {
+          "tag": "div.always_smaller_frc",
+          "name_ar": "الاعتقاد أن القسمة تصغّر دائماً",
+          "remediation_ar": "6 مقسوماً على 1/2 يساوي 12. القسمة على كسر أقل من واحد تكبّر."
+        }
+      ],
+      "depth": 10
+    },
+    {
+      "code": "DEC.PV",
+      "name_ar": "القيمة المنزلية العشرية",
+      "description_ar": "قراءة الأعداد العشرية وكتابتها ومقارنتها وترتيبها.",
+      "strand": "decimals",
+      "grade_level": 6,
+      "order_index": 25,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.PV",
+        "FRC.CONCEPT"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dec.longer_is_bigger",
+          "name_ar": "اعتبار العدد العشري الأطول أكبر",
+          "remediation_ar": "0.25 أصغر من 0.7 رغم أن أرقامها أكثر. قارن منزلة بمنزلة بدءاً من الأجزاء من عشرة."
+        },
+        {
+          "tag": "dec.shorter_is_bigger",
+          "name_ar": "اعتبار العدد العشري الأقصر أكبر دائماً",
+          "remediation_ar": "تصحيح مفرط للخطأ السابق. أضف أصفاراً لتوحيد عدد المنازل ثم قارن."
+        }
+      ],
+      "depth": 5
+    },
+    {
+      "code": "DEC.ADD",
+      "name_ar": "جمع وطرح الأعداد العشرية",
+      "description_ar": "الجمع والطرح مع محاذاة الفاصلة العشرية.",
+      "strand": "decimals",
+      "grade_level": 6,
+      "order_index": 26,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "DEC.PV",
+        "OPS.SUB"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dec.right_align",
+          "name_ar": "محاذاة الأرقام من اليمين بدل الفاصلة",
+          "remediation_ar": "في 3.5 + 0.25 حاذِ الفواصل عمودياً وأكمل بالأصفار فتصبح 3.50 + 0.25."
+        }
+      ],
+      "depth": 6
+    },
+    {
+      "code": "DEC.MUL",
+      "name_ar": "ضرب الأعداد العشرية",
+      "description_ar": "الضرب وتحديد موضع الفاصلة في الناتج.",
+      "strand": "decimals",
+      "grade_level": 6,
+      "order_index": 27,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "DEC.ADD",
+        "OPS.MUL.MULTI"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dec.mul_align_point",
+          "name_ar": "محاذاة الفاصلة في الضرب كما في الجمع",
+          "remediation_ar": "في الضرب اجمع عدد المنازل العشرية في العاملين لتحدّد موضع الفاصلة في الناتج."
+        }
+      ],
+      "depth": 7
+    },
+    {
+      "code": "DEC.DIV",
+      "name_ar": "قسمة الأعداد العشرية",
+      "description_ar": "القسمة على عدد صحيح وعلى عدد عشري.",
+      "strand": "decimals",
+      "grade_level": 6,
+      "order_index": 28,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "DEC.MUL",
+        "OPS.DIV.LONG"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dec.div_no_shift",
+          "name_ar": "عدم إزاحة الفاصلة في المقسوم عليه",
+          "remediation_ar": "اضرب الطرفين في 10 أو 100 حتى يصبح المقسوم عليه عدداً صحيحاً."
+        }
+      ],
+      "depth": 8
+    },
+    {
+      "code": "DEC.FRC.CONV",
+      "name_ar": "التحويل بين الكسور والأعداد العشرية",
+      "description_ar": "تحويل الكسر إلى عدد عشري والعكس، وتمييز الكسور الدورية.",
+      "strand": "decimals",
+      "grade_level": 6,
+      "order_index": 29,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "DEC.DIV",
+        "FRC.EQUIV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dec.frc_read_digits",
+          "name_ar": "قراءة الكسر كأرقام عشرية مباشرة",
+          "remediation_ar": "1/4 ليست 0.14. الكسر يعني قسمة، فيكون 1 مقسوماً على 4 يساوي 0.25."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "RAT.CONCEPT",
+      "name_ar": "مفهوم النسبة",
+      "description_ar": "التعبير عن العلاقة بين كميتين بنسبة، وتبسيط النسب، وربطها بالكسور.",
+      "strand": "ratio",
+      "grade_level": 6,
+      "order_index": 30,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "FRC.EQUIV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "rat.part_vs_whole",
+          "name_ar": "الخلط بين نسبة الجزء للجزء ونسبة الجزء للكل",
+          "remediation_ar": "إذا كانت النسبة 2:3 بنين لبنات، فنسبة البنين للمجموع هي 2:5 لا 2:3. مثّل بالمكعبات الملونة."
+        },
+        {
+          "tag": "rat.additive_not_multiplicative",
+          "name_ar": "معالجة النسبة بالجمع بدل الضرب",
+          "remediation_ar": "النسبة 2:3 تكافئ 4:6 لا 3:4. نضرب الطرفين في العدد نفسه، لا نضيف."
+        }
+      ],
+      "depth": 7
+    },
+    {
+      "code": "NUM.INT.CONCEPT",
+      "name_ar": "الأعداد الصحيحة وخط الأعداد",
+      "description_ar": "تمثيل الأعداد الموجبة والسالبة على خط الأعداد، والقيمة المطلقة، والمقارنة.",
+      "strand": "number",
+      "grade_level": 7,
+      "order_index": 31,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.PV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "int.magnitude_order",
+          "name_ar": "ترتيب السوالب حسب حجمها المطلق",
+          "remediation_ar": "سالب 7 أصغر من سالب 3 لأنه أبعد يساراً على خط الأعداد. استخدم مقياس الحرارة."
+        }
+      ],
+      "depth": 1
+    },
+    {
+      "code": "NUM.INT.ADDSUB",
+      "name_ar": "جمع وطرح الأعداد الصحيحة",
+      "description_ar": "الجمع والطرح مع الإشارات، وتحويل الطرح إلى جمع للمعكوس.",
+      "strand": "number",
+      "grade_level": 7,
+      "order_index": 32,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.INT.CONCEPT",
+        "OPS.SUB"
+      ],
+      "misconceptions": [
+        {
+          "tag": "int.ignore_signs",
+          "name_ar": "تجاهل الإشارات والجمع كأعداد موجبة",
+          "remediation_ar": "سالب 3 زائد سالب 5 يساوي سالب 8 لا موجب 8. تحرّك يساراً على خط الأعداد مرتين."
+        },
+        {
+          "tag": "int.sub_always_smaller",
+          "name_ar": "الاعتقاد أن الطرح يصغّر دائماً",
+          "remediation_ar": "5 ناقص سالب 3 يساوي 8. طرح السالب يعني الجمع."
+        },
+        {
+          "tag": "int.double_negative",
+          "name_ar": "الخلط في إشارتين متتاليتين",
+          "remediation_ar": "ناقص ناقص تساوي زائد. اربطها بمعنى إزالة دَين."
+        }
+      ],
+      "depth": 3
+    },
+    {
+      "code": "NUM.INT.MULDIV",
+      "name_ar": "ضرب وقسمة الأعداد الصحيحة",
+      "description_ar": "قواعد إشارات الضرب والقسمة وتطبيقها.",
+      "strand": "number",
+      "grade_level": 7,
+      "order_index": 33,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.INT.ADDSUB",
+        "OPS.DIV.LONG"
+      ],
+      "misconceptions": [
+        {
+          "tag": "int.neg_times_neg",
+          "name_ar": "اعتبار حاصل ضرب سالبين سالباً",
+          "remediation_ar": "سالب في سالب يساوي موجب. اربطها بنمط: سالب 2 في 3 ثم في 2 ثم في 1 ثم في سالب 1."
+        },
+        {
+          "tag": "int.apply_add_rules",
+          "name_ar": "تطبيق قواعد الجمع على الضرب",
+          "remediation_ar": "قواعد الإشارة في الجمع تختلف عنها في الضرب. افصل بينهما بجدول واضح."
+        }
+      ],
+      "depth": 5
+    },
+    {
+      "code": "NUM.ORDER.OPS",
+      "name_ar": "ترتيب العمليات",
+      "description_ar": "أولوية الأقواس ثم الأسس ثم الضرب والقسمة ثم الجمع والطرح.",
+      "strand": "number",
+      "grade_level": 7,
+      "order_index": 34,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.INT.MULDIV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "ord.left_to_right",
+          "name_ar": "الحل من اليسار لليمين دائماً",
+          "remediation_ar": "2 زائد 3 في 4 تساوي 14 لا 20. الضرب أولاً."
+        },
+        {
+          "tag": "ord.mul_before_div",
+          "name_ar": "تقديم الضرب على القسمة دائماً",
+          "remediation_ar": "الضرب والقسمة في المرتبة نفسها وتُنفّذان من اليسار لليمين."
+        }
+      ],
+      "depth": 6
+    },
+    {
+      "code": "RAT.PROPORTION",
+      "name_ar": "التناسب وحل المسائل",
+      "description_ar": "حل التناسب بالضرب التبادلي وبطريقة الوحدة، وتطبيقه على مسائل حياتية.",
+      "strand": "ratio",
+      "grade_level": 7,
+      "order_index": 35,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "RAT.CONCEPT",
+        "OPS.DIV.LONG"
+      ],
+      "misconceptions": [
+        {
+          "tag": "rat.cross_mult_wrong_pair",
+          "name_ar": "ضرب الطرفين الخاطئين في الضرب التبادلي",
+          "remediation_ar": "اكتب التناسب ككسرين متساويين وتأكد أن كل كمية في مكانها الصحيح قبل الضرب التبادلي."
+        },
+        {
+          "tag": "rat.non_proportional",
+          "name_ar": "تطبيق التناسب على موقف غير تناسبي",
+          "remediation_ar": "ليس كل موقف تناسبياً: عمر شخص بعد 5 سنوات ليس تناسباً. اسأل: هل الصفر يقابل الصفر؟"
+        }
+      ],
+      "depth": 8
+    },
+    {
+      "code": "RAT.PERCENT",
+      "name_ar": "النسبة المئوية",
+      "description_ar": "حساب النسبة المئوية من عدد، وإيجاد الكل، والزيادة والنقصان المئوي.",
+      "strand": "ratio",
+      "grade_level": 7,
+      "order_index": 36,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "RAT.PROPORTION",
+        "DEC.FRC.CONV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "pct.multiply_by_number",
+          "name_ar": "ضرب العدد في رقم النسبة دون قسمة على مئة",
+          "remediation_ar": "25% من 80 تساوي 0.25 في 80 أي 20، لا 25 في 80. حوّل النسبة إلى كسر عشري أولاً."
+        },
+        {
+          "tag": "pct.reverse_symmetry",
+          "name_ar": "افتراض أن زيادة ثم نقصاناً بالنسبة نفسها يعيد الأصل",
+          "remediation_ar": "100 بعد زيادة 10% تصبح 110، وبعد نقصان 10% تصبح 99 لا 100. الأساس تغيّر."
+        },
+        {
+          "tag": "pct.find_whole",
+          "name_ar": "قسمة خاطئة عند إيجاد الكل",
+          "remediation_ar": "إذا كان 30 يمثل 20% فالكل يساوي 30 مقسوماً على 0.20 أي 150."
+        }
+      ],
+      "depth": 10
+    },
+    {
+      "code": "RAT.RATE",
+      "name_ar": "المعدل ووحدة القياس المركبة",
+      "description_ar": "المعدل والسرعة والكثافة والسعر للوحدة، والمقارنة بين المعدلات.",
+      "strand": "ratio",
+      "grade_level": 7,
+      "order_index": 37,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "RAT.PROPORTION"
+      ],
+      "misconceptions": [
+        {
+          "tag": "rate.invert_units",
+          "name_ar": "عكس ترتيب الوحدات في المعدل",
+          "remediation_ar": "كم في الساعة تعني المسافة مقسومة على الزمن، لا العكس. اكتب الوحدة كاملة أثناء الحل."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "ALG.EXPR",
+      "name_ar": "العبارات الجبرية والمتغيرات",
+      "description_ar": "ترجمة المواقف إلى عبارات جبرية، وتعويض قيمة المتغير.",
+      "strand": "algebra",
+      "grade_level": 7,
+      "order_index": 38,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.ORDER.OPS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "alg.var_as_label",
+          "name_ar": "قراءة المتغير كاختصار لكلمة لا كعدد",
+          "remediation_ar": "في 3س، الحرف س عدد مجهول لا اسم شيء. جرّب تعويض قيم مختلفة."
+        },
+        {
+          "tag": "alg.concat_not_multiply",
+          "name_ar": "قراءة 3س كرقمين متجاورين",
+          "remediation_ar": "3س تعني 3 مضروبة في س. عوّض س بـ 4 فتصبح 12."
+        }
+      ],
+      "depth": 7
+    },
+    {
+      "code": "ALG.SIMPLIFY",
+      "name_ar": "تبسيط العبارات وجمع الحدود المتشابهة",
+      "description_ar": "جمع الحدود المتشابهة وتوزيع الضرب على الأقواس.",
+      "strand": "algebra",
+      "grade_level": 7,
+      "order_index": 39,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "ALG.EXPR",
+        "NUM.INT.ADDSUB"
+      ],
+      "misconceptions": [
+        {
+          "tag": "alg.combine_unlike",
+          "name_ar": "جمع حدود غير متشابهة",
+          "remediation_ar": "3س زائد 2 لا تساوي 5س. لا نجمع إلا الحدود التي لها المتغير نفسه بالأس نفسه."
+        },
+        {
+          "tag": "alg.distribute_partial",
+          "name_ar": "توزيع ناقص على الحد الأول فقط",
+          "remediation_ar": "2 في القوس س زائد 3 تساوي 2س زائد 6. وزّع على كل حدود القوس."
+        },
+        {
+          "tag": "alg.negative_distribute",
+          "name_ar": "إهمال إشارة السالب عند التوزيع",
+          "remediation_ar": "ناقص القوس س ناقص 4 تساوي ناقص س زائد 4. الإشارة توزّع أيضاً."
+        }
+      ],
+      "depth": 8
+    },
+    {
+      "code": "ALG.EQ.ONESTEP",
+      "name_ar": "معادلات من خطوة واحدة",
+      "description_ar": "حل معادلات بعملية عكسية واحدة والتحقق من الحل.",
+      "strand": "algebra",
+      "grade_level": 7,
+      "order_index": 40,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "ALG.SIMPLIFY"
+      ],
+      "misconceptions": [
+        {
+          "tag": "eq.one_side_only",
+          "name_ar": "تطبيق العملية على طرف واحد",
+          "remediation_ar": "ما نفعله بطرف نفعله بالآخر. تخيّل ميزاناً يجب أن يبقى متزناً."
+        },
+        {
+          "tag": "eq.wrong_inverse",
+          "name_ar": "استخدام العملية نفسها بدل العكسية",
+          "remediation_ar": "لحل س زائد 5 يساوي 12 نطرح 5 لا نجمعها."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "GEO.AREA.ADV",
+      "name_ar": "مساحة متوازي الأضلاع وشبه المنحرف والدائرة",
+      "description_ar": "قوانين المساحة المتقدمة، ومحيط الدائرة ومساحتها.",
+      "strand": "geometry",
+      "grade_level": 7,
+      "order_index": 41,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "GEO.AREA",
+        "DEC.MUL"
+      ],
+      "misconceptions": [
+        {
+          "tag": "circ.radius_diameter",
+          "name_ar": "الخلط بين نصف القطر والقطر",
+          "remediation_ar": "القطر ضعف نصف القطر. تحقّق من المعطى قبل التعويض في القانون."
+        },
+        {
+          "tag": "circ.area_perimeter_formula",
+          "name_ar": "الخلط بين قانوني المحيط والمساحة",
+          "remediation_ar": "المساحة فيها تربيع لنصف القطر، والمحيط فيه ضرب في اثنين. الوحدة تدلّك: المساحة بوحدة مربعة."
+        }
+      ],
+      "depth": 8
+    },
+    {
+      "code": "GEO.COORD",
+      "name_ar": "الهندسة الإحداثية",
+      "description_ar": "تحديد النقاط في المستوى الإحداثي وتمثيل الأزواج المرتّبة.",
+      "strand": "geometry",
+      "grade_level": 7,
+      "order_index": 42,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "NUM.INT.CONCEPT"
+      ],
+      "misconceptions": [
+        {
+          "tag": "coord.swap_xy",
+          "name_ar": "عكس الإحداثي السيني والصادي",
+          "remediation_ar": "الزوج المرتّب يبدأ بالأفقي ثم الرأسي. تذكّر: امشِ أولاً ثم اصعد."
+        },
+        {
+          "tag": "coord.negative_quadrant",
+          "name_ar": "الخطأ في الأرباع السالبة",
+          "remediation_ar": "حدّد إشارة كل إحداثي قبل التحديد، ثم عيّن الربع المناسب."
+        }
+      ],
+      "depth": 2
+    },
+    {
+      "code": "GEO.VOLUME",
+      "name_ar": "الحجم والمساحة السطحية",
+      "description_ar": "حجم المنشور والأسطوانة، والمساحة السطحية للمجسّمات.",
+      "strand": "geometry",
+      "grade_level": 7,
+      "order_index": 43,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "GEO.AREA.ADV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "vol.surface_confusion",
+          "name_ar": "الخلط بين الحجم والمساحة السطحية",
+          "remediation_ar": "الحجم ما يملأ المجسّم، والمساحة السطحية ما يغلّفه. الوحدة تفرّق: مكعبة مقابل مربعة."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "DAT.CENTER",
+      "name_ar": "مقاييس النزعة المركزية",
+      "description_ar": "المتوسط الحسابي والوسيط والمنوال والمدى، ومتى نستخدم كلاً منها.",
+      "strand": "data",
+      "grade_level": 7,
+      "order_index": 44,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "DAT.REPRESENT",
+        "OPS.DIV.LONG"
+      ],
+      "misconceptions": [
+        {
+          "tag": "dat.median_unsorted",
+          "name_ar": "إيجاد الوسيط دون ترتيب البيانات",
+          "remediation_ar": "رتّب القيم تصاعدياً أولاً ثم أوجد القيمة الوسطى."
+        },
+        {
+          "tag": "dat.mean_ignores_count",
+          "name_ar": "القسمة على عدد خاطئ عند حساب المتوسط",
+          "remediation_ar": "اقسم مجموع القيم على عددها بالضبط، مع احتساب القيم المكرّرة."
+        }
+      ],
+      "depth": 5
+    },
+    {
+      "code": "NUM.POWERS",
+      "name_ar": "الأسس والقوى",
+      "description_ar": "معنى الأس، وقوانين الأسس، والأس الصفري والسالب.",
+      "strand": "number",
+      "grade_level": 8,
+      "order_index": 45,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.ORDER.OPS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "pow.multiply_base_exp",
+          "name_ar": "ضرب الأساس في الأس",
+          "remediation_ar": "2 أس 3 تساوي 8 لا 6. الأس يعني عدد مرات ضرب الأساس في نفسه."
+        },
+        {
+          "tag": "pow.negative_base",
+          "name_ar": "الخلط بين سالب مرفوع لأس وأس عدد موجب",
+          "remediation_ar": "مربع سالب 2 يساوي 4، أما سالب مربع 2 فيساوي سالب 4. انتبه للأقواس."
+        },
+        {
+          "tag": "pow.add_exponents_wrong",
+          "name_ar": "جمع الأسس عند جمع القوى",
+          "remediation_ar": "قوانين الأسس تنطبق على الضرب والقسمة لا على الجمع."
+        }
+      ],
+      "depth": 7
+    },
+    {
+      "code": "NUM.ROOTS",
+      "name_ar": "الجذور التربيعية",
+      "description_ar": "الجذر التربيعي للمربعات الكاملة، والتقدير، والتبسيط.",
+      "strand": "number",
+      "grade_level": 8,
+      "order_index": 46,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "NUM.POWERS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "root.half_the_number",
+          "name_ar": "اعتبار الجذر نصف العدد",
+          "remediation_ar": "جذر 16 يساوي 4 لا 8. الجذر هو العدد الذي إذا ضُرب في نفسه أعطى العدد."
+        },
+        {
+          "tag": "root.distribute_over_add",
+          "name_ar": "توزيع الجذر على الجمع",
+          "remediation_ar": "جذر مجموع 9 و16 يساوي 5 لا 7. الجذر لا يتوزّع على الجمع."
+        }
+      ],
+      "depth": 8
+    },
+    {
+      "code": "ALG.EQ.TWOSTEP",
+      "name_ar": "معادلات من خطوتين",
+      "description_ar": "حل معادلات تحتاج عمليتين عكسيتين بالترتيب الصحيح.",
+      "strand": "algebra",
+      "grade_level": 8,
+      "order_index": 47,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "ALG.EQ.ONESTEP"
+      ],
+      "misconceptions": [
+        {
+          "tag": "eq.wrong_order",
+          "name_ar": "ترتيب خاطئ لفكّ العمليات",
+          "remediation_ar": "في 2س زائد 3 يساوي 11 اطرح 3 أولاً ثم اقسم على 2. نفكّ بعكس ترتيب العمليات."
+        }
+      ],
+      "depth": 10
+    },
+    {
+      "code": "ALG.EQ.MULTI",
+      "name_ar": "معادلات متعددة الخطوات والأقواس",
+      "description_ar": "حل معادلات فيها أقواس ومتغيرات في الطرفين.",
+      "strand": "algebra",
+      "grade_level": 8,
+      "order_index": 48,
+      "mastery_threshold": 85,
+      "is_spine": true,
+      "prerequisites": [
+        "ALG.EQ.TWOSTEP"
+      ],
+      "misconceptions": [
+        {
+          "tag": "eq.vars_both_sides",
+          "name_ar": "عدم تجميع المتغيرات في طرف واحد",
+          "remediation_ar": "انقل كل حدود المتغير لطرف والأعداد للطرف الآخر قبل القسمة."
+        }
+      ],
+      "depth": 11
+    },
+    {
+      "code": "ALG.INEQ",
+      "name_ar": "المتباينات",
+      "description_ar": "حل المتباينات الخطية وتمثيل الحل على خط الأعداد.",
+      "strand": "algebra",
+      "grade_level": 8,
+      "order_index": 49,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "ALG.EQ.MULTI",
+        "NUM.INT.MULDIV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "ineq.no_flip",
+          "name_ar": "عدم عكس إشارة المتباينة عند الضرب في سالب",
+          "remediation_ar": "عند الضرب أو القسمة على عدد سالب تنعكس إشارة المتباينة. تحقّق بتعويض قيمة."
+        }
+      ],
+      "depth": 12
+    },
+    {
+      "code": "ALG.LINEAR",
+      "name_ar": "الاقتران الخطي والميل",
+      "description_ar": "تمثيل الاقتران الخطي بيانياً وإيجاد الميل والمقطع.",
+      "strand": "algebra",
+      "grade_level": 8,
+      "order_index": 50,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "ALG.EQ.TWOSTEP",
+        "GEO.COORD"
+      ],
+      "misconceptions": [
+        {
+          "tag": "lin.slope_inverted",
+          "name_ar": "حساب الميل بقسمة الأفقي على الرأسي",
+          "remediation_ar": "الميل هو التغيّر الرأسي مقسوماً على التغيّر الأفقي، لا العكس."
+        },
+        {
+          "tag": "lin.negative_slope",
+          "name_ar": "إهمال إشارة الميل السالب",
+          "remediation_ar": "الخط الهابط من اليسار لليمين ميله سالب."
+        }
+      ],
+      "depth": 11
+    },
+    {
+      "code": "GEO.PYTHAG",
+      "name_ar": "نظرية فيثاغورس",
+      "description_ar": "إيجاد ضلع مجهول في المثلث القائم وتطبيقات حياتية.",
+      "strand": "geometry",
+      "grade_level": 8,
+      "order_index": 51,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "NUM.ROOTS",
+        "GEO.AREA"
+      ],
+      "misconceptions": [
+        {
+          "tag": "pyth.linear_sum",
+          "name_ar": "جمع الضلعين مباشرة بدل تربيعهما",
+          "remediation_ar": "النظرية تربط مربعات الأضلاع لا الأضلاع نفسها. جرّب 3 و4 و5."
+        },
+        {
+          "tag": "pyth.wrong_hypotenuse",
+          "name_ar": "اعتبار ضلع قائم وتراً",
+          "remediation_ar": "الوتر هو الضلع المقابل للزاوية القائمة وهو الأطول دائماً."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "GEO.TRANSFORM",
+      "name_ar": "التحويلات الهندسية",
+      "description_ar": "الانسحاب والانعكاس والدوران في المستوى الإحداثي.",
+      "strand": "geometry",
+      "grade_level": 8,
+      "order_index": 52,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "GEO.COORD"
+      ],
+      "misconceptions": [
+        {
+          "tag": "trans.reflection_axis",
+          "name_ar": "الانعكاس حول المحور الخاطئ",
+          "remediation_ar": "الانعكاس حول المحور الأفقي يغيّر إشارة الإحداثي الرأسي فقط."
+        }
+      ],
+      "depth": 3
+    },
+    {
+      "code": "DAT.PROB",
+      "name_ar": "الاحتمال البسيط",
+      "description_ar": "حساب احتمال حدث بسيط والتعبير عنه بكسر ونسبة مئوية.",
+      "strand": "data",
+      "grade_level": 8,
+      "order_index": 53,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "FRC.CONCEPT",
+        "RAT.PERCENT"
+      ],
+      "misconceptions": [
+        {
+          "tag": "prob.gamblers_fallacy",
+          "name_ar": "الاعتقاد أن النتائج السابقة تؤثر على القادمة",
+          "remediation_ar": "رمي العملة مستقل: ظهور الصورة خمس مرات لا يغيّر احتمال الرمية السادسة."
+        },
+        {
+          "tag": "prob.favorable_over_unfavorable",
+          "name_ar": "قسمة المحتملة على غير المحتملة",
+          "remediation_ar": "الاحتمال هو عدد النواتج المناسبة على مجموع النواتج الممكنة كلها."
+        }
+      ],
+      "depth": 11
+    },
+    {
+      "code": "NUM.REAL",
+      "name_ar": "الأعداد النسبية وغير النسبية",
+      "description_ar": "تصنيف الأعداد الحقيقية وتمييز غير النسبية وتقريبها.",
+      "strand": "number",
+      "grade_level": 9,
+      "order_index": 54,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "NUM.ROOTS",
+        "DEC.FRC.CONV"
+      ],
+      "misconceptions": [
+        {
+          "tag": "real.all_decimals_irrational",
+          "name_ar": "اعتبار كل عدد عشري غير نسبي",
+          "remediation_ar": "العشري المنتهي أو الدوري نسبي دائماً لأنه يُكتب ككسر."
+        }
+      ],
+      "depth": 10
+    },
+    {
+      "code": "ALG.POLY",
+      "name_ar": "كثيرات الحدود والضرب الجبري",
+      "description_ar": "جمع وطرح وضرب كثيرات الحدود، والمتطابقات الشهيرة.",
+      "strand": "algebra",
+      "grade_level": 9,
+      "order_index": 55,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "ALG.SIMPLIFY",
+        "NUM.POWERS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "poly.freshman_dream",
+          "name_ar": "توزيع الأس على مجموع",
+          "remediation_ar": "مربع مجموع أ وب لا يساوي مربع أ زائد مربع ب. هناك حد أوسط قيمته ضعف حاصل ضربهما."
+        },
+        {
+          "tag": "poly.sign_error_sub",
+          "name_ar": "خطأ إشارة عند طرح كثير حدود",
+          "remediation_ar": "وزّع إشارة السالب على كل حدود المقدار المطروح."
+        }
+      ],
+      "depth": 9
+    },
+    {
+      "code": "ALG.FACTOR",
+      "name_ar": "التحليل إلى العوامل",
+      "description_ar": "إخراج العامل المشترك، وفرق مربعين، وتحليل الثلاثي.",
+      "strand": "algebra",
+      "grade_level": 9,
+      "order_index": 56,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "ALG.POLY",
+        "NUM.FACTORS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "fac.sum_of_squares",
+          "name_ar": "تحليل مجموع مربعين كفرق مربعين",
+          "remediation_ar": "فرق المربعين يُحلّل، أما مجموع المربعين فلا يُحلّل في الأعداد الحقيقية."
+        },
+        {
+          "tag": "fac.sign_pairs",
+          "name_ar": "اختيار إشارات خاطئة في تحليل الثلاثي",
+          "remediation_ar": "ابحث عن عددين حاصل ضربهما الحد الأخير ومجموعهما الحد الأوسط، مع مراعاة الإشارات."
+        }
+      ],
+      "depth": 10
+    },
+    {
+      "code": "ALG.QUAD",
+      "name_ar": "المعادلات التربيعية",
+      "description_ar": "حل المعادلة التربيعية بالتحليل وبالقانون العام.",
+      "strand": "algebra",
+      "grade_level": 9,
+      "order_index": 57,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "ALG.FACTOR",
+        "NUM.ROOTS"
+      ],
+      "misconceptions": [
+        {
+          "tag": "quad.zero_product_misuse",
+          "name_ar": "تطبيق خاصية ضرب الصفر على طرف غير صفري",
+          "remediation_ar": "إذا كان حاصل ضرب مقدارين يساوي 6 فلا يعني أن أحدهما يساوي 6. ساوِ الطرف الآخر بصفر أولاً."
+        },
+        {
+          "tag": "quad.one_root_only",
+          "name_ar": "إيجاد جذر واحد فقط",
+          "remediation_ar": "المعادلة التربيعية قد يكون لها جذران. لا تنسَ الجذر السالب."
+        }
+      ],
+      "depth": 11
+    },
+    {
+      "code": "ALG.SYSTEM",
+      "name_ar": "نظام معادلتين خطيتين",
+      "description_ar": "حل نظام معادلتين بالحذف وبالتعويض وبيانياً.",
+      "strand": "algebra",
+      "grade_level": 9,
+      "order_index": 58,
+      "mastery_threshold": 85,
+      "is_spine": false,
+      "prerequisites": [
+        "ALG.LINEAR",
+        "ALG.EQ.MULTI"
+      ],
+      "misconceptions": [
+        {
+          "tag": "sys.solve_one_var_only",
+          "name_ar": "الاكتفاء بإيجاد متغير واحد",
+          "remediation_ar": "الحل زوج مرتّب. بعد إيجاد أحد المتغيرين عوّض لإيجاد الآخر."
+        }
+      ],
+      "depth": 12
+    }
+  ]
+}

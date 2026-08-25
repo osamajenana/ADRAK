@@ -1,0 +1,152 @@
+[
+  {
+    "code": "FRC.CONCEPT",
+    "name_ar": "مفهوم الكسر وتمثيله",
+    "description_ar": "قراءة الكسر وتمثيله بالأشكال وعلى خط الأعداد، وفهم معنى البسط والمقام.",
+    "strand": "fractions", "grade_level": 5, "order_index": 10,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["OPS.DIV.BASIC"],
+    "misconceptions": [
+      { "tag": "frc.unequal_parts", "name_ar": "تجزئة غير متساوية", "remediation_ar": "أكّد أن الكسر يتطلّب أجزاءً متساوية تماماً؛ استخدم شرائط كسور مطوية." },
+      { "tag": "frc.bigger_denominator_bigger", "name_ar": "اعتبار الكسر أكبر كلما كبر مقامه", "remediation_ar": "١/٨ أصغر من ١/٤ لأن القطعة تصغر كلما زاد عدد الأجزاء. مثّل بالبيتزا." }
+    ]
+  },
+  {
+    "code": "FRC.EQUIV",
+    "name_ar": "الكسور المتكافئة والاختزال",
+    "description_ar": "توليد كسور متكافئة واختزال الكسر إلى أبسط صورة.",
+    "strand": "fractions", "grade_level": 5, "order_index": 11,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.CONCEPT", "NUM.GCF.LCM"],
+    "misconceptions": [
+      { "tag": "frc.add_instead_multiply", "name_ar": "جمع نفس العدد للبسط والمقام بدل ضربه", "remediation_ar": "٢/٣ لا تساوي ٣/٤. التكافؤ بالضرب أو القسمة على العدد نفسه، لا بالجمع." },
+      { "tag": "frc.partial_reduce", "name_ar": "اختزال جزئي", "remediation_ar": "اقسم على القاسم المشترك الأكبر مباشرة، أو كرّر الاختزال حتى لا يبقى عامل مشترك." }
+    ]
+  },
+  {
+    "code": "FRC.COMPARE",
+    "name_ar": "مقارنة الكسور وترتيبها",
+    "description_ar": "مقارنة كسور مختلفة المقامات وترتيبها تصاعدياً وتنازلياً.",
+    "strand": "fractions", "grade_level": 5, "order_index": 12,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.EQUIV"],
+    "misconceptions": [
+      { "tag": "frc.compare_numerators_only", "name_ar": "مقارنة البسوط فقط", "remediation_ar": "٣/٨ ليست أكبر من ٢/٣. وحّد المقامات أو قارن بمرجع النصف." }
+    ]
+  },
+  {
+    "code": "FRC.ADD.LIKE",
+    "name_ar": "جمع وطرح كسور متشابهة المقامات",
+    "description_ar": "جمع وطرح الكسور التي لها المقام نفسه مع اختزال الناتج.",
+    "strand": "fractions", "grade_level": 5, "order_index": 13,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.CONCEPT"],
+    "misconceptions": [
+      { "tag": "frc.add_denominators_like", "name_ar": "جمع المقامات أيضاً", "remediation_ar": "٢/٧ + ٣/٧ = ٥/٧ لا ٥/١٤. المقام هو حجم القطعة ولا يتغيّر بالجمع." }
+    ]
+  },
+  {
+    "code": "FRC.ADD.UNLIKE",
+    "name_ar": "جمع وطرح كسور مختلفة المقامات",
+    "description_ar": "توحيد المقامات باستخدام المضاعف المشترك الأصغر ثم الجمع أو الطرح.",
+    "strand": "fractions", "grade_level": 6, "order_index": 14,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.ADD.LIKE", "FRC.EQUIV", "NUM.GCF.LCM"],
+    "misconceptions": [
+      { "tag": "frc.add_across", "name_ar": "جمع البسط مع البسط والمقام مع المقام", "remediation_ar": "أشهر مفهوم خاطئ في الرياضيات المدرسية: ١/٢ + ١/٣ ليست ٢/٥. وحّد المقام أولاً فتصبح ٣/٦ + ٢/٦ = ٥/٦. مثّل بشرائط الكسور." },
+      { "tag": "frc.lcm_only_one", "name_ar": "توحيد كسر واحد فقط", "remediation_ar": "بعد إيجاد المقام الموحّد، حوّل الكسرين معاً لا واحداً منهما." }
+    ]
+  },
+  {
+    "code": "FRC.MIXED",
+    "name_ar": "الأعداد الكسرية والكسور غير الفعلية",
+    "description_ar": "التحويل بين العدد الكسري والكسر غير الفعلي، وإجراء العمليات عليها.",
+    "strand": "fractions", "grade_level": 6, "order_index": 15,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.ADD.UNLIKE"],
+    "misconceptions": [
+      { "tag": "frc.mixed_ignore_whole", "name_ar": "إهمال العدد الصحيح عند العملية", "remediation_ar": "حوّل العدد الكسري إلى كسر غير فعلي قبل الضرب أو القسمة." },
+      { "tag": "frc.mixed_convert_add", "name_ar": "جمع الصحيح للبسط بدل ضربه في المقام", "remediation_ar": "العدد الكسري ٢ و١/٣ يساوي حاصل ضرب ٢ في ٣ مضافاً إليه ١، على ٣، أي ٧/٣." }
+    ]
+  },
+  {
+    "code": "FRC.MUL",
+    "name_ar": "ضرب الكسور",
+    "description_ar": "ضرب كسر في كسر وفي عدد صحيح، وتفسير معنى الناتج.",
+    "strand": "fractions", "grade_level": 6, "order_index": 16,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.MIXED", "OPS.MUL.MULTI"],
+    "misconceptions": [
+      { "tag": "frc.mul_needs_common_denom", "name_ar": "توحيد المقامات قبل الضرب", "remediation_ar": "الضرب لا يحتاج توحيد مقامات — اضرب البسط في البسط والمقام في المقام." },
+      { "tag": "mul.always_bigger", "name_ar": "الاعتقاد أن الضرب يكبّر دائماً", "remediation_ar": "١/٢ في ١/٣ يساوي ١/٦ وهو أصغر من كليهما. الضرب في كسر أقل من واحد يصغّر." }
+    ]
+  },
+  {
+    "code": "FRC.DIV",
+    "name_ar": "قسمة الكسور",
+    "description_ar": "القسمة على كسر باستخدام المقلوب، وتفسير المعنى.",
+    "strand": "fractions", "grade_level": 6, "order_index": 17,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.MUL"],
+    "misconceptions": [
+      { "tag": "frc.div_flip_wrong", "name_ar": "قلب الكسر الأول بدل الثاني", "remediation_ar": "نقلب المقسوم عليه فقط ثم نضرب. اسأل: كم مرة يدخل ١/٤ في ٣؟" },
+      { "tag": "div.always_smaller_frc", "name_ar": "الاعتقاد أن القسمة تصغّر دائماً", "remediation_ar": "٦ مقسوماً على ١/٢ يساوي ١٢. القسمة على كسر أقل من واحد تكبّر." }
+    ]
+  },
+  {
+    "code": "DEC.PV",
+    "name_ar": "القيمة المنزلية العشرية",
+    "description_ar": "قراءة الأعداد العشرية وكتابتها ومقارنتها وترتيبها.",
+    "strand": "decimals", "grade_level": 6, "order_index": 18,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.PV", "FRC.CONCEPT"],
+    "misconceptions": [
+      { "tag": "dec.longer_is_bigger", "name_ar": "اعتبار العدد العشري الأطول أكبر", "remediation_ar": "٠٫٢٥ أصغر من ٠٫٧ رغم أن أرقامها أكثر. قارن منزلة بمنزلة بدءاً من الأجزاء من عشرة." },
+      { "tag": "dec.shorter_is_bigger", "name_ar": "اعتبار العدد العشري الأقصر أكبر دائماً", "remediation_ar": "تصحيح مفرط للخطأ السابق. أضف أصفاراً لتوحيد عدد المنازل ثم قارن." }
+    ]
+  },
+  {
+    "code": "DEC.ADD",
+    "name_ar": "جمع وطرح الأعداد العشرية",
+    "description_ar": "الجمع والطرح مع محاذاة الفاصلة العشرية.",
+    "strand": "decimals", "grade_level": 6, "order_index": 19,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["DEC.PV", "OPS.SUB"],
+    "misconceptions": [
+      { "tag": "dec.right_align", "name_ar": "محاذاة الأرقام من اليمين بدل الفاصلة", "remediation_ar": "في ٣٫٥ + ٠٫٢٥ حاذِ الفواصل عمودياً وأكمل بالأصفار فتصبح ٣٫٥٠ + ٠٫٢٥." }
+    ]
+  },
+  {
+    "code": "DEC.MUL",
+    "name_ar": "ضرب الأعداد العشرية",
+    "description_ar": "الضرب وتحديد موضع الفاصلة في الناتج.",
+    "strand": "decimals", "grade_level": 6, "order_index": 20,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["DEC.ADD", "OPS.MUL.MULTI"],
+    "misconceptions": [
+      { "tag": "dec.mul_align_point", "name_ar": "محاذاة الفاصلة في الضرب كما في الجمع", "remediation_ar": "في الضرب اجمع عدد المنازل العشرية في العاملين لتحدّد موضع الفاصلة في الناتج." }
+    ]
+  },
+  {
+    "code": "DEC.DIV",
+    "name_ar": "قسمة الأعداد العشرية",
+    "description_ar": "القسمة على عدد صحيح وعلى عدد عشري.",
+    "strand": "decimals", "grade_level": 6, "order_index": 21,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["DEC.MUL", "OPS.DIV.LONG"],
+    "misconceptions": [
+      { "tag": "dec.div_no_shift", "name_ar": "عدم إزاحة الفاصلة في المقسوم عليه", "remediation_ar": "اضرب الطرفين في ١٠ أو ١٠٠ حتى يصبح المقسوم عليه عدداً صحيحاً." }
+    ]
+  },
+  {
+    "code": "DEC.FRC.CONV",
+    "name_ar": "التحويل بين الكسور والأعداد العشرية",
+    "description_ar": "تحويل الكسر إلى عدد عشري والعكس، وتمييز الكسور الدورية.",
+    "strand": "decimals", "grade_level": 6, "order_index": 22,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["DEC.DIV", "FRC.EQUIV"],
+    "misconceptions": [
+      { "tag": "dec.frc_read_digits", "name_ar": "قراءة الكسر كأرقام عشرية مباشرة", "remediation_ar": "١/٤ ليست ٠٫١٤. الكسر يعني قسمة، فيكون ١ مقسوماً على ٤ يساوي ٠٫٢٥." }
+    ]
+  }
+]

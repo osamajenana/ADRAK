@@ -1,0 +1,223 @@
+[
+  {
+    "code": "NUM.PV",
+    "name_ar": "القيمة المنزلية حتى الملايين",
+    "description_ar": "قراءة وكتابة ومقارنة الأعداد الكبيرة، وتحديد قيمة كل رقم حسب منزلته.",
+    "strand": "number",
+    "grade_level": 4,
+    "order_index": 1,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [],
+    "misconceptions": [
+      {
+        "tag": "pv.digit_vs_value",
+        "name_ar": "الخلط بين الرقم وقيمته المنزلية",
+        "remediation_ar": "استخدم لوحة المنازل وقطع العدّ: الرقم ٧ في منزلة المئات قيمته ٧٠٠ لا ٧."
+      },
+      {
+        "tag": "pv.longer_is_bigger",
+        "name_ar": "اعتبار العدد الأطول دائماً أكبر",
+        "remediation_ar": "قارن منزلة بمنزلة من اليسار، وأكّد أن الأصفار البادئة لا تغيّر القيمة."
+      }
+    ]
+  },
+  {
+    "code": "OPS.ADD",
+    "name_ar": "الجمع مع إعادة التجميع",
+    "description_ar": "جمع أعداد متعددة المنازل مع الحمل، ذهنياً وكتابياً.",
+    "strand": "operations",
+    "grade_level": 4,
+    "order_index": 2,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "NUM.PV"
+    ],
+    "misconceptions": [
+      {
+        "tag": "add.no_carry",
+        "name_ar": "إهمال الحمل عند تجاوز العشرة",
+        "remediation_ar": "اكتب الحمل صراحةً فوق المنزلة التالية، وتحقّق بالجمع الذهني التقريبي."
+      },
+      {
+        "tag": "add.misaligned",
+        "name_ar": "عدم محاذاة المنازل",
+        "remediation_ar": "استخدم ورقة مربّعات أو خطوطاً عمودية لمحاذاة الآحاد تحت الآحاد."
+      }
+    ]
+  },
+  {
+    "code": "OPS.SUB",
+    "name_ar": "الطرح مع الاستلاف",
+    "description_ar": "طرح أعداد متعددة المنازل مع الاستلاف عبر الأصفار.",
+    "strand": "operations",
+    "grade_level": 4,
+    "order_index": 3,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "OPS.ADD"
+    ],
+    "misconceptions": [
+      {
+        "tag": "sub.smaller_from_larger",
+        "name_ar": "طرح الأصغر من الأكبر دائماً بغضّ النظر عن الترتيب",
+        "remediation_ar": "أشهر خطأ في الطرح: في ٥٢ − ٢٧ يطرح الطالب ٢−٧ بدل الاستلاف. جرّب التمثيل بقطع العشرات."
+      },
+      {
+        "tag": "sub.zero_borrow",
+        "name_ar": "الاستلاف عبر الصفر",
+        "remediation_ar": "درّب على الاستلاف المتسلسل: ٣٠٠ − ١٤٥ خطوة بخطوة مع تمثيل بصري."
+      }
+    ]
+  },
+  {
+    "code": "OPS.MUL.FACTS",
+    "name_ar": "حقائق الضرب (جداول ١–١٢)",
+    "description_ar": "استرجاع حقائق الضرب الأساسية بسرعة وثقة.",
+    "strand": "operations",
+    "grade_level": 4,
+    "order_index": 4,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "OPS.ADD"
+    ],
+    "misconceptions": [
+      {
+        "tag": "mul.repeated_add_error",
+        "name_ar": "الاعتماد على الجمع المتكرر مع أخطاء عدّ",
+        "remediation_ar": "ابنِ الطلاقة بالأنماط (×٩ بالأصابع، ×٥ نصف ×١٠) قبل الحفظ."
+      },
+      {
+        "tag": "mul.confuse_add",
+        "name_ar": "الخلط بين الضرب والجمع",
+        "remediation_ar": "٦×٤ تعني ٦ مجموعات فيها ٤، لا ٦+٤. استخدم المصفوفات."
+      }
+    ]
+  },
+  {
+    "code": "OPS.MUL.MULTI",
+    "name_ar": "الضرب في عدد من رقمين أو أكثر",
+    "description_ar": "خوارزمية الضرب المطوّل مع إعادة التجميع.",
+    "strand": "operations",
+    "grade_level": 5,
+    "order_index": 5,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "OPS.MUL.FACTS",
+      "NUM.PV"
+    ],
+    "misconceptions": [
+      {
+        "tag": "mul.no_placeholder",
+        "name_ar": "نسيان الصفر النائب في السطر الثاني",
+        "remediation_ar": "وضّح أن ضرب رقم العشرات يعني الضرب في مضاعف عشرة، فالنتيجة تُزاح منزلة."
+      },
+      {
+        "tag": "mul.partial_add",
+        "name_ar": "خطأ في جمع النواتج الجزئية",
+        "remediation_ar": "استخدم طريقة الشبكة (Area Model) لفصل النواتج الجزئية بوضوح."
+      }
+    ]
+  },
+  {
+    "code": "OPS.DIV.BASIC",
+    "name_ar": "القسمة الأساسية",
+    "description_ar": "القسمة كتوزيع بالتساوي وكعملية عكسية للضرب، بدون باقٍ.",
+    "strand": "operations",
+    "grade_level": 5,
+    "order_index": 6,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "OPS.MUL.FACTS"
+    ],
+    "misconceptions": [
+      {
+        "tag": "div.commutative",
+        "name_ar": "اعتبار القسمة إبدالية",
+        "remediation_ar": "٢٠÷٥ لا تساوي ٥÷٢٠. مثّل بالتوزيع الفعلي على مجموعات."
+      },
+      {
+        "tag": "div.always_smaller",
+        "name_ar": "الاعتقاد أن القسمة تُصغّر دائماً",
+        "remediation_ar": "أجّل التصحيح الكامل حتى قسمة الكسور، لكن مهّد بأمثلة كـ ٦÷٠٫٥."
+      }
+    ]
+  },
+  {
+    "code": "OPS.DIV.LONG",
+    "name_ar": "القسمة المطوّلة مع الباقي",
+    "description_ar": "خوارزمية القسمة المطوّلة وتفسير الباقي في سياق المسألة.",
+    "strand": "operations",
+    "grade_level": 5,
+    "order_index": 7,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "OPS.DIV.BASIC",
+      "OPS.SUB",
+      "OPS.MUL.MULTI"
+    ],
+    "misconceptions": [
+      {
+        "tag": "div.drop_digit",
+        "name_ar": "إسقاط رقم أو تخطّي منزلة",
+        "remediation_ar": "استخدم شبكة منازل وسجّل كل خطوة (اقسم، اضرب، اطرح، أنزِل)."
+      },
+      {
+        "tag": "div.ignore_remainder",
+        "name_ar": "إهمال الباقي أو إساءة تفسيره",
+        "remediation_ar": "اربط الباقي بسياق المسألة: هل نجبره لأعلى (حافلات) أم نهمله (علب كاملة)؟"
+      }
+    ]
+  },
+  {
+    "code": "NUM.FACTORS",
+    "name_ar": "العوامل والمضاعفات والأعداد الأولية",
+    "description_ar": "إيجاد عوامل عدد ومضاعفاته، وتمييز الأعداد الأولية، والتحليل إلى عوامل أولية.",
+    "strand": "number",
+    "grade_level": 5,
+    "order_index": 8,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "OPS.DIV.BASIC"
+    ],
+    "misconceptions": [
+      {
+        "tag": "num.factor_vs_multiple",
+        "name_ar": "الخلط بين العامل والمضاعف",
+        "remediation_ar": "العامل يقسم العدد (أصغر أو يساوي)، والمضاعف ناتج ضربه (أكبر أو يساوي)."
+      },
+      {
+        "tag": "num.one_is_prime",
+        "name_ar": "اعتبار ١ عدداً أولياً",
+        "remediation_ar": "الأولي له عاملان مختلفان بالضبط؛ للعدد ١ عامل واحد فقط."
+      }
+    ]
+  },
+  {
+    "code": "NUM.GCF.LCM",
+    "name_ar": "القاسم المشترك الأكبر والمضاعف المشترك الأصغر",
+    "description_ar": "إيجاد ق.م.أ و م.م.أ واستخدامهما في اختزال الكسور وتوحيد المقامات.",
+    "strand": "number",
+    "grade_level": 5,
+    "order_index": 9,
+    "mastery_threshold": 85,
+    "is_spine": true,
+    "prerequisites": [
+      "NUM.FACTORS"
+    ],
+    "misconceptions": [
+      {
+        "tag": "num.swap_gcf_lcm",
+        "name_ar": "عكس ق.م.أ مع م.م.أ",
+        "remediation_ar": "اربط ق.م.أ بالاختزال (نقسم) و م.م.أ بتوحيد المقامات (نكبّر)."
+      }
+    ]
+  }
+]

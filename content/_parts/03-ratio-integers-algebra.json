@@ -1,0 +1,263 @@
+[
+  {
+    "code": "RAT.CONCEPT",
+    "name_ar": "مفهوم النسبة",
+    "description_ar": "التعبير عن العلاقة بين كميتين بنسبة، وتبسيط النسب، وربطها بالكسور.",
+    "strand": "ratio", "grade_level": 6, "order_index": 23,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["FRC.EQUIV"],
+    "misconceptions": [
+      { "tag": "rat.part_vs_whole", "name_ar": "الخلط بين نسبة الجزء للجزء ونسبة الجزء للكل", "remediation_ar": "إذا كانت النسبة 2:3 بنين لبنات، فنسبة البنين للمجموع هي 2:5 لا 2:3. مثّل بالمكعبات الملونة." },
+      { "tag": "rat.additive_not_multiplicative", "name_ar": "معالجة النسبة بالجمع بدل الضرب", "remediation_ar": "النسبة 2:3 تكافئ 4:6 لا 3:4. نضرب الطرفين في العدد نفسه، لا نضيف." }
+    ]
+  },
+  {
+    "code": "RAT.PROPORTION",
+    "name_ar": "التناسب وحل المسائل",
+    "description_ar": "حل التناسب بالضرب التبادلي وبطريقة الوحدة، وتطبيقه على مسائل حياتية.",
+    "strand": "ratio", "grade_level": 7, "order_index": 24,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["RAT.CONCEPT", "OPS.DIV.LONG"],
+    "misconceptions": [
+      { "tag": "rat.cross_mult_wrong_pair", "name_ar": "ضرب الطرفين الخاطئين في الضرب التبادلي", "remediation_ar": "اكتب التناسب ككسرين متساويين وتأكد أن كل كمية في مكانها الصحيح قبل الضرب التبادلي." },
+      { "tag": "rat.non_proportional", "name_ar": "تطبيق التناسب على موقف غير تناسبي", "remediation_ar": "ليس كل موقف تناسبياً: عمر شخص بعد 5 سنوات ليس تناسباً. اسأل: هل الصفر يقابل الصفر؟" }
+    ]
+  },
+  {
+    "code": "RAT.PERCENT",
+    "name_ar": "النسبة المئوية",
+    "description_ar": "حساب النسبة المئوية من عدد، وإيجاد الكل، والزيادة والنقصان المئوي.",
+    "strand": "ratio", "grade_level": 7, "order_index": 25,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["RAT.PROPORTION", "DEC.FRC.CONV"],
+    "misconceptions": [
+      { "tag": "pct.multiply_by_number", "name_ar": "ضرب العدد في رقم النسبة دون قسمة على مئة", "remediation_ar": "25% من 80 تساوي 0.25 في 80 أي 20، لا 25 في 80. حوّل النسبة إلى كسر عشري أولاً." },
+      { "tag": "pct.reverse_symmetry", "name_ar": "افتراض أن زيادة ثم نقصاناً بالنسبة نفسها يعيد الأصل", "remediation_ar": "100 بعد زيادة 10% تصبح 110، وبعد نقصان 10% تصبح 99 لا 100. الأساس تغيّر." },
+      { "tag": "pct.find_whole", "name_ar": "قسمة خاطئة عند إيجاد الكل", "remediation_ar": "إذا كان 30 يمثل 20% فالكل يساوي 30 مقسوماً على 0.20 أي 150." }
+    ]
+  },
+  {
+    "code": "RAT.RATE",
+    "name_ar": "المعدل ووحدة القياس المركبة",
+    "description_ar": "المعدل والسرعة والكثافة والسعر للوحدة، والمقارنة بين المعدلات.",
+    "strand": "ratio", "grade_level": 7, "order_index": 26,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["RAT.PROPORTION"],
+    "misconceptions": [
+      { "tag": "rate.invert_units", "name_ar": "عكس ترتيب الوحدات في المعدل", "remediation_ar": "كم في الساعة تعني المسافة مقسومة على الزمن، لا العكس. اكتب الوحدة كاملة أثناء الحل." }
+    ]
+  },
+  {
+    "code": "NUM.INT.CONCEPT",
+    "name_ar": "الأعداد الصحيحة وخط الأعداد",
+    "description_ar": "تمثيل الأعداد الموجبة والسالبة على خط الأعداد، والقيمة المطلقة، والمقارنة.",
+    "strand": "number", "grade_level": 7, "order_index": 27,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.PV"],
+    "misconceptions": [
+      { "tag": "int.magnitude_order", "name_ar": "ترتيب السوالب حسب حجمها المطلق", "remediation_ar": "سالب 7 أصغر من سالب 3 لأنه أبعد يساراً على خط الأعداد. استخدم مقياس الحرارة." }
+    ]
+  },
+  {
+    "code": "NUM.INT.ADDSUB",
+    "name_ar": "جمع وطرح الأعداد الصحيحة",
+    "description_ar": "الجمع والطرح مع الإشارات، وتحويل الطرح إلى جمع للمعكوس.",
+    "strand": "number", "grade_level": 7, "order_index": 28,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.INT.CONCEPT", "OPS.SUB"],
+    "misconceptions": [
+      { "tag": "int.ignore_signs", "name_ar": "تجاهل الإشارات والجمع كأعداد موجبة", "remediation_ar": "سالب 3 زائد سالب 5 يساوي سالب 8 لا موجب 8. تحرّك يساراً على خط الأعداد مرتين." },
+      { "tag": "int.sub_always_smaller", "name_ar": "الاعتقاد أن الطرح يصغّر دائماً", "remediation_ar": "5 ناقص سالب 3 يساوي 8. طرح السالب يعني الجمع." },
+      { "tag": "int.double_negative", "name_ar": "الخلط في إشارتين متتاليتين", "remediation_ar": "ناقص ناقص تساوي زائد. اربطها بمعنى إزالة دَين." }
+    ]
+  },
+  {
+    "code": "NUM.INT.MULDIV",
+    "name_ar": "ضرب وقسمة الأعداد الصحيحة",
+    "description_ar": "قواعد إشارات الضرب والقسمة وتطبيقها.",
+    "strand": "number", "grade_level": 7, "order_index": 29,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.INT.ADDSUB", "OPS.DIV.LONG"],
+    "misconceptions": [
+      { "tag": "int.neg_times_neg", "name_ar": "اعتبار حاصل ضرب سالبين سالباً", "remediation_ar": "سالب في سالب يساوي موجب. اربطها بنمط: سالب 2 في 3 ثم في 2 ثم في 1 ثم في سالب 1." },
+      { "tag": "int.apply_add_rules", "name_ar": "تطبيق قواعد الجمع على الضرب", "remediation_ar": "قواعد الإشارة في الجمع تختلف عنها في الضرب. افصل بينهما بجدول واضح." }
+    ]
+  },
+  {
+    "code": "NUM.ORDER.OPS",
+    "name_ar": "ترتيب العمليات",
+    "description_ar": "أولوية الأقواس ثم الأسس ثم الضرب والقسمة ثم الجمع والطرح.",
+    "strand": "number", "grade_level": 7, "order_index": 30,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.INT.MULDIV"],
+    "misconceptions": [
+      { "tag": "ord.left_to_right", "name_ar": "الحل من اليسار لليمين دائماً", "remediation_ar": "2 زائد 3 في 4 تساوي 14 لا 20. الضرب أولاً." },
+      { "tag": "ord.mul_before_div", "name_ar": "تقديم الضرب على القسمة دائماً", "remediation_ar": "الضرب والقسمة في المرتبة نفسها وتُنفّذان من اليسار لليمين." }
+    ]
+  },
+  {
+    "code": "NUM.POWERS",
+    "name_ar": "الأسس والقوى",
+    "description_ar": "معنى الأس، وقوانين الأسس، والأس الصفري والسالب.",
+    "strand": "number", "grade_level": 8, "order_index": 31,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.ORDER.OPS"],
+    "misconceptions": [
+      { "tag": "pow.multiply_base_exp", "name_ar": "ضرب الأساس في الأس", "remediation_ar": "2 أس 3 تساوي 8 لا 6. الأس يعني عدد مرات ضرب الأساس في نفسه." },
+      { "tag": "pow.negative_base", "name_ar": "الخلط بين سالب مرفوع لأس وأس عدد موجب", "remediation_ar": "مربع سالب 2 يساوي 4، أما سالب مربع 2 فيساوي سالب 4. انتبه للأقواس." },
+      { "tag": "pow.add_exponents_wrong", "name_ar": "جمع الأسس عند جمع القوى", "remediation_ar": "قوانين الأسس تنطبق على الضرب والقسمة لا على الجمع." }
+    ]
+  },
+  {
+    "code": "NUM.ROOTS",
+    "name_ar": "الجذور التربيعية",
+    "description_ar": "الجذر التربيعي للمربعات الكاملة، والتقدير، والتبسيط.",
+    "strand": "number", "grade_level": 8, "order_index": 32,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.POWERS"],
+    "misconceptions": [
+      { "tag": "root.half_the_number", "name_ar": "اعتبار الجذر نصف العدد", "remediation_ar": "جذر 16 يساوي 4 لا 8. الجذر هو العدد الذي إذا ضُرب في نفسه أعطى العدد." },
+      { "tag": "root.distribute_over_add", "name_ar": "توزيع الجذر على الجمع", "remediation_ar": "جذر مجموع 9 و16 يساوي 5 لا 7. الجذر لا يتوزّع على الجمع." }
+    ]
+  },
+  {
+    "code": "NUM.REAL",
+    "name_ar": "الأعداد النسبية وغير النسبية",
+    "description_ar": "تصنيف الأعداد الحقيقية وتمييز غير النسبية وتقريبها.",
+    "strand": "number", "grade_level": 9, "order_index": 33,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["NUM.ROOTS", "DEC.FRC.CONV"],
+    "misconceptions": [
+      { "tag": "real.all_decimals_irrational", "name_ar": "اعتبار كل عدد عشري غير نسبي", "remediation_ar": "العشري المنتهي أو الدوري نسبي دائماً لأنه يُكتب ككسر." }
+    ]
+  },
+  {
+    "code": "ALG.EXPR",
+    "name_ar": "العبارات الجبرية والمتغيرات",
+    "description_ar": "ترجمة المواقف إلى عبارات جبرية، وتعويض قيمة المتغير.",
+    "strand": "algebra", "grade_level": 7, "order_index": 34,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["NUM.ORDER.OPS"],
+    "misconceptions": [
+      { "tag": "alg.var_as_label", "name_ar": "قراءة المتغير كاختصار لكلمة لا كعدد", "remediation_ar": "في 3س، الحرف س عدد مجهول لا اسم شيء. جرّب تعويض قيم مختلفة." },
+      { "tag": "alg.concat_not_multiply", "name_ar": "قراءة 3س كرقمين متجاورين", "remediation_ar": "3س تعني 3 مضروبة في س. عوّض س بـ 4 فتصبح 12." }
+    ]
+  },
+  {
+    "code": "ALG.SIMPLIFY",
+    "name_ar": "تبسيط العبارات وجمع الحدود المتشابهة",
+    "description_ar": "جمع الحدود المتشابهة وتوزيع الضرب على الأقواس.",
+    "strand": "algebra", "grade_level": 7, "order_index": 35,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["ALG.EXPR", "NUM.INT.ADDSUB"],
+    "misconceptions": [
+      { "tag": "alg.combine_unlike", "name_ar": "جمع حدود غير متشابهة", "remediation_ar": "3س زائد 2 لا تساوي 5س. لا نجمع إلا الحدود التي لها المتغير نفسه بالأس نفسه." },
+      { "tag": "alg.distribute_partial", "name_ar": "توزيع ناقص على الحد الأول فقط", "remediation_ar": "2 في القوس س زائد 3 تساوي 2س زائد 6. وزّع على كل حدود القوس." },
+      { "tag": "alg.negative_distribute", "name_ar": "إهمال إشارة السالب عند التوزيع", "remediation_ar": "ناقص القوس س ناقص 4 تساوي ناقص س زائد 4. الإشارة توزّع أيضاً." }
+    ]
+  },
+  {
+    "code": "ALG.EQ.ONESTEP",
+    "name_ar": "معادلات من خطوة واحدة",
+    "description_ar": "حل معادلات بعملية عكسية واحدة والتحقق من الحل.",
+    "strand": "algebra", "grade_level": 7, "order_index": 36,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["ALG.SIMPLIFY"],
+    "misconceptions": [
+      { "tag": "eq.one_side_only", "name_ar": "تطبيق العملية على طرف واحد", "remediation_ar": "ما نفعله بطرف نفعله بالآخر. تخيّل ميزاناً يجب أن يبقى متزناً." },
+      { "tag": "eq.wrong_inverse", "name_ar": "استخدام العملية نفسها بدل العكسية", "remediation_ar": "لحل س زائد 5 يساوي 12 نطرح 5 لا نجمعها." }
+    ]
+  },
+  {
+    "code": "ALG.EQ.TWOSTEP",
+    "name_ar": "معادلات من خطوتين",
+    "description_ar": "حل معادلات تحتاج عمليتين عكسيتين بالترتيب الصحيح.",
+    "strand": "algebra", "grade_level": 8, "order_index": 37,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["ALG.EQ.ONESTEP"],
+    "misconceptions": [
+      { "tag": "eq.wrong_order", "name_ar": "ترتيب خاطئ لفكّ العمليات", "remediation_ar": "في 2س زائد 3 يساوي 11 اطرح 3 أولاً ثم اقسم على 2. نفكّ بعكس ترتيب العمليات." }
+    ]
+  },
+  {
+    "code": "ALG.EQ.MULTI",
+    "name_ar": "معادلات متعددة الخطوات والأقواس",
+    "description_ar": "حل معادلات فيها أقواس ومتغيرات في الطرفين.",
+    "strand": "algebra", "grade_level": 8, "order_index": 38,
+    "mastery_threshold": 85, "is_spine": true,
+    "prerequisites": ["ALG.EQ.TWOSTEP"],
+    "misconceptions": [
+      { "tag": "eq.vars_both_sides", "name_ar": "عدم تجميع المتغيرات في طرف واحد", "remediation_ar": "انقل كل حدود المتغير لطرف والأعداد للطرف الآخر قبل القسمة." }
+    ]
+  },
+  {
+    "code": "ALG.INEQ",
+    "name_ar": "المتباينات",
+    "description_ar": "حل المتباينات الخطية وتمثيل الحل على خط الأعداد.",
+    "strand": "algebra", "grade_level": 8, "order_index": 39,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["ALG.EQ.MULTI", "NUM.INT.MULDIV"],
+    "misconceptions": [
+      { "tag": "ineq.no_flip", "name_ar": "عدم عكس إشارة المتباينة عند الضرب في سالب", "remediation_ar": "عند الضرب أو القسمة على عدد سالب تنعكس إشارة المتباينة. تحقّق بتعويض قيمة." }
+    ]
+  },
+  {
+    "code": "ALG.LINEAR",
+    "name_ar": "الاقتران الخطي والميل",
+    "description_ar": "تمثيل الاقتران الخطي بيانياً وإيجاد الميل والمقطع.",
+    "strand": "algebra", "grade_level": 8, "order_index": 40,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["ALG.EQ.TWOSTEP", "GEO.COORD"],
+    "misconceptions": [
+      { "tag": "lin.slope_inverted", "name_ar": "حساب الميل بقسمة الأفقي على الرأسي", "remediation_ar": "الميل هو التغيّر الرأسي مقسوماً على التغيّر الأفقي، لا العكس." },
+      { "tag": "lin.negative_slope", "name_ar": "إهمال إشارة الميل السالب", "remediation_ar": "الخط الهابط من اليسار لليمين ميله سالب." }
+    ]
+  },
+  {
+    "code": "ALG.POLY",
+    "name_ar": "كثيرات الحدود والضرب الجبري",
+    "description_ar": "جمع وطرح وضرب كثيرات الحدود، والمتطابقات الشهيرة.",
+    "strand": "algebra", "grade_level": 9, "order_index": 41,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["ALG.SIMPLIFY", "NUM.POWERS"],
+    "misconceptions": [
+      { "tag": "poly.freshman_dream", "name_ar": "توزيع الأس على مجموع", "remediation_ar": "مربع مجموع أ وب لا يساوي مربع أ زائد مربع ب. هناك حد أوسط قيمته ضعف حاصل ضربهما." },
+      { "tag": "poly.sign_error_sub", "name_ar": "خطأ إشارة عند طرح كثير حدود", "remediation_ar": "وزّع إشارة السالب على كل حدود المقدار المطروح." }
+    ]
+  },
+  {
+    "code": "ALG.FACTOR",
+    "name_ar": "التحليل إلى العوامل",
+    "description_ar": "إخراج العامل المشترك، وفرق مربعين، وتحليل الثلاثي.",
+    "strand": "algebra", "grade_level": 9, "order_index": 42,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["ALG.POLY", "NUM.FACTORS"],
+    "misconceptions": [
+      { "tag": "fac.sum_of_squares", "name_ar": "تحليل مجموع مربعين كفرق مربعين", "remediation_ar": "فرق المربعين يُحلّل، أما مجموع المربعين فلا يُحلّل في الأعداد الحقيقية." },
+      { "tag": "fac.sign_pairs", "name_ar": "اختيار إشارات خاطئة في تحليل الثلاثي", "remediation_ar": "ابحث عن عددين حاصل ضربهما الحد الأخير ومجموعهما الحد الأوسط، مع مراعاة الإشارات." }
+    ]
+  },
+  {
+    "code": "ALG.QUAD",
+    "name_ar": "المعادلات التربيعية",
+    "description_ar": "حل المعادلة التربيعية بالتحليل وبالقانون العام.",
+    "strand": "algebra", "grade_level": 9, "order_index": 43,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["ALG.FACTOR", "NUM.ROOTS"],
+    "misconceptions": [
+      { "tag": "quad.zero_product_misuse", "name_ar": "تطبيق خاصية ضرب الصفر على طرف غير صفري", "remediation_ar": "إذا كان حاصل ضرب مقدارين يساوي 6 فلا يعني أن أحدهما يساوي 6. ساوِ الطرف الآخر بصفر أولاً." },
+      { "tag": "quad.one_root_only", "name_ar": "إيجاد جذر واحد فقط", "remediation_ar": "المعادلة التربيعية قد يكون لها جذران. لا تنسَ الجذر السالب." }
+    ]
+  },
+  {
+    "code": "ALG.SYSTEM",
+    "name_ar": "نظام معادلتين خطيتين",
+    "description_ar": "حل نظام معادلتين بالحذف وبالتعويض وبيانياً.",
+    "strand": "algebra", "grade_level": 9, "order_index": 44,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["ALG.LINEAR", "ALG.EQ.MULTI"],
+    "misconceptions": [
+      { "tag": "sys.solve_one_var_only", "name_ar": "الاكتفاء بإيجاد متغير واحد", "remediation_ar": "الحل زوج مرتّب. بعد إيجاد أحد المتغيرين عوّض لإيجاد الآخر." }
+    ]
+  }
+]

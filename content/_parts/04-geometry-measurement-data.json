@@ -1,0 +1,165 @@
+[
+  {
+    "code": "MEA.UNITS",
+    "name_ar": "وحدات القياس والتحويل بينها",
+    "description_ar": "وحدات الطول والكتلة والسعة والتحويل بينها ضمن النظام المتري.",
+    "strand": "measurement", "grade_level": 4, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["NUM.PV"],
+    "misconceptions": [
+      { "tag": "mea.wrong_direction", "name_ar": "الضرب بدل القسمة عند التحويل", "remediation_ar": "التحويل من الوحدة الصغيرة للكبيرة يكون بالقسمة. اسأل: هل العدد يجب أن يكبر أم يصغر؟" },
+      { "tag": "mea.wrong_factor", "name_ar": "استخدام معامل تحويل خاطئ", "remediation_ar": "ارسم سلّم الوحدات ولاحظ أن كل درجة تعني الضرب أو القسمة على 10." }
+    ]
+  },
+  {
+    "code": "MEA.TIME",
+    "name_ar": "الزمن والجداول الزمنية",
+    "description_ar": "قراءة الساعة، وحساب المدة الزمنية، والتحويل بين وحدات الزمن.",
+    "strand": "measurement", "grade_level": 4, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["OPS.SUB"],
+    "misconceptions": [
+      { "tag": "time.decimal_subtraction", "name_ar": "طرح الأوقات كأعداد عشرية", "remediation_ar": "الفرق بين 3:15 و2:45 هو 30 دقيقة لا 70. الساعة ستّينية لا عشرية." }
+    ]
+  },
+  {
+    "code": "GEO.SHAPES",
+    "name_ar": "الأشكال الهندسية وخصائصها",
+    "description_ar": "تصنيف المضلعات والمثلثات والرباعيات حسب الأضلاع والزوايا.",
+    "strand": "geometry", "grade_level": 4, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": [],
+    "misconceptions": [
+      { "tag": "geo.orientation_matters", "name_ar": "عدم التعرّف على الشكل عند تدويره", "remediation_ar": "المربع يبقى مربعاً لو دُوّر. اعرض الأشكال بأوضاع مختلفة." },
+      { "tag": "geo.square_not_rectangle", "name_ar": "نفي أن المربع مستطيل", "remediation_ar": "المربع حالة خاصة من المستطيل تتساوى فيها الأضلاع. استخدم مخطط تصنيف هرمي." }
+    ]
+  },
+  {
+    "code": "GEO.ANGLES",
+    "name_ar": "الزوايا وقياسها",
+    "description_ar": "أنواع الزوايا، وقياسها بالمنقلة، والزوايا المتتامة والمتكاملة.",
+    "strand": "geometry", "grade_level": 5, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["GEO.SHAPES"],
+    "misconceptions": [
+      { "tag": "ang.length_is_size", "name_ar": "اعتبار طول ضلعي الزاوية مؤثراً في قياسها", "remediation_ar": "قياس الزاوية يعتمد على الانفراج لا على طول الضلعين. مدّد الضلعين وقارن." },
+      { "tag": "ang.protractor_scale", "name_ar": "قراءة التدريج الخاطئ في المنقلة", "remediation_ar": "حدّد أولاً إن كانت الزاوية حادة أم منفرجة ثم اختر التدريج المناسب." }
+    ]
+  },
+  {
+    "code": "GEO.PERIMETER",
+    "name_ar": "المحيط",
+    "description_ar": "حساب محيط المضلعات والأشكال المركّبة.",
+    "strand": "geometry", "grade_level": 4, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["GEO.SHAPES", "OPS.ADD"],
+    "misconceptions": [
+      { "tag": "geo.perimeter_area_swap", "name_ar": "الخلط بين المحيط والمساحة", "remediation_ar": "المحيط هو طول السياج حول الشكل، والمساحة هي البلاط داخله. استخدم شبكة مربعات." }
+    ]
+  },
+  {
+    "code": "GEO.AREA",
+    "name_ar": "مساحة المربع والمستطيل والمثلث",
+    "description_ar": "اشتقاق قوانين المساحة وتطبيقها على الأشكال المركّبة.",
+    "strand": "geometry", "grade_level": 5, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["GEO.PERIMETER", "OPS.MUL.MULTI"],
+    "misconceptions": [
+      { "tag": "area.triangle_no_half", "name_ar": "نسيان القسمة على اثنين في مساحة المثلث", "remediation_ar": "المثلث نصف المستطيل الذي له القاعدة والارتفاع نفساهما. مثّل بالقص واللصق." },
+      { "tag": "area.slant_height", "name_ar": "استخدام الضلع المائل بدل الارتفاع العمودي", "remediation_ar": "الارتفاع عمودي على القاعدة دائماً. ارسمه بزاوية قائمة واضحة." }
+    ]
+  },
+  {
+    "code": "GEO.COORD",
+    "name_ar": "الهندسة الإحداثية",
+    "description_ar": "تحديد النقاط في المستوى الإحداثي وتمثيل الأزواج المرتّبة.",
+    "strand": "geometry", "grade_level": 7, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["NUM.INT.CONCEPT"],
+    "misconceptions": [
+      { "tag": "coord.swap_xy", "name_ar": "عكس الإحداثي السيني والصادي", "remediation_ar": "الزوج المرتّب يبدأ بالأفقي ثم الرأسي. تذكّر: امشِ أولاً ثم اصعد." },
+      { "tag": "coord.negative_quadrant", "name_ar": "الخطأ في الأرباع السالبة", "remediation_ar": "حدّد إشارة كل إحداثي قبل التحديد، ثم عيّن الربع المناسب." }
+    ]
+  },
+  {
+    "code": "GEO.AREA.ADV",
+    "name_ar": "مساحة متوازي الأضلاع وشبه المنحرف والدائرة",
+    "description_ar": "قوانين المساحة المتقدمة، ومحيط الدائرة ومساحتها.",
+    "strand": "geometry", "grade_level": 7, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["GEO.AREA", "DEC.MUL"],
+    "misconceptions": [
+      { "tag": "circ.radius_diameter", "name_ar": "الخلط بين نصف القطر والقطر", "remediation_ar": "القطر ضعف نصف القطر. تحقّق من المعطى قبل التعويض في القانون." },
+      { "tag": "circ.area_perimeter_formula", "name_ar": "الخلط بين قانوني المحيط والمساحة", "remediation_ar": "المساحة فيها تربيع لنصف القطر، والمحيط فيه ضرب في اثنين. الوحدة تدلّك: المساحة بوحدة مربعة." }
+    ]
+  },
+  {
+    "code": "GEO.VOLUME",
+    "name_ar": "الحجم والمساحة السطحية",
+    "description_ar": "حجم المنشور والأسطوانة، والمساحة السطحية للمجسّمات.",
+    "strand": "geometry", "grade_level": 7, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["GEO.AREA.ADV"],
+    "misconceptions": [
+      { "tag": "vol.surface_confusion", "name_ar": "الخلط بين الحجم والمساحة السطحية", "remediation_ar": "الحجم ما يملأ المجسّم، والمساحة السطحية ما يغلّفه. الوحدة تفرّق: مكعبة مقابل مربعة." }
+    ]
+  },
+  {
+    "code": "GEO.PYTHAG",
+    "name_ar": "نظرية فيثاغورس",
+    "description_ar": "إيجاد ضلع مجهول في المثلث القائم وتطبيقات حياتية.",
+    "strand": "geometry", "grade_level": 8, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["NUM.ROOTS", "GEO.AREA"],
+    "misconceptions": [
+      { "tag": "pyth.linear_sum", "name_ar": "جمع الضلعين مباشرة بدل تربيعهما", "remediation_ar": "النظرية تربط مربعات الأضلاع لا الأضلاع نفسها. جرّب 3 و4 و5." },
+      { "tag": "pyth.wrong_hypotenuse", "name_ar": "اعتبار ضلع قائم وتراً", "remediation_ar": "الوتر هو الضلع المقابل للزاوية القائمة وهو الأطول دائماً." }
+    ]
+  },
+  {
+    "code": "GEO.TRANSFORM",
+    "name_ar": "التحويلات الهندسية",
+    "description_ar": "الانسحاب والانعكاس والدوران في المستوى الإحداثي.",
+    "strand": "geometry", "grade_level": 8, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["GEO.COORD"],
+    "misconceptions": [
+      { "tag": "trans.reflection_axis", "name_ar": "الانعكاس حول المحور الخاطئ", "remediation_ar": "الانعكاس حول المحور الأفقي يغيّر إشارة الإحداثي الرأسي فقط." }
+    ]
+  },
+  {
+    "code": "DAT.REPRESENT",
+    "name_ar": "تمثيل البيانات وقراءتها",
+    "description_ar": "قراءة وإنشاء الجداول والأعمدة والخطوط والقطاعات الدائرية.",
+    "strand": "data", "grade_level": 5, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["NUM.PV"],
+    "misconceptions": [
+      { "tag": "dat.ignore_scale", "name_ar": "إهمال مقياس الرسم في المحور", "remediation_ar": "اقرأ تدريج المحور أولاً؛ قد يمثّل كل خط 5 وحدات لا وحدة واحدة." }
+    ]
+  },
+  {
+    "code": "DAT.CENTER",
+    "name_ar": "مقاييس النزعة المركزية",
+    "description_ar": "المتوسط الحسابي والوسيط والمنوال والمدى، ومتى نستخدم كلاً منها.",
+    "strand": "data", "grade_level": 7, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["DAT.REPRESENT", "OPS.DIV.LONG"],
+    "misconceptions": [
+      { "tag": "dat.median_unsorted", "name_ar": "إيجاد الوسيط دون ترتيب البيانات", "remediation_ar": "رتّب القيم تصاعدياً أولاً ثم أوجد القيمة الوسطى." },
+      { "tag": "dat.mean_ignores_count", "name_ar": "القسمة على عدد خاطئ عند حساب المتوسط", "remediation_ar": "اقسم مجموع القيم على عددها بالضبط، مع احتساب القيم المكرّرة." }
+    ]
+  },
+  {
+    "code": "DAT.PROB",
+    "name_ar": "الاحتمال البسيط",
+    "description_ar": "حساب احتمال حدث بسيط والتعبير عنه بكسر ونسبة مئوية.",
+    "strand": "data", "grade_level": 8, "order_index": 0,
+    "mastery_threshold": 85, "is_spine": false,
+    "prerequisites": ["FRC.CONCEPT", "RAT.PERCENT"],
+    "misconceptions": [
+      { "tag": "prob.gamblers_fallacy", "name_ar": "الاعتقاد أن النتائج السابقة تؤثر على القادمة", "remediation_ar": "رمي العملة مستقل: ظهور الصورة خمس مرات لا يغيّر احتمال الرمية السادسة." },
+      { "tag": "prob.favorable_over_unfavorable", "name_ar": "قسمة المحتملة على غير المحتملة", "remediation_ar": "الاحتمال هو عدد النواتج المناسبة على مجموع النواتج الممكنة كلها." }
+    ]
+  }
+]
