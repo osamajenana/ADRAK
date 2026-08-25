@@ -1,0 +1,632 @@
+{
+  "function": "diagnosticNext + diagnosticApply + diagnosticResult",
+  "spec": "SPEC.md#3",
+  "cases": [
+    {
+      "name": "grade 7 student whose real frontier is S3",
+      "input": {
+        "grade": 7,
+        "candidates": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ],
+        "max_questions": 15,
+        "probe_size": 3
+      },
+      "steps": [
+        {
+          "before": {
+            "lo": -1,
+            "hi": 8,
+            "asked": 0
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S4",
+            "lo": -1,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S4",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 3,
+            "asked": 3
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S2",
+            "lo": -1,
+            "hi": 3
+          },
+          "probe": {
+            "skill_code": "S2",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 1,
+            "hi": 3,
+            "asked": 6
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S3",
+            "lo": 1,
+            "hi": 3
+          },
+          "probe": {
+            "skill_code": "S3",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 2,
+            "hi": 3,
+            "asked": 9
+          },
+          "decision": {
+            "action": "finish",
+            "lo": 2,
+            "hi": 3
+          }
+        }
+      ],
+      "expected_result": {
+        "estimated_level": 5,
+        "frontier_index": 2,
+        "mastered": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "weak": [],
+        "missing": [
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ]
+      }
+    },
+    {
+      "name": "grade 7 student who masters everything probed",
+      "input": {
+        "grade": 7,
+        "candidates": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ],
+        "max_questions": 15,
+        "probe_size": 3
+      },
+      "steps": [
+        {
+          "before": {
+            "lo": -1,
+            "hi": 8,
+            "asked": 0
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S4",
+            "lo": -1,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S4",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 3,
+            "hi": 8,
+            "asked": 3
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S6",
+            "lo": 3,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S6",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 5,
+            "hi": 8,
+            "asked": 6
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S7",
+            "lo": 5,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S7",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 6,
+            "hi": 8,
+            "asked": 9
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S8",
+            "lo": 6,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S8",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 7,
+            "hi": 8,
+            "asked": 12
+          },
+          "decision": {
+            "action": "finish",
+            "lo": 7,
+            "hi": 8
+          }
+        }
+      ],
+      "expected_result": {
+        "estimated_level": 7,
+        "frontier_index": 7,
+        "mastered": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ],
+        "weak": [],
+        "missing": []
+      }
+    },
+    {
+      "name": "grade 7 student who fails the very first probe chain",
+      "input": {
+        "grade": 7,
+        "candidates": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ],
+        "max_questions": 15,
+        "probe_size": 3
+      },
+      "steps": [
+        {
+          "before": {
+            "lo": -1,
+            "hi": 8,
+            "asked": 0
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S4",
+            "lo": -1,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S4",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 3,
+            "asked": 3
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S2",
+            "lo": -1,
+            "hi": 3
+          },
+          "probe": {
+            "skill_code": "S2",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 1,
+            "asked": 6
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S1",
+            "lo": -1,
+            "hi": 1
+          },
+          "probe": {
+            "skill_code": "S1",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 0,
+            "asked": 9
+          },
+          "decision": {
+            "action": "finish",
+            "lo": -1,
+            "hi": 0
+          }
+        }
+      ],
+      "expected_result": {
+        "estimated_level": 4,
+        "frontier_index": -1,
+        "mastered": [],
+        "weak": [],
+        "missing": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ]
+      }
+    },
+    {
+      "name": "grade 9 student with a mid-range frontier",
+      "input": {
+        "grade": 9,
+        "candidates": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8",
+          "S9",
+          "S10"
+        ],
+        "max_questions": 15,
+        "probe_size": 3
+      },
+      "steps": [
+        {
+          "before": {
+            "lo": -1,
+            "hi": 10,
+            "asked": 0
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S5",
+            "lo": -1,
+            "hi": 10
+          },
+          "probe": {
+            "skill_code": "S5",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 4,
+            "hi": 10,
+            "asked": 3
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S8",
+            "lo": 4,
+            "hi": 10
+          },
+          "probe": {
+            "skill_code": "S8",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 4,
+            "hi": 7,
+            "asked": 6
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S6",
+            "lo": 4,
+            "hi": 7
+          },
+          "probe": {
+            "skill_code": "S6",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 5,
+            "hi": 7,
+            "asked": 9
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S7",
+            "lo": 5,
+            "hi": 7
+          },
+          "probe": {
+            "skill_code": "S7",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 5,
+            "hi": 6,
+            "asked": 12
+          },
+          "decision": {
+            "action": "finish",
+            "lo": 5,
+            "hi": 6
+          }
+        }
+      ],
+      "expected_result": {
+        "estimated_level": 6,
+        "frontier_index": 5,
+        "mastered": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6"
+        ],
+        "weak": [],
+        "missing": [
+          "S7",
+          "S8",
+          "S9",
+          "S10"
+        ]
+      }
+    },
+    {
+      "name": "grade 4 student with only two candidates",
+      "input": {
+        "grade": 4,
+        "candidates": [
+          "S1",
+          "S2"
+        ],
+        "max_questions": 15,
+        "probe_size": 3
+      },
+      "steps": [
+        {
+          "before": {
+            "lo": -1,
+            "hi": 2,
+            "asked": 0
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S1",
+            "lo": -1,
+            "hi": 2
+          },
+          "probe": {
+            "skill_code": "S1",
+            "correct": 3,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 0,
+            "hi": 2,
+            "asked": 3
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S2",
+            "lo": 0,
+            "hi": 2
+          },
+          "probe": {
+            "skill_code": "S2",
+            "correct": 0,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": 0,
+            "hi": 1,
+            "asked": 6
+          },
+          "decision": {
+            "action": "finish",
+            "lo": 0,
+            "hi": 1
+          }
+        }
+      ],
+      "expected_result": {
+        "estimated_level": 4,
+        "frontier_index": 0,
+        "mastered": [
+          "S1"
+        ],
+        "weak": [],
+        "missing": [
+          "S2"
+        ]
+      }
+    },
+    {
+      "name": "partial knowledge scores 1 of 3 on every probe",
+      "input": {
+        "grade": 7,
+        "candidates": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ],
+        "max_questions": 15,
+        "probe_size": 3
+      },
+      "steps": [
+        {
+          "before": {
+            "lo": -1,
+            "hi": 8,
+            "asked": 0
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S4",
+            "lo": -1,
+            "hi": 8
+          },
+          "probe": {
+            "skill_code": "S4",
+            "correct": 1,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 3,
+            "asked": 3
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S2",
+            "lo": -1,
+            "hi": 3
+          },
+          "probe": {
+            "skill_code": "S2",
+            "correct": 1,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 1,
+            "asked": 6
+          },
+          "decision": {
+            "action": "probe",
+            "skill_code": "S1",
+            "lo": -1,
+            "hi": 1
+          },
+          "probe": {
+            "skill_code": "S1",
+            "correct": 1,
+            "total": 3
+          }
+        },
+        {
+          "before": {
+            "lo": -1,
+            "hi": 0,
+            "asked": 9
+          },
+          "decision": {
+            "action": "finish",
+            "lo": -1,
+            "hi": 0
+          }
+        }
+      ],
+      "expected_result": {
+        "estimated_level": 4,
+        "frontier_index": -1,
+        "mastered": [],
+        "weak": [
+          "S1",
+          "S2",
+          "S4"
+        ],
+        "missing": [
+          "S3",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ]
+      }
+    }
+  ]
+}

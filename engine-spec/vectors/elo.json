@@ -1,0 +1,102 @@
+{
+  "function": "eloUpdate",
+  "spec": "SPEC.md#5",
+  "cases": [
+    {
+      "name": "evenly matched, student correct",
+      "input": {
+        "theta": 1200,
+        "item_elo": 1200,
+        "correct": true
+      },
+      "expected": {
+        "theta": 1216,
+        "item_elo": 1196
+      }
+    },
+    {
+      "name": "evenly matched, student wrong",
+      "input": {
+        "theta": 1200,
+        "item_elo": 1200,
+        "correct": false
+      },
+      "expected": {
+        "theta": 1184,
+        "item_elo": 1204
+      }
+    },
+    {
+      "name": "strong student clears an easy item",
+      "input": {
+        "theta": 1600,
+        "item_elo": 1000,
+        "correct": true
+      },
+      "expected": {
+        "theta": 1600.98,
+        "item_elo": 999.75
+      }
+    },
+    {
+      "name": "strong student trips on an easy item",
+      "input": {
+        "theta": 1600,
+        "item_elo": 1000,
+        "correct": false
+      },
+      "expected": {
+        "theta": 1568.98,
+        "item_elo": 1007.75
+      }
+    },
+    {
+      "name": "weak student clears a hard item",
+      "input": {
+        "theta": 900,
+        "item_elo": 1500,
+        "correct": true
+      },
+      "expected": {
+        "theta": 931.02,
+        "item_elo": 1492.25
+      }
+    },
+    {
+      "name": "weak student misses a hard item",
+      "input": {
+        "theta": 900,
+        "item_elo": 1500,
+        "correct": false
+      },
+      "expected": {
+        "theta": 899.02,
+        "item_elo": 1500.25
+      }
+    },
+    {
+      "name": "fractional ratings survive the round trip",
+      "input": {
+        "theta": 1234.56,
+        "item_elo": 1187.43,
+        "correct": true
+      },
+      "expected": {
+        "theta": 1248.4,
+        "item_elo": 1183.97
+      }
+    },
+    {
+      "name": "extreme gap barely moves the winner",
+      "input": {
+        "theta": 2000,
+        "item_elo": 800,
+        "correct": true
+      },
+      "expected": {
+        "theta": 2000.03,
+        "item_elo": 799.99
+      }
+    }
+  ]
+}

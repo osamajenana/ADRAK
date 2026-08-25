@@ -1,0 +1,15 @@
+{
+  "description": "Synthetic 10-skill graph used by the diagnostic and recovery-path vectors. Kept tiny and readable on purpose: the vectors must stay stable when content/skill-graph.json changes.",
+  "skills": [
+    { "code": "S1",  "grade_level": 4, "order_index": 1,  "prerequisites": [] },
+    { "code": "S2",  "grade_level": 4, "order_index": 2,  "prerequisites": ["S1"] },
+    { "code": "S3",  "grade_level": 5, "order_index": 3,  "prerequisites": ["S2"] },
+    { "code": "S4",  "grade_level": 5, "order_index": 4,  "prerequisites": ["S3"] },
+    { "code": "S5",  "grade_level": 6, "order_index": 5,  "prerequisites": ["S4"] },
+    { "code": "S6",  "grade_level": 6, "order_index": 6,  "prerequisites": ["S5"] },
+    { "code": "S7",  "grade_level": 7, "order_index": 7,  "prerequisites": ["S6"] },
+    { "code": "S8",  "grade_level": 7, "order_index": 8,  "prerequisites": ["S6"] },
+    { "code": "S9",  "grade_level": 8, "order_index": 9,  "prerequisites": ["S7", "S8"] },
+    { "code": "S10", "grade_level": 9, "order_index": 10, "prerequisites": ["S9"] }
+  ]
+}

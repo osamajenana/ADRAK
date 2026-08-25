@@ -1,0 +1,46 @@
+{
+  "function": "nextReviewAt",
+  "spec": "SPEC.md#6",
+  "cases": [
+    {
+      "name": "review 0",
+      "input": {
+        "mastered_at": 1767225600,
+        "review_count": 0
+      },
+      "expected": 1767830400
+    },
+    {
+      "name": "review 1",
+      "input": {
+        "mastered_at": 1767225600,
+        "review_count": 1
+      },
+      "expected": 1769040000
+    },
+    {
+      "name": "review 2",
+      "input": {
+        "mastered_at": 1767225600,
+        "review_count": 2
+      },
+      "expected": 1772409600
+    },
+    {
+      "name": "review 3",
+      "input": {
+        "mastered_at": 1767225600,
+        "review_count": 3
+      },
+      "expected": 1772409600
+    },
+    {
+      "name": "review 10",
+      "input": {
+        "mastered_at": 1767225600,
+        "review_count": 10
+      },
+      "expected": 1772409600
+    }
+  ]
+}

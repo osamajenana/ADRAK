@@ -1,0 +1,202 @@
+{
+  "function": "nextDifficulty",
+  "spec": "SPEC.md#2",
+  "cases": [
+    {
+      "name": "fresh start at easy",
+      "input": {
+        "difficulty": "easy",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "stay",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "one correct is not enough to promote",
+      "input": {
+        "difficulty": "easy",
+        "consecutive_correct": 1,
+        "consecutive_wrong": 0
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "stay",
+        "consecutive_correct": 1,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "promote easy to medium",
+      "input": {
+        "difficulty": "easy",
+        "consecutive_correct": 2,
+        "consecutive_wrong": 0
+      },
+      "expected": {
+        "difficulty": "medium",
+        "action": "promote",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "promote medium to hard",
+      "input": {
+        "difficulty": "medium",
+        "consecutive_correct": 2,
+        "consecutive_wrong": 0
+      },
+      "expected": {
+        "difficulty": "hard",
+        "action": "promote",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "already at hard, keep the streak",
+      "input": {
+        "difficulty": "hard",
+        "consecutive_correct": 2,
+        "consecutive_wrong": 0
+      },
+      "expected": {
+        "difficulty": "hard",
+        "action": "stay",
+        "consecutive_correct": 2,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "already at hard, long streak",
+      "input": {
+        "difficulty": "hard",
+        "consecutive_correct": 5,
+        "consecutive_wrong": 0
+      },
+      "expected": {
+        "difficulty": "hard",
+        "action": "stay",
+        "consecutive_correct": 5,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "one wrong is not enough to demote",
+      "input": {
+        "difficulty": "medium",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 1
+      },
+      "expected": {
+        "difficulty": "medium",
+        "action": "stay",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 1
+      }
+    },
+    {
+      "name": "demote hard to medium",
+      "input": {
+        "difficulty": "hard",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 2
+      },
+      "expected": {
+        "difficulty": "medium",
+        "action": "demote",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "demote medium to easy",
+      "input": {
+        "difficulty": "medium",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 2
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "demote",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "at easy with two wrong: hold and keep counting",
+      "input": {
+        "difficulty": "easy",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 2
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "stay",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 2
+      }
+    },
+    {
+      "name": "at easy with three wrong: the gap is below this skill",
+      "input": {
+        "difficulty": "easy",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 3
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "route_to_prerequisite",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "at easy with four wrong still routes",
+      "input": {
+        "difficulty": "easy",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 4
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "route_to_prerequisite",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "hard with three wrong demotes before it can ever route",
+      "input": {
+        "difficulty": "hard",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 3
+      },
+      "expected": {
+        "difficulty": "medium",
+        "action": "demote",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    },
+    {
+      "name": "wrong outranks correct when both thresholds are met",
+      "input": {
+        "difficulty": "medium",
+        "consecutive_correct": 2,
+        "consecutive_wrong": 2
+      },
+      "expected": {
+        "difficulty": "easy",
+        "action": "demote",
+        "consecutive_correct": 0,
+        "consecutive_wrong": 0
+      }
+    }
+  ]
+}

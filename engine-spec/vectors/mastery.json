@@ -1,0 +1,466 @@
+{
+  "function": "masteryScore",
+  "spec": "SPEC.md#1",
+  "cases": [
+    {
+      "name": "no attempts yet",
+      "input": {
+        "attempts": [],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 0,
+        "status": "not_started",
+        "attempts": 0,
+        "correct": 0,
+        "hard_correct": 0
+      }
+    },
+    {
+      "name": "mastered: 8 correct including 2 hard",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 100,
+        "status": "mastered",
+        "attempts": 8,
+        "correct": 8,
+        "hard_correct": 2
+      }
+    },
+    {
+      "name": "not mastered: perfect but never tested at hard",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 100,
+        "status": "learning",
+        "attempts": 10,
+        "correct": 10,
+        "hard_correct": 0
+      }
+    },
+    {
+      "name": "not mastered: only 7 attempts",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 100,
+        "status": "learning",
+        "attempts": 7,
+        "correct": 7,
+        "hard_correct": 2
+      }
+    },
+    {
+      "name": "not mastered: one hard correct only",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 100,
+        "status": "learning",
+        "attempts": 8,
+        "correct": 8,
+        "hard_correct": 1
+      }
+    },
+    {
+      "name": "recency: struggled early, solid recently",
+      "input": {
+        "attempts": [
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 75.36,
+        "status": "learning",
+        "attempts": 10,
+        "correct": 6,
+        "hard_correct": 3
+      }
+    },
+    {
+      "name": "recency mirror: solid early, collapsed recently",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 50.48,
+        "status": "learning",
+        "attempts": 10,
+        "correct": 6,
+        "hard_correct": 3
+      }
+    },
+    {
+      "name": "borderline: mixed at hard",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": true,
+            "difficulty": "easy"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 76.04,
+        "status": "learning",
+        "attempts": 9,
+        "correct": 7,
+        "hard_correct": 2
+      }
+    },
+    {
+      "name": "single wrong attempt",
+      "input": {
+        "attempts": [
+          {
+            "correct": false,
+            "difficulty": "medium"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 0,
+        "status": "learning",
+        "attempts": 1,
+        "correct": 0,
+        "hard_correct": 0
+      }
+    },
+    {
+      "name": "single correct attempt",
+      "input": {
+        "attempts": [
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 85
+      },
+      "expected": {
+        "score": 100,
+        "status": "learning",
+        "attempts": 1,
+        "correct": 1,
+        "hard_correct": 1
+      }
+    },
+    {
+      "name": "threshold 70 masters the record that 85 holds back",
+      "input": {
+        "attempts": [
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": false,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "medium"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          },
+          {
+            "correct": true,
+            "difficulty": "hard"
+          }
+        ],
+        "threshold": 70
+      },
+      "expected": {
+        "score": 75.36,
+        "status": "mastered",
+        "attempts": 10,
+        "correct": 6,
+        "hard_correct": 3
+      }
+    }
+  ]
+}

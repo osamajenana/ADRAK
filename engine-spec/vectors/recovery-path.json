@@ -1,0 +1,121 @@
+{
+  "function": "recoveryPath",
+  "spec": "SPEC.md#4",
+  "cases": [
+    {
+      "name": "nothing mastered yet, target deep in the graph",
+      "input": {
+        "statuses": {},
+        "target": "S9"
+      },
+      "expected": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "name": "first three mastered, target S9",
+      "input": {
+        "statuses": {
+          "S1": "mastered",
+          "S2": "mastered",
+          "S3": "mastered"
+        },
+        "target": "S9"
+      },
+      "expected": [
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "name": "target is the immediate next skill",
+      "input": {
+        "statuses": {
+          "S1": "mastered",
+          "S2": "mastered",
+          "S3": "mastered"
+        },
+        "target": "S4"
+      },
+      "expected": [
+        "S4"
+      ]
+    },
+    {
+      "name": "target already mastered yields an empty path",
+      "input": {
+        "statuses": {
+          "S1": "mastered",
+          "S2": "mastered",
+          "S3": "mastered"
+        },
+        "target": "S2"
+      },
+      "expected": []
+    },
+    {
+      "name": "diamond: S9 needs both branches",
+      "input": {
+        "statuses": {
+          "S1": "mastered",
+          "S2": "mastered",
+          "S3": "mastered",
+          "S4": "mastered",
+          "S5": "mastered",
+          "S6": "mastered",
+          "S7": "mastered"
+        },
+        "target": "S9"
+      },
+      "expected": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "name": "learning counts as pending, not mastered",
+      "input": {
+        "statuses": {
+          "S1": "mastered",
+          "S2": "learning"
+        },
+        "target": "S4"
+      },
+      "expected": [
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "name": "unknown target yields an empty path",
+      "input": {
+        "statuses": {},
+        "target": "NOPE"
+      },
+      "expected": []
+    },
+    {
+      "name": "root skill with no prerequisites",
+      "input": {
+        "statuses": {},
+        "target": "S1"
+      },
+      "expected": [
+        "S1"
+      ]
+    }
+  ]
+}
