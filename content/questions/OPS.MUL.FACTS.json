@@ -1,0 +1,936 @@
+{
+  "skill_code": "OPS.MUL.FACTS",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "4 × 4",
+      "hint_ar": "4 × 4 تعني 4 مجموعات في كل منها 4.",
+      "explanation_ar": "4 × 4 = 16.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "5 × 9",
+      "hint_ar": "5 × 9 تعني 5 مجموعات في كل منها 9.",
+      "explanation_ar": "5 × 9 = 45.",
+      "options": [
+        {
+          "text_ar": "45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "2 × 2",
+      "hint_ar": "2 × 2 تعني 2 مجموعات في كل منها 2.",
+      "explanation_ar": "2 × 2 = 4.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "5 × 8",
+      "hint_ar": "5 × 8 تعني 5 مجموعات في كل منها 8.",
+      "explanation_ar": "5 × 8 = 40.",
+      "options": [
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "4 × 6",
+      "hint_ar": "4 × 6 تعني 4 مجموعات في كل منها 6.",
+      "explanation_ar": "4 × 6 = 24.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "2 × 3",
+      "hint_ar": "2 × 3 تعني 2 مجموعات في كل منها 3.",
+      "explanation_ar": "2 × 3 = 6.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "3 × 8",
+      "hint_ar": "3 × 8 تعني 3 مجموعات في كل منها 8.",
+      "explanation_ar": "3 × 8 = 24.",
+      "options": [
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "4 × 7",
+      "hint_ar": "4 × 7 تعني 4 مجموعات في كل منها 7.",
+      "explanation_ar": "4 × 7 = 28.",
+      "options": [
+        {
+          "text_ar": "28",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "3 × 4",
+      "hint_ar": "3 × 4 تعني 3 مجموعات في كل منها 4.",
+      "explanation_ar": "3 × 4 = 12.",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي:",
+      "expression": "3 × 5",
+      "hint_ar": "3 × 5 تعني 3 مجموعات في كل منها 5.",
+      "explanation_ar": "3 × 5 = 15.",
+      "options": [
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "8 × 3",
+      "hint_ar": "8 × 3 تعني 8 مجموعات في كل منها 3.",
+      "explanation_ar": "8 × 3 = 24.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "8 × 2",
+      "hint_ar": "8 × 2 تعني 8 مجموعات في كل منها 2.",
+      "explanation_ar": "8 × 2 = 16.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "6 × 4",
+      "hint_ar": "6 × 4 تعني 6 مجموعات في كل منها 4.",
+      "explanation_ar": "6 × 4 = 24.",
+      "options": [
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "8 × 8",
+      "hint_ar": "8 × 8 تعني 8 مجموعات في كل منها 8.",
+      "explanation_ar": "8 × 8 = 64.",
+      "options": [
+        {
+          "text_ar": "74",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "9 × 9",
+      "hint_ar": "9 × 9 تعني 9 مجموعات في كل منها 9.",
+      "explanation_ar": "9 × 9 = 81.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "81",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "61",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "6 × 3",
+      "hint_ar": "6 × 3 تعني 6 مجموعات في كل منها 3.",
+      "explanation_ar": "6 × 3 = 18.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "7 × 3",
+      "hint_ar": "7 × 3 تعني 7 مجموعات في كل منها 3.",
+      "explanation_ar": "7 × 3 = 21.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "21",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "9 × 4",
+      "hint_ar": "9 × 4 تعني 9 مجموعات في كل منها 4.",
+      "explanation_ar": "9 × 4 = 36.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "7 × 9",
+      "hint_ar": "7 × 9 تعني 7 مجموعات في كل منها 9.",
+      "explanation_ar": "7 × 9 = 63.",
+      "options": [
+        {
+          "text_ar": "63",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "56",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "53",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي:",
+      "expression": "6 × 6",
+      "hint_ar": "6 × 6 تعني 6 مجموعات في كل منها 6.",
+      "explanation_ar": "6 × 6 = 36.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "12 × 9",
+      "hint_ar": "12 × 9 تعني 12 مجموعات في كل منها 9.",
+      "explanation_ar": "12 × 9 = 108.",
+      "options": [
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "98",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "96",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "108",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "12 × 10",
+      "hint_ar": "12 × 10 تعني 12 مجموعات في كل منها 10.",
+      "explanation_ar": "12 × 10 = 120.",
+      "options": [
+        {
+          "text_ar": "108",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "120",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "8 × 11",
+      "hint_ar": "8 × 11 تعني 8 مجموعات في كل منها 11.",
+      "explanation_ar": "8 × 11 = 88.",
+      "options": [
+        {
+          "text_ar": "68",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "88",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "9 × 9",
+      "hint_ar": "9 × 9 تعني 9 مجموعات في كل منها 9.",
+      "explanation_ar": "9 × 9 = 81.",
+      "options": [
+        {
+          "text_ar": "81",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "71",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "11 × 6",
+      "hint_ar": "11 × 6 تعني 11 مجموعات في كل منها 6.",
+      "explanation_ar": "11 × 6 = 66.",
+      "options": [
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "56",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "66",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "9 × 6",
+      "hint_ar": "9 × 6 تعني 9 مجموعات في كل منها 6.",
+      "explanation_ar": "9 × 6 = 54.",
+      "options": [
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "54",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "11 × 10",
+      "hint_ar": "11 × 10 تعني 11 مجموعات في كل منها 10.",
+      "explanation_ar": "11 × 10 = 110.",
+      "options": [
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "110",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "130",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "99",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "10 × 7",
+      "hint_ar": "10 × 7 تعني 10 مجموعات في كل منها 7.",
+      "explanation_ar": "10 × 7 = 70.",
+      "options": [
+        {
+          "text_ar": "70",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "60",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "7 × 11",
+      "hint_ar": "7 × 11 تعني 7 مجموعات في كل منها 11.",
+      "explanation_ar": "7 × 11 = 77.",
+      "options": [
+        {
+          "text_ar": "87",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "77",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.FACTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي:",
+      "expression": "12 × 7",
+      "hint_ar": "12 × 7 تعني 12 مجموعات في كل منها 7.",
+      "explanation_ar": "12 × 7 = 84.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "mul.repeated_add_error"
+        },
+        {
+          "text_ar": "94",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": "mul.confuse_add"
+        },
+        {
+          "text_ar": "84",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

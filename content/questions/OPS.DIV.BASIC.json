@@ -1,0 +1,936 @@
+{
+  "skill_code": "OPS.DIV.BASIC",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "18 ÷ 2",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 2 في 18؟",
+      "explanation_ar": "2 × 9 = 18، إذن 18 ÷ 2 = 9.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.11",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "35 ÷ 5",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 5 في 35؟",
+      "explanation_ar": "5 × 7 = 35، إذن 35 ÷ 5 = 7.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "175",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.14",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "14 ÷ 2",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 2 في 14؟",
+      "explanation_ar": "2 × 7 = 14، إذن 14 ÷ 2 = 7.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.14",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "15 ÷ 3",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 3 في 15؟",
+      "explanation_ar": "3 × 5 = 15، إذن 15 ÷ 3 = 5.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.20",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "25 ÷ 5",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 5 في 25؟",
+      "explanation_ar": "5 × 5 = 25، إذن 25 ÷ 5 = 5.",
+      "options": [
+        {
+          "text_ar": "125",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.20",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "30 ÷ 5",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 5 في 30؟",
+      "explanation_ar": "5 × 6 = 30، إذن 30 ÷ 5 = 6.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.17",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "150",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "16 ÷ 2",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 2 في 16؟",
+      "explanation_ar": "2 × 8 = 16، إذن 16 ÷ 2 = 8.",
+      "options": [
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.13",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "20 ÷ 4",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 4 في 20؟",
+      "explanation_ar": "4 × 5 = 20، إذن 20 ÷ 4 = 5.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.20",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "9 ÷ 3",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 3 في 9؟",
+      "explanation_ar": "3 × 3 = 9، إذن 9 ÷ 3 = 3.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.33",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "12 ÷ 3",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 3 في 12؟",
+      "explanation_ar": "3 × 4 = 12، إذن 12 ÷ 3 = 4.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.25",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "80 ÷ 5",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 5 في 80؟",
+      "explanation_ar": "5 × 16 = 80، إذن 80 ÷ 5 = 16.",
+      "options": [
+        {
+          "text_ar": "400",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.06",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "108 ÷ 9",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 9 في 108؟",
+      "explanation_ar": "9 × 12 = 108، إذن 108 ÷ 9 = 12.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "972",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.08",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "133 ÷ 7",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 7 في 133؟",
+      "explanation_ar": "7 × 19 = 133، إذن 133 ÷ 7 = 19.",
+      "options": [
+        {
+          "text_ar": "931",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.05",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "19",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "84 ÷ 7",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 7 في 84؟",
+      "explanation_ar": "7 × 12 = 84، إذن 84 ÷ 7 = 12.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.08",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "588",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "96 ÷ 6",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 6 في 96؟",
+      "explanation_ar": "6 × 16 = 96، إذن 96 ÷ 6 = 16.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "576",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.06",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "77 ÷ 7",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 7 في 77؟",
+      "explanation_ar": "7 × 11 = 77، إذن 77 ÷ 7 = 11.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "539",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.09",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "60 ÷ 5",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 5 في 60؟",
+      "explanation_ar": "5 × 12 = 60، إذن 60 ÷ 5 = 12.",
+      "options": [
+        {
+          "text_ar": "0.08",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "300",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "44 ÷ 4",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 4 في 44؟",
+      "explanation_ar": "4 × 11 = 44، إذن 44 ÷ 4 = 11.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.09",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "176",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "40 ÷ 5",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 5 في 40؟",
+      "explanation_ar": "5 × 8 = 40، إذن 40 ÷ 5 = 8.",
+      "options": [
+        {
+          "text_ar": "200",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.13",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "56 ÷ 8",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 8 في 56؟",
+      "explanation_ar": "8 × 7 = 56، إذن 56 ÷ 8 = 7.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.14",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "448",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "396 ÷ 12",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 12 في 396؟",
+      "explanation_ar": "12 × 33 = 396، إذن 396 ÷ 12 = 33.",
+      "options": [
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.03",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "33",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4752",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "174 ÷ 6",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 6 في 174؟",
+      "explanation_ar": "6 × 29 = 174، إذن 174 ÷ 6 = 29.",
+      "options": [
+        {
+          "text_ar": "0.03",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "1044",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "29",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "320 ÷ 8",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 8 في 320؟",
+      "explanation_ar": "8 × 40 = 320، إذن 320 ÷ 8 = 40.",
+      "options": [
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.03",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2560",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "333 ÷ 9",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 9 في 333؟",
+      "explanation_ar": "9 × 37 = 333، إذن 333 ÷ 9 = 37.",
+      "options": [
+        {
+          "text_ar": "37",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2997",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.03",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "150 ÷ 6",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 6 في 150؟",
+      "explanation_ar": "6 × 25 = 150، إذن 150 ÷ 6 = 25.",
+      "options": [
+        {
+          "text_ar": "0.04",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "900",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "156 ÷ 6",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 6 في 156؟",
+      "explanation_ar": "6 × 26 = 156، إذن 156 ÷ 6 = 26.",
+      "options": [
+        {
+          "text_ar": "936",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "0.04",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "180 ÷ 12",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 12 في 180؟",
+      "explanation_ar": "12 × 15 = 180، إذن 180 ÷ 12 = 15.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.07",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2160",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "165 ÷ 11",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 11 في 165؟",
+      "explanation_ar": "11 × 15 = 165، إذن 165 ÷ 11 = 15.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.07",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "1815",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "252 ÷ 7",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 7 في 252؟",
+      "explanation_ar": "7 × 36 = 252، إذن 252 ÷ 7 = 36.",
+      "options": [
+        {
+          "text_ar": "0.03",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "1764",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.BASIC",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "252 ÷ 9",
+      "hint_ar": "اسأل نفسك: كم مرة يدخل 9 في 252؟",
+      "explanation_ar": "9 × 28 = 252، إذن 252 ÷ 9 = 28.",
+      "options": [
+        {
+          "text_ar": "0.04",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2268",
+          "is_correct": false,
+          "misconception_tag": "div.commutative"
+        },
+        {
+          "text_ar": "28",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "skill_code": "OPS.ADD",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "15 + 28",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 43.",
+      "options": [
+        {
+          "text_ar": "295",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "43",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "79 + 75",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 154.",
+      "options": [
+        {
+          "text_ar": "144",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "829",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "154",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "16 + 75",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 91.",
+      "options": [
+        {
+          "text_ar": "81",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "101",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "91",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "766",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "55 + 66",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 121.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "121",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "141",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "715",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "32 + 19",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 51.",
+      "options": [
+        {
+          "text_ar": "61",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "51",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "222",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "17 + 23",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 40.",
+      "options": [
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "247",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "57 + 85",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 142.",
+      "options": [
+        {
+          "text_ar": "907",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "142",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "162",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "58 + 65",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 123.",
+      "options": [
+        {
+          "text_ar": "103",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "708",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "123",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "89 + 57",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 146.",
+      "options": [
+        {
+          "text_ar": "659",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "146",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "156",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "57 + 16",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 73.",
+      "options": [
+        {
+          "text_ar": "63",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "217",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "83",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "73",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "557 + 57",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 614.",
+      "options": [
+        {
+          "text_ar": "504",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "1127",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "614",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "634",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "218 + 45",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 263.",
+      "options": [
+        {
+          "text_ar": "243",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "668",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "263",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "253",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "536 + 25",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 561.",
+      "options": [
+        {
+          "text_ar": "561",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "581",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "551",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "786",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "647 + 24",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 671.",
+      "options": [
+        {
+          "text_ar": "671",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "661",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "681",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "887",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "426 + 88",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 514.",
+      "options": [
+        {
+          "text_ar": "1306",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "514",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "494",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "404",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "769 + 55",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 824.",
+      "options": [
+        {
+          "text_ar": "824",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1319",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "844",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "714",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "366 + 15",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 381.",
+      "options": [
+        {
+          "text_ar": "401",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "516",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "381",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "371",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "893 + 47",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 940.",
+      "options": [
+        {
+          "text_ar": "830",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "920",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "940",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1363",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "594 + 49",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 643.",
+      "options": [
+        {
+          "text_ar": "533",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "1084",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "643",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "633",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "627 + 48",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 675.",
+      "options": [
+        {
+          "text_ar": "675",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1107",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "685",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "665",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "8318 + 523",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 8841.",
+      "options": [
+        {
+          "text_ar": "13548",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "8831",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "8861",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8841",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "2926 + 578",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 3504.",
+      "options": [
+        {
+          "text_ar": "3494",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3504",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8706",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "2494",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3226 + 638",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 3864.",
+      "options": [
+        {
+          "text_ar": "3854",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "9606",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "3864",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3874",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "8159 + 359",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 8518.",
+      "options": [
+        {
+          "text_ar": "8508",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8408",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "11749",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "8518",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "5375 + 345",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 5720.",
+      "options": [
+        {
+          "text_ar": "8825",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "5730",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5610",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "5720",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "8213 + 659",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 8872.",
+      "options": [
+        {
+          "text_ar": "8862",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "8872",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8852",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14803",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "7003 + 178",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 7181.",
+      "options": [
+        {
+          "text_ar": "7201",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7171",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "7181",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8783",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "6846 + 774",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 7620.",
+      "options": [
+        {
+          "text_ar": "6510",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "14586",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "7610",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7620",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3919 + 211",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 4130.",
+      "options": [
+        {
+          "text_ar": "3120",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "4120",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4130",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6029",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "6495 + 248",
+      "hint_ar": "ابدأ من منزلة الآحاد. إذا تجاوز ناتج المنزلة 9، احمل واحداً إلى المنزلة التي على يسارها.",
+      "explanation_ar": "الآحاد أولاً مع الحمل، ثم العشرات: الناتج 6743.",
+      "options": [
+        {
+          "text_ar": "8975",
+          "is_correct": false,
+          "misconception_tag": "add.misaligned"
+        },
+        {
+          "text_ar": "6743",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6633",
+          "is_correct": false,
+          "misconception_tag": "add.no_carry"
+        },
+        {
+          "text_ar": "6763",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

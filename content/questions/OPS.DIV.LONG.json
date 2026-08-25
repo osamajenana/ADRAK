@@ -1,0 +1,936 @@
+{
+  "skill_code": "OPS.DIV.LONG",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "50 ÷ 4",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "4 × 12 = 48، و 50 − 48 = 2. إذن الناتج 12 والباقي 2.",
+      "options": [
+        {
+          "text_ar": "12 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 والباقي 2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "13 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "35 ÷ 4",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "4 × 8 = 32، و 35 − 32 = 3. إذن الناتج 8 والباقي 3.",
+      "options": [
+        {
+          "text_ar": "8 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8 والباقي 3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "51 ÷ 4",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "4 × 12 = 48، و 51 − 48 = 3. إذن الناتج 12 والباقي 3.",
+      "options": [
+        {
+          "text_ar": "13 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "12 والباقي 3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "12 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "35 ÷ 3",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "3 × 11 = 33، و 35 − 33 = 2. إذن الناتج 11 والباقي 2.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "12 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "11 والباقي 1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11 والباقي 2",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "48 ÷ 5",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "5 × 9 = 45، و 48 − 45 = 3. إذن الناتج 9 والباقي 3.",
+      "options": [
+        {
+          "text_ar": "10 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "9 والباقي 3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "9 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "40 ÷ 6",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "6 × 6 = 36، و 40 − 36 = 4. إذن الناتج 6 والباقي 4.",
+      "options": [
+        {
+          "text_ar": "6 والباقي 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "7 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "6 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "76 ÷ 6",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "6 × 12 = 72، و 76 − 72 = 4. إذن الناتج 12 والباقي 4.",
+      "options": [
+        {
+          "text_ar": "12 والباقي 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "31 ÷ 4",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "4 × 7 = 28، و 31 − 28 = 3. إذن الناتج 7 والباقي 3.",
+      "options": [
+        {
+          "text_ar": "7 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7 والباقي 3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "8 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "56 ÷ 5",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "5 × 11 = 55، و 56 − 55 = 1. إذن الناتج 11 والباقي 1.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "11 والباقي 1",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 والباقي 1",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "11 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "13 ÷ 3",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "3 × 4 = 12، و 13 − 12 = 1. إذن الناتج 4 والباقي 1.",
+      "options": [
+        {
+          "text_ar": "5 والباقي 1",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "4 والباقي 1",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "235 ÷ 7",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "7 × 33 = 231، و 235 − 231 = 4. إذن الناتج 33 والباقي 4.",
+      "options": [
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "33 والباقي 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "34 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "138 ÷ 9",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "9 × 15 = 135، و 138 − 135 = 3. إذن الناتج 15 والباقي 3.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "16 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "15 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15 والباقي 3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "197 ÷ 6",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "6 × 32 = 192، و 197 − 192 = 5. إذن الناتج 32 والباقي 5.",
+      "options": [
+        {
+          "text_ar": "32 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "32 والباقي 5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "145 ÷ 8",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "8 × 18 = 144، و 145 − 144 = 1. إذن الناتج 18 والباقي 1.",
+      "options": [
+        {
+          "text_ar": "18 والباقي 1",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "19 والباقي 1",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "242 ÷ 9",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "9 × 26 = 234، و 242 − 234 = 8. إذن الناتج 26 والباقي 8.",
+      "options": [
+        {
+          "text_ar": "26 والباقي 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "26 والباقي 8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27 والباقي 8",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "121 ÷ 9",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "9 × 13 = 117، و 121 − 117 = 4. إذن الناتج 13 والباقي 4.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "13 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "13 والباقي 4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "224 ÷ 9",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "9 × 24 = 216، و 224 − 216 = 8. إذن الناتج 24 والباقي 8.",
+      "options": [
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "24 والباقي 8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25 والباقي 8",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "24 والباقي 7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "158 ÷ 7",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "7 × 22 = 154، و 158 − 154 = 4. إذن الناتج 22 والباقي 4.",
+      "options": [
+        {
+          "text_ar": "23 والباقي 4",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "22 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "22 والباقي 4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "242 ÷ 6",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "6 × 40 = 240، و 242 − 240 = 2. إذن الناتج 40 والباقي 2.",
+      "options": [
+        {
+          "text_ar": "40 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "40 والباقي 2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "262 ÷ 8",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "8 × 32 = 256، و 262 − 256 = 6. إذن الناتج 32 والباقي 6.",
+      "options": [
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "32 والباقي 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32 والباقي 6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33 والباقي 6",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "1116 ÷ 24",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "24 × 46 = 1104، و 1116 − 1104 = 12. إذن الناتج 46 والباقي 12.",
+      "options": [
+        {
+          "text_ar": "46",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "47 والباقي 12",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "46 والباقي 13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "46 والباقي 12",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "494 ÷ 24",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "24 × 20 = 480، و 494 − 480 = 14. إذن الناتج 20 والباقي 14.",
+      "options": [
+        {
+          "text_ar": "20 والباقي 14",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21 والباقي 14",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "20 والباقي 15",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "422 ÷ 12",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "12 × 35 = 420، و 422 − 420 = 2. إذن الناتج 35 والباقي 2.",
+      "options": [
+        {
+          "text_ar": "35 والباقي 2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "35 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "545 ÷ 18",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "18 × 30 = 540، و 545 − 540 = 5. إذن الناتج 30 والباقي 5.",
+      "options": [
+        {
+          "text_ar": "30 والباقي 5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30 والباقي 6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "31 والباقي 5",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "667 ÷ 16",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "16 × 41 = 656، و 667 − 656 = 11. إذن الناتج 41 والباقي 11.",
+      "options": [
+        {
+          "text_ar": "41 والباقي 11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "42 والباقي 11",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "41 والباقي 12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "1165 ÷ 24",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "24 × 48 = 1152، و 1165 − 1152 = 13. إذن الناتج 48 والباقي 13.",
+      "options": [
+        {
+          "text_ar": "49 والباقي 13",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "48 والباقي 14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "48 والباقي 13",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "1157 ÷ 23",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "23 × 50 = 1150، و 1157 − 1150 = 7. إذن الناتج 50 والباقي 7.",
+      "options": [
+        {
+          "text_ar": "50",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "51 والباقي 7",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "50 والباقي 7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "50 والباقي 8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "609 ÷ 15",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "15 × 40 = 600، و 609 − 600 = 9. إذن الناتج 40 والباقي 9.",
+      "options": [
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "40 والباقي 10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40 والباقي 9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41 والباقي 9",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "810 ÷ 14",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "14 × 57 = 798، و 810 − 798 = 12. إذن الناتج 57 والباقي 12.",
+      "options": [
+        {
+          "text_ar": "57 والباقي 12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "57",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        },
+        {
+          "text_ar": "58 والباقي 12",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "57 والباقي 13",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.DIV.LONG",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة والباقي:",
+      "expression": "691 ÷ 13",
+      "hint_ar": "اقسم، اضرب، اطرح، أنزِل — وكرّر. ما يتبقّى في النهاية وهو أصغر من المقسوم عليه هو الباقي.",
+      "explanation_ar": "13 × 53 = 689، و 691 − 689 = 2. إذن الناتج 53 والباقي 2.",
+      "options": [
+        {
+          "text_ar": "53 والباقي 2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54 والباقي 2",
+          "is_correct": false,
+          "misconception_tag": "div.drop_digit"
+        },
+        {
+          "text_ar": "53 والباقي 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "53",
+          "is_correct": false,
+          "misconception_tag": "div.ignore_remainder"
+        }
+      ]
+    }
+  ]
+}

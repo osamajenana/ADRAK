@@ -1,0 +1,936 @@
+{
+  "skill_code": "RAT.PERCENT",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 25% من 180 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 25% إلى 0.25 ثم اضرب في 180.",
+      "explanation_ar": "25% من 180 = 0.25 × 180 = 45.",
+      "options": [
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4500",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.2",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 50% من 100 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 50% إلى 0.5 ثم اضرب في 100.",
+      "explanation_ar": "50% من 100 = 0.5 × 100 = 50.",
+      "options": [
+        {
+          "text_ar": "5000",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "50",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 25% من 110 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 25% إلى 0.25 ثم اضرب في 110.",
+      "explanation_ar": "25% من 110 = 0.25 × 110 = 27.5.",
+      "options": [
+        {
+          "text_ar": "4.4",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "27.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2750",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 25% من 90 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 25% إلى 0.25 ثم اضرب في 90.",
+      "explanation_ar": "25% من 90 = 0.25 × 90 = 22.5.",
+      "options": [
+        {
+          "text_ar": "3.6",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "22.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2250",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "22.4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 25% من 160 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 25% إلى 0.25 ثم اضرب في 160.",
+      "explanation_ar": "25% من 160 = 0.25 × 160 = 40.",
+      "options": [
+        {
+          "text_ar": "4000",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.4",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 10% من 120 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 10% إلى 0.1 ثم اضرب في 120.",
+      "explanation_ar": "10% من 120 = 0.1 × 120 = 12.",
+      "options": [
+        {
+          "text_ar": "1200",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "12.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 25% من 60 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 25% إلى 0.25 ثم اضرب في 60.",
+      "explanation_ar": "25% من 60 = 0.25 × 60 = 15.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.4",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "1500",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 50% من 150 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 50% إلى 0.5 ثم اضرب في 150.",
+      "explanation_ar": "50% من 150 = 0.5 × 150 = 75.",
+      "options": [
+        {
+          "text_ar": "75",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "65",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7500",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "3.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 10% من 40 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 10% إلى 0.1 ثم اضرب في 40.",
+      "explanation_ar": "10% من 40 = 0.1 × 40 = 4.",
+      "options": [
+        {
+          "text_ar": "400",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "4.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "كم يساوي 50% من 110 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 50% إلى 0.5 ثم اضرب في 110.",
+      "explanation_ar": "50% من 110 = 0.5 × 110 = 55.",
+      "options": [
+        {
+          "text_ar": "65",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.2",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "55",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5500",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 15% من 390 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 15% إلى 0.15 ثم اضرب في 390.",
+      "explanation_ar": "15% من 390 = 0.15 × 390 = 58.5.",
+      "options": [
+        {
+          "text_ar": "5850",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "26.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "58.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "58.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 15% من 230 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 15% إلى 0.15 ثم اضرب في 230.",
+      "explanation_ar": "15% من 230 = 0.15 × 230 = 34.5.",
+      "options": [
+        {
+          "text_ar": "3450",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "34.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15.3",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "34.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 40% من 360 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 40% إلى 0.4 ثم اضرب في 360.",
+      "explanation_ar": "40% من 360 = 0.4 × 360 = 144.",
+      "options": [
+        {
+          "text_ar": "144",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "124",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "14400",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 30% من 390 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 30% إلى 0.3 ثم اضرب في 390.",
+      "explanation_ar": "30% من 390 = 0.3 × 390 = 117.",
+      "options": [
+        {
+          "text_ar": "11700",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "117",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "137",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 40% من 330 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 40% إلى 0.4 ثم اضرب في 330.",
+      "explanation_ar": "40% من 330 = 0.4 × 330 = 132.",
+      "options": [
+        {
+          "text_ar": "8.3",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "132",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13200",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "152",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 30% من 240 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 30% إلى 0.3 ثم اضرب في 240.",
+      "explanation_ar": "30% من 240 = 0.3 × 240 = 72.",
+      "options": [
+        {
+          "text_ar": "82",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7200",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "8.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 30% من 220 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 30% إلى 0.3 ثم اضرب في 220.",
+      "explanation_ar": "30% من 220 = 0.3 × 220 = 66.",
+      "options": [
+        {
+          "text_ar": "66",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.3",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "76",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6600",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 20% من 280 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 20% إلى 0.2 ثم اضرب في 280.",
+      "explanation_ar": "20% من 280 = 0.2 × 280 = 56.",
+      "options": [
+        {
+          "text_ar": "14.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "5600",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "56",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "66",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 30% من 90 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 30% إلى 0.3 ثم اضرب في 90.",
+      "explanation_ar": "30% من 90 = 0.3 × 90 = 27.",
+      "options": [
+        {
+          "text_ar": "2700",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "كم يساوي 30% من 210 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 30% إلى 0.3 ثم اضرب في 210.",
+      "explanation_ar": "30% من 210 = 0.3 × 210 = 63.",
+      "options": [
+        {
+          "text_ar": "43",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "63",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.0",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "6300",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 65% من 110 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 65% إلى 0.65 ثم اضرب في 110.",
+      "explanation_ar": "65% من 110 = 0.65 × 110 = 71.5.",
+      "options": [
+        {
+          "text_ar": "71.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7150",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "71.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.7",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 35% من 150 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 35% إلى 0.35 ثم اضرب في 150.",
+      "explanation_ar": "35% من 150 = 0.35 × 150 = 52.5.",
+      "options": [
+        {
+          "text_ar": "4.3",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "52.4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "52.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5250",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 65% من 140 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 65% إلى 0.65 ثم اضرب في 140.",
+      "explanation_ar": "65% من 140 = 0.65 × 140 = 91.",
+      "options": [
+        {
+          "text_ar": "91",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "71",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9100",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "2.2",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 65% من 280 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 65% إلى 0.65 ثم اضرب في 280.",
+      "explanation_ar": "65% من 280 = 0.65 × 280 = 182.",
+      "options": [
+        {
+          "text_ar": "18200",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "162",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "182",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.3",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 65% من 90 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 65% إلى 0.65 ثم اضرب في 90.",
+      "explanation_ar": "65% من 90 = 0.65 × 90 = 58.5.",
+      "options": [
+        {
+          "text_ar": "58.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "58.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.4",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "5850",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 65% من 270 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 65% إلى 0.65 ثم اضرب في 270.",
+      "explanation_ar": "65% من 270 = 0.65 × 270 = 175.5.",
+      "options": [
+        {
+          "text_ar": "175.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17550",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "4.2",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "175.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 65% من 220 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 65% إلى 0.65 ثم اضرب في 220.",
+      "explanation_ar": "65% من 220 = 0.65 × 220 = 143.",
+      "options": [
+        {
+          "text_ar": "143",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "163",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14300",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "3.4",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 35% من 100 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 35% إلى 0.35 ثم اضرب في 100.",
+      "explanation_ar": "35% من 100 = 0.35 × 100 = 35.",
+      "options": [
+        {
+          "text_ar": "2.9",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3500",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 35% من 90 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 35% إلى 0.35 ثم اضرب في 90.",
+      "explanation_ar": "35% من 90 = 0.35 × 90 = 31.499999999999996.",
+      "options": [
+        {
+          "text_ar": "31.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.6",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        },
+        {
+          "text_ar": "3150",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "31.6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PERCENT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "كم يساوي 45% من 170 ؟",
+      "expression": null,
+      "hint_ar": "حوّل 45% إلى 0.45 ثم اضرب في 170.",
+      "explanation_ar": "45% من 170 = 0.45 × 170 = 76.5.",
+      "options": [
+        {
+          "text_ar": "76.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "76.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7650",
+          "is_correct": false,
+          "misconception_tag": "pct.multiply_by_number"
+        },
+        {
+          "text_ar": "3.8",
+          "is_correct": false,
+          "misconception_tag": "pct.find_whole"
+        }
+      ]
+    }
+  ]
+}

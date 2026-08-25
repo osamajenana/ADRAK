@@ -1,0 +1,936 @@
+{
+  "skill_code": "ALG.EQ.TWOSTEP",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 9 = 24",
+      "hint_ar": "اطرح 9 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 24 − 9 = 15، ثم س = 15 ÷ 3 = 5.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-1",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "2س + 9 = 17",
+      "hint_ar": "اطرح 9 من الطرفين أولاً، ثم اقسم على 2. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "2س = 17 − 9 = 8، ثم س = 8 ÷ 2 = 4.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "-0.50",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 3 = 21",
+      "hint_ar": "اطرح 3 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 21 − 3 = 18، ثم س = 18 ÷ 3 = 6.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 9 = 15",
+      "hint_ar": "اطرح 9 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 15 − 9 = 6، ثم س = 6 ÷ 3 = 2.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "-4",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 4 = 19",
+      "hint_ar": "اطرح 4 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 19 − 4 = 15، ثم س = 15 ÷ 3 = 5.",
+      "options": [
+        {
+          "text_ar": "2.33",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4س + 4 = 28",
+      "hint_ar": "اطرح 4 من الطرفين أولاً، ثم اقسم على 4. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "4س = 28 − 4 = 24، ثم س = 24 ÷ 4 = 6.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "2س + 1 = 9",
+      "hint_ar": "اطرح 1 من الطرفين أولاً، ثم اقسم على 2. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "2س = 9 − 1 = 8، ثم س = 8 ÷ 2 = 4.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3.50",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 4 = 25",
+      "hint_ar": "اطرح 4 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 25 − 4 = 21، ثم س = 21 ÷ 3 = 7.",
+      "options": [
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.33",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 5 = 14",
+      "hint_ar": "اطرح 5 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 14 − 5 = 9، ثم س = 9 ÷ 3 = 3.",
+      "options": [
+        {
+          "text_ar": "-0.33",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "2س + 4 = 26",
+      "hint_ar": "اطرح 4 من الطرفين أولاً، ثم اقسم على 2. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "2س = 26 − 4 = 22، ثم س = 22 ÷ 2 = 11.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "8س + 17 = 65",
+      "hint_ar": "اطرح 17 من الطرفين أولاً، ثم اقسم على 8. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "8س = 65 − 17 = 48، ثم س = 48 ÷ 8 = 6.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-8.88",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4س + 21 = 29",
+      "hint_ar": "اطرح 21 من الطرفين أولاً، ثم اقسم على 4. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "4س = 29 − 21 = 8، ثم س = 8 ÷ 4 = 2.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "-13.75",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "7س + 17 = 59",
+      "hint_ar": "اطرح 17 من الطرفين أولاً، ثم اقسم على 7. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "7س = 59 − 17 = 42، ثم س = 42 ÷ 7 = 6.",
+      "options": [
+        {
+          "text_ar": "-8.57",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4س + 17 = 57",
+      "hint_ar": "اطرح 17 من الطرفين أولاً، ثم اقسم على 4. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "4س = 57 − 17 = 40، ثم س = 40 ÷ 4 = 10.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-2.75",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "2س + 6 = 24",
+      "hint_ar": "اطرح 6 من الطرفين أولاً، ثم اقسم على 2. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "2س = 24 − 6 = 18، ثم س = 18 ÷ 2 = 9.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "6س + 10 = 64",
+      "hint_ar": "اطرح 10 من الطرفين أولاً، ثم اقسم على 6. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "6س = 64 − 10 = 54، ثم س = 54 ÷ 6 = 9.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "0.67",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 15 = 51",
+      "hint_ar": "اطرح 15 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 51 − 15 = 36، ثم س = 36 ÷ 3 = 12.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "6س + 4 = 58",
+      "hint_ar": "اطرح 4 من الطرفين أولاً، ثم اقسم على 6. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "6س = 58 − 4 = 54، ثم س = 54 ÷ 6 = 9.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.67",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5س + 24 = 79",
+      "hint_ar": "اطرح 24 من الطرفين أولاً، ثم اقسم على 5. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "5س = 79 − 24 = 55، ثم س = 55 ÷ 5 = 11.",
+      "options": [
+        {
+          "text_ar": "-8.20",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 10 = 25",
+      "hint_ar": "اطرح 10 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 25 − 10 = 15، ثم س = 15 ÷ 3 = 5.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-1.67",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 16 = 43",
+      "hint_ar": "اطرح 16 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 43 − 16 = 27، ثم س = 27 ÷ 3 = 9.",
+      "options": [
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-1.67",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4س + 5 = 69",
+      "hint_ar": "اطرح 5 من الطرفين أولاً، ثم اقسم على 4. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "4س = 69 − 5 = 64، ثم س = 64 ÷ 4 = 16.",
+      "options": [
+        {
+          "text_ar": "12.25",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "6س + 13 = 127",
+      "hint_ar": "اطرح 13 من الطرفين أولاً، ثم اقسم على 6. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "6س = 127 − 13 = 114، ثم س = 114 ÷ 6 = 19.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "114",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "8.17",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "19",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "9س + 6 = 24",
+      "hint_ar": "اطرح 6 من الطرفين أولاً، ثم اقسم على 9. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "9س = 24 − 6 = 18، ثم س = 18 ÷ 9 = 2.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "-3.33",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "2س + 11 = 19",
+      "hint_ar": "اطرح 11 من الطرفين أولاً، ثم اقسم على 2. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "2س = 19 − 11 = 8، ثم س = 8 ÷ 2 = 4.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-1.50",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 9 = 51",
+      "hint_ar": "اطرح 9 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 51 − 9 = 42، ثم س = 42 ÷ 3 = 14.",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "2س + 10 = 14",
+      "hint_ar": "اطرح 10 من الطرفين أولاً، ثم اقسم على 2. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "2س = 14 − 10 = 4، ثم س = 4 ÷ 2 = 2.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-3",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "8س + 20 = 36",
+      "hint_ar": "اطرح 20 من الطرفين أولاً، ثم اقسم على 8. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "8س = 36 − 20 = 16، ثم س = 16 ÷ 8 = 2.",
+      "options": [
+        {
+          "text_ar": "-15.50",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "9س + 11 = 83",
+      "hint_ar": "اطرح 11 من الطرفين أولاً، ثم اقسم على 9. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "9س = 83 − 11 = 72، ثم س = 72 ÷ 9 = 8.",
+      "options": [
+        {
+          "text_ar": "-1.78",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.TWOSTEP",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 8 = 20",
+      "hint_ar": "اطرح 8 من الطرفين أولاً، ثم اقسم على 3. نفكّ العمليات بعكس ترتيبها.",
+      "explanation_ar": "3س = 20 − 8 = 12، ثم س = 12 ÷ 3 = 4.",
+      "options": [
+        {
+          "text_ar": "-1.33",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_order"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "eq.wrong_inverse"
+        }
+      ]
+    }
+  ]
+}

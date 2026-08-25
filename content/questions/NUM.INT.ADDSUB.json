@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.INT.ADDSUB",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-2) + (-7)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-2 + -7 = -9 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-2) + (-5)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-2 + -5 = -7 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-3",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-3) + (-6)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-3 + -6 = -9 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-3",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-4) + (-5)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-4 + -5 = -9 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-1",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-3) + (-3)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-3 + -3 = -6 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "0",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-3) + (-5)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-3 + -5 = -8 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-2",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-4) + (-3)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-4 + -3 = -7 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-7) + (-2)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-7 + -2 = -9 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-7) + (-9)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-7 + -9 = -16 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-2",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب:",
+      "expression": "(-2) + (-2)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-2 + -2 = -4 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "-25 − (-15)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-25 − (-15) = -25 + 15 = -10.",
+      "options": [
+        {
+          "text_ar": "-8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-40",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-10",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "(-6) + (-7)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-6 + -7 = -13 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-1",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "-10 − (-18)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-10 − (-18) = -10 + 18 = 8.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-28",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "(-23) + (-10)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-23 + -10 = -33 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-33",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-31",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "-10 − (-7)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-10 − (-7) = -10 + 7 = -3.",
+      "options": [
+        {
+          "text_ar": "-2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-17",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "-4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "(-9) + (-11)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-9 + -11 = -20 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-2",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-22",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-20",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "(-10) + (-22)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-10 + -22 = -32 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-32",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-33",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "-21 − (-22)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-21 − (-22) = -21 + 22 = 1.",
+      "options": [
+        {
+          "text_ar": "-43",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "-1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "-25 − (-13)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-25 − (-13) = -25 + 13 = -12.",
+      "options": [
+        {
+          "text_ar": "-12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-38",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "-13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب:",
+      "expression": "(-10) + (-6)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-10 + -6 = -16 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "(-33) + (-24)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-33 + -24 = -57 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-47",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-57",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "57",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "(-44) + (-41)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-44 + -41 = -85 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-85",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "85",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-105",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "-50 − (-71)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-50 − (-71) = -50 + 71 = 21.",
+      "options": [
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-121",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "-24 − (-59)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-24 − (-59) = -24 + 59 = 35.",
+      "options": [
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-83",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "(-72) + (-18)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-72 + -18 = -90 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-100",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-90",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "-55 − (-26)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-55 − (-26) = -55 + 26 = -29.",
+      "options": [
+        {
+          "text_ar": "-27",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-31",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-29",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-81",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "-37 − (-38)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-37 − (-38) = -37 + 38 = 1.",
+      "options": [
+        {
+          "text_ar": "1",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-75",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "-75 − (-32)",
+      "hint_ar": "طرح عدد سالب يكافئ جمع نظيره الموجب — ناقص ناقص تساوي زائد.",
+      "explanation_ar": "-75 − (-32) = -75 + 32 = -43.",
+      "options": [
+        {
+          "text_ar": "-43",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-63",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-107",
+          "is_correct": false,
+          "misconception_tag": "int.sub_always_smaller"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "(-57) + (-68)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-57 + -68 = -125 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "-135",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-125",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "125",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.ADDSUB",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب:",
+      "expression": "(-28) + (-41)",
+      "hint_ar": "كلا العددين سالب، فأنت تتحرّك يساراً على خط الأعداد مرتين.",
+      "explanation_ar": "-28 + -41 = -69 — سالب زائد سالب يبقى سالباً ويزداد بُعداً عن الصفر.",
+      "options": [
+        {
+          "text_ar": "69",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-13",
+          "is_correct": false,
+          "misconception_tag": "int.ignore_signs"
+        },
+        {
+          "text_ar": "-69",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-79",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

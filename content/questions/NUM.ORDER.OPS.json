@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.ORDER.OPS",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "3 + 9 × 4",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 39.",
+      "options": [
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "9 + 9 × 7",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 72.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "52",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "126",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "62",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "8 + 6 × 7",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 50.",
+      "options": [
+        {
+          "text_ar": "98",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "50",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "4 + 7 × 5",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 39.",
+      "options": [
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "5 + 3 × 6",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 23.",
+      "options": [
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "9 + 6 × 6",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 45.",
+      "options": [
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "8 + 8 × 7",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 64.",
+      "options": [
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "74",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "112",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "9 + 8 × 2",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 25.",
+      "options": [
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "7 + 5 × 6",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 37.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "37",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "5 + 5 × 2",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 15.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "4 + 3 × 2 − 3",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 7.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "6 + 6 × 5 − 6",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 30.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "8 + 2 × 2 − 2",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 10.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "6 + 7 × 2 − 7",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 13.",
+      "options": [
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "3 + 7 × 3 − 7",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 17.",
+      "options": [
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "9 + 7 × 5 − 7",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 37.",
+      "options": [
+        {
+          "text_ar": "37",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "73",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "3 + 4 × 7 − 4",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 27.",
+      "options": [
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "3 + 3 × 7 − 3",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 21.",
+      "options": [
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "4 + 2 × 4 − 2",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 10.",
+      "options": [
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "8 + 5 × 4 − 5",
+      "hint_ar": "الأقواس أولاً، ثم الأسس، ثم الضرب والقسمة، ثم الجمع والطرح.",
+      "explanation_ar": "الضرب يُنفّذ قبل الجمع، فالناتج 23.",
+      "options": [
+        {
+          "text_ar": "47",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "4 + 25 ÷ 5 × 3",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "25 ÷ 5 = 5 أولاً، ثم × 3 = 15، ثم + 4 = 19.",
+      "options": [
+        {
+          "text_ar": "19",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.67",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "17.4",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "4 + 10 ÷ 2 × 3",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "10 ÷ 2 = 5 أولاً، ثم × 3 = 15، ثم + 4 = 19.",
+      "options": [
+        {
+          "text_ar": "5.67",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "19",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "3 + 4 ÷ 2 × 2",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "4 ÷ 2 = 2 أولاً، ثم × 2 = 4، ثم + 3 = 7.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "6 + 8 ÷ 4 × 5",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "8 ÷ 4 = 2 أولاً، ثم × 5 = 10، ثم + 6 = 16.",
+      "options": [
+        {
+          "text_ar": "17.5",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.4",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "4 + 20 ÷ 5 × 3",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "20 ÷ 5 = 4 أولاً، ثم × 3 = 12، ثم + 4 = 16.",
+      "options": [
+        {
+          "text_ar": "14.4",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.33",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "5 + 12 ÷ 3 × 3",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "12 ÷ 3 = 4 أولاً، ثم × 3 = 12، ثم + 5 = 17.",
+      "options": [
+        {
+          "text_ar": "6.33",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "5 + 20 ÷ 4 × 4",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "20 ÷ 4 = 5 أولاً، ثم × 4 = 20، ثم + 5 = 25.",
+      "options": [
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.25",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "5 + 25 ÷ 5 × 5",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "25 ÷ 5 = 5 أولاً، ثم × 5 = 25، ثم + 5 = 30.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "8 + 24 ÷ 4 × 3",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "24 ÷ 4 = 6 أولاً، ثم × 3 = 18، ثم + 8 = 26.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "26",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ORDER.OPS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب مع مراعاة ترتيب العمليات:",
+      "expression": "9 + 15 ÷ 3 × 5",
+      "hint_ar": "الضرب والقسمة في المرتبة نفسها، وتُنفَّذان من اليسار إلى اليمين — لا الضرب أولاً.",
+      "explanation_ar": "15 ÷ 3 = 5 أولاً، ثم × 5 = 25، ثم + 9 = 34.",
+      "options": [
+        {
+          "text_ar": "34",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "ord.mul_before_div"
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "ord.left_to_right"
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

@@ -68,7 +68,7 @@
     "skills": 58,
     "spine_skills": 36,
     "max_depth": 12,
-    "misconceptions": 101,
+    "misconceptions": 102,
     "by_grade": {
       "4": 8,
       "5": 12,
@@ -1264,6 +1264,11 @@
           "tag": "eq.wrong_order",
           "name_ar": "ترتيب خاطئ لفكّ العمليات",
           "remediation_ar": "في 2س زائد 3 يساوي 11 اطرح 3 أولاً ثم اقسم على 2. نفكّ بعكس ترتيب العمليات."
+        },
+        {
+          "tag": "eq.wrong_inverse",
+          "name_ar": "استخدام العملية نفسها بدل العكسية",
+          "remediation_ar": "الطالب يطرح الثابت ثم ينسى القسمة على المعامل، فيتوقّف عند خطوة واحدة."
         }
       ],
       "depth": 10

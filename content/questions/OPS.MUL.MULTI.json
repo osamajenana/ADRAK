@@ -1,0 +1,936 @@
+{
+  "skill_code": "OPS.MUL.MULTI",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "37 × 4",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "37 × 4 = 148.",
+      "options": [
+        {
+          "text_ar": "158",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "111",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "168",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "148",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "30 × 4",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "30 × 4 = 120.",
+      "options": [
+        {
+          "text_ar": "120",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "110",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "30 × 6",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "30 × 6 = 180.",
+      "options": [
+        {
+          "text_ar": "200",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "180",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "170",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "150",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "84 × 5",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "84 × 5 = 420.",
+      "options": [
+        {
+          "text_ar": "336",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "400",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "410",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "420",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "85 × 7",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "85 × 7 = 595.",
+      "options": [
+        {
+          "text_ar": "510",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "615",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "575",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "595",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "51 × 9",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "51 × 9 = 459.",
+      "options": [
+        {
+          "text_ar": "469",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "439",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "408",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "459",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "22 × 3",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "22 × 3 = 66.",
+      "options": [
+        {
+          "text_ar": "66",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "76",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "46",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "23 × 4",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "23 × 4 = 92.",
+      "options": [
+        {
+          "text_ar": "102",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "112",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "69",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "92",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "49 × 5",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "49 × 5 = 245.",
+      "options": [
+        {
+          "text_ar": "255",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "235",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "196",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "245",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "76 × 9",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "76 × 9 = 684.",
+      "options": [
+        {
+          "text_ar": "704",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "684",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "608",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "664",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "24 × 18",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "24 × 18 = 432.",
+      "options": [
+        {
+          "text_ar": "216",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "432",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "442",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "408",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "42 × 54",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "42 × 54 = 2268.",
+      "options": [
+        {
+          "text_ar": "2226",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "2268",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2288",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "378",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "64 × 34",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "64 × 34 = 2176.",
+      "options": [
+        {
+          "text_ar": "2166",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2112",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "448",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "2176",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "37 × 16",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "37 × 16 = 592.",
+      "options": [
+        {
+          "text_ar": "602",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "555",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "259",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "592",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "34 × 62",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "34 × 62 = 2108.",
+      "options": [
+        {
+          "text_ar": "2108",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2128",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2074",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "272",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "78 × 89",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "78 × 89 = 6942.",
+      "options": [
+        {
+          "text_ar": "6942",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6864",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "1326",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "6962",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "75 × 46",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "75 × 46 = 3450.",
+      "options": [
+        {
+          "text_ar": "750",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "3460",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3375",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "3450",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "77 × 26",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "77 × 26 = 2002.",
+      "options": [
+        {
+          "text_ar": "2002",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "616",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "1925",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "2012",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "15 × 81",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "15 × 81 = 1215.",
+      "options": [
+        {
+          "text_ar": "1215",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "135",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "1200",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "1195",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "36 × 62",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "36 × 62 = 2232.",
+      "options": [
+        {
+          "text_ar": "2196",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "2232",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2252",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "288",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "800 × 63",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "800 × 63 = 50400.",
+      "options": [
+        {
+          "text_ar": "49600",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "7200",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "50400",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "50410",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "682 × 51",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "682 × 51 = 34782.",
+      "options": [
+        {
+          "text_ar": "4092",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "34772",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "34100",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "34782",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "686 × 64",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "686 × 64 = 43904.",
+      "options": [
+        {
+          "text_ar": "43904",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "43894",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "43218",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "6860",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "864 × 27",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "864 × 27 = 23328.",
+      "options": [
+        {
+          "text_ar": "7776",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "22464",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "23328",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23348",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "411 × 65",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "411 × 65 = 26715.",
+      "options": [
+        {
+          "text_ar": "4521",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "26725",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26715",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26304",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "730 × 43",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "730 × 43 = 31390.",
+      "options": [
+        {
+          "text_ar": "30660",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "5110",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "31410",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31390",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "635 × 87",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "635 × 87 = 55245.",
+      "options": [
+        {
+          "text_ar": "55265",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54610",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "9525",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "55245",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "392 × 45",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "392 × 45 = 17640.",
+      "options": [
+        {
+          "text_ar": "17248",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "17640",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17660",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3528",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "456 × 70",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "456 × 70 = 31920.",
+      "options": [
+        {
+          "text_ar": "31464",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "31920",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31900",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3192",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        }
+      ]
+    },
+    {
+      "skill_code": "OPS.MUL.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "565 × 16",
+      "hint_ar": "عند ضرب رقم العشرات، الناتج يُزاح منزلة واحدة لأنك تضرب في مضاعف للعشرة.",
+      "explanation_ar": "565 × 16 = 9040.",
+      "options": [
+        {
+          "text_ar": "3955",
+          "is_correct": false,
+          "misconception_tag": "mul.no_placeholder"
+        },
+        {
+          "text_ar": "9020",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8475",
+          "is_correct": false,
+          "misconception_tag": "mul.partial_add"
+        },
+        {
+          "text_ar": "9040",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

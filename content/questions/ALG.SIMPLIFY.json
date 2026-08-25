@@ -1,0 +1,936 @@
+{
+  "skill_code": "ALG.SIMPLIFY",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7س + 5س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "7س + 5س = 12س.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "35س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "12س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "4س + 7س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "4س + 7س = 11س.",
+      "options": [
+        {
+          "text_ar": "11س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "11س",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "8س + 7س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "8س + 7س = 15س.",
+      "options": [
+        {
+          "text_ar": "15س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "3س + 7س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "3س + 7س = 10س.",
+      "options": [
+        {
+          "text_ar": "21س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "10س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10س",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "2س + 5س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "2س + 5س = 7س.",
+      "options": [
+        {
+          "text_ar": "7س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "7س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7س + 6س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "7س + 6س = 13س.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "42س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "13س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "4س + 2س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "4س + 2س = 6س.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "6س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "5س + 3س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "5س + 3س = 8س.",
+      "options": [
+        {
+          "text_ar": "8س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "15س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7س + 8س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "7س + 8س = 15س.",
+      "options": [
+        {
+          "text_ar": "15س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "56س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15س",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "5س + 6س",
+      "hint_ar": "الحدود المتشابهة تحمل المتغير نفسه بالأس نفسه — اجمع معاملاتها فقط.",
+      "explanation_ar": "5س + 6س = 11س.",
+      "options": [
+        {
+          "text_ar": "11س",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "11س²",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "8س + 2",
+      "hint_ar": "8س و 2 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 8س مع 2. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "10س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "16س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "8س + 2",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "9س + 9",
+      "hint_ar": "9س و 9 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 9س مع 9. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "9س + 9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "81س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "18س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7س + 6",
+      "hint_ar": "7س و 6 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 7س مع 6. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "42س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "13س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "7س + 6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "8س + 7",
+      "hint_ar": "8س و 7 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 8س مع 7. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "56س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "8س + 7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "15س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "2س + 4",
+      "hint_ar": "2س و 4 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 2س مع 4. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "2س + 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "8س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "2س + 8",
+      "hint_ar": "2س و 8 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 2س مع 8. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "10س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "16س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "2س + 8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "4س + 7",
+      "hint_ar": "4س و 7 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 4س مع 7. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "28س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "11س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "4س + 7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "4س + 8",
+      "hint_ar": "4س و 8 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 4س مع 8. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "32س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "12س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "4س + 8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7س + 4",
+      "hint_ar": "7س و 4 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 7س مع 4. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "7س + 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "11س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "8س + 5",
+      "hint_ar": "8س و 5 حدّان غير متشابهين — أحدهما فيه متغير والآخر عدد ثابت.",
+      "explanation_ar": "لا يمكن جمع 8س مع 5. العبارة مبسّطة كما هي.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "13س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "8س + 5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40س",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "2(س + 2) − 7",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "2(س + 2) = 2س + 4، ثم بطرح 7 تصبح 2س + -3.",
+      "options": [
+        {
+          "text_ar": "2س − -3",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        },
+        {
+          "text_ar": "4س − 7",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "2س + -3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2س + 2 − 7",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7(س + 8) − 9",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "7(س + 8) = 7س + 56، ثم بطرح 9 تصبح 7س + 47.",
+      "options": [
+        {
+          "text_ar": "7س + 47",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15س − 9",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "7س + 8 − 9",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "7س − 47",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "7(س + 8) − 2",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "7(س + 8) = 7س + 56، ثم بطرح 2 تصبح 7س + 54.",
+      "options": [
+        {
+          "text_ar": "7س − 54",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        },
+        {
+          "text_ar": "7س + 54",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7س + 8 − 2",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "15س − 2",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "4(س + 7) − 2",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "4(س + 7) = 4س + 28، ثم بطرح 2 تصبح 4س + 26.",
+      "options": [
+        {
+          "text_ar": "4س + 7 − 2",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "4س − 26",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        },
+        {
+          "text_ar": "11س − 2",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "4س + 26",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "5(س + 4) − 7",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "5(س + 4) = 5س + 20، ثم بطرح 7 تصبح 5س + 13.",
+      "options": [
+        {
+          "text_ar": "5س − 13",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        },
+        {
+          "text_ar": "5س + 4 − 7",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "9س − 7",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "5س + 13",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "9(س + 6) − 3",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "9(س + 6) = 9س + 54، ثم بطرح 3 تصبح 9س + 51.",
+      "options": [
+        {
+          "text_ar": "15س − 3",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "9س + 51",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9س + 6 − 3",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "9س − 51",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "5(س + 4) − 4",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "5(س + 4) = 5س + 20، ثم بطرح 4 تصبح 5س + 16.",
+      "options": [
+        {
+          "text_ar": "9س − 4",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "5س + 4 − 4",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "5س − 16",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        },
+        {
+          "text_ar": "5س + 16",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "5(س + 5) − 3",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "5(س + 5) = 5س + 25، ثم بطرح 3 تصبح 5س + 22.",
+      "options": [
+        {
+          "text_ar": "5س + 22",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10س − 3",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "5س + 5 − 3",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "5س − 22",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "3(س + 8) − 7",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "3(س + 8) = 3س + 24، ثم بطرح 7 تصبح 3س + 17.",
+      "options": [
+        {
+          "text_ar": "3س + 17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3س − 17",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        },
+        {
+          "text_ar": "3س + 8 − 7",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "11س − 7",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.SIMPLIFY",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "بسّط العبارة:",
+      "expression": "6(س + 3) − 9",
+      "hint_ar": "وزّع الضرب على كل حدود القوس، لا على الحد الأول وحده.",
+      "explanation_ar": "6(س + 3) = 6س + 18، ثم بطرح 9 تصبح 6س + 9.",
+      "options": [
+        {
+          "text_ar": "9س − 9",
+          "is_correct": false,
+          "misconception_tag": "alg.combine_unlike"
+        },
+        {
+          "text_ar": "6س + 3 − 9",
+          "is_correct": false,
+          "misconception_tag": "alg.distribute_partial"
+        },
+        {
+          "text_ar": "6س + 9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6س − 9",
+          "is_correct": false,
+          "misconception_tag": "alg.negative_distribute"
+        }
+      ]
+    }
+  ]
+}
