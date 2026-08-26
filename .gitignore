@@ -57,3 +57,7 @@ yarn-error.log*
 *.key
 !deploy/**/*.example.key
 secrets/
+
+# web build artifacts
+/web/node_modules/
+/web/dist/
