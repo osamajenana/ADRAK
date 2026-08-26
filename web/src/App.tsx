@@ -16,6 +16,14 @@ const Diagnostic = lazy(() =>
   import('@/screens/Diagnostic').then((m) => ({ default: m.Diagnostic })),
 );
 const Practice = lazy(() => import('@/screens/Practice').then((m) => ({ default: m.Practice })));
+const OfflineSync = lazy(() =>
+  import('@/screens/OfflineSync').then((m) => ({ default: m.OfflineSync })),
+);
+// Carries the QR encoder and the camera scanner. Neither belongs anywhere near the bundle a
+// student downloads on 2G before the app has shown them a question.
+const TeacherGate = lazy(() =>
+  import('@/screens/TeacherGate').then((m) => ({ default: m.TeacherGate })),
+);
 
 export function App() {
   const profile = useActiveProfile();
@@ -63,6 +71,17 @@ export function App() {
                   </RequireProfile>
                 }
               />
+              <Route
+                path="/hand-over"
+                element={
+                  <RequireProfile>
+                    <OfflineSync />
+                  </RequireProfile>
+                }
+              />
+              {/* No RequireProfile: staff sign in separately, and often on a phone a student
+                  was holding a minute ago. */}
+              <Route path="/teacher" element={<TeacherGate />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Suspense>

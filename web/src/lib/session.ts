@@ -69,7 +69,7 @@ export async function login(
   const response = await post<{
     token: string;
     student: { id: number; display_name: string; grade: number; classroom_id: number | null };
-  }>('/auth/student', { ...input, device_id: deviceId }, false);
+  }>('/auth/student', { ...input, device_id: deviceId }, { auth: false });
 
   if (!response.ok) {
     return {

@@ -1,6 +1,8 @@
+import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { SkillMap } from '@/components/SkillMap';
+import { db } from '@/db/schema';
 import { get } from '@/lib/api';
 import { type BootstrapPayload, hydrate, useActiveProfile, useSkillMapData } from '@/lib/session';
 
@@ -15,6 +17,11 @@ export function Home() {
   const navigate = useNavigate();
   const profile = useActiveProfile();
   const data = useSkillMapData(profile?.id);
+  const pending = useLiveQuery(
+    () => (profile ? db.outbox.where({ profileId: profile.id }).count() : Promise.resolve(0)),
+    [profile?.id],
+    0,
+  );
   const [refreshed, setRefreshed] = useState(false);
 
   useEffect(() => {
@@ -84,6 +91,24 @@ export function Home() {
             className="mt-6 min-h-touch w-full rounded-[var(--radius-pill)] bg-brand px-6 py-3 text-lg font-medium text-brand-ink"
           >
             لنبدأ
+          </button>
+        </section>
+      )}
+
+      {(pending ?? 0) > 0 && (
+        <section className="mt-6 rounded-[var(--radius-lg)] border border-line bg-raised p-5">
+          <p className="text-ink">
+            <span className="expr font-semibold">{pending}</span> إجابة لم تصل للخادم بعد.
+          </p>
+          <p className="mt-1 text-sm text-subtle">
+            لا يوجد إنترنت؟ اعرض رمزاً لمعلّمك ليمسحه — تصل بدون شبكة إطلاقاً.
+          </p>
+          <button
+            type="button"
+            onClick={() => navigate('/hand-over')}
+            className="mt-4 min-h-touch rounded-[var(--radius-pill)] border border-brand px-6 text-brand"
+          >
+            سلّم عملك لمعلّمك
           </button>
         </section>
       )}

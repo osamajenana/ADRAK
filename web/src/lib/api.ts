@@ -44,9 +44,22 @@ async function currentToken(): Promise<string | null> {
   return (await db.profiles.get(id))?.token ?? null;
 }
 
+/**
+ * Staff sign in on the same device as their students — a teacher scanning a class often does it on
+ * a phone a child was holding a minute earlier — so their token is stored separately rather than
+ * displacing the active student profile.
+ */
+export const teacherToken = async (): Promise<string | null> =>
+  ((await db.meta.get('teacher_token'))?.value as string | undefined) ?? null;
+
+export const setTeacherToken = (token: string | null): Promise<unknown> =>
+  token === null
+    ? db.meta.delete('teacher_token')
+    : db.meta.put({ key: 'teacher_token', value: token });
+
 export async function api<T>(
   path: string,
-  init: RequestInit & { auth?: boolean } = {},
+  init: RequestInit & { auth?: boolean; token?: string } = {},
 ): Promise<ApiResult<T>> {
   if (simulatedOffline) return { ok: false, offline: true };
 
@@ -55,7 +68,7 @@ export async function api<T>(
   if (init.body) headers.set('Content-Type', 'application/json');
 
   if (init.auth !== false) {
-    const token = await currentToken();
+    const token = init.token ?? (await currentToken());
     if (token) headers.set('Authorization', `Bearer ${token}`);
   }
 
@@ -79,7 +92,16 @@ export async function api<T>(
   }
 }
 
-export const get = <T>(path: string): Promise<ApiResult<T>> => api<T>(path);
+export const get = <T>(path: string, token?: string): Promise<ApiResult<T>> =>
+  api<T>(path, token === undefined ? {} : { token });
 
-export const post = <T>(path: string, body?: unknown, auth = true): Promise<ApiResult<T>> =>
-  api<T>(path, { method: 'POST', body: body ? JSON.stringify(body) : undefined, auth });
+export const post = <T>(
+  path: string,
+  body?: unknown,
+  options: { auth?: boolean; token?: string } = {},
+): Promise<ApiResult<T>> =>
+  api<T>(path, {
+    method: 'POST',
+    body: body === undefined ? undefined : JSON.stringify(body),
+    ...options,
+  });
