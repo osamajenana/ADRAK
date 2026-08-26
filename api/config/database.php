@@ -60,7 +60,18 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
-            'engine' => null,
+            /*
+             * Pinned, never inherited from the server.
+             *
+             * A host whose default_storage_engine is MyISAM - which is still the WAMP default and
+             * turns up on shared hosting - would create every table without transaction support
+             * and without foreign keys, and say nothing about it. Every DB::transaction in this
+             * codebase would become a no-op, the idempotent sync ingest would lose its atomicity,
+             * and a partially-applied batch would corrupt a student's history with no error
+             * anywhere. MyISAM also caps an index at 1000 bytes, so a utf8mb4 varchar(255) unique
+             * fails outright - which is how this was found.
+             */
+            'engine' => 'InnoDB ROW_FORMAT=DYNAMIC',
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 Mysql::ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
@@ -80,7 +91,18 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
-            'engine' => null,
+            /*
+             * Pinned, never inherited from the server.
+             *
+             * A host whose default_storage_engine is MyISAM - which is still the WAMP default and
+             * turns up on shared hosting - would create every table without transaction support
+             * and without foreign keys, and say nothing about it. Every DB::transaction in this
+             * codebase would become a no-op, the idempotent sync ingest would lose its atomicity,
+             * and a partially-applied batch would corrupt a student's history with no error
+             * anywhere. MyISAM also caps an index at 1000 bytes, so a utf8mb4 varchar(255) unique
+             * fails outright - which is how this was found.
+             */
+            'engine' => 'InnoDB ROW_FORMAT=DYNAMIC',
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 Mysql::ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],

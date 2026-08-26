@@ -25,7 +25,11 @@ use Illuminate\Support\Facades\DB;
  * mastery scores, the Elo drift and the misconception counts on the teacher dashboard are all
  * genuine consequences of genuine answers, and a judge who checks the arithmetic finds it holds.
  *
- * Deterministic: a fixed seed, so the demo shows the same classroom every night.
+ * Deterministic on a given database: the answer script is driven by a fixed seed, so the same
+ * server produces the same classroom every night. Not byte-identical across database engines —
+ * an unordered SELECT returns rows in a different order on MySQL than on SQLite, so a different
+ * question gets answered and the misconception tallies land slightly differently. The shape is
+ * the same; the exact counts are not portable.
  */
 final class DemoSeeder extends Seeder
 {
