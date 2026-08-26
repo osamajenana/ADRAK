@@ -7,6 +7,7 @@ use App\Http\Controllers\Api\DiagnosticController;
 use App\Http\Controllers\Api\ExerciseController;
 use App\Http\Controllers\Api\StudentController;
 use App\Http\Controllers\Api\SyncController;
+use App\Http\Controllers\Api\TeacherController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -61,4 +62,11 @@ Route::middleware('auth:sanctum')->group(function (): void {
     // where some phones have data and some do not is the normal case, not the edge case.
     Route::post('sync', [SyncController::class, 'push']);
     Route::post('sync/relay', [SyncController::class, 'relay']);
+
+    // Scoped through the teacher's own relation, so a missing permission check cannot leak a
+    // class - the query has nowhere to find one that is not theirs.
+    Route::get('teacher/classrooms', [TeacherController::class, 'classrooms']);
+    // The whole dashboard in one response: a teacher opens this on a shared laptop with a few
+    // minutes of power, and four round trips is four chances for the connection to drop.
+    Route::get('teacher/classrooms/{classroom}', [TeacherController::class, 'overview']);
 });
