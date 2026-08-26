@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\DemoController;
 use App\Http\Controllers\Api\DiagnosticController;
 use App\Http\Controllers\Api\ExerciseController;
 use App\Http\Controllers\Api\MisconceptionReviewController;
@@ -28,6 +29,12 @@ Route::prefix('auth')->group(function (): void {
     // Unauthenticated by design: a child cannot reach the login screen without it, and it carries
     // only first names, which are already read aloud in the room every morning.
     Route::get('classrooms/{joinCode}', [AuthController::class, 'roster']);
+
+    // One tap into the demo classroom, gated on NABD_DEMO_MODE. The best thing about this
+    // product cannot be seen from a login screen, and nobody working through thirty
+    // submissions will type a class code off a slide to find out.
+    Route::post('demo/student', [DemoController::class, 'student']);
+    Route::post('demo/teacher', [DemoController::class, 'teacher']);
 
     Route::post('student', [AuthController::class, 'student']);
     Route::post('teacher', [AuthController::class, 'teacher']);

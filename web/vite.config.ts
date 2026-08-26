@@ -37,6 +37,16 @@ export default defineConfig({
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
   },
+  // `vite preview` serves the built bundle and is what the end-to-end run drives, so it needs the
+  // same /api proxy as dev. Without it the tests would exercise a build that cannot reach its API.
+  preview: {
+    proxy: {
+      '/api': {
+        target: `http://127.0.0.1:${process.env.NABD_API_PORT ?? 8001}`,
+        changeOrigin: true,
+      },
+    },
+  },
   server: {
     // Same-origin /api in development, so the app talks to Laravel exactly as it will in
     // production and no CORS or cookie behaviour differs between the two.

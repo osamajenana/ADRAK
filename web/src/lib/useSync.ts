@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { drainOutbox, type SyncResponse } from '@/db/sync';
-import { isOnline, post } from './api';
+import { post } from './api';
 
 /**
  * Keeps the outbox draining in the background.
@@ -36,7 +36,10 @@ export function useSync(profileId: number | undefined): SyncState & { syncNow: (
   const inFlight = useRef(false);
 
   const run = useCallback(async () => {
-    if (profileId === undefined || inFlight.current || !isOnline()) return;
+    // Deliberately does NOT check isOnline() first. Connectivity is inferred from whether requests
+    // succeed, so once it is marked unusable the only thing that can mark it usable again is an
+    // attempt — gating on the flag would make the app unable to notice its own recovery.
+    if (profileId === undefined || inFlight.current) return;
 
     inFlight.current = true;
     setState((s) => ({ ...s, syncing: true }));

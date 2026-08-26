@@ -4,7 +4,13 @@ import { useNavigate } from 'react-router';
 import { SkillMap } from '@/components/SkillMap';
 import { db } from '@/db/schema';
 import { get } from '@/lib/api';
-import { type BootstrapPayload, hydrate, useActiveProfile, useSkillMapData } from '@/lib/session';
+import {
+  type BootstrapPayload,
+  hydrate,
+  prefetchCurrentBank,
+  useActiveProfile,
+  useSkillMapData,
+} from '@/lib/session';
 
 /**
  * Home: what to do next, and how far they have come.
@@ -31,7 +37,13 @@ export function Home() {
     // the whole reason the bootstrap payload was stored in the first place.
     void (async () => {
       const response = await get<BootstrapPayload>('/student/bootstrap');
-      if (response.ok) await hydrate(response.data);
+
+      if (response.ok) {
+        await hydrate(response.data);
+        // While there is certainly a connection, take the questions the student is about to need.
+        await prefetchCurrentBank(profile.id);
+      }
+
       setRefreshed(true);
     })();
   }, [profile, refreshed]);

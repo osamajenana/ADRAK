@@ -29,13 +29,42 @@ export type ApiResult<T> =
  */
 let simulatedOffline = false;
 
+/**
+ * Whether the last real request actually reached the server.
+ *
+ * `navigator.onLine` only reports whether the device has a network interface, and it says "online"
+ * for a phone attached to a hotspot whose uplink is dead — which is not an edge case here, it is
+ * most of a normal week. Trusting it alone tells a student they are connected while nothing they
+ * do is reaching anyone.
+ *
+ * So connectivity is inferred from evidence: a transport failure marks the connection unusable,
+ * and any successful response marks it usable again. The sync loop keeps probing while work is
+ * queued, so recovery is noticed without anyone tapping anything.
+ */
+let transportHealthy = true;
+
 export const setSimulatedOffline = (value: boolean): void => {
   simulatedOffline = value;
+  // Leaving a stale failure behind would keep the chip reading "offline" after the switch is
+  // turned back off, which is exactly the confusion the switch exists to avoid.
+  if (!value) transportHealthy = true;
 };
 
 export const isSimulatedOffline = (): boolean => simulatedOffline;
 
-export const isOnline = (): boolean => !simulatedOffline && navigator.onLine;
+export const isOnline = (): boolean => {
+  if (simulatedOffline) return false;
+  if (typeof navigator !== 'undefined' && !navigator.onLine) return false;
+
+  return transportHealthy;
+};
+
+if (typeof window !== 'undefined') {
+  // The browser saying a network appeared is a reason to try again, not a reason to believe it.
+  window.addEventListener('online', () => {
+    transportHealthy = true;
+  });
+}
 
 async function currentToken(): Promise<string | null> {
   const id = (await db.meta.get('active_profile'))?.value as number | undefined;
@@ -75,6 +104,9 @@ export async function api<T>(
   try {
     const response = await fetch(`${BASE}${path}`, { ...init, headers });
 
+    // A reply of any kind proves the connection works, even a 422.
+    transportHealthy = true;
+
     if (response.ok) return { ok: true, data: (await response.json()) as T };
 
     const body = await response.json().catch(() => ({}));
@@ -87,7 +119,10 @@ export async function api<T>(
       message: body.message ?? 'تعذّر إتمام الطلب.',
     };
   } catch {
-    // fetch only rejects on a transport failure, which here means no network.
+    // fetch only rejects on a transport failure, which here means nothing reached the server —
+    // whatever navigator.onLine believes about the radio.
+    transportHealthy = false;
+
     return { ok: false, offline: true };
   }
 }

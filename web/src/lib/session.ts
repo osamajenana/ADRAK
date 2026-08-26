@@ -2,7 +2,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { setActiveProfile } from '@/db/meta';
 import { db, type LocalProfile, type LocalSkill, progressKey } from '@/db/schema';
 import type { MasteryStatus } from '@/engine/types';
-import { post } from './api';
+import { get, post } from './api';
 
 /**
  * Who is using this device right now, and everything the app needs about them.
@@ -166,4 +166,72 @@ export function useSkillMapData(profileId: number | undefined) {
       currentCode: path.find((p) => p.status === 'current')?.skill_code ?? null,
     };
   }, [profileId]);
+}
+
+/**
+ * One-tap entry into the demo classroom.
+ *
+ * Returns a real token for a real seeded student — there is no demo mode inside the app, so what a
+ * judge lands in is exactly what a child gets. Fails like any other login when the server has the
+ * mode switched off.
+ */
+export async function loginAsDemoStudent(): Promise<
+  { ok: true; profile: LocalProfile } | { ok: false; message: string }
+> {
+  const response = await post<{
+    token: string;
+    student: { id: number; display_name: string; grade: number; classroom_id: number | null };
+  }>('/auth/demo/student', undefined, { auth: false });
+
+  if (!response.ok) {
+    return {
+      ok: false,
+      message: response.offline ? 'لا يوجد اتصال.' : 'وضع العرض غير مفعّل على هذا الخادم.',
+    };
+  }
+
+  const profile: LocalProfile = {
+    id: response.data.student.id,
+    display_name: response.data.student.display_name,
+    grade: response.data.student.grade,
+    classroom_id: response.data.student.classroom_id,
+    token: response.data.token,
+    last_used_at: Date.now(),
+  };
+
+  await db.profiles.put(profile);
+  await setActiveProfile(profile.id);
+
+  return { ok: true, profile };
+}
+
+/**
+ * Downloads the question bank for the skill the student is on, if it is not already held.
+ *
+ * Called right after bootstrap, so opening the app once with a connection is enough to be ready to
+ * work without one. Waiting until the student taps into the skill means the download lands at the
+ * exact moment they were about to start — which in a place where the signal goes without warning
+ * is the moment it is least likely to succeed.
+ *
+ * Best effort. A failure here costs nothing that was not already missing.
+ */
+export async function prefetchCurrentBank(profileId: number): Promise<void> {
+  const current = await db.pathItems.where({ profileId, status: 'current' }).first();
+  if (!current) return;
+
+  const held = await db.questions.where({ skill_code: current.skill_code }).count();
+  if (held > 0) return;
+
+  const response = await get<{
+    skill: { code: string };
+    questions: Array<{ id: number }>;
+  }>(`/skills/${current.skill_code}/bank`);
+
+  if (!response.ok) return;
+
+  await db.questions.bulkPut(
+    // biome-ignore lint/suspicious/noExplicitAny: the API shape is validated by LocalQuestion at
+    // the point of use; typing it twice here would duplicate the contract without adding a check.
+    (response.data.questions as any[]).map((q) => ({ ...q, skill_code: response.data.skill.code })),
+  );
 }

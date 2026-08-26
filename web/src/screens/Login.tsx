@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { deviceId, setActiveProfile } from '@/db/meta';
 import { get } from '@/lib/api';
-import { login, useProfiles } from '@/lib/session';
+import { login, loginAsDemoStudent, useProfiles } from '@/lib/session';
 
 interface RosterStudent {
   id: number;
@@ -78,6 +78,18 @@ export function Login() {
     navigate('/');
   };
 
+  const tryDemo = async () => {
+    setBusy(true);
+    setError(null);
+
+    const result = await loginAsDemoStudent();
+
+    setBusy(false);
+
+    if (result.ok) navigate('/');
+    else setError(result.message);
+  };
+
   const resume = async (id: number) => {
     await setActiveProfile(id);
     navigate('/');
@@ -87,6 +99,27 @@ export function Login() {
     <main className="mx-auto w-full max-w-[32rem] px-5 py-10">
       <h1 className="text-2xl font-semibold text-ink">نبض</h1>
       <p className="mt-1 text-muted">تعلّم من حيث أنت، لا من حيث يفترض بك أن تكون.</p>
+
+      {/* First on the page on purpose. Anyone evaluating this who does not find a way in
+          within five seconds simply does not see the product. */}
+      <div className="mt-6 grid gap-2 rounded-[var(--radius-lg)] border border-line bg-raised p-4">
+        <p className="text-sm text-subtle">للتجربة السريعة — بدون تسجيل</p>
+        <button
+          type="button"
+          data-testid="demo-student"
+          disabled={busy}
+          onClick={() => void tryDemo()}
+          className="min-h-touch rounded-[var(--radius-pill)] bg-brand px-6 py-3 font-medium text-brand-ink disabled:opacity-50"
+        >
+          جرّب كطالب
+        </button>
+        <a
+          href="/teacher"
+          className="tap grid place-content-center rounded-[var(--radius-pill)] border border-line-strong px-6 py-3 text-center text-muted"
+        >
+          جرّب كمعلّم
+        </a>
+      </div>
 
       {profiles && profiles.length > 0 && (
         <section className="mt-8">

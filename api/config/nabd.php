@@ -5,6 +5,27 @@ declare(strict_types=1);
 return [
     /*
     |--------------------------------------------------------------------------
+    | Judge mode
+    |--------------------------------------------------------------------------
+    |
+    | One-click sign-in to the demo classroom, with no credentials typed.
+    |
+    | This exists because the strongest thing about this product is invisible
+    | to anyone who does not get past a login screen, and someone evaluating
+    | thirty submissions will not type a class code from a slide. It hands out
+    | a real token for a real seeded account - there is no separate demo mode
+    | inside the app, so what a judge tries is what a student gets.
+    |
+    | Off unless explicitly enabled. On a deployment carrying real children's
+    | work, an endpoint that issues tokens without credentials must not exist.
+    |
+    */
+    'demo' => [
+        'enabled' => (bool) env('NABD_DEMO_MODE', false),
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Misconception discovery
     |--------------------------------------------------------------------------
     |
