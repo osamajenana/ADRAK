@@ -2,6 +2,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { useState } from 'react';
 import { db } from '@/db/schema';
 import { post, setTeacherToken } from '@/lib/api';
+import { TeacherDashboard } from './TeacherDashboard';
 import { TeacherScan } from './TeacherScan';
 
 /**
@@ -17,6 +18,7 @@ export function TeacherGate() {
     [],
   );
 
+  const [view, setView] = useState<'dashboard' | 'scan'>('dashboard');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -27,8 +29,18 @@ export function TeacherGate() {
   if (token) {
     return (
       <>
-        <TeacherScan token={token} />
-        <div className="mx-auto w-full max-w-[36rem] px-5 pb-8">
+        <nav className="mx-auto flex w-full max-w-[48rem] gap-2 px-5 pt-6">
+          <Tab active={view === 'dashboard'} onClick={() => setView('dashboard')}>
+            لوحة الصف
+          </Tab>
+          <Tab active={view === 'scan'} onClick={() => setView('scan')}>
+            استقبال بالمسح
+          </Tab>
+        </nav>
+
+        {view === 'dashboard' ? <TeacherDashboard token={token} /> : <TeacherScan token={token} />}
+
+        <div className="mx-auto w-full max-w-[48rem] px-5 pb-8">
           <button
             type="button"
             onClick={() => void setTeacherToken(null)}
@@ -111,5 +123,28 @@ export function TeacherGate() {
         </p>
       )}
     </main>
+  );
+}
+
+function Tab({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-current={active ? 'page' : undefined}
+      className={`min-h-touch rounded-[var(--radius-pill)] px-5 text-sm font-medium ${
+        active ? 'bg-brand text-brand-ink' : 'border border-line-strong text-muted'
+      }`}
+    >
+      {children}
+    </button>
   );
 }
