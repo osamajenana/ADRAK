@@ -1,0 +1,133 @@
+@import 'tailwindcss';
+@import './tokens.css';
+
+/*
+ * Bridges the design tokens into Tailwind's theme so `bg-surface` and `text-muted` resolve to the
+ * same variables the contrast checker verifies. Utilities and tokens cannot be allowed to drift:
+ * a colour that only exists in a class name is a colour nothing checks.
+ */
+@theme inline {
+  --color-bg: var(--nabd-bg);
+  --color-surface: var(--nabd-surface);
+  --color-raised: var(--nabd-surface-raised);
+  --color-line: var(--nabd-border);
+  --color-line-strong: var(--nabd-border-strong);
+  --color-ink: var(--nabd-text);
+  --color-muted: var(--nabd-text-muted);
+  --color-subtle: var(--nabd-text-subtle);
+  --color-brand: var(--nabd-primary);
+  --color-brand-hover: var(--nabd-primary-hover);
+  --color-brand-ink: var(--nabd-primary-fg);
+  --color-mastered: var(--nabd-mastered);
+  --color-mastered-ink: var(--nabd-mastered-fg);
+  --color-learning: var(--nabd-learning);
+  --color-learning-ink: var(--nabd-learning-fg);
+  --color-weak: var(--nabd-weak);
+  --color-locked: var(--nabd-locked);
+  --color-locked-ink: var(--nabd-locked-fg);
+  --color-retry: var(--nabd-retry);
+  --color-retry-surface: var(--nabd-retry-surface);
+  --color-offline: var(--nabd-offline);
+  --color-offline-surface: var(--nabd-offline-surface);
+  --color-danger: var(--nabd-danger);
+
+  --font-sans: var(--nabd-font-sans);
+
+  --radius-sm: var(--nabd-radius-sm);
+  --radius-md: var(--nabd-radius-md);
+  --radius-lg: var(--nabd-radius-lg);
+  --radius-xl: var(--nabd-radius-xl);
+
+  --spacing-touch: var(--nabd-size-touch-min);
+}
+
+/*
+ * IBM Plex Sans Arabic will be self-hosted and subsetted — no font CDN, because the app must render
+ * identically with the network off. Until those files are in public/fonts, the stack below falls
+ * through to the system Arabic face, which is present on every Android and Windows device this
+ * targets. Declared as a fallback chain rather than a @font-face pointing at nothing, so the app
+ * never waits on a missing file.
+ */
+
+html {
+  font-family: var(--nabd-font-sans);
+  /* Arabic needs more air than Latin: diacritics and descenders collide at 1.5. */
+  line-height: var(--nabd-leading-normal);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--nabd-bg);
+  color: var(--nabd-text);
+  /* 18px, not 16: ten-to-fifteen year olds, shared phones held at arm's length, cracked screens. */
+  font-size: var(--nabd-text-base-student);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible focus is not optional. Some of these devices have a broken touch digitiser and the
+   student is navigating with a keyboard or a switch. */
+:focus-visible {
+  outline: 3px solid var(--nabd-focus);
+  outline-offset: 2px;
+  border-radius: var(--nabd-radius-sm);
+}
+
+/* Every interactive target clears 44px. A mistap on a cracked screen is recorded as a wrong answer
+   the child did not give. */
+button,
+[role='button'],
+a.tap,
+label.tap {
+  min-height: var(--nabd-size-touch-min);
+  min-width: var(--nabd-size-touch-min);
+}
+
+/*
+ * Math renders in its own LTR run. Inline an expression into Arabic prose and the bidi algorithm
+ * reorders it — "2x + 3 = 11" comes out backwards, and the student is asked a different question
+ * from the one we wrote.
+ */
+.expr {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* The in-app battery saver. Same effect as the OS setting, reachable by a student who cannot find
+   the OS setting — and the first thing that goes when the charge is low. */
+:root[data-motion='off'] *,
+:root[data-motion='off'] *::before,
+:root[data-motion='off'] *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* The brand signature: a pulse travelling along the recovery path. First casualty of battery
+   saver, which is the point — it is decoration, and decoration is what you drop first. */
+@keyframes nabd-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.pulse {
+  animation: nabd-pulse var(--nabd-duration-pulse) var(--nabd-ease-in-out) infinite;
+}
