@@ -60,7 +60,12 @@ final class StudentController extends Controller
                 'grade' => $student->grade,
             ],
             'skills' => SkillResource::collection($skills),
-            'progress' => $statuses,
+            // Cast to an object so an empty map serialises as {} rather than [].
+            //
+            // PHP cannot tell an empty list from an empty dictionary, and json_encode picks [].
+            // The client types this as a keyed record, so every brand-new student — which is every
+            // student on their first open — would receive an array where a map was promised.
+            'progress' => (object) $statuses,
             'learning_path' => $this->pathPayload($student),
             'has_completed_diagnostic' => $student->diagnosticTests()
                 ->where('status', 'completed')

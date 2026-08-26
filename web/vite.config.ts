@@ -40,8 +40,16 @@ export default defineConfig({
   server: {
     // Same-origin /api in development, so the app talks to Laravel exactly as it will in
     // production and no CORS or cookie behaviour differs between the two.
+    //
+    // 8001 rather than Laravel's default 8000: another project on this machine holds 8000, and
+    // `php artisan serve` will happily report success on an already-bound port on Windows — so
+    // the proxy silently reaches the wrong application and every request 404s with a stack trace
+    // from someone else's codebase. Override with NABD_API_PORT if 8001 is taken too.
     proxy: {
-      '/api': { target: 'http://127.0.0.1:8000', changeOrigin: true },
+      '/api': {
+        target: `http://127.0.0.1:${process.env.NABD_API_PORT ?? 8001}`,
+        changeOrigin: true,
+      },
     },
   },
   build: {

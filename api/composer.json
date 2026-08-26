@@ -80,7 +80,8 @@
             "@lint:check",
             "@analyse",
             "@test"
-        ]
+        ],
+        "serve": "php artisan serve --port=8001"
     },
     "extra": {
         "laravel": {

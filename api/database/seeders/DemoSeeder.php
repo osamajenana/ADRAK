@@ -12,6 +12,7 @@ use App\Models\Skill;
 use App\Models\Student;
 use App\Models\User;
 use App\Services\ExerciseService;
+use App\Services\MasteryService;
 use App\Services\RecoveryPathService;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -82,13 +83,37 @@ final class DemoSeeder extends Seeder
         );
     }
 
+    /**
+     * Marks everything up to a ceiling as mastered — what a completed diagnostic would have found.
+     *
+     * Without this every demo student's path starts at primary-school place value, which is
+     * technically correct for someone with no recorded mastery and tells exactly the wrong story:
+     * the whole claim is that the path starts at a student's REAL gap, not at the bottom.
+     */
+    private function establishBaseline(Student $student, string $ceilingCode): void
+    {
+        $ceiling = Skill::query()->where('code', $ceilingCode)->value('order_index');
+
+        if ($ceiling === null) {
+            return;
+        }
+
+        $mastered = Skill::query()
+            ->where('order_index', '<=', $ceiling)
+            ->where('grade_level', '<=', $student->grade)
+            ->pluck('code')
+            ->all();
+
+        app(MasteryService::class)->applyDiagnostic($student, $mastered, []);
+    }
+
     /** Students rebuilding fractions and getting there. */
     private function confidentStudents(Classroom $classroom): void
     {
         foreach (['ليان', 'كرم', 'سما'] as $name) {
             $student = $this->student($classroom, $name);
+            $this->establishBaseline($student, 'FRC.EQUIV');
             $this->practise($student, 'FRC.ADD.LIKE', correct: 9, wrong: 1);
-            $this->practise($student, 'FRC.EQUIV', correct: 8, wrong: 2);
             $this->buildPath($student, 'FRC.ADD.UNLIKE');
         }
     }
@@ -103,6 +128,7 @@ final class DemoSeeder extends Seeder
     {
         foreach (['أحمد', 'يوسف', 'زيد', 'مريم'] as $name) {
             $student = $this->student($classroom, $name);
+            $this->establishBaseline($student, 'OPS.DIV.BASIC');
             $this->practise($student, 'OPS.DIV.LONG', correct: 2, wrong: 6);
             $this->buildPath($student, 'FRC.ADD.UNLIKE');
         }
@@ -135,6 +161,7 @@ final class DemoSeeder extends Seeder
 
         foreach (['جنى', 'محمود', 'رهف'] as $name) {
             $student = $this->student($classroom, $name);
+            $this->establishBaseline($student, 'FRC.ADD.LIKE');
 
             foreach ($trapped as $question) {
                 $trap = $question->options->first(

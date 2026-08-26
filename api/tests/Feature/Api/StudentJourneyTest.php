@@ -103,6 +103,22 @@ it('hydrates the offline store in a single call', function (): void {
     expect($response->json())->not->toHaveKey('questions');
 });
 
+/**
+ * PHP cannot distinguish an empty list from an empty dictionary and json_encode picks the list, so
+ * a brand-new student — every student, on their first open — would receive `"progress": []` where
+ * the client expects a keyed object. Caught by opening the app as a freshly created student.
+ */
+it('serialises an empty progress map as an object, not an array', function (): void {
+    app(CurriculumSeeder::class)->run();
+    [, $token] = loginByCard();
+
+    $raw = test()->withToken($token)->getJson('/api/student/bootstrap')->assertOk()->content();
+    $decoded = json_decode($raw, associative: false, flags: JSON_THROW_ON_ERROR);
+
+    expect($decoded->progress)->toBeObject()
+        ->and(str_contains($raw, '"progress":[]'))->toBeFalse();
+});
+
 it('runs a whole diagnostic over the API and returns the verdict in the final response', function (): void {
     app(CurriculumSeeder::class)->run();
     [, $token] = loginByCard(grade: 7);
