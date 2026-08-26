@@ -48,14 +48,14 @@ it('lists the classes a teacher owns, and only those', function (): void {
     $response = test()->withToken($token)->getJson('/api/teacher/classrooms')->assertOk();
 
     expect($response->json('classrooms'))->toHaveCount($teacher->classrooms()->count())
-        ->and($response->json('classrooms.0.students_count'))->toBe(12);
+        ->and($response->json('classrooms.0.students_count'))->toBe(13);
 });
 
 it('assembles the whole dashboard in one response', function (): void {
     $data = overview();
 
     expect($data)->toHaveKeys(['classroom', 'students', 'groups', 'misconceptions', 'interventions'])
-        ->and($data['students'])->toHaveCount(12)
+        ->and($data['students'])->toHaveCount(13)
         ->and($data['classroom']['join_code'])->toBe(DemoSeeder::JOIN_CODE);
 });
 
@@ -107,17 +107,28 @@ it('groups students by the skill they are stuck on, largest group first', functi
     $sizes = array_map(static fn (array $g): int => count($g['students']), $groups);
     expect($sizes)->toBe(collect($sizes)->sortDesc()->values()->all());
 
-    // The four students the demo stalls on long division are one session, not four problems.
+    // The students the demo stalls on long division are one session, not five separate problems
+    // to chase. Bilal is among them: he is also the intervention case, and appearing in both is
+    // right — the group fixes what he shares with the others, the flag is about what he does not.
     $division = collect($groups)->firstWhere('skill_code', 'OPS.DIV.LONG');
-    expect($division['students'])->toHaveCount(4);
+    expect($division['students'])->toHaveCount(5)
+        ->and(collect($division['students'])->pluck('display_name'))->toContain('بلال');
 });
 
 /**
  * Effort without progress is the signal. Few attempts is not struggling — it is not having started,
  * and a list that conflates the two is a list a teacher scrolls past.
  */
-it('flags only students who have tried hard and not moved', function (): void {
-    foreach (overview()['interventions'] as $entry) {
+it('flags the student who has tried hard and not moved', function (): void {
+    $interventions = overview()['interventions'];
+
+    // The demo carries exactly one such child on purpose: sixteen attempts at a low score. This is
+    // the hardest case to see in a class of sixty — a student who keeps trying, keeps failing, and
+    // never complains.
+    expect($interventions)->not->toBeEmpty()
+        ->and(collect($interventions)->pluck('display_name'))->toContain('بلال');
+
+    foreach ($interventions as $entry) {
         expect($entry['attempts'])->toBeGreaterThanOrEqual(12)
             ->and($entry['mastery_score'])->toBeLessThanOrEqual(45.0);
     }

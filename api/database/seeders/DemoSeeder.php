@@ -53,6 +53,7 @@ final class DemoSeeder extends Seeder
             $this->confidentStudents($classroom);
             $this->stuckOnOneSkill($classroom);
             $this->sharingOneMisconception($classroom);
+            $this->tryingHardAndNotMoving($classroom);
             $this->justArrived($classroom);
         });
     }
@@ -175,6 +176,22 @@ final class DemoSeeder extends Seeder
 
             $this->buildPath($student, 'FRC.ADD.UNLIKE');
         }
+    }
+
+    /**
+     * One student who has done the work and is still not moving.
+     *
+     * The hardest case to see without data and the easiest to miss in a class of sixty: a child
+     * who keeps trying, keeps failing, and never complains. Sixteen attempts at a low score is
+     * effort without progress, which is the signal that more of the same will not help — and it is
+     * the only entry on the dashboard that names one child rather than a group.
+     */
+    private function tryingHardAndNotMoving(Classroom $classroom): void
+    {
+        $student = $this->student($classroom, 'بلال');
+        $this->establishBaseline($student, 'OPS.MUL.MULTI');
+        $this->practise($student, 'OPS.DIV.LONG', correct: 3, wrong: 13);
+        $this->buildPath($student, 'FRC.ADD.UNLIKE');
     }
 
     /** Two students who have logged in and done nothing yet — the empty state, on the real screen. */
