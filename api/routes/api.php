@@ -6,6 +6,7 @@ use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\DiagnosticController;
 use App\Http\Controllers\Api\ExerciseController;
 use App\Http\Controllers\Api\StudentController;
+use App\Http\Controllers\Api\SyncController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,4 +55,10 @@ Route::middleware('auth:sanctum')->group(function (): void {
     Route::get('skills/{code}/bank', [ExerciseController::class, 'bank']);
     Route::get('skills/{code}/next', [ExerciseController::class, 'next']);
     Route::post('exercises/answer', [ExerciseController::class, 'answer']);
+
+    // Where offline work comes back. Idempotent, so a student whose answers arrive both from
+    // their own phone and via their teacher's QR scan is not counted twice — which in a class
+    // where some phones have data and some do not is the normal case, not the edge case.
+    Route::post('sync', [SyncController::class, 'push']);
+    Route::post('sync/relay', [SyncController::class, 'relay']);
 });

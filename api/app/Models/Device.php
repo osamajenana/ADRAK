@@ -21,6 +21,9 @@ final class Device extends Model
     /** @use HasFactory<DeviceFactory> */
     use HasFactory, HasUuids;
 
+    /** Column defaults apply on INSERT, so a model built by find()-or-new needs its own. */
+    protected $attributes = ['last_client_seq' => 0];
+
     protected $fillable = ['id', 'student_id', 'label', 'last_client_seq', 'last_seen_at'];
 
     /** @return array<string, string> */

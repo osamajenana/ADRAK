@@ -31,6 +31,25 @@ final class StudentSkill extends Model
     /** @use HasFactory<StudentSkillFactory> */
     use HasFactory;
 
+    /**
+     * Defaults for a model that has not been inserted yet.
+     *
+     * Column defaults are applied by the database on INSERT, so firstOrNew() hands back a model
+     * whose counters are null. Recompute then passes review_count straight into the review engine
+     * — and it only breaks on the FIRST recompute that reaches mastery on a row that has never
+     * been saved, which is exactly what happens when a week of offline answers syncs at once and
+     * carries a student from nothing to mastered in one pass.
+     */
+    protected $attributes = [
+        'mastery_score' => 0,
+        'theta' => 1200,
+        'attempts' => 0,
+        'correct_answers' => 0,
+        'hard_correct' => 0,
+        'status' => 'not_started',
+        'review_count' => 0,
+    ];
+
     protected $fillable = [
         'student_id', 'skill_id', 'mastery_score', 'theta', 'attempts',
         'correct_answers', 'hard_correct', 'status', 'mastered_at',
