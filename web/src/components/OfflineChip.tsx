@@ -11,7 +11,7 @@ import { isOnline, isSimulatedOffline } from '@/lib/api';
  * error every time the signal drops learns that the app is broken, when the app is working exactly
  * as designed.
  */
-export function OfflineChip() {
+export function OfflineChip({ syncing = false }: { syncing?: boolean }) {
   const [online, setOnline] = useState(isOnline());
 
   const pending = useLiveQuery(() => db.outbox.count(), [], 0);
@@ -45,7 +45,7 @@ export function OfflineChip() {
         className={`size-2 rounded-full ${online ? 'bg-mastered' : 'bg-offline'}`}
       />
       <span>
-        {online ? 'متصل' : 'يعمل بدون إنترنت'}
+        {syncing ? 'تتم المزامنة…' : online ? 'متصل' : 'يعمل بدون إنترنت'}
         {waiting > 0 && ` · ${waiting} بانتظار المزامنة`}
       </span>
       {isSimulatedOffline() && <span className="text-subtle">(محاكاة)</span>}

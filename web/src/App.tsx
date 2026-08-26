@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import { JudgeBar } from '@/components/JudgeBar';
 import { OfflineChip } from '@/components/OfflineChip';
 import { useActiveProfile } from '@/lib/session';
+import { useSync } from '@/lib/useSync';
 import { Home } from '@/screens/Home';
 import { Login } from '@/screens/Login';
 
@@ -17,6 +18,12 @@ const Diagnostic = lazy(() =>
 const Practice = lazy(() => import('@/screens/Practice').then((m) => ({ default: m.Practice })));
 
 export function App() {
+  const profile = useActiveProfile();
+
+  // Mounted at the root so the queue drains wherever the student happens to be — including while
+  // they are still answering questions on the practice screen.
+  const { syncing } = useSync(profile?.id);
+
   return (
     <BrowserRouter>
       <div className="flex min-h-dvh flex-col">
@@ -25,7 +32,7 @@ export function App() {
             <img src="/icon.svg" alt="" width={28} height={28} aria-hidden="true" />
             <span className="text-lg font-semibold text-ink">نبض</span>
           </div>
-          <OfflineChip />
+          <OfflineChip syncing={syncing} />
         </header>
 
         <div className="flex-1">
