@@ -37,6 +37,13 @@ export default defineConfig({
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
   },
+  server: {
+    // Same-origin /api in development, so the app talks to Laravel exactly as it will in
+    // production and no CORS or cookie behaviour differs between the two.
+    proxy: {
+      '/api': { target: 'http://127.0.0.1:8000', changeOrigin: true },
+    },
+  },
   build: {
     // Enforced by the performance budget in design/tokens.json: the student bundle has to reach a
     // phone on 2G. A warning at 200 KB is the tripwire.
