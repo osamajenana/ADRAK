@@ -9,6 +9,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+/**
+ * @property bool $is_correct
+ * @property int $probe_step
+ * @property int $skill_id
+ */
 final class DiagnosticAnswer extends Model
 {
     /** @use HasFactory<DiagnosticAnswerFactory> */

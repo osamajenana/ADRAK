@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Carbon;
 
 /**
  * Where one student stands on one skill.
@@ -17,6 +18,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * Every column here is DERIVED from exercise_attempts by MasteryEngine. It exists so dashboards
  * are one indexed read instead of a replay, and it is recomputed on sync — the attempt log stays
  * the truth, this is a cache with a good memory.
+ *
+ * @property MasteryStatus $status
+ * @property float $mastery_score
+ * @property float $theta
+ * @property int $review_count
+ * @property Carbon|null $mastered_at
+ * @property Carbon|null $next_review_at
  */
 final class StudentSkill extends Model
 {
