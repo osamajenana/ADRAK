@@ -5,6 +5,7 @@ declare(strict_types=1);
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\DiagnosticController;
 use App\Http\Controllers\Api\ExerciseController;
+use App\Http\Controllers\Api\MisconceptionReviewController;
 use App\Http\Controllers\Api\StudentController;
 use App\Http\Controllers\Api\SyncController;
 use App\Http\Controllers\Api\TeacherController;
@@ -69,4 +70,12 @@ Route::middleware('auth:sanctum')->group(function (): void {
     // The whole dashboard in one response: a teacher opens this on a shared laptop with a few
     // minutes of power, and four round trips is four chances for the connection to drop.
     Route::get('teacher/classrooms/{classroom}', [TeacherController::class, 'overview']);
+
+    // The human half of misconception discovery. A model proposes; nothing it wrote reaches a
+    // teacher until someone here agrees with it, because a plausible-sounding wrong
+    // explanation is worse than none - a teacher acts on it and loses faith in every number
+    // on the screen afterwards.
+    Route::get('admin/misconceptions/proposals', [MisconceptionReviewController::class, 'index']);
+    Route::post('admin/misconceptions/{misconception}/approve', [MisconceptionReviewController::class, 'approve']);
+    Route::post('admin/misconceptions/{misconception}/reject', [MisconceptionReviewController::class, 'reject']);
 });

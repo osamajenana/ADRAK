@@ -16,3 +16,12 @@ Artisan::command('inspire', function () {
  * class whose progress the nine before them have scribbled over, and concludes it does not work.
  */
 Schedule::command('nabd:demo-reset')->dailyAt('03:00')->withoutOverlapping();
+
+/*
+ * Discovery runs weekly, not nightly.
+ *
+ * It looks for a wrong answer that several students share, and that takes a week of a class using
+ * the app to accumulate. Running it every night would mostly re-examine the same thin evidence and
+ * spend tokens to reach the same answer.
+ */
+Schedule::command('nabd:discover-misconceptions')->weeklyOn(6, '04:00')->withoutOverlapping();
