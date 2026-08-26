@@ -9,6 +9,19 @@ parameters:
         - database
         - routes
         - tests
+
+    excludePaths:
+        analyse:
+            # Pest rebinds the test closure's $this to the TestCase at runtime. Static analysis
+            # sees Pest\PendingCalls\TestCall instead, so every $this->postJson() in an HTTP
+            # feature test reads as a call to an undefined method. Nothing in these files can fix
+            # that — it is a limitation of combining the two tools, not a defect in the tests, and
+            # they are verified by running.
+            #
+            # Everything else under tests/ IS analysed: the engine conformance suite and the
+            # content-integrity suite both pass at level 6.
+            - tests/Feature/Api
+
     tmpDir: storage/framework/cache/phpstan
 
     # PHPStan's parallel workers die with exit 255 under Git Bash on Windows, which is the

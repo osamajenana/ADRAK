@@ -15,6 +15,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * error rather than of generic wrongness. That is what the teacher's misconception analytics
  * stands on.
  */
+/**
+ * @property bool $is_correct
+ * @property int $question_id
+ * @property int|null $misconception_id
+ */
 final class QuestionOption extends Model
 {
     // No factory, on purpose. Answer options come from content/, which tools/ validates for

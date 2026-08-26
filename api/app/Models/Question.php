@@ -10,6 +10,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
+/**
+ * @property Difficulty $difficulty
+ * @property float $difficulty_elo
+ * @property int $skill_id
+ */
 final class Question extends Model
 {
     // No factory, on purpose. Questions come from content/, which tools/ validates for
