@@ -35,9 +35,11 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
 ## ٣. قاعدة البيانات
 
-```bash
-sudo mysql_secure_installation
+> **على خادم يحمل مشاريع أخرى: لا تشغّل `mysql_secure_installation`.** يغيّر مصادقة `root` ويحذف
+> المستخدمين المجهولين وقاعدة `test` — وأي مشروع قائم يعتمد على أيّ من ذلك يسقط بلا إنذار. السطور
+> أدناه إضافية بحتة: قاعدة جديدة ومستخدم جديد، ولا تمسّ شيئاً قائماً.
 
+```bash
 sudo mysql -e "
 CREATE DATABASE adrak CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 CREATE USER 'adrak'@'localhost' IDENTIFIED BY 'ضع-كلمة-مرور-قوية-هنا';
@@ -92,12 +94,15 @@ ANTHROPIC_API_KEY=
 ```bash
 sudo cp deploy/nginx.conf /etc/nginx/sites-available/adrak
 sudo ln -s /etc/nginx/sites-available/adrak /etc/nginx/sites-enabled/adrak
-sudo rm -f /etc/nginx/sites-enabled/default
 sudo nginx -t && sudo systemctl reload nginx
 
 sudo apt install -y certbot python3-certbot-nginx
 sudo certbot --nginx -d adrak.madafa.net --redirect
 ```
+
+> **لا تحذف `sites-enabled/default` ولا أيّ موقع آخر.** كتلة `server` هنا تُطابَق بـ `server_name`
+> وليست `default_server`، فهي تتعايش مع ما على الخادم من مواقع بلا تعارض. حذف الافتراضي على خادم
+> مشترك يعني أن كل طلب لدومين لا يطابق أحداً يصير من نصيب أول موقع في الترتيب — وهو موقع شخص آخر.
 
 > **الشهادة ليست تجميلاً.** الـ Service Worker يتطلّب سياقاً آمناً، وبدونه **لا عمل بدون إنترنت إطلاقاً** — أي أن أقوى ما في المنتج يتوقّف عن الوجود على HTTP.
 
