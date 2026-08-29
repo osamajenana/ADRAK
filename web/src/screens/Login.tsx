@@ -97,7 +97,7 @@ export function Login() {
 
   return (
     <main className="mx-auto w-full max-w-[32rem] px-5 py-10">
-      <h1 className="text-2xl font-semibold text-ink">نبض</h1>
+      <h1 className="text-2xl font-semibold text-ink">أدرك</h1>
       <p className="mt-1 text-muted">تعلّم من حيث أنت، لا من حيث يفترض بك أن تكون.</p>
 
       {/* First on the page on purpose. Anyone evaluating this who does not find a way in

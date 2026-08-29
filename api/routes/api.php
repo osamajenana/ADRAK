@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| NABD API
+| ADRAK API
 |--------------------------------------------------------------------------
 |
 | Shaped around one constraint: the client is a PWA that has to keep working
@@ -30,7 +30,7 @@ Route::prefix('auth')->group(function (): void {
     // only first names, which are already read aloud in the room every morning.
     Route::get('classrooms/{joinCode}', [AuthController::class, 'roster']);
 
-    // One tap into the demo classroom, gated on NABD_DEMO_MODE. The best thing about this
+    // One tap into the demo classroom, gated on ADRAK_DEMO_MODE. The best thing about this
     // product cannot be seen from a login screen, and nobody working through thirty
     // submissions will type a class code off a slide to find out.
     Route::post('demo/student', [DemoController::class, 'student']);

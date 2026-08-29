@@ -25,7 +25,7 @@ export function TeacherScan({ token }: { token: string }) {
     const frame = parseFrame(value);
 
     if (!frame) {
-      setError('هذا الرمز ليس من نبض.');
+      setError('هذا الرمز ليس من أدرك.');
       return;
     }
 

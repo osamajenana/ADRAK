@@ -37,8 +37,8 @@ export function App() {
       <div className="flex min-h-dvh flex-col">
         <header className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-5 py-3">
           <div className="flex items-center gap-3">
-            <img src="/icon.svg" alt="" width={28} height={28} aria-hidden="true" />
-            <span className="text-lg font-semibold text-ink">نبض</span>
+            <img src="/icon.png" alt="" width={37} height={22} aria-hidden="true" />
+            <span className="text-lg font-semibold text-ink">أدرك</span>
           </div>
           <OfflineChip syncing={syncing} />
         </header>

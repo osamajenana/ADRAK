@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Cache;
  */
 final class SkillGraphService
 {
-    private const CACHE_KEY = 'nabd.skill-graph.v1';
+    private const CACHE_KEY = 'adrak.skill-graph.v1';
 
     private const CACHE_TTL_SECONDS = 3600;
 

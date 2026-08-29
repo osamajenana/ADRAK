@@ -21,7 +21,7 @@ return [
     |
     */
     'demo' => [
-        'enabled' => (bool) env('NABD_DEMO_MODE', false),
+        'enabled' => (bool) env('ADRAK_DEMO_MODE', false),
     ],
 
     /*
@@ -41,9 +41,9 @@ return [
     'discovery' => [
         'api_key' => env('ANTHROPIC_API_KEY'),
 
-        'model' => env('NABD_DISCOVERY_MODEL', 'claude-opus-5'),
+        'model' => env('ADRAK_DISCOVERY_MODEL', 'claude-opus-5'),
 
         // Below this a shared wrong answer is chance rather than a pattern.
-        'min_students' => (int) env('NABD_DISCOVERY_MIN_STUDENTS', 3),
+        'min_students' => (int) env('ADRAK_DISCOVERY_MIN_STUDENTS', 3),
     ],
 ];

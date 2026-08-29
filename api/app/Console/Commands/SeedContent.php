@@ -18,7 +18,7 @@ use Illuminate\Console\Command;
  */
 final class SeedContent extends Command
 {
-    protected $signature = 'nabd:seed-content';
+    protected $signature = 'adrak:seed-content';
 
     protected $description = 'Load the skill graph and question bank from content/ into the database';
 

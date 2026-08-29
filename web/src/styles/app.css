@@ -7,38 +7,38 @@
  * a colour that only exists in a class name is a colour nothing checks.
  */
 @theme inline {
-  --color-bg: var(--nabd-bg);
-  --color-surface: var(--nabd-surface);
-  --color-raised: var(--nabd-surface-raised);
-  --color-line: var(--nabd-border);
-  --color-line-strong: var(--nabd-border-strong);
-  --color-ink: var(--nabd-text);
-  --color-muted: var(--nabd-text-muted);
-  --color-subtle: var(--nabd-text-subtle);
-  --color-brand: var(--nabd-primary);
-  --color-brand-hover: var(--nabd-primary-hover);
-  --color-brand-ink: var(--nabd-primary-fg);
-  --color-mastered: var(--nabd-mastered);
-  --color-mastered-ink: var(--nabd-mastered-fg);
-  --color-learning: var(--nabd-learning);
-  --color-learning-ink: var(--nabd-learning-fg);
-  --color-weak: var(--nabd-weak);
-  --color-locked: var(--nabd-locked);
-  --color-locked-ink: var(--nabd-locked-fg);
-  --color-retry: var(--nabd-retry);
-  --color-retry-surface: var(--nabd-retry-surface);
-  --color-offline: var(--nabd-offline);
-  --color-offline-surface: var(--nabd-offline-surface);
-  --color-danger: var(--nabd-danger);
+  --color-bg: var(--adrak-bg);
+  --color-surface: var(--adrak-surface);
+  --color-raised: var(--adrak-surface-raised);
+  --color-line: var(--adrak-border);
+  --color-line-strong: var(--adrak-border-strong);
+  --color-ink: var(--adrak-text);
+  --color-muted: var(--adrak-text-muted);
+  --color-subtle: var(--adrak-text-subtle);
+  --color-brand: var(--adrak-primary);
+  --color-brand-hover: var(--adrak-primary-hover);
+  --color-brand-ink: var(--adrak-primary-fg);
+  --color-mastered: var(--adrak-mastered);
+  --color-mastered-ink: var(--adrak-mastered-fg);
+  --color-learning: var(--adrak-learning);
+  --color-learning-ink: var(--adrak-learning-fg);
+  --color-weak: var(--adrak-weak);
+  --color-locked: var(--adrak-locked);
+  --color-locked-ink: var(--adrak-locked-fg);
+  --color-retry: var(--adrak-retry);
+  --color-retry-surface: var(--adrak-retry-surface);
+  --color-offline: var(--adrak-offline);
+  --color-offline-surface: var(--adrak-offline-surface);
+  --color-danger: var(--adrak-danger);
 
-  --font-sans: var(--nabd-font-sans);
+  --font-sans: var(--adrak-font-sans);
 
-  --radius-sm: var(--nabd-radius-sm);
-  --radius-md: var(--nabd-radius-md);
-  --radius-lg: var(--nabd-radius-lg);
-  --radius-xl: var(--nabd-radius-xl);
+  --radius-sm: var(--adrak-radius-sm);
+  --radius-md: var(--adrak-radius-md);
+  --radius-lg: var(--adrak-radius-lg);
+  --radius-xl: var(--adrak-radius-xl);
 
-  --spacing-touch: var(--nabd-size-touch-min);
+  --spacing-touch: var(--adrak-size-touch-min);
 }
 
 /*
@@ -50,18 +50,18 @@
  */
 
 html {
-  font-family: var(--nabd-font-sans);
+  font-family: var(--adrak-font-sans);
   /* Arabic needs more air than Latin: diacritics and descenders collide at 1.5. */
-  line-height: var(--nabd-leading-normal);
+  line-height: var(--adrak-leading-normal);
   -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  background: var(--nabd-bg);
-  color: var(--nabd-text);
+  background: var(--adrak-bg);
+  color: var(--adrak-text);
   /* 18px, not 16: ten-to-fifteen year olds, shared phones held at arm's length, cracked screens. */
-  font-size: var(--nabd-text-base-student);
+  font-size: var(--adrak-text-base-student);
   min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
 }
@@ -69,9 +69,9 @@ body {
 /* Visible focus is not optional. Some of these devices have a broken touch digitiser and the
    student is navigating with a keyboard or a switch. */
 :focus-visible {
-  outline: 3px solid var(--nabd-focus);
+  outline: 3px solid var(--adrak-focus);
   outline-offset: 2px;
-  border-radius: var(--nabd-radius-sm);
+  border-radius: var(--adrak-radius-sm);
 }
 
 /* Every interactive target clears 44px. A mistap on a cracked screen is recorded as a wrong answer
@@ -80,8 +80,8 @@ button,
 [role='button'],
 a.tap,
 label.tap {
-  min-height: var(--nabd-size-touch-min);
-  min-width: var(--nabd-size-touch-min);
+  min-height: var(--adrak-size-touch-min);
+  min-width: var(--adrak-size-touch-min);
 }
 
 /*
@@ -116,9 +116,9 @@ label.tap {
   transition: none !important;
 }
 
-/* The brand signature: a pulse travelling along the recovery path. First casualty of battery
-   saver, which is the point — it is decoration, and decoration is what you drop first. */
-@keyframes nabd-pulse {
+/* A pulse travelling along the recovery path. First casualty of battery saver, which is the
+   point — it is decoration, and decoration is what you drop first. */
+@keyframes adrak-pulse {
   0%,
   100% {
     opacity: 0.35;
@@ -129,5 +129,5 @@ label.tap {
 }
 
 .pulse {
-  animation: nabd-pulse var(--nabd-duration-pulse) var(--nabd-ease-in-out) infinite;
+  animation: adrak-pulse var(--adrak-duration-pulse) var(--adrak-ease-in-out) infinite;
 }

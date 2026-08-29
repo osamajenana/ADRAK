@@ -1,4 +1,4 @@
-# NABD Adaptive Engine — Normative Specification
+# ADRAK Adaptive Engine — Normative Specification
 
 > **بالعربية:** هذه المواصفة هي مصدر الحقيقة الوحيد للمحرّك التكيفي. المحرّك يعمل في مكانين — TypeScript على جهاز الطالب (بدون إنترنت) و PHP على الخادم (كمرجع نهائي). أي تباعد بينهما يفسد بيانات الطلاب. لذلك كل دالة هنا **نقية وحتمية**، ولكل واحدة متجهات اختبار في `vectors/` يشغّلها Pest و Vitest معاً.
 
@@ -167,7 +167,7 @@ correct <  PASS_MARK  ->  hi = mid
 ```
 
 The first probe therefore lands on `floor((-1 + len) / 2)` — the median of the student's
-grade-and-below range, exactly as `نبض.md §5` describes ("start with medium skill").
+grade-and-below range, exactly as `أدرك.md §5` describes ("start with medium skill").
 
 ### 3.2 `diagnosticResult(state) -> { estimated_level, frontier_index, mastered, weak, missing }`
 

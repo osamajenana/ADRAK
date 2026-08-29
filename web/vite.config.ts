@@ -17,8 +17,8 @@ export default defineConfig({
         navigateFallback: 'index.html',
       },
       manifest: {
-        name: 'نبض — تعلّم من حيث أنت',
-        short_name: 'نبض',
+        name: 'أدرك — تعلّم من حيث أنت',
+        short_name: 'أدرك',
         description: 'منصة تعليم تكيفي تعمل بدون إنترنت',
         lang: 'ar',
         dir: 'rtl',
@@ -28,8 +28,12 @@ export default defineConfig({
         // dark tent.
         background_color: '#0A0F16',
         theme_color: '#0A0F16',
+        // One entry serves both purposes here because this icon earns it: 512x512, a solid
+        // ground, and the artwork inside the 205px safe circle. A transparent, non-square mark
+        // declared `maskable` — which this once was — hands Android a logo it crops into and
+        // paints an arbitrary background behind.
         icons: [
-          { src: '/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
+          { src: '/icon-maskable.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
         ],
       },
     }),
@@ -42,7 +46,7 @@ export default defineConfig({
   preview: {
     proxy: {
       '/api': {
-        target: `http://127.0.0.1:${process.env.NABD_API_PORT ?? 8001}`,
+        target: `http://127.0.0.1:${process.env.ADRAK_API_PORT ?? 8001}`,
         changeOrigin: true,
       },
     },
@@ -54,10 +58,10 @@ export default defineConfig({
     // 8001 rather than Laravel's default 8000: another project on this machine holds 8000, and
     // `php artisan serve` will happily report success on an already-bound port on Windows — so
     // the proxy silently reaches the wrong application and every request 404s with a stack trace
-    // from someone else's codebase. Override with NABD_API_PORT if 8001 is taken too.
+    // from someone else's codebase. Override with ADRAK_API_PORT if 8001 is taken too.
     proxy: {
       '/api': {
-        target: `http://127.0.0.1:${process.env.NABD_API_PORT ?? 8001}`,
+        target: `http://127.0.0.1:${process.env.ADRAK_API_PORT ?? 8001}`,
         changeOrigin: true,
       },
     },

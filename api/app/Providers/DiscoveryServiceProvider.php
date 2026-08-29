@@ -22,7 +22,7 @@ final class DiscoveryServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->singleton(MisconceptionAnalyst::class, function (): MisconceptionAnalyst {
-            $key = config('nabd.discovery.api_key');
+            $key = config('adrak.discovery.api_key');
 
             if (! is_string($key) || $key === '') {
                 return new NullMisconceptionAnalyst;
@@ -30,7 +30,7 @@ final class DiscoveryServiceProvider extends ServiceProvider
 
             return new ClaudeMisconceptionAnalyst(
                 new Client(apiKey: $key),
-                (string) config('nabd.discovery.model'),
+                (string) config('adrak.discovery.model'),
             );
         });
     }

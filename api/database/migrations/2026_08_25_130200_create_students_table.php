@@ -7,7 +7,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 /**
- * Everything NABD knows about a child: a first name, a grade, and which class they are in.
+ * Everything ADRAK knows about a child: a first name, a grade, and which class they are in.
  *
  * No surname, no email, no phone, no photo, no location, no guardian contact. This is a deliberate
  * ceiling, not a stage we intend to grow out of: the data cannot leak, be subpoenaed or be used to

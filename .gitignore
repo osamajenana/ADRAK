@@ -66,3 +66,8 @@ secrets/
 /web/test-results/
 /web/playwright-report/
 /web/.playwright/
+
+# ---- نسخ محلية للعرض، خارج المستودع عمداً ----
+# نسخة HTML للطباعة من خطة غزة (المصدر هو ملف .md بجوارها) وقائمة خطوات التقديم.
+# محفوظة على الجهاز فقط، فلا تُدفَع إلى GitHub.
+/docs/*.html

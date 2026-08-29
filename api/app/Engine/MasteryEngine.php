@@ -11,7 +11,7 @@ namespace App\Engine;
  * constraint, not an implementation detail. A teacher who cannot see why the system says "mastered"
  * will not trust it, and a recovery plan a teacher does not trust does not get taught.
  *
- * This is deliberately not a model. The AI in NABD writes hints and simplified explanations; it is
+ * This is deliberately not a model. The AI in ADRAK writes hints and simplified explanations; it is
  * never allowed near this decision.
  *
  * @see engine-spec/SPEC.md#1

@@ -49,9 +49,9 @@ const STATUS_LABEL: Record<MasteryStatus, string> = {
 };
 
 const FILL: Record<MasteryStatus, string> = {
-  mastered: 'var(--nabd-mastered)',
-  learning: 'var(--nabd-learning)',
-  not_started: 'var(--nabd-locked)',
+  mastered: 'var(--adrak-mastered)',
+  learning: 'var(--adrak-learning)',
+  not_started: 'var(--adrak-locked)',
 };
 
 export function SkillMap({ skills, statuses, pathCodes = [], currentCode }: SkillMapProps) {
@@ -116,10 +116,10 @@ export function SkillMap({ skills, statuses, pathCodes = [], currentCode }: Skil
                   d={`M ${from.x} ${from.y} C ${mid} ${from.y}, ${mid} ${node.y}, ${node.x} ${node.y}`}
                   stroke={
                     bothOnPath
-                      ? 'var(--nabd-primary)'
+                      ? 'var(--adrak-primary)'
                       : from.status === 'mastered'
-                        ? 'var(--nabd-mastered)'
-                        : 'var(--nabd-border)'
+                        ? 'var(--adrak-mastered)'
+                        : 'var(--adrak-border)'
                   }
                   strokeOpacity={bothOnPath ? 0.9 : from.status === 'mastered' ? 0.45 : 0.35}
                   className={bothOnPath ? 'pulse' : undefined}
@@ -152,7 +152,7 @@ function SkillNode({ node, isCurrent }: { node: Node; isCurrent: boolean }) {
         <circle
           r={NODE_R + 7}
           fill="none"
-          stroke="var(--nabd-primary)"
+          stroke="var(--adrak-primary)"
           strokeWidth={2}
           className="pulse"
         />
@@ -161,7 +161,7 @@ function SkillNode({ node, isCurrent }: { node: Node; isCurrent: boolean }) {
       <circle
         r={node.skill.is_spine ? NODE_R : NODE_R - 3}
         fill={FILL[node.status]}
-        stroke={node.onPath ? 'var(--nabd-primary)' : 'transparent'}
+        stroke={node.onPath ? 'var(--adrak-primary)' : 'transparent'}
         strokeWidth={2}
       />
 
@@ -171,7 +171,7 @@ function SkillNode({ node, isCurrent }: { node: Node; isCurrent: boolean }) {
         <path
           d="M -5 0 L -1.5 4 L 5.5 -4"
           fill="none"
-          stroke="var(--nabd-mastered-fg)"
+          stroke="var(--adrak-mastered-fg)"
           strokeWidth={2.5}
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -183,7 +183,7 @@ function SkillNode({ node, isCurrent }: { node: Node; isCurrent: boolean }) {
         y={NODE_R + 15}
         textAnchor="middle"
         fontSize={11}
-        fill="var(--nabd-text-muted)"
+        fill="var(--adrak-text-muted)"
         style={{ direction: 'rtl' }}
       >
         {node.skill.name_ar.length > 18

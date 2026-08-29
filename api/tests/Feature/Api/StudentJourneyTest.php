@@ -247,10 +247,10 @@ it('keeps a teacher out of the student endpoints', function (): void {
 });
 
 it('does not reveal whether an email has an account', function (): void {
-    User::factory()->teacher()->create(['email' => 'known@nabd.test', 'password' => 'secret-pass']);
+    User::factory()->teacher()->create(['email' => 'known@adrak.test', 'password' => 'secret-pass']);
 
-    $known = test()->postJson('/api/auth/teacher', ['email' => 'known@nabd.test', 'password' => 'wrong']);
-    $unknown = test()->postJson('/api/auth/teacher', ['email' => 'nobody@nabd.test', 'password' => 'wrong']);
+    $known = test()->postJson('/api/auth/teacher', ['email' => 'known@adrak.test', 'password' => 'wrong']);
+    $unknown = test()->postJson('/api/auth/teacher', ['email' => 'nobody@adrak.test', 'password' => 'wrong']);
 
     $known->assertStatus(422);
     $unknown->assertStatus(422);

@@ -20,7 +20,7 @@ use Illuminate\Validation\ValidationException;
  * with real seeded work, not a mock. There is no demo mode inside the app; a judge sees exactly
  * what a student sees.
  *
- * Gated on NABD_DEMO_MODE and refused outright otherwise. On a deployment holding real children's
+ * Gated on ADRAK_DEMO_MODE and refused outright otherwise. On a deployment holding real children's
  * work, an endpoint that issues tokens without credentials has no business existing.
  */
 final class DemoController extends Controller
@@ -60,7 +60,7 @@ final class DemoController extends Controller
 
     private function guard(): void
     {
-        if (config('nabd.demo.enabled') !== true) {
+        if (config('adrak.demo.enabled') !== true) {
             throw ValidationException::withMessages(['demo' => 'وضع العرض غير مفعّل.']);
         }
     }

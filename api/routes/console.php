@@ -15,7 +15,7 @@ Artisan::command('inspire', function () {
  * Judging runs for weeks against a public link. Without this, the tenth person to open it meets a
  * class whose progress the nine before them have scribbled over, and concludes it does not work.
  */
-Schedule::command('nabd:demo-reset')->dailyAt('03:00')->withoutOverlapping();
+Schedule::command('adrak:demo-reset')->dailyAt('03:00')->withoutOverlapping();
 
 /*
  * Discovery runs weekly, not nightly.
@@ -24,4 +24,4 @@ Schedule::command('nabd:demo-reset')->dailyAt('03:00')->withoutOverlapping();
  * the app to accumulate. Running it every night would mostly re-examine the same thin evidence and
  * spend tokens to reach the same answer.
  */
-Schedule::command('nabd:discover-misconceptions')->weeklyOn(6, '04:00')->withoutOverlapping();
+Schedule::command('adrak:discover-misconceptions')->weeklyOn(6, '04:00')->withoutOverlapping();

@@ -33,14 +33,14 @@ use Illuminate\Support\Facades\DB;
  */
 final class DemoSeeder extends Seeder
 {
-    public const TEACHER_EMAIL = 'teacher@nabd.demo';
+    public const TEACHER_EMAIL = 'teacher@adrak.demo';
 
-    public const ADMIN_EMAIL = 'admin@nabd.demo';
+    public const ADMIN_EMAIL = 'admin@adrak.demo';
 
-    public const PASSWORD = 'nabd-demo';
+    public const PASSWORD = 'adrak-demo';
 
     /** Chosen by hand rather than generated. A judge has to be able to type it from a slide. */
-    public const JOIN_CODE = 'NABD26';
+    public const JOIN_CODE = 'ADRAK26';
 
     private int $seed = 20260826;
 
@@ -66,7 +66,7 @@ final class DemoSeeder extends Seeder
     {
         User::updateOrCreate(
             ['email' => self::ADMIN_EMAIL],
-            ['name' => 'مشرف نبض', 'password' => self::PASSWORD, 'role' => UserRole::Admin],
+            ['name' => 'مشرف أدرك', 'password' => self::PASSWORD, 'role' => UserRole::Admin],
         );
 
         return User::updateOrCreate(

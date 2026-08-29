@@ -20,7 +20,7 @@ import { decodeBase45, encodeBase45 } from './base45';
  */
 
 /** Version prefix, so a newer student app and an older teacher app fail loudly instead of quietly. */
-const MAGIC = 'NABD1';
+const MAGIC = 'ADRAK1';
 
 /** Conservative for a cracked screen in bad light — well inside alphanumeric capacity at 4296. */
 const MAX_CHARS_PER_FRAME = 1200;
@@ -94,7 +94,7 @@ export interface ScannedFrame {
 
 /** Parses one scanned frame. Returns null for anything that is not one of ours. */
 export function parseFrame(text: string): ScannedFrame | null {
-  const match = /^NABD1:(\d+)\/(\d+):(.*)$/s.exec(text.trim());
+  const match = /^ADRAK1:(\d+)\/(\d+):(.*)$/s.exec(text.trim());
 
   if (!match) return null;
 

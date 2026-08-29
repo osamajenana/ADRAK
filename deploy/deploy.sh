@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Deploys NABD to the server.
+# Deploys ADRAK to the server.
 #
 # Run from the repository root on the server itself:  ./deploy/deploy.sh
 #
@@ -10,7 +10,7 @@
 #
 set -euo pipefail
 
-APP_DIR="${APP_DIR:-/var/www/nabd}"
+APP_DIR="${APP_DIR:-/var/www/adrak}"
 PHP_FPM="${PHP_FPM:-php8.3-fpm}"
 
 cd "$APP_DIR"
@@ -47,7 +47,7 @@ php api/artisan migrate --force
 
 step "Loading content"
 # Idempotent: the graph and question bank are updated in place, never duplicated.
-php api/artisan nabd:seed-content
+php api/artisan adrak:seed-content
 
 # ---------------------------------------------------------------- frontend
 step "Building the PWA"
@@ -81,9 +81,9 @@ php api/artisan up
 trap - EXIT
 
 step "Verifying"
-curl -fsS -o /dev/null -w '  /up            → %{http_code}\n' https://nabd.apps.madafa.net/up
-curl -fsS -o /dev/null -w '  /              → %{http_code}\n' https://nabd.apps.madafa.net/
+curl -fsS -o /dev/null -w '  /up            → %{http_code}\n' https://adrak.apps.madafa.net/up
+curl -fsS -o /dev/null -w '  /              → %{http_code}\n' https://adrak.apps.madafa.net/
 curl -fsS -o /dev/null -w '  roster endpoint → %{http_code}\n' \
-  https://nabd.apps.madafa.net/api/auth/classrooms/NABD26
+  https://adrak.apps.madafa.net/api/auth/classrooms/ADRAK26
 
 printf '\n\033[1;32m✓ deployed\033[0m\n'

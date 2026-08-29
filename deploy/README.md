@@ -1,4 +1,4 @@
-# النشر — `nabd.apps.madafa.net`
+# النشر — `adrak.apps.madafa.net`
 
 خادم Ubuntu بـ root و2GB RAM. **بلا Docker**: سحب صورة على إنترنت غزة يكلّف مئات الميغابايتات مقابل لا شيء هنا، و2GB ذاكرة تُنفَق على التطبيق لا على طبقة تشغيل.
 
@@ -39,9 +39,9 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 sudo mysql_secure_installation
 
 sudo mysql -e "
-CREATE DATABASE nabd CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'nabd'@'localhost' IDENTIFIED BY 'ضع-كلمة-مرور-قوية-هنا';
-GRANT ALL PRIVILEGES ON nabd.* TO 'nabd'@'localhost';
+CREATE DATABASE adrak CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'adrak'@'localhost' IDENTIFIED BY 'ضع-كلمة-مرور-قوية-هنا';
+GRANT ALL PRIVILEGES ON adrak.* TO 'adrak'@'localhost';
 FLUSH PRIVILEGES;"
 ```
 
@@ -51,9 +51,9 @@ FLUSH PRIVILEGES;"
 ## ٤. الكود
 
 ```bash
-sudo mkdir -p /var/www/nabd && sudo chown -R "$USER":"$USER" /var/www/nabd
-git clone <repo> /var/www/nabd
-cd /var/www/nabd
+sudo mkdir -p /var/www/adrak && sudo chown -R "$USER":"$USER" /var/www/adrak
+git clone <repo> /var/www/adrak
+cd /var/www/adrak
 
 cp api/.env.example api/.env
 php api/artisan key:generate
@@ -62,16 +62,16 @@ php api/artisan key:generate
 `api/.env` للإنتاج:
 
 ```ini
-APP_NAME=NABD
+APP_NAME=ADRAK
 APP_ENV=production
 APP_DEBUG=false
-APP_URL=https://nabd.apps.madafa.net
+APP_URL=https://adrak.apps.madafa.net
 APP_LOCALE=ar
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
-DB_DATABASE=nabd
-DB_USERNAME=nabd
+DB_DATABASE=adrak
+DB_USERNAME=adrak
 DB_PASSWORD=...
 
 # لا Redis. على 2GB الذاكرة تُنفَق على PHP-FPM وMariaDB،
@@ -81,7 +81,7 @@ QUEUE_CONNECTION=database
 SESSION_DRIVER=database
 
 # دخول بضغطة للمحكمين. أطفئه فور انتهاء التحكيم.
-NABD_DEMO_MODE=true
+ADRAK_DEMO_MODE=true
 
 # اختياري — اكتشاف المفاهيم الخاطئة. بدونه يُربَط محلّل فارغ وكل شيء آخر يعمل.
 ANTHROPIC_API_KEY=
@@ -90,13 +90,13 @@ ANTHROPIC_API_KEY=
 ## ٥. Nginx و SSL
 
 ```bash
-sudo cp deploy/nginx.conf /etc/nginx/sites-available/nabd
-sudo ln -s /etc/nginx/sites-available/nabd /etc/nginx/sites-enabled/nabd
+sudo cp deploy/nginx.conf /etc/nginx/sites-available/adrak
+sudo ln -s /etc/nginx/sites-available/adrak /etc/nginx/sites-enabled/adrak
 sudo rm -f /etc/nginx/sites-enabled/default
 sudo nginx -t && sudo systemctl reload nginx
 
 sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d nabd.apps.madafa.net --redirect
+sudo certbot --nginx -d adrak.apps.madafa.net --redirect
 ```
 
 > **الشهادة ليست تجميلاً.** الـ Service Worker يتطلّب سياقاً آمناً، وبدونه **لا عمل بدون إنترنت إطلاقاً** — أي أن أقوى ما في المنتج يتوقّف عن الوجود على HTTP.
@@ -119,23 +119,79 @@ sudo crontab -u www-data -e
 ```
 أضف:
 ```
-* * * * * cd /var/www/nabd/api && php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /var/www/adrak/api && php artisan schedule:run >> /dev/null 2>&1
 ```
 
 هذا السطر وحده يشغّل:
-- `nabd:demo-reset` يومياً ٠٣:٠٠ — التحكيم يمتدّ أسابيع على رابط عام، وبدونه يفتحه العاشر ليجد صفاً شخبط عليه التسعة قبله ويستنتج أن الشيء لا يعمل.
-- `nabd:discover-misconceptions` أسبوعياً — إجابة خاطئة مشتركة تحتاج أسبوع استخدام لتتراكم.
+- `adrak:demo-reset` يومياً ٠٣:٠٠ — التحكيم يمتدّ أسابيع على رابط عام، وبدونه يفتحه العاشر ليجد صفاً شخبط عليه التسعة قبله ويستنتج أن الشيء لا يعمل.
+- `adrak:discover-misconceptions` أسبوعياً — إجابة خاطئة مشتركة تحتاج أسبوع استخدام لتتراكم.
 
 ## ٨. بعد النشر
 
 | | |
 |---|---|
-| الرابط | `https://nabd.apps.madafa.net` |
-| رمز الصف | `NABD26` · الرقم السري `1234` |
-| معلّم | `teacher@nabd.demo` / `nabd-demo` |
-| صحة الخادم | `https://nabd.apps.madafa.net/up` |
+| الرابط | `https://adrak.apps.madafa.net` |
+| رمز الصف | `ADRAK26` · الرقم السري `1234` |
+| معلّم | `teacher@adrak.demo` / `adrak-demo` |
+| صحة الخادم | `https://adrak.apps.madafa.net/up` |
 
-**غيّر كلمات مرور العرض قبل أي بيانات حقيقية، وأطفئ `NABD_DEMO_MODE`.** نقطة تُصدِر رموزاً بلا بيانات اعتماد لا مكان لها على خادم يحمل عمل أطفال حقيقيين.
+**غيّر كلمات مرور العرض قبل أي بيانات حقيقية، وأطفئ `ADRAK_DEMO_MODE`.** نقطة تُصدِر رموزاً بلا بيانات اعتماد لا مكان لها على خادم يحمل عمل أطفال حقيقيين.
+
+---
+
+## ترحيل نشر `nabd` قائم
+
+الأقسام أعلاه تصف تثبيتاً جديداً. إن كان الخادم يحمل بالفعل النشر القديم تحت اسم **نبض**، فهذه هي الخطوات — ولا يكفي `git pull`، لأن اسم المشروع كان يسكن في المسار وقاعدة البيانات والدومين، وثلاثتها خارج المستودع.
+
+**١. الدومين قبل أي شيء.** أضف سجل DNS لـ `adrak.apps.madafa.net` يشير لنفس عنوان الخادم، وانتظر انتشاره. `deploy.sh` ينتهي بـ `curl` على الرابط الجديد وسيفشل بدونه.
+
+**٢. المسار.**
+
+```bash
+sudo mv /var/www/nabd /var/www/adrak
+cd /var/www/adrak && git pull
+```
+
+**٣. قاعدة البيانات.** أعد التسمية بدل الترحيل — لا تغيير في المخطط، والبيانات تنتقل كما هي:
+
+```bash
+sudo mysql -e "
+CREATE DATABASE adrak CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'adrak'@'localhost' IDENTIFIED BY 'نفس-كلمة-المرور-أو-جديدة';
+GRANT ALL PRIVILEGES ON adrak.* TO 'adrak'@'localhost';
+FLUSH PRIVILEGES;"
+
+# MariaDB لا تملك RENAME DATABASE. النقل جدولاً جدولاً هو الطريق المدعوم:
+sudo mysql -N -e "SELECT table_name FROM information_schema.tables WHERE table_schema='nabd'"   | while read t; do sudo mysql -e "RENAME TABLE nabd.$t TO adrak.$t"; done
+```
+
+**٤. `api/.env`** — خارج المستودع، فلن يلمسه `git pull`. عدّل يدوياً: `APP_NAME`، `APP_URL`، `DB_DATABASE`، `DB_USERNAME`، وكل مفتاح `NABD_*` صار `ADRAK_*` (`ADRAK_DEMO_MODE`، `ADRAK_DISCOVERY_MODEL`، `ADRAK_DISCOVERY_MIN_STUDENTS`). مفتاح `NABD_*` منسيّ لا يرفع خطأ — يعود للقيمة الافتراضية بصمت، و`ADRAK_DEMO_MODE` المنسيّ يعني `false` ويختفي دخول المحكمين بضغطة.
+
+**٥. Nginx وSSL.**
+
+```bash
+sudo cp deploy/nginx.conf /etc/nginx/sites-available/adrak
+sudo ln -sf /etc/nginx/sites-available/adrak /etc/nginx/sites-enabled/adrak
+sudo rm -f /etc/nginx/sites-enabled/nabd /etc/nginx/sites-available/nabd
+sudo nginx -t && sudo systemctl reload nginx
+sudo certbot --nginx -d adrak.apps.madafa.net --redirect
+```
+
+**٦. الكرون.** السطر القديم يشير لـ `/var/www/nabd`، والمسار لم يعد موجوداً:
+
+```bash
+crontab -e   # /var/www/nabd → /var/www/adrak
+```
+
+**٧. الصف التجريبي.** رمز الصف صار `ADRAK26` وبريد المعلّم `teacher@adrak.demo`، وكلاهما بيانات مبذورة لا مخطَّط. أعد بذرها:
+
+```bash
+php api/artisan adrak:demo-reset --force
+```
+
+**ما ينكسر عمداً:** أي رمز QR مطبوع قبل الترحيل. ترويسة إطار المزامنة كانت `NABD1` وصارت `ADRAK1`، وشاشة المعلّم سترفض القديم برسالة «هذا الرمز ليس من أدرك». وهذا هو السلوك الصحيح — الترويسة موجودة تحديداً ليفشل عدم التطابق بصوت عالٍ بدل أن يُفكّ ترميزه إلى نصف أسبوع من عمل طالب.
+
+**وبيانات الطلاب المحلية على أجهزتهم.** قاعدة IndexedDB اسمها `adrak` بدل `nabd`، فأي عمل لم يُزامَن بعد على هاتف طالب يصير غير مرئي للتطبيق الجديد. صرّف الطوابير قبل الترحيل، أو رحّل بعد جلسة مزامنة.
 
 ---
 

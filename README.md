@@ -1,6 +1,8 @@
 <div align="center">
 
-# نبض · NABD
+<img src="design/logo/adrak-lockup.png" width="360" alt="أدرك — لحق. فهم. تقدم.">
+
+# أدرك · ADRAK
 
 **منصة تعليم تكيفي Offline-first لمعالجة الفاقد التعليمي — مصمَّمة من داخل غزة.**
 _Adaptive, offline-first learning-recovery platform — built inside Gaza._
@@ -15,7 +17,7 @@ _Adaptive, offline-first learning-recovery platform — built inside Gaza._
 
 ## الحل
 
-نبض يحدّد **المستوى الحقيقي** لكل طالب في ~١٢ سؤالاً عبر بحث ثنائي على شبكة المهارات، ثم يبني له **مسار تعافٍ شخصياً** يبدأ من أول فجوة حقيقية — ويعمل **بدون إنترنت بالكامل**.
+أدرك يحدّد **المستوى الحقيقي** لكل طالب في ~١٢ سؤالاً عبر بحث ثنائي على شبكة المهارات، ثم يبني له **مسار تعافٍ شخصياً** يبدأ من أول فجوة حقيقية — ويعمل **بدون إنترنت بالكامل**.
 
 هذه رقمنة لمنهجية **Teaching at the Right Level (TaRL)**، وهي من أكثر تدخّلات معالجة الفاقد التعليمي دعماً بالأدلة التجريبية عالمياً.
 
@@ -27,22 +29,23 @@ _Adaptive, offline-first learning-recovery platform — built inside Gaza._
 | 📷 **مزامنة ضوئية بلا بنية تحتية** | الطالب يعرض تقدّمه كرمز QR والمعلّم يمسحه. صفر إنترنت، صفر راوتر، صفر إقران. |
 | 🧠 **تحليلات المفاهيم الخاطئة** | لا نقول للمعلّم «١٢ طالباً رسبوا» — نقول «١٢ طالباً يجمعون البسط والمقام». الخطأ يتحوّل إلى تشخيص. |
 | 📱 **وضع الجهاز المشترك** | ٥ طلاب على هاتف واحد بملفات معزولة — واقع غزة، لا افتراض. |
-| 🖨️ **مسار ورقي** | من لا جهاز لديه يبقى داخل نفس النظام عبر أوراق عمل وإدخال نتائج بـ QR. |
+| 🎫 **دخول بلا كتابة** | كرت QR مطبوع يحمله الطالب. على جهاز مشترك مشروخ الشاشة، الدخول رفعُ كرت لا كتابةُ كلمة سر. |
 | 🔋 **مصمَّم للقيد** | حزمة ≤ 200KB · يعمل على 2G · وضع توفير بطارية · وضع داكن افتراضي. |
 | 💚 **تصميم واعٍ بالصدمة** | لا مؤقتات · لا ترتيب تنافسي · لا علامات خطأ حمراء. مهارة نبنيها، لا اختبار نرسب فيه. |
 
 ## البنية
 
 ```
-nabd/
+adrak/
 ├─ api/            Laravel 12 · API-only · Sanctum · MariaDB
 ├─ web/            React 19 · TypeScript · Vite · PWA · Dexie (IndexedDB)
 ├─ engine-spec/    مواصفة الخوارزمية + متجهات اختبار مشتركة  ← مصدر الحقيقة
 ├─ content/        شبكة المهارات وبنك الأسئلة
 ├─ design/         الهوية البصرية ونظام التصميم
-├─ video/          مشروع Remotion للفيديو التعريفي
-├─ docs/           العرض · خطة غزة · المعمارية · تقرير التجربة الميدانية
-└─ deploy/         nginx · systemd · سكربتات النشر
+├─ docs/           خطة التنفيذ في غزة · إجابات استمارة التسجيل
+├─ video/          مشروع Remotion — الفيديو التعريفي (٧٨ ثانية)
+├─ deploy/         nginx · سكربت النشر · دليل الخادم
+└─ .github/        بوابات CI — كل رقم في هذا الملف يُفحص آلياً على كل دفعة
 ```
 
 ### `engine-spec/` — لماذا هو موجود
@@ -56,19 +59,41 @@ nabd/
 ```bash
 # Backend
 cd api && composer install && cp .env.example .env && php artisan key:generate
-php artisan migrate --seed && php artisan serve
+php artisan migrate
 
-# Frontend
+# المنهاج ثم الصف التجريبي — بهذا الترتيب، فالصف يشير إلى المهارات.
+# `migrate --seed` وحده يشغّل بذرة Laravel الافتراضية ويترك التطبيق بلا منهاج ولا صف.
+php artisan adrak:seed-content
+php artisan adrak:demo-reset --force
+
+php artisan serve --port=8001
+
+# Frontend  (منفذ آخر — الواجهة تُوكِّل /api إلى 8001)
 cd web && npm ci && npm run dev
 ```
+
+يفتح على `http://127.0.0.1:5173` — «جرّب كطالب» يدخلك بضغطة. رمز الصف `ADRAK26` والرقم السري `1234`، والمعلّم `teacher@adrak.demo` / `adrak-demo`.
 
 ## الاختبارات
 
 ```bash
-cd api && ./vendor/bin/pest              # API + متجهات المحرّك
-cd api && ./vendor/bin/phpstan analyse   # تحليل ساكن level 6
-cd web && npm run test                   # نفس متجهات المحرّك على العميل
-cd web && npm run test:e2e               # Playwright — يشمل سيناريو انقطاع الإنترنت
+cd api && ./vendor/bin/pest                              # API + متجهات المحرّك
+cd api && ./vendor/bin/phpstan analyse --memory-limit=1G # تحليل ساكن level 6
+cd web && npm run test                                   # نفس متجهات المحرّك على العميل
+
+node tools/check-contrast.mjs   # ٣٤ زوج لون، WCAG 2.2 AA في الوضعين
+node tools/check-bundle.mjs     # ميزانية ٢٠٠KB على 2G
+```
+
+كل ما سبق يعمل في `.github/workflows/ci.yml` على كل دفعة ودمج — التباين، وميزانية الحزمة، وأن `tokens.css` مولَّد لا مكتوب بيد. الاختبار الطرفي وحده خارج الـ CI عمداً: يقود متصفّحاً حقيقياً ضدّ API يُشغَّل يدوياً، ونسخةٌ منه في الـ CI تختبر شيئاً آخر غير الذي يقوم عليه ادعاء العمل بلا إنترنت.
+
+`phpstan` يحتاج `--memory-limit=1G` صراحةً: افتراض PHP هو 128M، وعنده تنهار عملية فرعية برسالة تبدو كخطأ في الكود وليست كذلك.
+
+الاختبار الطرفي يحتاج الـ API شغّالاً — لا يشغّله بنفسه، عمداً، كي لا يمسح صفاً تجريبياً ينظر إليه أحدهم:
+
+```bash
+cd api && php artisan serve --port=8001    # في طرفية
+cd web && npm run test:e2e                 # في أخرى
 ```
 
 ---

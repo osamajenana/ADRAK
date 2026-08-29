@@ -115,7 +115,7 @@ describe('QR sync payload', () => {
     expect(parseFrame('https://example.com')).toBeNull();
     expect(parseFrame('')).toBeNull();
     // A future version prefix must not be misread as this one.
-    expect(parseFrame('NABD2:1/1:ABC')).toBeNull();
+    expect(parseFrame('ADRAK2:1/1:ABC')).toBeNull();
   });
 
   it("compresses the redundancy out of a session's event ids", async () => {

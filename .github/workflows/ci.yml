@@ -1,0 +1,99 @@
+# The gates the documentation claims. Every one of them is a claim this project makes about itself
+# in README.md or design/README.md, so every one of them runs here — a claim nothing checks is a
+# claim that quietly stops being true.
+#
+# The end-to-end run is deliberately absent: it drives a real Chrome against a hand-started API on
+# purpose (see web/playwright.config.ts), and a CI copy of that would test a different thing than
+# the one the offline claim rests on. It is run before a release, not on every push.
+
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  api:
+    name: API — Pest + PHPStan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, bcmath, sqlite3, pdo_sqlite
+          coverage: none
+          # PHPStan's default 128M kills a worker mid-analysis and reports it as a crash rather
+          # than as a memory limit. Raised here for the same reason README.md raises it locally.
+          ini-values: memory_limit=1G
+
+      - name: Install dependencies
+        working-directory: api
+        run: composer install --prefer-dist --no-interaction --no-progress
+
+      - name: Prepare environment
+        working-directory: api
+        run: cp .env.example .env && php artisan key:generate
+
+      # Tests run against sqlite :memory: (api/phpunit.xml), so no database service is needed.
+      - name: Static analysis (level 6)
+        working-directory: api
+        run: ./vendor/bin/phpstan analyse --no-progress --memory-limit=1G
+
+      - name: Tests
+        working-directory: api
+        run: ./vendor/bin/pest
+
+  web:
+    name: Web — lint, types, unit tests, bundle budget
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        working-directory: web
+        run: npm ci
+
+      # Biome, tsc --noEmit, and the shared engine vectors under Vitest.
+      - name: Lint, typecheck, unit tests
+        working-directory: web
+        run: npm run check
+
+      - name: Build
+        working-directory: web
+        run: npm run build
+
+      # The 200 KB gzipped ceiling from design/tokens.json. This is the number that decides whether
+      # a student on 2G sees the app at all, so it fails the build rather than warning.
+      - name: Bundle budget (200 KB on 2G)
+        run: node tools/check-bundle.mjs
+
+  design:
+    name: Design — contrast + generated tokens
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 34 foreground/background pairs, both themes, WCAG 2.2 AA.
+      - name: Contrast
+        run: node tools/check-contrast.mjs
+
+      # web/src/styles/tokens.css is generated from design/tokens.json. Regenerating it must be a
+      # no-op; a diff here means someone hand-edited the artefact and the source of truth has
+      # quietly stopped being the source of truth.
+      - name: tokens.css is generated, not hand-edited
+        run: |
+          node tools/build-tokens.mjs
+          git diff --exit-code --ignore-cr-at-eol -- web/src/styles/tokens.css

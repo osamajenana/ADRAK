@@ -16,7 +16,7 @@ use Illuminate\Console\Command;
  */
 final class DiscoverMisconceptions extends Command
 {
-    protected $signature = 'nabd:discover-misconceptions
+    protected $signature = 'adrak:discover-misconceptions
                             {--min-students= : how many students must share a wrong answer}
                             {--dry-run : list the candidates without asking the analyst}';
 
@@ -26,7 +26,7 @@ final class DiscoverMisconceptions extends Command
         MisconceptionDiscoveryService $discovery,
         MisconceptionAnalyst $analyst,
     ): int {
-        $minStudents = (int) ($this->option('min-students') ?: config('nabd.discovery.min_students'));
+        $minStudents = (int) ($this->option('min-students') ?: config('adrak.discovery.min_students'));
 
         if ($this->option('dry-run')) {
             return $this->listCandidates($discovery, $minStudents);

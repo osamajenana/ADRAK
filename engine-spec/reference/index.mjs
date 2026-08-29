@@ -1,5 +1,5 @@
 /**
- * NABD Adaptive Engine — reference implementation.
+ * ADRAK Adaptive Engine — reference implementation.
  *
  * This file is normative: it is the executable form of SPEC.md and the source the test vectors
  * are generated from. It is deliberately dependency-free, side-effect-free and clock-free so the

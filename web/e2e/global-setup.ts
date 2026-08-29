@@ -1,4 +1,4 @@
-const API_PORT = process.env.NABD_API_PORT ?? '8001';
+const API_PORT = process.env.ADRAK_API_PORT ?? '8001';
 
 /**
  * Checks the API is up before any test runs.
@@ -16,7 +16,7 @@ export default async function globalSetup(): Promise<void> {
   }
 
   throw new Error(
-    `The NABD API is not answering on port ${API_PORT}.\n` +
+    `The ADRAK API is not answering on port ${API_PORT}.\n` +
       `Start it first:  cd api && php artisan serve --port=${API_PORT}`,
   );
 }

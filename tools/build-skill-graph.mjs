@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * NABD — Skill Graph builder & validator.
+ * ADRAK — Skill Graph builder & validator.
  *
  * Merges content/_parts/*.json into content/skill-graph.json and, while doing so:
  *   1. normalises Arabic-Indic digits to Western digits (UI default; see design decision in the plan)

@@ -111,7 +111,7 @@ export interface MetaEntry {
   value: unknown;
 }
 
-export class NabdDatabase extends Dexie {
+export class AdrakDatabase extends Dexie {
   skills!: EntityTable<LocalSkill, 'code'>;
   questions!: EntityTable<LocalQuestion, 'id'>;
   progress!: EntityTable<LocalProgress, 'key'>;
@@ -121,7 +121,7 @@ export class NabdDatabase extends Dexie {
   profiles!: EntityTable<LocalProfile, 'id'>;
   meta!: EntityTable<MetaEntry, 'key'>;
 
-  constructor(name = 'nabd') {
+  constructor(name = 'adrak') {
     super(name);
 
     this.version(1).stores({
@@ -138,7 +138,7 @@ export class NabdDatabase extends Dexie {
   }
 }
 
-export const db = new NabdDatabase();
+export const db = new AdrakDatabase();
 
 export const progressKey = (profileId: number, skillCode: string): string =>
   `${profileId}:${skillCode}`;

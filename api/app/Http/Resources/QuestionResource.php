@@ -14,7 +14,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
  *
  * Note that `is_correct` IS sent to the client, along with the explanation.
  *
- * That is not an oversight. NABD has to grade an answer on a phone in a tent with the network off,
+ * That is not an oversight. ADRAK has to grade an answer on a phone in a tent with the network off,
  * and it cannot do that without knowing which answer is right. Withholding it would mean either no
  * offline practice at all, or feedback that arrives days later when the child syncs — by which
  * point it teaches nothing.

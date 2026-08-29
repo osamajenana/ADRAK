@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Schema;
  */
 final class DemoReset extends Command
 {
-    protected $signature = 'nabd:demo-reset {--force : run outside local without confirming}';
+    protected $signature = 'adrak:demo-reset {--force : run outside local without confirming}';
 
     protected $description = 'Wipe student progress and rebuild the demo classroom';
 

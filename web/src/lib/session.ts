@@ -230,8 +230,9 @@ export async function prefetchCurrentBank(profileId: number): Promise<void> {
   if (!response.ok) return;
 
   await db.questions.bulkPut(
-    // biome-ignore lint/suspicious/noExplicitAny: the API shape is validated by LocalQuestion at
-    // the point of use; typing it twice here would duplicate the contract without adding a check.
+    // The API shape is validated by LocalQuestion at the point of use; typing it twice here would
+    // duplicate the contract without adding a check.
+    // biome-ignore lint/suspicious/noExplicitAny: validated by LocalQuestion at the point of use
     (response.data.questions as any[]).map((q) => ({ ...q, skill_code: response.data.skill.code })),
   );
 }

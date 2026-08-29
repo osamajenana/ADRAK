@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const API_PORT = process.env.NABD_API_PORT ?? '8001';
+const API_PORT = process.env.ADRAK_API_PORT ?? '8001';
 const WEB_PORT = 5174;
 
 /**
@@ -17,6 +17,11 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: 0,
   workers: 1,
+
+  // The drain test waits up to 45s for the outbox to empty after the network returns, which cannot
+  // fit inside Playwright's 30s default — the test died on its own budget while the app was
+  // behaving correctly. The drain measures ~32s; 60s leaves room without hiding a real regression.
+  timeout: 60_000,
   reporter: process.env.CI ? 'list' : [['list'], ['html', { open: 'never' }]],
 
   use: {
