@@ -5,7 +5,7 @@
  * ---------------------------------------------------------------------------- */
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 
   /* raw palette — use the semantic tokens below in components, not these */
   --adrak-teal-50: #EFFCFA;
@@ -50,35 +50,38 @@
   --adrak-rose-600: #E11D48;
   --adrak-rose-700: #BE123C;
 
-  /* semantic: dark is the default theme, not an option.
-     Most students share a low-end Android and study after dark on whatever charge is left;
-     OLED battery saving and night readability are constraints here, not preferences.
-     Light and auto are both reachable from the in-app toggle. */
-  --adrak-bg: #0A0F16;
-  --adrak-surface: #121A24;
-  --adrak-surface-raised: #1B2634;
-  --adrak-border: #28374A;
-  --adrak-border-strong: #5E7085;
-  --adrak-text: #E9EFF6;
-  --adrak-text-muted: #A3B2C4;
-  --adrak-text-subtle: #7B8A9C;
-  --adrak-primary: #38C6BE;
-  --adrak-primary-hover: #71DED4;
-  --adrak-primary-fg: #052C2D;
-  --adrak-focus: #71DED4;
-  --adrak-mastered: #38C6BE;
-  --adrak-mastered-fg: #052C2D;
-  --adrak-learning: #FBBF24;
-  --adrak-learning-fg: #451A03;
-  --adrak-weak: #FCD34D;
-  --adrak-locked: #3F4C5C;
-  --adrak-locked-fg: #C2CDDA;
-  --adrak-retry: #FBBF24;
-  --adrak-retry-surface: #2A2113;
-  --adrak-offline: #A3B2C4;
-  --adrak-offline-surface: #1B2634;
-  --adrak-danger: #FB7185;
-  --adrak-danger-fg: #0A0F16;
+  /* semantic: light is the default.
+     This is a reversal — dark was the default first, argued from OLED battery saving on the
+     shared low-end Androids these students study on after sunset. Light replaced it because a
+     session here is sustained reading of worked mathematics, and because the brand mark is
+     light-ground artwork whose navy path loses its contrast on a dark surface entirely.
+     The battery cost of that reversal is real and is not pretended away.
+     Dark stays fully defined below and is one attribute away. */
+  --adrak-bg: #F7F9FC;
+  --adrak-surface: #FFFFFF;
+  --adrak-surface-raised: #FFFFFF;
+  --adrak-border: #DDE4EC;
+  --adrak-border-strong: #8494A8;
+  --adrak-text: #18222E;
+  --adrak-text-muted: #3F4C5C;
+  --adrak-text-subtle: #556577;
+  --adrak-primary: #0F7A76;
+  --adrak-primary-hover: #136C6A;
+  --adrak-primary-fg: #FFFFFF;
+  --adrak-focus: #0F7A76;
+  --adrak-mastered: #136C6A;
+  --adrak-mastered-fg: #FFFFFF;
+  --adrak-learning: #B45309;
+  --adrak-learning-fg: #FFFFFF;
+  --adrak-weak: #92400E;
+  --adrak-locked: #C2CDDA;
+  --adrak-locked-fg: #3F4C5C;
+  --adrak-retry: #B45309;
+  --adrak-retry-surface: #FFFBEB;
+  --adrak-offline: #3F4C5C;
+  --adrak-offline-surface: #EEF2F7;
+  --adrak-danger: #BE123C;
+  --adrak-danger-fg: #FFFFFF;
 
   /* typography */
   --adrak-font-sans: 'IBM Plex Sans Arabic', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -141,64 +144,64 @@
   --adrak-shadow-lg: 0 12px 32px rgb(0 0 0 / 0.12);
 }
 
-:root[data-theme='light'] {
-  color-scheme: light;
-  --adrak-bg: #F7F9FC;
-  --adrak-surface: #FFFFFF;
-  --adrak-surface-raised: #FFFFFF;
-  --adrak-border: #DDE4EC;
-  --adrak-border-strong: #8494A8;
-  --adrak-text: #18222E;
-  --adrak-text-muted: #3F4C5C;
-  --adrak-text-subtle: #556577;
-  --adrak-primary: #0F7A76;
-  --adrak-primary-hover: #136C6A;
-  --adrak-primary-fg: #FFFFFF;
-  --adrak-focus: #0F7A76;
-  --adrak-mastered: #136C6A;
-  --adrak-mastered-fg: #FFFFFF;
-  --adrak-learning: #B45309;
-  --adrak-learning-fg: #FFFFFF;
-  --adrak-weak: #92400E;
-  --adrak-locked: #C2CDDA;
-  --adrak-locked-fg: #3F4C5C;
-  --adrak-retry: #B45309;
-  --adrak-retry-surface: #FFFBEB;
-  --adrak-offline: #3F4C5C;
-  --adrak-offline-surface: #EEF2F7;
-  --adrak-danger: #BE123C;
-  --adrak-danger-fg: #FFFFFF;
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --adrak-bg: #0A0F16;
+  --adrak-surface: #121A24;
+  --adrak-surface-raised: #1B2634;
+  --adrak-border: #28374A;
+  --adrak-border-strong: #5E7085;
+  --adrak-text: #E9EFF6;
+  --adrak-text-muted: #A3B2C4;
+  --adrak-text-subtle: #7B8A9C;
+  --adrak-primary: #38C6BE;
+  --adrak-primary-hover: #71DED4;
+  --adrak-primary-fg: #052C2D;
+  --adrak-focus: #71DED4;
+  --adrak-mastered: #38C6BE;
+  --adrak-mastered-fg: #052C2D;
+  --adrak-learning: #FBBF24;
+  --adrak-learning-fg: #451A03;
+  --adrak-weak: #FCD34D;
+  --adrak-locked: #3F4C5C;
+  --adrak-locked-fg: #C2CDDA;
+  --adrak-retry: #FBBF24;
+  --adrak-retry-surface: #2A2113;
+  --adrak-offline: #A3B2C4;
+  --adrak-offline-surface: #1B2634;
+  --adrak-danger: #FB7185;
+  --adrak-danger-fg: #0A0F16;
 }
 
-/* Only 'auto' follows the operating system. The default stays dark on purpose. */
-@media (prefers-color-scheme: light) {
+/* Only 'auto' follows the operating system. The default stays light on purpose. */
+@media (prefers-color-scheme: dark) {
   :root[data-theme='auto'] {
-    color-scheme: light;
-    --adrak-bg: #F7F9FC;
-    --adrak-surface: #FFFFFF;
-    --adrak-surface-raised: #FFFFFF;
-    --adrak-border: #DDE4EC;
-    --adrak-border-strong: #8494A8;
-    --adrak-text: #18222E;
-    --adrak-text-muted: #3F4C5C;
-    --adrak-text-subtle: #556577;
-    --adrak-primary: #0F7A76;
-    --adrak-primary-hover: #136C6A;
-    --adrak-primary-fg: #FFFFFF;
-    --adrak-focus: #0F7A76;
-    --adrak-mastered: #136C6A;
-    --adrak-mastered-fg: #FFFFFF;
-    --adrak-learning: #B45309;
-    --adrak-learning-fg: #FFFFFF;
-    --adrak-weak: #92400E;
-    --adrak-locked: #C2CDDA;
-    --adrak-locked-fg: #3F4C5C;
-    --adrak-retry: #B45309;
-    --adrak-retry-surface: #FFFBEB;
-    --adrak-offline: #3F4C5C;
-    --adrak-offline-surface: #EEF2F7;
-    --adrak-danger: #BE123C;
-    --adrak-danger-fg: #FFFFFF;
+    color-scheme: dark;
+    --adrak-bg: #0A0F16;
+    --adrak-surface: #121A24;
+    --adrak-surface-raised: #1B2634;
+    --adrak-border: #28374A;
+    --adrak-border-strong: #5E7085;
+    --adrak-text: #E9EFF6;
+    --adrak-text-muted: #A3B2C4;
+    --adrak-text-subtle: #7B8A9C;
+    --adrak-primary: #38C6BE;
+    --adrak-primary-hover: #71DED4;
+    --adrak-primary-fg: #052C2D;
+    --adrak-focus: #71DED4;
+    --adrak-mastered: #38C6BE;
+    --adrak-mastered-fg: #052C2D;
+    --adrak-learning: #FBBF24;
+    --adrak-learning-fg: #451A03;
+    --adrak-weak: #FCD34D;
+    --adrak-locked: #3F4C5C;
+    --adrak-locked-fg: #C2CDDA;
+    --adrak-retry: #FBBF24;
+    --adrak-retry-surface: #2A2113;
+    --adrak-offline: #A3B2C4;
+    --adrak-offline-surface: #1B2634;
+    --adrak-danger: #FB7185;
+    --adrak-danger-fg: #0A0F16;
   }
 }
 

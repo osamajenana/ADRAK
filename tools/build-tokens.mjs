@@ -36,16 +36,19 @@ const css = `/* ----------------------------------------------------------------
  * ---------------------------------------------------------------------------- */
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 
   /* raw palette — use the semantic tokens below in components, not these */
 ${emitPalette()}
 
-  /* semantic: dark is the default theme, not an option.
-     Most students share a low-end Android and study after dark on whatever charge is left;
-     OLED battery saving and night readability are constraints here, not preferences.
-     Light and auto are both reachable from the in-app toggle. */
-${emit('', tokens.semantic.dark)}
+  /* semantic: light is the default.
+     This is a reversal — dark was the default first, argued from OLED battery saving on the
+     shared low-end Androids these students study on after sunset. Light replaced it because a
+     session here is sustained reading of worked mathematics, and because the brand mark is
+     light-ground artwork whose navy path loses its contrast on a dark surface entirely.
+     The battery cost of that reversal is real and is not pretended away.
+     Dark stays fully defined below and is one attribute away. */
+${emit('', tokens.semantic.light)}
 
   /* typography */
   --adrak-font-sans: ${tokens.typography.family.sans};
@@ -71,16 +74,16 @@ ${emit('ease-', tokens.motion.easing)}
 ${emit('shadow-', tokens.elevation)}
 }
 
-:root[data-theme='light'] {
-  color-scheme: light;
-${emit('', tokens.semantic.light)}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+${emit('', tokens.semantic.dark)}
 }
 
-/* Only 'auto' follows the operating system. The default stays dark on purpose. */
-@media (prefers-color-scheme: light) {
+/* Only 'auto' follows the operating system. The default stays light on purpose. */
+@media (prefers-color-scheme: dark) {
   :root[data-theme='auto'] {
-    color-scheme: light;
-${emit('', tokens.semantic.light, '    ')}
+    color-scheme: dark;
+${emit('', tokens.semantic.dark, '    ')}
   }
 }
 
@@ -109,4 +112,4 @@ writeFileSync(OUT, css, 'utf8');
 const count = (css.match(/--adrak-/g) ?? []).length;
 console.log(`\n✅ ${OUT}`);
 console.log(`   ${count} custom property declarations`);
-console.log(`   themes: dark (default), light, auto\n`);
+console.log(`   themes: light (default), dark, auto\n`);

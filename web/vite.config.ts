@@ -24,10 +24,10 @@ export default defineConfig({
         dir: 'rtl',
         start_url: '/',
         display: 'standalone',
-        // Matches the dark default: the splash a student sees must not flash white at them in a
-        // dark tent.
-        background_color: '#0A0F16',
-        theme_color: '#0A0F16',
+        // Matches the light default, so the splash does not flash the opposite theme at a
+        // student before the app has painted a single pixel.
+        background_color: '#F7F9FC',
+        theme_color: '#F7F9FC',
         // One entry serves both purposes here because this icon earns it: 512x512, a solid
         // ground, and the artwork inside the 205px safe circle. A transparent, non-square mark
         // declared `maskable` — which this once was — hands Android a logo it crops into and
