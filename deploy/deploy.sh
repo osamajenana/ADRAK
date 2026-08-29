@@ -15,6 +15,12 @@ PHP_FPM="${PHP_FPM:-php8.3-fpm}"
 BRANCH="${BRANCH:-master}"
 DOMAIN="${DOMAIN:-adrak.madafa.net}"
 
+# The servers this runs on are operated as root over ssh, and a root shell is not guaranteed to
+# have sudo installed at all. Calling it unconditionally turns a working deploy into a failure at
+# the reload step - after the migration has already run.
+SUDO=""
+[ "$(id -u)" -eq 0 ] || SUDO="sudo"
+
 cd "$APP_DIR"
 
 step() { printf '\n\033[1;36m▸ %s\033[0m\n' "$1"; }
@@ -71,12 +77,16 @@ php api/artisan event:cache
 # View caching is deliberately skipped: this is an API with no Blade templates to compile.
 
 step "Restarting PHP-FPM"
-sudo systemctl reload "$PHP_FPM"
+$SUDO systemctl reload "$PHP_FPM"
 
 # ---------------------------------------------------------------- permissions
 step "Fixing permissions"
-sudo chown -R www-data:www-data api/storage api/bootstrap/cache
-sudo chmod -R ug+rwX api/storage api/bootstrap/cache
+$SUDO chown -R www-data:www-data api/storage api/bootstrap/cache
+$SUDO chmod -R ug+rwX api/storage api/bootstrap/cache
+
+# config:cache bakes .env - database password included - into a plain PHP file that artisan writes
+# world-readable. Every other tenant on a shared box can read it at 0644.
+$SUDO chmod o-rwx api/bootstrap/cache/config.php
 
 step "Leaving maintenance mode"
 php api/artisan up
