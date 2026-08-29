@@ -12,6 +12,8 @@ set -euo pipefail
 
 APP_DIR="${APP_DIR:-/var/www/adrak}"
 PHP_FPM="${PHP_FPM:-php8.3-fpm}"
+BRANCH="${BRANCH:-master}"
+DOMAIN="${DOMAIN:-adrak.madafa.net}"
 
 cd "$APP_DIR"
 
@@ -31,7 +33,7 @@ trap restore EXIT
 # ---------------------------------------------------------------- code
 step "Pulling"
 git fetch --all --prune
-git reset --hard origin/main
+git reset --hard "origin/$BRANCH"
 
 # ---------------------------------------------------------------- backend
 step "Installing PHP dependencies"
@@ -81,9 +83,9 @@ php api/artisan up
 trap - EXIT
 
 step "Verifying"
-curl -fsS -o /dev/null -w '  /up            → %{http_code}\n' https://adrak.apps.madafa.net/up
-curl -fsS -o /dev/null -w '  /              → %{http_code}\n' https://adrak.apps.madafa.net/
+curl -fsS -o /dev/null -w '  /up            → %{http_code}\n' "https://$DOMAIN/up"
+curl -fsS -o /dev/null -w '  /              → %{http_code}\n' "https://$DOMAIN/"
 curl -fsS -o /dev/null -w '  roster endpoint → %{http_code}\n' \
-  https://adrak.apps.madafa.net/api/auth/classrooms/ADRAK26
+  "https://$DOMAIN/api/auth/classrooms/ADRAK26"
 
 printf '\n\033[1;32m✓ deployed\033[0m\n'

@@ -1,4 +1,4 @@
-# النشر — `adrak.apps.madafa.net`
+# النشر — `adrak.madafa.net`
 
 خادم Ubuntu بـ root و2GB RAM. **بلا Docker**: سحب صورة على إنترنت غزة يكلّف مئات الميغابايتات مقابل لا شيء هنا، و2GB ذاكرة تُنفَق على التطبيق لا على طبقة تشغيل.
 
@@ -65,7 +65,7 @@ php api/artisan key:generate
 APP_NAME=ADRAK
 APP_ENV=production
 APP_DEBUG=false
-APP_URL=https://adrak.apps.madafa.net
+APP_URL=https://adrak.madafa.net
 APP_LOCALE=ar
 
 DB_CONNECTION=mysql
@@ -96,7 +96,7 @@ sudo rm -f /etc/nginx/sites-enabled/default
 sudo nginx -t && sudo systemctl reload nginx
 
 sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d adrak.apps.madafa.net --redirect
+sudo certbot --nginx -d adrak.madafa.net --redirect
 ```
 
 > **الشهادة ليست تجميلاً.** الـ Service Worker يتطلّب سياقاً آمناً، وبدونه **لا عمل بدون إنترنت إطلاقاً** — أي أن أقوى ما في المنتج يتوقّف عن الوجود على HTTP.
@@ -130,10 +130,10 @@ sudo crontab -u www-data -e
 
 | | |
 |---|---|
-| الرابط | `https://adrak.apps.madafa.net` |
+| الرابط | `https://adrak.madafa.net` |
 | رمز الصف | `ADRAK26` · الرقم السري `1234` |
 | معلّم | `teacher@adrak.demo` / `adrak-demo` |
-| صحة الخادم | `https://adrak.apps.madafa.net/up` |
+| صحة الخادم | `https://adrak.madafa.net/up` |
 
 **غيّر كلمات مرور العرض قبل أي بيانات حقيقية، وأطفئ `ADRAK_DEMO_MODE`.** نقطة تُصدِر رموزاً بلا بيانات اعتماد لا مكان لها على خادم يحمل عمل أطفال حقيقيين.
 
@@ -143,7 +143,7 @@ sudo crontab -u www-data -e
 
 الأقسام أعلاه تصف تثبيتاً جديداً. إن كان الخادم يحمل بالفعل النشر القديم تحت اسم **نبض**، فهذه هي الخطوات — ولا يكفي `git pull`، لأن اسم المشروع كان يسكن في المسار وقاعدة البيانات والدومين، وثلاثتها خارج المستودع.
 
-**١. الدومين قبل أي شيء.** أضف سجل DNS لـ `adrak.apps.madafa.net` يشير لنفس عنوان الخادم، وانتظر انتشاره. `deploy.sh` ينتهي بـ `curl` على الرابط الجديد وسيفشل بدونه.
+**١. الدومين قبل أي شيء.** أضف سجل DNS لـ `adrak.madafa.net` يشير لنفس عنوان الخادم، وانتظر انتشاره. `deploy.sh` ينتهي بـ `curl` على الرابط الجديد وسيفشل بدونه.
 
 **٢. المسار.**
 
@@ -174,7 +174,7 @@ sudo cp deploy/nginx.conf /etc/nginx/sites-available/adrak
 sudo ln -sf /etc/nginx/sites-available/adrak /etc/nginx/sites-enabled/adrak
 sudo rm -f /etc/nginx/sites-enabled/nabd /etc/nginx/sites-available/nabd
 sudo nginx -t && sudo systemctl reload nginx
-sudo certbot --nginx -d adrak.apps.madafa.net --redirect
+sudo certbot --nginx -d adrak.madafa.net --redirect
 ```
 
 **٦. الكرون.** السطر القديم يشير لـ `/var/www/nabd`، والمسار لم يعد موجوداً:
