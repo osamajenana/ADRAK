@@ -89,7 +89,21 @@ ADRAK_DEMO_MODE=true
 ANTHROPIC_API_KEY=
 ```
 
-## ٥. Nginx و SSL
+## ٥. PHP-FPM وNginx وSSL
+
+**pool خاص بأدرك، قبل nginx.** على خادم يحمل مواقع أخرى هذه ليست تحسيناً بل حدود ضرر:
+
+```bash
+sudo cp deploy/php-fpm.pool.conf /etc/php/8.3/fpm/pool.d/adrak.conf
+sudo php-fpm8.3 -t && sudo systemctl reload php8.3-fpm
+```
+
+> pool الافتراضي `[www]` على الخادم الذي يستضيف هذا يحمل عشرة مواقع إنتاج على `pm.max_children = 5`.
+> ساكن حادي عشر في نفس الـ pool يعني أن صفاً من ثلاثين طالباً يزامنون في آخر الحصة يشغل كل عامل
+> على الجهاز — والموقع الذي يبدأ بإعطاء 502 عيادة أسنان لا يذكر سجلّها أدرك بحرف.
+>
+> `reload` لا `restart`: الأولى إشارة `SIGUSR2` تُنهي الطلبات الجارية قبل تبديل العمّال، والثانية
+> تقطعها. الفرق يقع على مواقع غيرك، فلا تستبدلها.
 
 ```bash
 sudo cp deploy/nginx.conf /etc/nginx/sites-available/adrak
@@ -207,5 +221,5 @@ php api/artisan adrak:demo-reset --force
 | البناء يُقتل بلا رسالة | لا swap — الخطوة ٢ |
 | `1071 key too long` | المحرّك ليس InnoDB — تحقّق من `config/database.php` |
 | التطبيق لا يعمل بدون إنترنت | لا شهادة، أو `/sw.js` مُخبَّأ. الـ SW يحتاج HTTPS ويحتاج ألا يُخبَّأ |
-| 502 من `/api` | مسار مقبس PHP-FPM. `ls /run/php/` وعدّل `nginx.conf` |
+| 502 من `/api` | الـ pool لم يُحمَّل. `ls -l /run/php/adrak.sock` — إن غاب فراجع `/var/log/php8.3-fpm.log` |
 | المزامنة تعمل والمعلّم لا يرى شيئاً | خطأ في التوقيت لا في المزامنة — تحقّق أن الطالب في صف هذا المعلّم |
