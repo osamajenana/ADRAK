@@ -39,8 +39,16 @@ final class DemoSeeder extends Seeder
 
     public const PASSWORD = 'adrak-demo';
 
-    /** Chosen by hand rather than generated. A judge has to be able to type it from a slide. */
-    public const JOIN_CODE = 'ADRAK26';
+    /**
+     * Chosen by hand rather than generated. A judge has to be able to type it from a slide.
+     *
+     * Six characters exactly, and that is not cosmetic. The student field is capped at six and the
+     * login rule is `size:6`, so a seventh character cannot be typed at all - the input truncates
+     * in silence and the lookup answers "no class with this code", which reads as a broken product
+     * rather than a wrong constant. Renaming the project from `NABD` to `ADRAK` is what pushed it
+     * to seven: `NABD26` fit, `ADRAK26` does not.
+     */
+    public const JOIN_CODE = 'ADRAK6';
 
     private int $seed = 20260826;
 

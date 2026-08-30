@@ -72,7 +72,7 @@ php artisan serve --port=8001
 cd web && npm ci && npm run dev
 ```
 
-يفتح على `http://127.0.0.1:5173` — «جرّب كطالب» يدخلك بضغطة. رمز الصف `ADRAK26` والرقم السري `1234`، والمعلّم `teacher@adrak.demo` / `adrak-demo`.
+يفتح على `http://127.0.0.1:5173` — «جرّب كطالب» يدخلك بضغطة. رمز الصف `ADRAK6` والرقم السري `1234`، والمعلّم `teacher@adrak.demo` / `adrak-demo`.
 
 ## الاختبارات
 

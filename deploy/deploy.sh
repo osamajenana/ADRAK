@@ -96,6 +96,6 @@ step "Verifying"
 curl -fsS -o /dev/null -w '  /up            → %{http_code}\n' "https://$DOMAIN/up"
 curl -fsS -o /dev/null -w '  /              → %{http_code}\n' "https://$DOMAIN/"
 curl -fsS -o /dev/null -w '  roster endpoint → %{http_code}\n' \
-  "https://$DOMAIN/api/auth/classrooms/ADRAK26"
+  "https://$DOMAIN/api/auth/classrooms/ADRAK6"
 
 printf '\n\033[1;32m✓ deployed\033[0m\n'

@@ -163,7 +163,7 @@ sudo crontab -u www-data -e
 | | |
 |---|---|
 | الرابط | `https://adrak.madafa.net` |
-| رمز الصف | `ADRAK26` · الرقم السري `1234` |
+| رمز الصف | `ADRAK6` · الرقم السري `1234` |
 | معلّم | `teacher@adrak.demo` / `adrak-demo` |
 | صحة الخادم | `https://adrak.madafa.net/up` |
 
@@ -215,7 +215,7 @@ sudo certbot --nginx -d adrak.madafa.net --redirect
 crontab -e   # /var/www/nabd → /var/www/adrak
 ```
 
-**٧. الصف التجريبي.** رمز الصف صار `ADRAK26` وبريد المعلّم `teacher@adrak.demo`، وكلاهما بيانات مبذورة لا مخطَّط. أعد بذرها:
+**٧. الصف التجريبي.** رمز الصف صار `ADRAK6` وبريد المعلّم `teacher@adrak.demo`، وكلاهما بيانات مبذورة لا مخطَّط. أعد بذرها:
 
 ```bash
 php api/artisan adrak:demo-reset --force
