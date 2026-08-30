@@ -2,6 +2,7 @@
 # and without this the two fight over every file forever.
 * text=auto eol=lf
 
+*.pdf binary
 *.png binary
 *.jpg binary
 *.woff2 binary
