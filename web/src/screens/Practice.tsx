@@ -6,6 +6,17 @@ import { get } from '@/lib/api';
 import { useActiveProfile } from '@/lib/session';
 
 /**
+ * Why an empty screen is empty — a distinction the child on the other side of it can act on.
+ *
+ * `undownloaded` is a network problem and the fix is to open the app once with a connection.
+ * `unwritten` is a content gap: the server was reached and it has no questions for this skill,
+ * so there is nothing a better signal can retrieve. Collapsing the two into one message blames
+ * the network for a missing question bank and sends a student looking for a connection they are
+ * already using.
+ */
+type BankState = 'ready' | 'unwritten' | 'undownloaded';
+
+/**
  * The practice screen — where most of a student's time is spent, and where the tone of the whole
  * product is set.
  *
@@ -34,22 +45,29 @@ export function Practice() {
   const [showHint, setShowHint] = useState(false);
   const [skillName, setSkillName] = useState('');
   const [empty, setEmpty] = useState(false);
+  const [bank, setBank] = useState<BankState>('ready');
 
-  const loadBank = useCallback(async () => {
+  const loadBank = useCallback(async (): Promise<BankState> => {
     // Already downloaded? Then this works with the radio off, which is the entire point.
     const held = await db.questions.where({ skill_code: code }).count();
-    if (held > 0) return;
+    if (held > 0) return 'ready';
 
     const response = await get<{
       skill: { code: string; name_ar: string };
       questions: LocalQuestion[];
     }>(`/skills/${code}/bank`);
 
-    if (response.ok) {
-      await db.questions.bulkPut(
-        response.data.questions.map((q) => ({ ...q, skill_code: response.data.skill.code })),
-      );
-    }
+    if (!response.ok) return 'undownloaded';
+
+    // The server answered, and it has nothing for this skill. Reconnecting will not change that,
+    // so telling a child to go and find a signal would send them looking for one they already have.
+    if (response.data.questions.length === 0) return 'unwritten';
+
+    await db.questions.bulkPut(
+      response.data.questions.map((q) => ({ ...q, skill_code: response.data.skill.code })),
+    );
+
+    return 'ready';
   }, [code]);
 
   const advance = useCallback(async () => {
@@ -71,7 +89,7 @@ export function Practice() {
       const skill = await db.skills.get(code);
       setSkillName(skill?.name_ar ?? code);
 
-      await loadBank();
+      setBank(await loadBank());
       await advance();
     })();
   }, [profile, code, loadBank, advance]);
@@ -87,8 +105,10 @@ export function Practice() {
     return (
       <Shell title={skillName}>
         <p className="text-muted">
-          لا توجد أسئلة محفوظة لهذه المهارة على الجهاز بعد. افتح التطبيق مرة واحدة مع اتصال
-          لتنزيلها، وبعدها تعمل بدون إنترنت.
+          {bank === 'unwritten'
+            ? 'أسئلة هذه المهارة لم تُكتب بعد. تابع بقية مسارك — ما فيه من مهارات يعمل كالمعتاد.'
+            : `لا توجد أسئلة محفوظة لهذه المهارة على الجهاز بعد. افتح التطبيق مرة واحدة مع اتصال
+               لتنزيلها، وبعدها تعمل بدون إنترنت.`}
         </p>
       </Shell>
     );
