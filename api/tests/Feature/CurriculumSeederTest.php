@@ -36,8 +36,8 @@ it('seeds the whole graph, bank and catalogue', function (): void {
     expect(Skill::count())->toBe(58)
         ->and(Skill::where('is_spine', true)->count())->toBe(36)
         ->and(Misconception::count())->toBe(102)
-        ->and(Question::count())->toBe(510)
-        ->and(QuestionOption::count())->toBe(2040);
+        ->and(Question::count())->toBe(1080)
+        ->and(QuestionOption::count())->toBe(4320);
 
     // The search space the diagnostic will binary-search for a grade-7 student.
     $candidates = Skill::candidatesForGrade(7)->pluck('code')->all();
@@ -88,6 +88,17 @@ it('keeps the seeded content structurally coherent', function (): void {
     // ── The correct answer is never a misconception ─────────────────────────────────────────
     expect(QuestionOption::where('is_correct', true)->whereNotNull('misconception_id')->count())
         ->toBe(0);
+
+    // ── Every spine skill can actually be practised ─────────────────────────────────────────
+    // The recovery path walks the spine. A spine skill with no question bank is therefore not a
+    // gap in coverage, it is a wall: the student is routed to it, the practice screen has nothing
+    // to show, and the message blames the network for a bank that was never written. Nineteen of
+    // the thirty-six sat in exactly that state and nothing in the suite said a word.
+    $spineWithoutQuestions = Skill::where('is_spine', true)->doesntHave('questions')->pluck('code');
+
+    expect($spineWithoutQuestions)->toBeEmpty(
+        'spine skills with no question bank: '.$spineWithoutQuestions->implode(', '),
+    );
 
     // ── Most distractors still carry analytics signal ───────────────────────────────────────
     // Not 100%: where a skill catalogues fewer misconceptions than a question needs options, the

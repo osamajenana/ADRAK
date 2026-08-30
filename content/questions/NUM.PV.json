@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.PV",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 3 في العدد الآتي؟",
+      "expression": "9354",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 3 يقف في منزلة قيمتها 100، فقيمته 3 × 100 = 300.",
+      "options": [
+        {
+          "text_ar": "300",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 5 في العدد الآتي؟",
+      "expression": "4513",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 5 يقف في منزلة قيمتها 100، فقيمته 5 × 100 = 500.",
+      "options": [
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "500",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 4 في العدد الآتي؟",
+      "expression": "4327",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 4 يقف في منزلة قيمتها 1000، فقيمته 4 × 1000 = 4000.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "40000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 7 في العدد الآتي؟",
+      "expression": "6734",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 7 يقف في منزلة قيمتها 100، فقيمته 7 × 100 = 700.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "700",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 7 في العدد الآتي؟",
+      "expression": "7583",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 7 يقف في منزلة قيمتها 1000، فقيمته 7 × 1000 = 7000.",
+      "options": [
+        {
+          "text_ar": "7000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "70000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 4 في العدد الآتي؟",
+      "expression": "4925",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 4 يقف في منزلة قيمتها 1000، فقيمته 4 × 1000 = 4000.",
+      "options": [
+        {
+          "text_ar": "4000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 7 في العدد الآتي؟",
+      "expression": "9475",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 7 يقف في منزلة قيمتها 10، فقيمته 7 × 10 = 70.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "700",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "70",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 1 في العدد الآتي؟",
+      "expression": "4615",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 1 يقف في منزلة قيمتها 10، فقيمته 1 × 10 = 10.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 6 في العدد الآتي؟",
+      "expression": "6142",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 6 يقف في منزلة قيمتها 1000، فقيمته 6 × 1000 = 6000.",
+      "options": [
+        {
+          "text_ar": "6000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "60000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القيمة المنزلية للرقم 9 في العدد الآتي؟",
+      "expression": "9463",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 9 يقف في منزلة قيمتها 1000، فقيمته 9 × 1000 = 9000.",
+      "options": [
+        {
+          "text_ar": "9000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 3 في العدد الآتي؟",
+      "expression": "872435",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 3 يقف في منزلة قيمتها 10، فقيمته 3 × 10 = 30.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "300",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 8 في العدد الآتي؟",
+      "expression": "953184",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 8 يقف في منزلة قيمتها 10، فقيمته 8 × 10 = 80.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "800",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "80",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 5 في العدد الآتي؟",
+      "expression": "985612",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 5 يقف في منزلة قيمتها 1000، فقيمته 5 × 1000 = 5000.",
+      "options": [
+        {
+          "text_ar": "50000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 5 في العدد الآتي؟",
+      "expression": "358219",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 5 يقف في منزلة قيمتها 10000، فقيمته 5 × 10000 = 50000.",
+      "options": [
+        {
+          "text_ar": "10000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "50000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "500000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 9 في العدد الآتي؟",
+      "expression": "967342",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 9 يقف في منزلة قيمتها 100000، فقيمته 9 × 100000 = 900000.",
+      "options": [
+        {
+          "text_ar": "9000000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "900000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "100000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 6 في العدد الآتي؟",
+      "expression": "564387",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 6 يقف في منزلة قيمتها 10000، فقيمته 6 × 10000 = 60000.",
+      "options": [
+        {
+          "text_ar": "10000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "60000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "600000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 5 في العدد الآتي؟",
+      "expression": "613758",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 5 يقف في منزلة قيمتها 10، فقيمته 5 × 10 = 50.",
+      "options": [
+        {
+          "text_ar": "500",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "50",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 9 في العدد الآتي؟",
+      "expression": "398546",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 9 يقف في منزلة قيمتها 10000، فقيمته 9 × 10000 = 90000.",
+      "options": [
+        {
+          "text_ar": "900000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "90000",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 4 في العدد الآتي؟",
+      "expression": "634912",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 4 يقف في منزلة قيمتها 1000، فقيمته 4 × 1000 = 4000.",
+      "options": [
+        {
+          "text_ar": "4000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "40000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القيمة المنزلية للرقم 5 في العدد الآتي؟",
+      "expression": "658721",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 5 يقف في منزلة قيمتها 10000، فقيمته 5 × 10000 = 50000.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "10000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "50000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "500000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 1 في العدد الآتي؟",
+      "expression": "1783495",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 1 يقف في منزلة قيمتها 1000000، فقيمته 1 × 1000000 = 1000000.",
+      "options": [
+        {
+          "text_ar": "999990",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10000000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 8 في العدد الآتي؟",
+      "expression": "6573849",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 8 يقف في منزلة قيمتها 100، فقيمته 8 × 100 = 800.",
+      "options": [
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "8000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "800",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 4 في العدد الآتي؟",
+      "expression": "4928356",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 4 يقف في منزلة قيمتها 1000000، فقيمته 4 × 1000000 = 4000000.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "4000000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40000000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 8 في العدد الآتي؟",
+      "expression": "1278435",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 8 يقف في منزلة قيمتها 1000، فقيمته 8 × 1000 = 8000.",
+      "options": [
+        {
+          "text_ar": "80000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "8000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 3 في العدد الآتي؟",
+      "expression": "3147592",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 3 يقف في منزلة قيمتها 1000000، فقيمته 3 × 1000000 = 3000000.",
+      "options": [
+        {
+          "text_ar": "3000000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30000000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "1000000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 5 في العدد الآتي؟",
+      "expression": "2689543",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 5 يقف في منزلة قيمتها 100، فقيمته 5 × 100 = 500.",
+      "options": [
+        {
+          "text_ar": "500",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "5000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 9 في العدد الآتي؟",
+      "expression": "2987653",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 9 يقف في منزلة قيمتها 100000، فقيمته 9 × 100000 = 900000.",
+      "options": [
+        {
+          "text_ar": "9000000",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "900000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "100000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 3 في العدد الآتي؟",
+      "expression": "9136754",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 3 يقف في منزلة قيمتها 10000، فقيمته 3 × 10000 = 30000.",
+      "options": [
+        {
+          "text_ar": "30000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10000",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "300000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 2 في العدد الآتي؟",
+      "expression": "8951724",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 2 يقف في منزلة قيمتها 10، فقيمته 2 × 10 = 20.",
+      "options": [
+        {
+          "text_ar": "200",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما القيمة المنزلية للرقم 1 في العدد الآتي؟",
+      "expression": "2751469",
+      "hint_ar": "قيمة الرقم ليست الرقم نفسه: اضربه في قيمة المنزلة التي يقف فيها.",
+      "explanation_ar": "الرقم 1 يقف في منزلة قيمتها 1000، فقيمته 1 × 1000 = 1000.",
+      "options": [
+        {
+          "text_ar": "1000",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "990",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "pv.digit_vs_value"
+        },
+        {
+          "text_ar": "10000",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

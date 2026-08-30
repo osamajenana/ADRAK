@@ -1,0 +1,936 @@
+{
+  "skill_code": "RAT.PROPORTION",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "2/7 = س/14",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 7 = 2 × 14.",
+      "explanation_ar": "2 × 14 = 28، وبالقسمة على 7 تكون س = 4.",
+      "options": [
+        {
+          "text_ar": "49",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "5/8 = س/40",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 8 = 5 × 40.",
+      "explanation_ar": "5 × 40 = 200، وبالقسمة على 8 تكون س = 25.",
+      "options": [
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "3/8 = س/24",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 8 = 3 × 24.",
+      "explanation_ar": "3 × 24 = 72، وبالقسمة على 8 تكون س = 9.",
+      "options": [
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "5/9 = س/18",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 9 = 5 × 18.",
+      "explanation_ar": "5 × 18 = 90، وبالقسمة على 9 تكون س = 10.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32.4",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "2/9 = س/45",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 9 = 2 × 45.",
+      "explanation_ar": "2 × 45 = 90، وبالقسمة على 9 تكون س = 10.",
+      "options": [
+        {
+          "text_ar": "202.5",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "3/4 = س/8",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 4 = 3 × 8.",
+      "explanation_ar": "3 × 8 = 24، وبالقسمة على 4 تكون س = 6.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10.67",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "3/2 = س/8",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 2 = 3 × 8.",
+      "explanation_ar": "3 × 8 = 24، وبالقسمة على 2 تكون س = 12.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.33",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "8/6 = س/30",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 6 = 8 × 30.",
+      "explanation_ar": "8 × 30 = 240، وبالقسمة على 6 تكون س = 40.",
+      "options": [
+        {
+          "text_ar": "22.5",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "4/7 = س/28",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 7 = 4 × 28.",
+      "explanation_ar": "4 × 28 = 112، وبالقسمة على 7 تكون س = 16.",
+      "options": [
+        {
+          "text_ar": "49",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "7/5 = س/20",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 5 = 7 × 20.",
+      "explanation_ar": "7 × 20 = 140، وبالقسمة على 5 تكون س = 28.",
+      "options": [
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14.29",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "28",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "5/4 = س/20",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 4 = 5 × 20.",
+      "explanation_ar": "5 × 20 = 100، وبالقسمة على 4 تكون س = 25.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "8/3 = س/15",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 3 = 8 × 15.",
+      "explanation_ar": "8 × 15 = 120، وبالقسمة على 3 تكون س = 40.",
+      "options": [
+        {
+          "text_ar": "5.63",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "3/7 = س/56",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 7 = 3 × 56.",
+      "explanation_ar": "3 × 56 = 168، وبالقسمة على 7 تكون س = 24.",
+      "options": [
+        {
+          "text_ar": "52",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "130.67",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "4/9 = س/81",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 9 = 4 × 81.",
+      "explanation_ar": "4 × 81 = 324، وبالقسمة على 9 تكون س = 36.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "182.25",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "76",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "8/5 = س/30",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 5 = 8 × 30.",
+      "explanation_ar": "8 × 30 = 240، وبالقسمة على 5 تكون س = 48.",
+      "options": [
+        {
+          "text_ar": "18.75",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "48",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "2/6 = س/48",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 6 = 2 × 48.",
+      "explanation_ar": "2 × 48 = 96، وبالقسمة على 6 تكون س = 16.",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "144",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "9/7 = س/28",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 7 = 9 × 28.",
+      "explanation_ar": "9 × 28 = 252، وبالقسمة على 7 تكون س = 36.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21.78",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "5/4 = س/16",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 4 = 5 × 16.",
+      "explanation_ar": "5 × 16 = 80، وبالقسمة على 4 تكون س = 20.",
+      "options": [
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12.8",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "9/5 = س/10",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 5 = 9 × 10.",
+      "explanation_ar": "9 × 10 = 90، وبالقسمة على 5 تكون س = 18.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "5.56",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س في التناسب الآتي:",
+      "expression": "8/2 = س/14",
+      "hint_ar": "في الضرب التبادلي يُضرب بسط كل نسبة في مقام الأخرى: س × 2 = 8 × 14.",
+      "explanation_ar": "8 × 14 = 112، وبالقسمة على 2 تكون س = 56.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        },
+        {
+          "text_ar": "76",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3.5",
+          "is_correct": false,
+          "misconception_tag": "rat.cross_mult_wrong_pair"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 7 سنوات هو 124 سم. ما طوله المتوقّع عند عمر 14 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "248 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "186 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "131 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 7 سنوات هو 96 سم. ما طوله المتوقّع عند عمر 14 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "192 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "144 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "103 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 7 سنوات هو 113 سم. ما طوله المتوقّع عند عمر 14 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "120 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "226 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "170 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 6 سنوات هو 106 سم. ما طوله المتوقّع عند عمر 12 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "212 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "112 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "159 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 6 سنوات هو 118 سم. ما طوله المتوقّع عند عمر 12 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "124 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "177 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "236 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 6 سنوات هو 108 سم. ما طوله المتوقّع عند عمر 12 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "114 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "162 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "216 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 6 سنوات هو 114 سم. ما طوله المتوقّع عند عمر 12 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "228 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "120 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "171 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 7 سنوات هو 123 سم. ما طوله المتوقّع عند عمر 14 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "246 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "130 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "185 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 7 سنوات هو 117 سم. ما طوله المتوقّع عند عمر 14 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "234 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "124 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "176 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.PROPORTION",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "طول طفل عمره 7 سنوات هو 98 سم. ما طوله المتوقّع عند عمر 14 سنة؟",
+      "expression": null,
+      "hint_ar": "التناسب يصلح حين تتغيّر الكميتان بالنسبة نفسها. الطول لا يتضاعف بتضاعف العمر.",
+      "explanation_ar": "العلاقة بين العمر والطول ليست تناسبية، فالضرب التبادلي هنا يعطي رقماً بلا معنى.",
+      "options": [
+        {
+          "text_ar": "105 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        },
+        {
+          "text_ar": "لا يمكن إيجاده بالتناسب",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "147 سم",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "196 سم",
+          "is_correct": false,
+          "misconception_tag": "rat.non_proportional"
+        }
+      ]
+    }
+  ]
+}

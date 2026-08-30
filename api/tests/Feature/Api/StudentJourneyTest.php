@@ -99,7 +99,7 @@ it('hydrates the offline store in a single call', function (): void {
     expect($first['prerequisites'])->toContain('FRC.EQUIV')
         ->and($first)->toHaveKey('depth');
 
-    // Deliberately absent: 510 questions would not finish downloading on 2G. Banks come per skill.
+    // Deliberately absent: 1080 questions would not finish downloading on 2G. Banks come per skill.
     expect($response->json())->not->toHaveKey('questions');
 });
 

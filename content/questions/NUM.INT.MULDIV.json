@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.INT.MULDIV",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−2) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−2) × (−7) = 14. أمّا (−2) + (−7) = -9 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-9",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "-14",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−3) × (−2)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−3) × (−2) = 6. أمّا (−3) + (−2) = -5 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-6",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−6) × (−6)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−6) × (−6) = 36. أمّا (−6) + (−6) = -12 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-36",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−9) × (−2)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−9) × (−2) = 18. أمّا (−9) + (−2) = -11 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-18",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−8) × (−4)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−8) × (−4) = 32. أمّا (−8) + (−4) = -12 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-32",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "32",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−5) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−5) × (−7) = 35. أمّا (−5) + (−7) = -12 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "-35",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−7) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−7) × (−7) = 49. أمّا (−7) + (−7) = -14 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-49",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-14",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "49",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−8) × (−8)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−8) × (−8) = 64. أمّا (−8) + (−8) = -16 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-64",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-16",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−3) × (−4)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−3) × (−4) = 12. أمّا (−3) + (−4) = -7 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-7",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−8) × (−6)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−8) × (−6) = 48. أمّا (−8) + (−6) = -14 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "48",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-48",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-14",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−8) × (−8)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−8) × (−8) = 64. أمّا (−8) + (−8) = -16 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-64",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-16",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "74",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−12) × (−11)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−12) × (−11) = 132. أمّا (−12) + (−11) = -23 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "132",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-23",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "-132",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "152",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−4) × (−2)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−4) × (−2) = 8. أمّا (−4) + (−2) = -6 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-8",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-6",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−4) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−4) × (−7) = 28. أمّا (−4) + (−7) = -11 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-28",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−6) × (−10)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−6) × (−10) = 60. أمّا (−6) + (−10) = -16 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-60",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "60",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-16",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−8) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−8) × (−7) = 56. أمّا (−8) + (−7) = -15 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-56",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "66",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-15",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−12) × (−12)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−12) × (−12) = 144. أمّا (−12) + (−12) = -24 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-144",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "144",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "124",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-24",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−10) × (−11)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−10) × (−11) = 110. أمّا (−10) + (−11) = -21 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-110",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-21",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "110",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "130",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−6) × (−2)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−6) × (−2) = 12. أمّا (−6) + (−2) = -8 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-8",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−5) × (−8)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−5) × (−8) = 40. أمّا (−5) + (−8) = -13 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-13",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-40",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−7) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−7) × (−7) = 49. أمّا (−7) + (−7) = -14 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "49",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-14",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "-49",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "(−100) ÷ (−10)",
+      "hint_ar": "إشارتان متماثلتان في القسمة تعطيان ناتجاً موجباً — القاعدة نفسها كالضرب.",
+      "explanation_ar": "(−100) ÷ (−10) = 10، لأن السالب مقسوماً على السالب موجب.",
+      "options": [
+        {
+          "text_ar": "-10",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-110",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "(−55) ÷ (−5)",
+      "hint_ar": "إشارتان متماثلتان في القسمة تعطيان ناتجاً موجباً — القاعدة نفسها كالضرب.",
+      "explanation_ar": "(−55) ÷ (−5) = 11، لأن السالب مقسوماً على السالب موجب.",
+      "options": [
+        {
+          "text_ar": "-60",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−8) × (−8)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−8) × (−8) = 64. أمّا (−8) + (−8) = -16 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-64",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-16",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−5) × (−6)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−5) × (−6) = 30. أمّا (−5) + (−6) = -11 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "31",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-30",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−11) × (−7)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−11) × (−7) = 77. أمّا (−11) + (−7) = -18 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-18",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "97",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "77",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-77",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−7) × (−10)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−7) × (−10) = 70. أمّا (−7) + (−10) = -17 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "-17",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-70",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "70",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−11) × (−11)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−11) × (−11) = 121. أمّا (−11) + (−11) = -22 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "121",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "131",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-22",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "-121",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "(−45) ÷ (−9)",
+      "hint_ar": "إشارتان متماثلتان في القسمة تعطيان ناتجاً موجباً — القاعدة نفسها كالضرب.",
+      "explanation_ar": "(−45) ÷ (−9) = 5، لأن السالب مقسوماً على السالب موجب.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        },
+        {
+          "text_ar": "-54",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.MULDIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "(−11) × (−3)",
+      "hint_ar": "قواعد إشارات الضرب ليست قواعد الجمع: سالب × سالب = موجب.",
+      "explanation_ar": "(−11) × (−3) = 33. أمّا (−11) + (−3) = -14 فتلك عملية أخرى.",
+      "options": [
+        {
+          "text_ar": "33",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-14",
+          "is_correct": false,
+          "misconception_tag": "int.apply_add_rules"
+        },
+        {
+          "text_ar": "-33",
+          "is_correct": false,
+          "misconception_tag": "int.neg_times_neg"
+        }
+      ]
+    }
+  ]
+}

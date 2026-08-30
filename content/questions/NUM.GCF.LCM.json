@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.GCF.LCM",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 20 و 24؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(20, 24) = 4 و م.م.أ(20, 24) = 120.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "120",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "480",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 9 و 6؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(9, 6) = 3 و م.م.أ(9, 6) = 18.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 15 و 21؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(15, 21) = 3 و م.م.أ(15, 21) = 105.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "315",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "105",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 9 و 24؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(9, 24) = 3 و م.م.أ(9, 24) = 72.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "216",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 12 و 14؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(12, 14) = 2 و م.م.أ(12, 14) = 84.",
+      "options": [
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "168",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 20 و 25؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(20, 25) = 5 و م.م.أ(20, 25) = 100.",
+      "options": [
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "500",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 18 و 15؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(18, 15) = 3 و م.م.أ(18, 15) = 90.",
+      "options": [
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "270",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 12 و 27؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(12, 27) = 3 و م.م.أ(12, 27) = 108.",
+      "options": [
+        {
+          "text_ar": "108",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "324",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 35 و 10؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(35, 10) = 5 و م.م.أ(35, 10) = 70.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "350",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 20 و 35؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(20, 35) = 5 و م.م.أ(20, 35) = 140.",
+      "options": [
+        {
+          "text_ar": "140",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "700",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 35 و 42؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(35, 42) = 7 و م.م.أ(35, 42) = 210.",
+      "options": [
+        {
+          "text_ar": "1470",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "210",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 10 و 45؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(10, 45) = 5 و م.م.أ(10, 45) = 90.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "450",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 40 و 56؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(40, 56) = 8 و م.م.أ(40, 56) = 280.",
+      "options": [
+        {
+          "text_ar": "2240",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "96",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "280",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 27 و 45؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(27, 45) = 9 و م.م.أ(27, 45) = 135.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1215",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "135",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 21 و 56؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(21, 56) = 7 و م.م.أ(21, 56) = 168.",
+      "options": [
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "168",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1176",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 45 و 18؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(45, 18) = 9 و م.م.أ(45, 18) = 90.",
+      "options": [
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "810",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "63",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 8 و 20؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(8, 20) = 4 و م.م.أ(8, 20) = 40.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "160",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 18 و 21؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(18, 21) = 3 و م.م.أ(18, 21) = 126.",
+      "options": [
+        {
+          "text_ar": "378",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "126",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 27 و 72؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(27, 72) = 9 و م.م.أ(27, 72) = 216.",
+      "options": [
+        {
+          "text_ar": "1944",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "99",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "216",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما القاسم المشترك الأكبر (ق.م.أ) للعددين 24 و 18؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(24, 18) = 6 و م.م.أ(24, 18) = 72.",
+      "options": [
+        {
+          "text_ar": "432",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 24 و 20؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(24, 20) = 4 و م.م.أ(24, 20) = 120.",
+      "options": [
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "120",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "480",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 8 و 36؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(8, 36) = 4 و م.م.أ(8, 36) = 72.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "288",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 24 و 30؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(24, 30) = 6 و م.م.أ(24, 30) = 120.",
+      "options": [
+        {
+          "text_ar": "120",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "720",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 48 و 56؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(48, 56) = 8 و م.م.أ(48, 56) = 336.",
+      "options": [
+        {
+          "text_ar": "104",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "336",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2688",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 36 و 30؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(36, 30) = 6 و م.م.أ(36, 30) = 180.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "180",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1080",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "66",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 20 و 24؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(20, 24) = 4 و م.م.أ(20, 24) = 120.",
+      "options": [
+        {
+          "text_ar": "480",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "120",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 18 و 15؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(18, 15) = 3 و م.م.أ(18, 15) = 90.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "270",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 12 و 18؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(12, 18) = 6 و م.م.أ(12, 18) = 36.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "216",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 24 و 28؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(24, 28) = 4 و م.م.أ(24, 28) = 168.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "672",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "52",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "168",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.GCF.LCM",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "ما المضاعف المشترك الأصغر (م.م.أ) للعددين 15 و 18؟",
+      "expression": null,
+      "hint_ar": "ق.م.أ يقسم العددين فهو أصغر منهما أو يساوي أصغرهما. م.م.أ من مضاعفاتهما فهو أكبر منهما أو يساوي أكبرهما.",
+      "explanation_ar": "ق.م.أ(15, 18) = 3 و م.م.أ(15, 18) = 90.",
+      "options": [
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "270",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "num.swap_gcf_lcm"
+        }
+      ]
+    }
+  ]
+}

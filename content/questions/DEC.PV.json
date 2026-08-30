@@ -1,0 +1,936 @@
+{
+  "skill_code": "DEC.PV",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.3   ,   0.32",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.32 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.32",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.4   ,   0.24",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.4 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.24",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.2",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.5 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.2",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.85",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.85 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.85",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.7   ,   0.48",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.7 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.48",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.6   ,   0.78",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.78 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.78",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.4   ,   0.68",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.68 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.68",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.8   ,   0.87",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.87 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.87",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.4   ,   0.29",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.4 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.29",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.22",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.5 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.22",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.39",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.5 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.39",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.6",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.6 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.1",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.5 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.1",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.4   ,   0.62",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.62 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.62",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.3   ,   0.92",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.92 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.92",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.6   ,   0.73",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.73 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.73",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.3   ,   0.4",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.4 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.74",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.74 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.74",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.6   ,   0.74",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.74 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.74",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.6   ,   0.71",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.71 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.71",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.66",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.66 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.66",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.3   ,   0.18",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.3 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.18",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.5   ,   0.17",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.5 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.17",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.4   ,   0.84",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.84 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.84",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.3   ,   0.5",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.5 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.7   ,   0.89",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.89 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.89",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.7   ,   0.73",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.73 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "0.73",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.4   ,   0.52",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.52 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.52",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.7   ,   0.22",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.7 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.22",
+          "is_correct": false,
+          "misconception_tag": "dec.longer_is_bigger"
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.PV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "0.3   ,   0.57",
+      "hint_ar": "قارن منزلة بمنزلة بدءاً من الأعشار. عدد الأرقام بعد الفاصلة لا يقرّر شيئاً.",
+      "explanation_ar": "0.57 أكبر. قارن الأعشار أولاً، فإن تساوت فانتقل إلى الأجزاء من مئة.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": "dec.shorter_is_bigger"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.57",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

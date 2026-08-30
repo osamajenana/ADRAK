@@ -1,0 +1,936 @@
+{
+  "skill_code": "ALG.EXPR",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 3، فما قيمة العبارة الآتية؟",
+      "expression": "3س + 4",
+      "hint_ar": "3س تعني 3 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "3 × 3 = 9، ثم 9 + 4 = 13.",
+      "options": [
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 8، فما قيمة العبارة الآتية؟",
+      "expression": "8س + 9",
+      "hint_ar": "8س تعني 8 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "8 × 8 = 64، ثم 64 + 9 = 73.",
+      "options": [
+        {
+          "text_ar": "53",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "97",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "73",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 9، فما قيمة العبارة الآتية؟",
+      "expression": "6س + 8",
+      "hint_ar": "6س تعني 6 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "6 × 9 = 54، ثم 54 + 8 = 62.",
+      "options": [
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "82",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "62",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 4، فما قيمة العبارة الآتية؟",
+      "expression": "4س + 1",
+      "hint_ar": "4س تعني 4 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "4 × 4 = 16، ثم 16 + 1 = 17.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 7، فما قيمة العبارة الآتية؟",
+      "expression": "2س + 9",
+      "hint_ar": "2س تعني 2 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "2 × 7 = 14، ثم 14 + 9 = 23.",
+      "options": [
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "23",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 6، فما قيمة العبارة الآتية؟",
+      "expression": "5س + 2",
+      "hint_ar": "5س تعني 5 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "5 × 6 = 30، ثم 30 + 2 = 32.",
+      "options": [
+        {
+          "text_ar": "58",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 2، فما قيمة العبارة الآتية؟",
+      "expression": "3س + 3",
+      "hint_ar": "3س تعني 3 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "3 × 2 = 6، ثم 6 + 3 = 9.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 6، فما قيمة العبارة الآتية؟",
+      "expression": "8س + 2",
+      "hint_ar": "8س تعني 8 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "8 × 6 = 48، ثم 48 + 2 = 50.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "88",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "50",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 6، فما قيمة العبارة الآتية؟",
+      "expression": "5س + 9",
+      "hint_ar": "5س تعني 5 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "5 × 6 = 30، ثم 30 + 9 = 39.",
+      "options": [
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "65",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "إذا كانت س = 5، فما قيمة العبارة الآتية؟",
+      "expression": "2س + 3",
+      "hint_ar": "2س تعني 2 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "2 × 5 = 10، ثم 10 + 3 = 13.",
+      "options": [
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 9، فما قيمة العبارة الآتية؟",
+      "expression": "7س + 1",
+      "hint_ar": "7س تعني 7 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "7 × 9 = 63، ثم 63 + 1 = 64.",
+      "options": [
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 5، فما قيمة العبارة الآتية؟",
+      "expression": "3س + 10",
+      "hint_ar": "3س تعني 3 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "3 × 5 = 15، ثم 15 + 10 = 25.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 3، فما قيمة العبارة الآتية؟",
+      "expression": "4س + 5",
+      "hint_ar": "4س تعني 4 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "4 × 3 = 12، ثم 12 + 5 = 17.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 5، فما قيمة العبارة الآتية؟",
+      "expression": "9س + 16",
+      "hint_ar": "9س تعني 9 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "9 × 5 = 45، ثم 45 + 16 = 61.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "61",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "71",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "111",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 8، فما قيمة العبارة الآتية؟",
+      "expression": "5س + 18",
+      "hint_ar": "5س تعني 5 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "5 × 8 = 40، ثم 40 + 18 = 58.",
+      "options": [
+        {
+          "text_ar": "78",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "58",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "76",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 8، فما قيمة العبارة الآتية؟",
+      "expression": "8س + 4",
+      "hint_ar": "8س تعني 8 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "8 × 8 = 64، ثم 64 + 4 = 68.",
+      "options": [
+        {
+          "text_ar": "92",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "68",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "88",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 2، فما قيمة العبارة الآتية؟",
+      "expression": "7س + 18",
+      "hint_ar": "7س تعني 7 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "7 × 2 = 14، ثم 14 + 18 = 32.",
+      "options": [
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "32",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 2، فما قيمة العبارة الآتية؟",
+      "expression": "2س + 11",
+      "hint_ar": "2س تعني 2 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "2 × 2 = 4، ثم 4 + 11 = 15.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 9، فما قيمة العبارة الآتية؟",
+      "expression": "9س + 6",
+      "hint_ar": "9س تعني 9 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "9 × 9 = 81، ثم 81 + 6 = 87.",
+      "options": [
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "87",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "105",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "إذا كانت س = 7، فما قيمة العبارة الآتية؟",
+      "expression": "7س + 9",
+      "hint_ar": "7س تعني 7 × س، لا الرقمين متجاورين.",
+      "explanation_ar": "7 × 7 = 49، ثم 49 + 9 = 58.",
+      "options": [
+        {
+          "text_ar": "58",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "86",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": "alg.concat_not_multiply"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأبقار يساوي 4 أضعاف عدد الخيول. إذا كان عدد الخيول هو ص وعدد الأبقار هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الخيول اثنين، فكم يكون عدد الأبقار؟",
+      "explanation_ar": "عدد الأبقار أكبر، فهو الذي يُضرب في 4: ع = 4ص.",
+      "options": [
+        {
+          "text_ar": "ع = ص ÷ 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 4ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        },
+        {
+          "text_ar": "ع = 4ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص + 4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأبقار يساوي 3 أضعاف عدد الخيول. إذا كان عدد الخيول هو ص وعدد الأبقار هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الخيول اثنين، فكم يكون عدد الأبقار؟",
+      "explanation_ar": "عدد الأبقار أكبر، فهو الذي يُضرب في 3: ع = 3ص.",
+      "options": [
+        {
+          "text_ar": "ع = ص ÷ 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 3ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        },
+        {
+          "text_ar": "ع = ص + 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = 3ص",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأقلام يساوي 3 أضعاف عدد الدفاتر. إذا كان عدد الدفاتر هو ص وعدد الأقلام هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الدفاتر اثنين، فكم يكون عدد الأقلام؟",
+      "explanation_ar": "عدد الأقلام أكبر، فهو الذي يُضرب في 3: ع = 3ص.",
+      "options": [
+        {
+          "text_ar": "ص = 3ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        },
+        {
+          "text_ar": "ع = 3ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص + 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص ÷ 3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأقلام يساوي 5 أضعاف عدد الدفاتر. إذا كان عدد الدفاتر هو ص وعدد الأقلام هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الدفاتر اثنين، فكم يكون عدد الأقلام؟",
+      "explanation_ar": "عدد الأقلام أكبر، فهو الذي يُضرب في 5: ع = 5ص.",
+      "options": [
+        {
+          "text_ar": "ع = ص + 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص ÷ 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = 5ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 5ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد التفاحات يساوي 5 أضعاف عدد البرتقالات. إذا كان عدد البرتقالات هو ص وعدد التفاحات هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد البرتقالات اثنين، فكم يكون عدد التفاحات؟",
+      "explanation_ar": "عدد التفاحات أكبر، فهو الذي يُضرب في 5: ع = 5ص.",
+      "options": [
+        {
+          "text_ar": "ع = ص + 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 5ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        },
+        {
+          "text_ar": "ع = 5ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص ÷ 5",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأبقار يساوي 7 أضعاف عدد الخيول. إذا كان عدد الخيول هو ص وعدد الأبقار هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الخيول اثنين، فكم يكون عدد الأبقار؟",
+      "explanation_ar": "عدد الأبقار أكبر، فهو الذي يُضرب في 7: ع = 7ص.",
+      "options": [
+        {
+          "text_ar": "ع = 7ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص + 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص ÷ 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 7ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد التفاحات يساوي 6 أضعاف عدد البرتقالات. إذا كان عدد البرتقالات هو ص وعدد التفاحات هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد البرتقالات اثنين، فكم يكون عدد التفاحات؟",
+      "explanation_ar": "عدد التفاحات أكبر، فهو الذي يُضرب في 6: ع = 6ص.",
+      "options": [
+        {
+          "text_ar": "ع = ص + 6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = 6ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 6ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        },
+        {
+          "text_ar": "ع = ص ÷ 6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأقلام يساوي 7 أضعاف عدد الدفاتر. إذا كان عدد الدفاتر هو ص وعدد الأقلام هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الدفاتر اثنين، فكم يكون عدد الأقلام؟",
+      "explanation_ar": "عدد الأقلام أكبر، فهو الذي يُضرب في 7: ع = 7ص.",
+      "options": [
+        {
+          "text_ar": "ع = ص + 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 7ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        },
+        {
+          "text_ar": "ع = ص ÷ 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = 7ص",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد التفاحات يساوي 9 أضعاف عدد البرتقالات. إذا كان عدد البرتقالات هو ص وعدد التفاحات هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد البرتقالات اثنين، فكم يكون عدد التفاحات؟",
+      "explanation_ar": "عدد التفاحات أكبر، فهو الذي يُضرب في 9: ع = 9ص.",
+      "options": [
+        {
+          "text_ar": "ع = 9ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص ÷ 9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص + 9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 9ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EXPR",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "عدد الأقلام يساوي 4 أضعاف عدد الدفاتر. إذا كان عدد الدفاتر هو ص وعدد الأقلام هو ع، فأيّ عبارة صحيحة؟",
+      "expression": null,
+      "hint_ar": "الحرف يمثّل عدد الأشياء لا الشيء نفسه. اختبر بعدد: لو كان عدد الدفاتر اثنين، فكم يكون عدد الأقلام؟",
+      "explanation_ar": "عدد الأقلام أكبر، فهو الذي يُضرب في 4: ع = 4ص.",
+      "options": [
+        {
+          "text_ar": "ع = 4ص",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص ÷ 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ع = ص + 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "ص = 4ع",
+          "is_correct": false,
+          "misconception_tag": "alg.var_as_label"
+        }
+      ]
+    }
+  ]
+}

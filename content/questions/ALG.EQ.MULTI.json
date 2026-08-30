@@ -1,0 +1,936 @@
+{
+  "skill_code": "ALG.EQ.MULTI",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 9 = س + 15",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 2س + 9 = 15، ثم 2س = 6، إذن س = 3.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "9س + 8 = 3س + 62",
+      "hint_ar": "اطرح 3س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 3س: 6س + 8 = 62، ثم 6س = 54، إذن س = 9.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "8س + 5 = س + 40",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 7س + 5 = 40، ثم 7س = 35، إذن س = 5.",
+      "options": [
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "4.38",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5س + 4 = س + 32",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 4س + 4 = 32، ثم 4س = 28، إذن س = 7.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.6",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "9س + 5 = 4س + 30",
+      "hint_ar": "اطرح 4س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 4س: 5س + 5 = 30، ثم 5س = 25، إذن س = 5.",
+      "options": [
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.78",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 8 = س + 14",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 2س + 8 = 14، ثم 2س = 6، إذن س = 3.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "9س + 7 = س + 31",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 8س + 7 = 31، ثم 8س = 24، إذن س = 3.",
+      "options": [
+        {
+          "text_ar": "2.67",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "7س + 1 = 3س + 37",
+      "hint_ar": "اطرح 3س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 3س: 4س + 1 = 37، ثم 4س = 36، إذن س = 9.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "5.14",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 3 = س + 17",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 2س + 3 = 17، ثم 2س = 14، إذن س = 7.",
+      "options": [
+        {
+          "text_ar": "4.67",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "9س + 5 = 7س + 23",
+      "hint_ar": "اطرح 7س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 7س: 2س + 5 = 23، ثم 2س = 18، إذن س = 9.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "6س + 1 = 2س + 13",
+      "hint_ar": "اطرح 2س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 2س: 4س + 1 = 13، ثم 4س = 12، إذن س = 3.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "7س + 23 = 3س + 63",
+      "hint_ar": "اطرح 3س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 3س: 4س + 23 = 63، ثم 4س = 40، إذن س = 10.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "5.71",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "6س + 12 = 2س + 40",
+      "hint_ar": "اطرح 2س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 2س: 4س + 12 = 40، ثم 4س = 28، إذن س = 7.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "4.67",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3س + 1 = س + 5",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 2س + 1 = 5، ثم 2س = 4، إذن س = 2.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "1.33",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "0",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "7س + 6 = س + 78",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 6س + 6 = 78، ثم 6س = 72، إذن س = 12.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "10.29",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5س + 22 = 2س + 64",
+      "hint_ar": "اطرح 2س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 2س: 3س + 22 = 64، ثم 3س = 42، إذن س = 14.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8.4",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "6س + 16 = س + 61",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 5س + 16 = 61، ثم 5س = 45، إذن س = 9.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.5",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "7س + 25 = 3س + 41",
+      "hint_ar": "اطرح 3س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 3س: 4س + 25 = 41، ثم 4س = 16، إذن س = 4.",
+      "options": [
+        {
+          "text_ar": "2.29",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "7س + 8 = 2س + 83",
+      "hint_ar": "اطرح 2س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح 2س: 5س + 8 = 83، ثم 5س = 75، إذن س = 15.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10.71",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "75",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5س + 11 = س + 23",
+      "hint_ar": "اطرح س من الطرفين أولاً حتى تجتمع س في طرف واحد، ثم عالج الأعداد.",
+      "explanation_ar": "بطرح س: 4س + 11 = 23، ثم 4س = 12، إذن س = 3.",
+      "options": [
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "2.4",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4(س + 8) = س + 77",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "4س + 32 = س + 77، فـ 3س = 45، إذن س = 15.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "11.25",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5(س + 2) = 3س + 16",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "5س + 10 = 3س + 16، فـ 2س = 6، إذن س = 3.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5(س + 3) = س + 51",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "5س + 15 = س + 51، فـ 4س = 36، إذن س = 9.",
+      "options": [
+        {
+          "text_ar": "7.2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "5(س + 9) = س + 73",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "5س + 45 = س + 73، فـ 4س = 28، إذن س = 7.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "5.6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "3(س + 4) = س + 30",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "3س + 12 = س + 30، فـ 2س = 18، إذن س = 9.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4(س + 6) = س + 45",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "4س + 24 = س + 45، فـ 3س = 21، إذن س = 7.",
+      "options": [
+        {
+          "text_ar": "5.25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4(س + 2) = س + 53",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "4س + 8 = س + 53، فـ 3س = 45، إذن س = 15.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "11.25",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4(س + 3) = س + 24",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "4س + 12 = س + 24، فـ 3س = 12، إذن س = 4.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4(س + 3) = 2س + 34",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "4س + 12 = 2س + 34، فـ 2س = 22، إذن س = 11.",
+      "options": [
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.5",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "ALG.EQ.MULTI",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أوجد قيمة س:",
+      "expression": "4(س + 6) = 2س + 34",
+      "hint_ar": "وزّع أولاً، ثم انقل كل حدود س إلى طرف واحد وكل الأعداد إلى الطرف الآخر.",
+      "explanation_ar": "4س + 24 = 2س + 34، فـ 2س = 10، إذن س = 5.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "eq.vars_both_sides"
+        },
+        {
+          "text_ar": "2.5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

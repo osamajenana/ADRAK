@@ -67,6 +67,18 @@ export const subFrac = (a, b) => reduce(frac(a.n * b.d - b.n * a.d, a.d * b.d));
 export const mulFrac = (a, b) => reduce(frac(a.n * b.n, a.d * b.d));
 export const divFrac = (a, b) => reduce(frac(a.n * b.d, a.d * b.n));
 
+/* ---------------------------------------------------------------- decimals */
+
+/**
+ * Renders a decimal without float noise or trailing zeros: 4.80 reads "4.8" and 9.00 reads "9".
+ * Only strips inside a fractional part, so 40 never becomes 4.
+ */
+export function decText(x, dp = 4) {
+  const text = x.toFixed(dp);
+
+  return text.includes('.') ? text.replace(/0+$/, '').replace(/\.$/, '') : text;
+}
+
 /* ---------------------------------------------- misconceptions as functions */
 
 /**
@@ -139,6 +151,54 @@ export const Misconception = {
 
   /** dec.longer_is_bigger — "0.25 > 0.7" because it has more digits. */
   longerDecimalIsBigger: (a, b) => (String(a).length >= String(b).length ? a : b),
+
+  /** dec.shorter_is_bigger — the over-correction: "fewer digits means a bigger number". */
+  shorterDecimalIsBigger: (a, b) => (String(a).length <= String(b).length ? a : b),
+
+  /**
+   * dec.right_align — lines the last digits up instead of the points, so 2.3 + 0.45 = 2.48.
+   *
+   * The shorter fraction is padded on the LEFT rather than the right: 2.3 is read as 2.03. That is
+   * what aligning the columns from the right actually does to the tenths digit, and it is why the
+   * answer comes out so nearly right.
+   */
+  rightAlignDecimals: (a, b) => {
+    const dp = (x) => (String(x).split('.')[1] ?? '').length;
+    const width = Math.max(dp(a), dp(b));
+    const shift = (x) => {
+      const [whole, part = ''] = String(x).split('.');
+      return Number(`${whole}.${part.padStart(width, '0')}`);
+    };
+
+    return Number((shift(a) + shift(b)).toFixed(width));
+  },
+
+  /** dec.mul_align_point — places the point by the WIDEST operand as addition does, not by the sum. */
+  multiplyPointLikeAddition: (a, b) => {
+    const dp = (x) => (String(x).split('.')[1] ?? '').length;
+    const digits = Number(String(a).replace('.', '')) * Number(String(b).replace('.', ''));
+
+    return Number((digits / 10 ** Math.max(dp(a), dp(b))).toFixed(6));
+  },
+
+  /** dec.div_no_shift — divides by the decimal divisor as though its point were not there. */
+  divideWithoutShift: (a, b) => {
+    const places = (String(b).split('.')[1] ?? '').length;
+
+    return Number((a / (b * 10 ** places)).toFixed(6));
+  },
+
+  /** dec.frc_read_digits — reads 3/4 straight off the page as "0.34". */
+  fractionAsDigits: ({ n, d }) => Number(`0.${n}${d}`),
+
+  /** root.distribute_over_add — "the root of a sum is the sum of the roots": sqrt(9+16) = 3+4. */
+  rootOverSum: (a, b) => Math.sqrt(a) + Math.sqrt(b),
+
+  /** rat.additive_not_multiplicative — holds the DIFFERENCE constant instead of the ratio. */
+  ratioByAdding: (a, b, scaledA) => b + (scaledA - a),
+
+  /** alg.concat_not_multiply — reads 3x with x = 4 as the two digits "34". */
+  concatCoefficient: (coefficient, value) => Number(`${coefficient}${value}`),
 };
 
 /* ----------------------------------------------------------------- builders */

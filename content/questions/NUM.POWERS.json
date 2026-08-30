@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.POWERS",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "4³",
+      "hint_ar": "4³ تعني ضرب 4 في نفسه 3 مرات، لا 4 × 3.",
+      "explanation_ar": "4 × 4 × 4 = 64.",
+      "options": [
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "6²",
+      "hint_ar": "6² تعني ضرب 6 في نفسه 2 مرات، لا 6 × 2.",
+      "explanation_ar": "6 × 6 = 36.",
+      "options": [
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "5²",
+      "hint_ar": "5² تعني ضرب 5 في نفسه 2 مرات، لا 5 × 2.",
+      "explanation_ar": "5 × 5 = 25.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "2³",
+      "hint_ar": "2³ تعني ضرب 2 في نفسه 3 مرات، لا 2 × 3.",
+      "explanation_ar": "2 × 2 × 2 = 8.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "3⁴",
+      "hint_ar": "3⁴ تعني ضرب 3 في نفسه 4 مرات، لا 3 × 4.",
+      "explanation_ar": "3 × 3 × 3 × 3 = 81.",
+      "options": [
+        {
+          "text_ar": "81",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "101",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "7²",
+      "hint_ar": "7² تعني ضرب 7 في نفسه 2 مرات، لا 7 × 2.",
+      "explanation_ar": "7 × 7 = 49.",
+      "options": [
+        {
+          "text_ar": "59",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "49",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "6⁴",
+      "hint_ar": "6⁴ تعني ضرب 6 في نفسه 4 مرات، لا 6 × 4.",
+      "explanation_ar": "6 × 6 × 6 × 6 = 1296.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "1296",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1306",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "3³",
+      "hint_ar": "3³ تعني ضرب 3 في نفسه 3 مرات، لا 3 × 3.",
+      "explanation_ar": "3 × 3 × 3 = 27.",
+      "options": [
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "7⁴",
+      "hint_ar": "7⁴ تعني ضرب 7 في نفسه 4 مرات، لا 7 × 4.",
+      "explanation_ar": "7 × 7 × 7 × 7 = 2401.",
+      "options": [
+        {
+          "text_ar": "2401",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "2381",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "2²",
+      "hint_ar": "2² تعني ضرب 2 في نفسه 2 مرات، لا 2 × 2.",
+      "explanation_ar": "2 × 2 = 4.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−3)⁴",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 4 زوجي، فالناتج موجب: (−3)⁴ = 81. أمّا −3⁴ فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "101",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "81",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "-81",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−7)⁴",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 4 زوجي، فالناتج موجب: (−7)⁴ = 2401. أمّا −7⁴ فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "2421",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2401",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-2401",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−9)²",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 2 زوجي، فالناتج موجب: (−9)² = 81. أمّا −9² فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "81",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-81",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "91",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−5)²",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 2 زوجي، فالناتج موجب: (−5)² = 25. أمّا −5² فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-25",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−8)⁴",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 4 زوجي، فالناتج موجب: (−8)⁴ = 4096. أمّا −8⁴ فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "4106",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-4096",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "4096",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−5)⁴",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 4 زوجي، فالناتج موجب: (−5)⁴ = 625. أمّا −5⁴ فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "625",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-625",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "635",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−7)²",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 2 زوجي، فالناتج موجب: (−7)² = 49. أمّا −7² فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "69",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "49",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-49",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−8)²",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 2 زوجي، فالناتج موجب: (−8)² = 64. أمّا −8² فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "-64",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−6)⁴",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 4 زوجي، فالناتج موجب: (−6)⁴ = 1296. أمّا −6⁴ فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "-1296",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        },
+        {
+          "text_ar": "1296",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1316",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة القوّة الآتية:",
+      "expression": "(−3)²",
+      "hint_ar": "القوس يضع الإشارة داخل القوّة. أسٌّ زوجي يعطي ناتجاً موجباً، وفردي يبقيه سالباً.",
+      "explanation_ar": "الأس 2 زوجي، فالناتج موجب: (−3)² = 9. أمّا −3² فالإشارة فيها خارج القوّة.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "pow.multiply_base_exp"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": false,
+          "misconception_tag": "pow.negative_base"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "2² + 2⁴",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "2² = 4 و 2⁴ = 16، والمجموع 20.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3⁴ + 3²",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "3⁴ = 81 و 3² = 9، والمجموع 90.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "729",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        },
+        {
+          "text_ar": "90",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3³ + 3²",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "3³ = 27 و 3² = 9، والمجموع 36.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "243",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "4⁴ + 4²",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "4⁴ = 256 و 4² = 16، والمجموع 272.",
+      "options": [
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "272",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "262",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4096",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "2⁴ + 2³",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "2⁴ = 16 و 2³ = 8، والمجموع 24.",
+      "options": [
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "128",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3³ + 3³",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "3³ = 27 و 3³ = 27، والمجموع 54.",
+      "options": [
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "729",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3² + 3³",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "3² = 9 و 3³ = 27، والمجموع 36.",
+      "options": [
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "243",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "2⁴ + 2²",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "2⁴ = 16 و 2² = 4، والمجموع 20.",
+      "options": [
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3⁴ + 3⁴",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "3⁴ = 81 و 3⁴ = 81، والمجموع 162.",
+      "options": [
+        {
+          "text_ar": "162",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6561",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        },
+        {
+          "text_ar": "142",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.POWERS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3⁴ + 3³",
+      "hint_ar": "جمع الأسس قانونٌ لضرب القوى لا لجمعها. احسب كل قوّة على حدة ثم اجمع.",
+      "explanation_ar": "3⁴ = 81 و 3³ = 27، والمجموع 108.",
+      "options": [
+        {
+          "text_ar": "118",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "108",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2187",
+          "is_correct": false,
+          "misconception_tag": "pow.add_exponents_wrong"
+        }
+      ]
+    }
+  ]
+}

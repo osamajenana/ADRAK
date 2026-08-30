@@ -1,0 +1,936 @@
+{
+  "skill_code": "RAT.CONCEPT",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 9 وعدد البنات 5. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 9 + 5 = 14، فالنسبة 9 : 14 وتبسّط إلى 9 : 14.",
+      "options": [
+        {
+          "text_ar": "5 : 14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9 : 5",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "9 : 14",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14 : 9",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 11 وعدد البنات 14. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 11 + 14 = 25، فالنسبة 11 : 25 وتبسّط إلى 11 : 25.",
+      "options": [
+        {
+          "text_ar": "14 : 25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25 : 11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11 : 14",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "11 : 25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 5 وعدد البنات 13. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 5 + 13 = 18، فالنسبة 5 : 18 وتبسّط إلى 5 : 18.",
+      "options": [
+        {
+          "text_ar": "5 : 13",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "13 : 18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 18",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 12 وعدد البنات 5. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 12 + 5 = 17، فالنسبة 12 : 17 وتبسّط إلى 12 : 17.",
+      "options": [
+        {
+          "text_ar": "12 : 5",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "5 : 17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 : 17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17 : 12",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 12 وعدد البنات 15. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 12 + 15 = 27، فالنسبة 12 : 27 وتبسّط إلى 4 : 9.",
+      "options": [
+        {
+          "text_ar": "4 : 9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9 : 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4 : 5",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "5 : 9",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 9 وعدد البنات 4. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 9 + 4 = 13، فالنسبة 9 : 13 وتبسّط إلى 9 : 13.",
+      "options": [
+        {
+          "text_ar": "9 : 13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4 : 13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13 : 9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9 : 4",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 12 وعدد البنات 4. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 12 + 4 = 16، فالنسبة 12 : 16 وتبسّط إلى 3 : 4.",
+      "options": [
+        {
+          "text_ar": "4 : 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 : 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3 : 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3 : 1",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 10 وعدد البنات 7. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 10 + 7 = 17، فالنسبة 10 : 17 وتبسّط إلى 10 : 17.",
+      "options": [
+        {
+          "text_ar": "7 : 17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10 : 17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17 : 10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10 : 7",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 7 وعدد البنات 10. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 7 + 10 = 17، فالنسبة 7 : 17 وتبسّط إلى 7 : 17.",
+      "options": [
+        {
+          "text_ar": "17 : 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10 : 17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7 : 17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7 : 10",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "في صفّ عدد الأولاد فيه 3 وعدد البنات 9. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 3 + 9 = 12، فالنسبة 3 : 12 وتبسّط إلى 1 : 4.",
+      "options": [
+        {
+          "text_ar": "1 : 4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 : 3",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "4 : 1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3 : 4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 11 وعدد البنات 10. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 11 + 10 = 21، فالنسبة 11 : 21 وتبسّط إلى 11 : 21.",
+      "options": [
+        {
+          "text_ar": "11 : 21",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21 : 11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11 : 10",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "10 : 21",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 12 وعدد البنات 13. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 12 + 13 = 25، فالنسبة 12 : 25 وتبسّط إلى 12 : 25.",
+      "options": [
+        {
+          "text_ar": "13 : 25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 : 13",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "25 : 12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 : 25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 5 وعدد البنات 12. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 5 + 12 = 17، فالنسبة 5 : 17 وتبسّط إلى 5 : 17.",
+      "options": [
+        {
+          "text_ar": "17 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12 : 17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 12",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 8 وعدد البنات 12. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 8 + 12 = 20، فالنسبة 8 : 20 وتبسّط إلى 2 : 5.",
+      "options": [
+        {
+          "text_ar": "2 : 3",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "5 : 2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2 : 5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 5 وعدد البنات 9. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 5 + 9 = 14، فالنسبة 5 : 14 وتبسّط إلى 5 : 14.",
+      "options": [
+        {
+          "text_ar": "14 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 14",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9 : 14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 9",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 10 وعدد البنات 12. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 10 + 12 = 22، فالنسبة 10 : 22 وتبسّط إلى 5 : 11.",
+      "options": [
+        {
+          "text_ar": "5 : 6",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "11 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6 : 11",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 9 وعدد البنات 6. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 9 + 6 = 15، فالنسبة 9 : 15 وتبسّط إلى 3 : 5.",
+      "options": [
+        {
+          "text_ar": "3 : 2",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "2 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3 : 5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 5 وعدد البنات 11. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 5 + 11 = 16، فالنسبة 5 : 16 وتبسّط إلى 5 : 16.",
+      "options": [
+        {
+          "text_ar": "5 : 11",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "16 : 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11 : 16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5 : 16",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 4 وعدد البنات 13. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 4 + 13 = 17، فالنسبة 4 : 17 وتبسّط إلى 4 : 17.",
+      "options": [
+        {
+          "text_ar": "13 : 17",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17 : 4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4 : 17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4 : 13",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "في صفّ عدد الأولاد فيه 8 وعدد البنات 11. ما نسبة الأولاد إلى مجموع الطلاب في أبسط صورة؟",
+      "expression": null,
+      "hint_ar": "نسبة الجزء إلى الكل مقامها المجموع كلّه، لا الجزء الآخر وحده.",
+      "explanation_ar": "المجموع 8 + 11 = 19، فالنسبة 8 : 19 وتبسّط إلى 8 : 19.",
+      "options": [
+        {
+          "text_ar": "8 : 11",
+          "is_correct": false,
+          "misconception_tag": "rat.part_vs_whole"
+        },
+        {
+          "text_ar": "11 : 19",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8 : 19",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19 : 8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 2 : 5. إذا زِيد الدقيق ليصير 10، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 5 مرات (2 × 5 = 10)، فالسكّر كذلك: 5 × 5 = 25.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 5 : 3. إذا زِيد الدقيق ليصير 25، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 5 مرات (5 × 5 = 25)، فالسكّر كذلك: 3 × 5 = 15.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 3 : 9. إذا زِيد الدقيق ليصير 15، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 5 مرات (3 × 5 = 15)، فالسكّر كذلك: 9 × 5 = 45.",
+      "options": [
+        {
+          "text_ar": "65",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 5 : 6. إذا زِيد الدقيق ليصير 10، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 2 مرات (5 × 2 = 10)، فالسكّر كذلك: 6 × 2 = 12.",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 5 : 8. إذا زِيد الدقيق ليصير 15، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 3 مرات (5 × 3 = 15)، فالسكّر كذلك: 8 × 3 = 24.",
+      "options": [
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 3 : 9. إذا زِيد الدقيق ليصير 9، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 3 مرات (3 × 3 = 9)، فالسكّر كذلك: 9 × 3 = 27.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "27",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 4 : 5. إذا زِيد الدقيق ليصير 12، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 3 مرات (4 × 3 = 12)، فالسكّر كذلك: 5 × 3 = 15.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 4 : 6. إذا زِيد الدقيق ليصير 8، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 2 مرات (4 × 2 = 8)، فالسكّر كذلك: 6 × 2 = 12.",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 6 : 5. إذا زِيد الدقيق ليصير 24، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 4 مرات (6 × 4 = 24)، فالسكّر كذلك: 5 × 4 = 20.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        }
+      ]
+    },
+    {
+      "skill_code": "RAT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "نسبة الدقيق إلى السكّر في وصفة هي 4 : 3. إذا زِيد الدقيق ليصير 20، فكم يصير السكّر للحفاظ على النسبة نفسها؟",
+      "expression": null,
+      "hint_ar": "النسبة تُحفَظ بالضرب في العدد نفسه، لا بإضافة المقدار نفسه إلى الطرفين.",
+      "explanation_ar": "الدقيق تضاعف 5 مرات (4 × 5 = 20)، فالسكّر كذلك: 3 × 5 = 15.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": "rat.additive_not_multiplicative"
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "skill_code": "FRC.CONCEPT",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 7، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 7 والملوّن منها 3، فالكسر 3/7.",
+      "options": [
+        {
+          "text_ar": "7/3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/8",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 6، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 6 والملوّن منها 3، فالكسر 3/6.",
+      "options": [
+        {
+          "text_ar": "3/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/3",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/7",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 3، ولُوّن منها 1. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 3 والملوّن منها 1، فالكسر 1/3.",
+      "options": [
+        {
+          "text_ar": "1/2",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 5، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 5 والملوّن منها 3، فالكسر 3/5.",
+      "options": [
+        {
+          "text_ar": "3/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/2",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/6",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "5/3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 4، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 4 والملوّن منها 3، فالكسر 3/4.",
+      "options": [
+        {
+          "text_ar": "3/1",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/5",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "4/3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 3، ولُوّن منها 2. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 3 والملوّن منها 2، فالكسر 2/3.",
+      "options": [
+        {
+          "text_ar": "2/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "2/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/1",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 6، ولُوّن منها 4. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 6 والملوّن منها 4، فالكسر 4/6.",
+      "options": [
+        {
+          "text_ar": "6/4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/7",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "4/2",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 7، ولُوّن منها 4. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 7 والملوّن منها 4، فالكسر 4/7.",
+      "options": [
+        {
+          "text_ar": "4/8",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "4/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/3",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 5، ولُوّن منها 4. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 5 والملوّن منها 4، فالكسر 4/5.",
+      "options": [
+        {
+          "text_ar": "4/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/6",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "4/1",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "5/4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 8، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 8 والملوّن منها 3، فالكسر 3/8.",
+      "options": [
+        {
+          "text_ar": "3/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/5",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/9",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "8/3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 5، ولُوّن منها 1. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 5 والملوّن منها 1، فالكسر 1/5.",
+      "options": [
+        {
+          "text_ar": "1/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "1/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5/1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 7، ولُوّن منها 1. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 7 والملوّن منها 1، فالكسر 1/7.",
+      "options": [
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "7/1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/8",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 12، ولُوّن منها 1. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 12 والملوّن منها 1، فالكسر 1/12.",
+      "options": [
+        {
+          "text_ar": "1/11",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "12/1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/13",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "1/12",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 9، ولُوّن منها 5. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 9 والملوّن منها 5، فالكسر 5/9.",
+      "options": [
+        {
+          "text_ar": "5/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "5/10",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "9/5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5/9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 8، ولُوّن منها 4. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 8 والملوّن منها 4، فالكسر 4/8.",
+      "options": [
+        {
+          "text_ar": "4/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/9",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "8/4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 8، ولُوّن منها 1. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 8 والملوّن منها 1، فالكسر 1/8.",
+      "options": [
+        {
+          "text_ar": "1/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/9",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "8/1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/7",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 10، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 10 والملوّن منها 3، فالكسر 3/10.",
+      "options": [
+        {
+          "text_ar": "10/3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/7",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/11",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 6، ولُوّن منها 2. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 6 والملوّن منها 2، فالكسر 2/6.",
+      "options": [
+        {
+          "text_ar": "2/4",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "2/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/7",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "6/2",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 11، ولُوّن منها 8. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 11 والملوّن منها 8، فالكسر 8/11.",
+      "options": [
+        {
+          "text_ar": "8/11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8/12",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "8/3",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "11/8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "قُسّم شريط إلى أجزاء متساوية عددها 9، ولُوّن منها 3. ما الكسر الذي يمثّل الجزء الملوّن؟",
+      "expression": null,
+      "hint_ar": "المقام هو عدد الأجزاء المتساوية كلّها، والبسط هو عدد ما أخذتَ منها.",
+      "explanation_ar": "الأجزاء 9 والملوّن منها 3، فالكسر 3/9.",
+      "options": [
+        {
+          "text_ar": "3/10",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        },
+        {
+          "text_ar": "3/9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/6",
+          "is_correct": false,
+          "misconception_tag": "frc.unequal_parts"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 3، أم حين يكون 9؟",
+      "expression": "1/3   ,   1/9",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 3 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/12",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/9",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 2، أم حين يكون 8؟",
+      "expression": "1/2   ,   1/8",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 2 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/8",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/10",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/2",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 2، أم حين يكون 7؟",
+      "expression": "1/2   ,   1/7",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 2 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/9",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/7",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 3، أم حين يكون 8؟",
+      "expression": "1/3   ,   1/8",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 3 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/11",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/8",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 4، أم حين يكون 6؟",
+      "expression": "1/4   ,   1/6",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 4 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/10",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 2، أم حين يكون 6؟",
+      "expression": "1/2   ,   1/6",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 2 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/8",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 3، أم حين يكون 7؟",
+      "expression": "1/3   ,   1/7",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 3 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/10",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/7",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 4، أم حين يكون 8؟",
+      "expression": "1/4   ,   1/8",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 4 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/12",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/8",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 2، أم حين يكون 4؟",
+      "expression": "1/2   ,   1/4",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 2 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/4",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "تُقسَّم كعكة بالتساوي على عدد من الأطفال. أيّ الحصّتين أكبر: حين يكون عددهم 3، أم حين يكون 6؟",
+      "expression": "1/3   ,   1/6",
+      "hint_ar": "كلّما زاد عدد الأجزاء صغُر كل جزء — المقام يعدّ الأجزاء ولا يقيس حجمها.",
+      "explanation_ar": "العدد 3 يعطي حصّة أكبر، لأن الكعكة نفسها تُوزَّع على عدد أقل من الأطفال.",
+      "options": [
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/9",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.bigger_denominator_bigger"
+        },
+        {
+          "text_ar": "الحصّتان متساويتان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

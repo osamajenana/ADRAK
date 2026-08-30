@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.ROOTS",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√144",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 144؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "12 × 12 = 144، إذن √144 = 12.",
+      "options": [
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√100",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 100؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "10 × 10 = 100، إذن √100 = 10.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "50",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√25",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 25؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "5 × 5 = 25، إذن √25 = 5.",
+      "options": [
+        {
+          "text_ar": "6.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√36",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 36؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "6 × 6 = 36، إذن √36 = 6.",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√64",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 64؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "8 × 8 = 64، إذن √64 = 8.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√121",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 121؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "11 × 11 = 121، إذن √121 = 11.",
+      "options": [
+        {
+          "text_ar": "30.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "60.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√16",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 16؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "4 × 4 = 16، إذن √16 = 4.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√9",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 9؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "3 × 3 = 9، إذن √9 = 3.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "2.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√81",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 81؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "9 × 9 = 81، إذن √81 = 9.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√49",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 49؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "7 × 7 = 49، إذن √49 = 7.",
+      "options": [
+        {
+          "text_ar": "12.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "24.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√576",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 576؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "24 × 24 = 576، إذن √576 = 24.",
+      "options": [
+        {
+          "text_ar": "288",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "144",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√289",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 289؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "17 × 17 = 289، إذن √289 = 17.",
+      "options": [
+        {
+          "text_ar": "72.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "144.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√784",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 784؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "28 × 28 = 784، إذن √784 = 28.",
+      "options": [
+        {
+          "text_ar": "196",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "392",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√144",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 144؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "12 × 12 = 144، إذن √144 = 12.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√225",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 225؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "15 × 15 = 225، إذن √225 = 15.",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "112.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√625",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 625؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "25 × 25 = 625، إذن √625 = 25.",
+      "options": [
+        {
+          "text_ar": "312.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "156.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√400",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 400؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "20 × 20 = 400، إذن √400 = 20.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "100",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "200",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√169",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 169؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "13 × 13 = 169، إذن √169 = 13.",
+      "options": [
+        {
+          "text_ar": "84.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "42.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√196",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 196؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "14 × 14 = 196، إذن √196 = 14.",
+      "options": [
+        {
+          "text_ar": "49",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "98",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√121",
+      "hint_ar": "اسأل: أيّ عدد إذا ضُرب في نفسه أعطى 121؟ الجذر ليس نصف العدد.",
+      "explanation_ar": "11 × 11 = 121، إذن √121 = 11.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30.25",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "60.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(64 + 225)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "64 + 225 = 289، وجذره 17. أمّا √64 + √225 = 23 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "144.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(3600 + 3969)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "3600 + 3969 = 7569، وجذره 87. أمّا √3600 + √3969 = 123 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3784.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "123",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "87",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(576 + 2025)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "576 + 2025 = 2601، وجذره 51. أمّا √576 + √2025 = 69 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "51",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "69",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "1300.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "71",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(225 + 1296)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "225 + 1296 = 1521، وجذره 39. أمّا √225 + √1296 = 51 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "51",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "760.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(196 + 2304)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "196 + 2304 = 2500، وجذره 50. أمّا √196 + √2304 = 62 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "62",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "1250",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "50",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(1600 + 1764)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "1600 + 1764 = 3364، وجذره 58. أمّا √1600 + √1764 = 82 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "78",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "82",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "1682",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "58",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(49 + 576)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "49 + 576 = 625، وجذره 25. أمّا √49 + √576 = 31 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "312.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(256 + 900)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "256 + 900 = 1156، وجذره 34. أمّا √256 + √900 = 46 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "578",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "34",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "46",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(25 + 144)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "25 + 144 = 169، وجذره 13. أمّا √25 + √144 = 17 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "84.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.ROOTS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب قيمة الجذر الآتي:",
+      "expression": "√(400 + 441)",
+      "hint_ar": "اجمع ما تحت الجذر أولاً. الجذر لا يُوزَّع على الجمع.",
+      "explanation_ar": "400 + 441 = 841، وجذره 29. أمّا √400 + √441 = 41 فعملية أخرى.",
+      "options": [
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": "root.distribute_over_add"
+        },
+        {
+          "text_ar": "420.5",
+          "is_correct": false,
+          "misconception_tag": "root.half_the_number"
+        },
+        {
+          "text_ar": "31",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "29",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

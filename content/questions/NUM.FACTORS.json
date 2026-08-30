@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.FACTORS",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 15؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "3 × 5 = 15، إذن 3 عامل للعدد 15. أمّا 30 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 42؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "7 × 6 = 42، إذن 7 عامل للعدد 42. أمّا 84 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "126",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 18؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "3 × 6 = 18، إذن 3 عامل للعدد 18. أمّا 36 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 27؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "3 × 9 = 27، إذن 3 عامل للعدد 27. أمّا 54 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "81",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 56؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "8 × 7 = 56، إذن 8 عامل للعدد 56. أمّا 112 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "112",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "168",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 36؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "6 × 6 = 36، إذن 6 عامل للعدد 36. أمّا 72 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "108",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 49؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "7 × 7 = 49، إذن 7 عامل للعدد 49. أمّا 98 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "147",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "98",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 14؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "2 × 7 = 14، إذن 2 عامل للعدد 14. أمّا 28 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 45؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "9 × 5 = 45، إذن 9 عامل للعدد 45. أمّا 90 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "135",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الأعداد الآتية عامل للعدد 10؟",
+      "expression": null,
+      "hint_ar": "العامل يقسم العدد بلا باقٍ فيكون أصغر منه، والمضاعف ناتج ضربه فيكون أكبر.",
+      "explanation_ar": "2 × 5 = 10، إذن 2 عامل للعدد 10. أمّا 20 فهو مضاعف له لا عامل.",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 95؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "95 ÷ 5 = 19 بلا باقٍ، و 5 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "190",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "95",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 22؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "22 ÷ 2 = 11 بلا باقٍ، و 2 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 26؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "26 ÷ 2 = 13 بلا باقٍ، و 2 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "52",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 57؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "57 ÷ 3 = 19 بلا باقٍ، و 3 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "114",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "57",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 51؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "51 ÷ 3 = 17 بلا باقٍ، و 3 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "51",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "102",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 39؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "39 ÷ 3 = 13 بلا باقٍ، و 3 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "78",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 85؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "85 ÷ 5 = 17 بلا باقٍ، و 5 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "170",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "85",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 133؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "133 ÷ 7 = 19 بلا باقٍ، و 7 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "266",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "133",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 55؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "55 ÷ 5 = 11 بلا باقٍ، و 5 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "110",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "ما أصغر عدد أوّلي يقسم العدد 21؟",
+      "expression": null,
+      "hint_ar": "العدد الأوّلي له عاملان فقط: 1 ونفسه. والعدد 1 ليس أوّلياً لأن له عاملاً واحداً.",
+      "explanation_ar": "21 ÷ 3 = 7 بلا باقٍ، و 3 أوّلي. أمّا 1 فليس عدداً أوّلياً.",
+      "options": [
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "30",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "2 × 3 × 5 = 30، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "1 × 2 × 3 × 5",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "6 × 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2 × 3 × 5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "30 × 30",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "98",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "2 × 7 × 7 = 98، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "98 × 98",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1 × 2 × 7 × 7",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "14 × 7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2 × 7 × 7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "275",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "5 × 5 × 11 = 275، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "25 × 11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 × 5 × 5 × 11",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "275 × 275",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "5 × 5 × 11",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "63",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "3 × 3 × 7 = 63، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "63 × 63",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "3 × 3 × 7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 × 3 × 3 × 7",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "9 × 7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "165",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "3 × 5 × 11 = 165، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "3 × 5 × 11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15 × 11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "165 × 165",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1 × 3 × 5 × 11",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "110",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "2 × 5 × 11 = 110، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "10 × 11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2 × 5 × 11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "110 × 110",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1 × 2 × 5 × 11",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "18",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "2 × 3 × 3 = 18، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "2 × 3 × 3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6 × 3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18 × 18",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "1 × 2 × 3 × 3",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "20",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "2 × 2 × 5 = 20، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "2 × 2 × 5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 × 2 × 2 × 5",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "4 × 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20 × 20",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "231",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "3 × 7 × 11 = 231، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "21 × 11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 × 3 × 7 × 11",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "231 × 231",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "3 × 7 × 11",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.FACTORS",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حلّل العدد الآتي إلى عوامله الأوّلية:",
+      "expression": "45",
+      "hint_ar": "اقسم على أصغر عدد أوّلي ممكن، وكرّر على الناتج حتى يصير أوّلياً.",
+      "explanation_ar": "3 × 3 × 5 = 45، وكل عامل هنا أوّلي. العدد 1 لا يُكتب في التحليل لأنه ليس أوّلياً.",
+      "options": [
+        {
+          "text_ar": "45 × 45",
+          "is_correct": false,
+          "misconception_tag": "num.factor_vs_multiple"
+        },
+        {
+          "text_ar": "9 × 5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1 × 3 × 3 × 5",
+          "is_correct": false,
+          "misconception_tag": "num.one_is_prime"
+        },
+        {
+          "text_ar": "3 × 3 × 5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

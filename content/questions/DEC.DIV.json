@@ -1,0 +1,936 @@
+{
+  "skill_code": "DEC.DIV",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "1.2 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 12 ÷ 2 = 6.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "0.6 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 6 ÷ 2 = 3.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "0.8 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 8 ÷ 2 = 4.",
+      "options": [
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "1 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 10 ÷ 2 = 5.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "1.6 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 16 ÷ 2 = 8.",
+      "options": [
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "3.5 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 35 ÷ 5 = 7.",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "3 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 30 ÷ 5 = 6.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "2 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 20 ÷ 5 = 4.",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "4 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 40 ÷ 5 = 8.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "1.4 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 14 ÷ 2 = 7.",
+      "options": [
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "6.5 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 65 ÷ 5 = 13.",
+      "options": [
+        {
+          "text_ar": "1.3",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "17.6 ÷ 0.8",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 176 ÷ 8 = 22.",
+      "options": [
+        {
+          "text_ar": "22",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.2",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "20 ÷ 0.8",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 200 ÷ 8 = 25.",
+      "options": [
+        {
+          "text_ar": "2.5",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "11 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 110 ÷ 5 = 22.",
+      "options": [
+        {
+          "text_ar": "2.2",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "26.4 ÷ 0.8",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 264 ÷ 8 = 33.",
+      "options": [
+        {
+          "text_ar": "3.3",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "24.8 ÷ 0.8",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 248 ÷ 8 = 31.",
+      "options": [
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3.1",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "31",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "4.2 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 42 ÷ 2 = 21.",
+      "options": [
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.1",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "21",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "19.5 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 195 ÷ 5 = 39.",
+      "options": [
+        {
+          "text_ar": "3.9",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "18.4 ÷ 0.8",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 184 ÷ 8 = 23.",
+      "options": [
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.3",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "4.8 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 48 ÷ 2 = 24.",
+      "options": [
+        {
+          "text_ar": "24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.4",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "14.6 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 146 ÷ 2 = 73.",
+      "options": [
+        {
+          "text_ar": "53",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "63",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "73",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.3",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "31.2 ÷ 0.4",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 312 ÷ 4 = 78.",
+      "options": [
+        {
+          "text_ar": "88",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.8",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "58",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "78",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "36 ÷ 0.4",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 360 ÷ 4 = 90.",
+      "options": [
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "90",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "21.6 ÷ 0.4",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 216 ÷ 4 = 54.",
+      "options": [
+        {
+          "text_ar": "54",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.4",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "74",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "26 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 260 ÷ 5 = 52.",
+      "options": [
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.2",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "52",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "37 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 370 ÷ 5 = 74.",
+      "options": [
+        {
+          "text_ar": "74",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7.4",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "14.2 ÷ 0.2",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 142 ÷ 2 = 71.",
+      "options": [
+        {
+          "text_ar": "7.1",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "71",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "91",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "81",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "32 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 320 ÷ 5 = 64.",
+      "options": [
+        {
+          "text_ar": "74",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.4",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "34.5 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 345 ÷ 5 = 69.",
+      "options": [
+        {
+          "text_ar": "79",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.9",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "49",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "69",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.DIV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج القسمة:",
+      "expression": "21.5 ÷ 0.5",
+      "hint_ar": "أزِح الفاصلة في المقسوم عليه حتى يصير عدداً صحيحاً، وأزِحها العدد نفسه من المنازل في المقسوم.",
+      "explanation_ar": "اضرب الطرفين في 10: 215 ÷ 5 = 43.",
+      "options": [
+        {
+          "text_ar": "63",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.3",
+          "is_correct": false,
+          "misconception_tag": "dec.div_no_shift"
+        },
+        {
+          "text_ar": "43",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "skill_code": "FRC.COMPARE",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "9/14   ,   2/3",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "9 × 3 = 27 و 2 × 14 = 28، إذن 2/3 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/14",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "7/10   ,   3/4",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "7 × 4 = 28 و 3 × 10 = 30، إذن 3/4 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/10",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "6/15   ,   2/4",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "6 × 4 = 24 و 2 × 15 = 30، إذن 2/4 أكبر.",
+      "options": [
+        {
+          "text_ar": "2/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "6/15   ,   4/5",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "6 × 5 = 30 و 4 × 15 = 60، إذن 4/5 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "3/11   ,   1/3",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "3 × 3 = 9 و 1 × 11 = 11، إذن 1/3 أكبر.",
+      "options": [
+        {
+          "text_ar": "3/11",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "4/10   ,   2/4",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "4 × 4 = 16 و 2 × 10 = 20، إذن 2/4 أكبر.",
+      "options": [
+        {
+          "text_ar": "2/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/10",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "4/7   ,   2/3",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "4 × 3 = 12 و 2 × 7 = 14، إذن 2/3 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/7",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "4/15   ,   1/3",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "4 × 3 = 12 و 1 × 15 = 15، إذن 1/3 أكبر.",
+      "options": [
+        {
+          "text_ar": "1/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "4/15   ,   2/4",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "4 × 4 = 16 و 2 × 15 = 30، إذن 2/4 أكبر.",
+      "options": [
+        {
+          "text_ar": "4/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "2/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "7/11   ,   2/3",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "7 × 3 = 21 و 2 × 11 = 22، إذن 2/3 أكبر.",
+      "options": [
+        {
+          "text_ar": "7/11",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "6/13   ,   4/6",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "6 × 6 = 36 و 4 × 13 = 52، إذن 4/6 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/13",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "6/10   ,   5/6",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "6 × 6 = 36 و 5 × 10 = 50، إذن 5/6 أكبر.",
+      "options": [
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/10",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "8/18   ,   7/8",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "8 × 8 = 64 و 7 × 18 = 126، إذن 7/8 أكبر.",
+      "options": [
+        {
+          "text_ar": "7/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8/18",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "12/18   ,   6/8",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "12 × 8 = 96 و 6 × 18 = 108، إذن 6/8 أكبر.",
+      "options": [
+        {
+          "text_ar": "6/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12/18",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "10/15   ,   7/9",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "10 × 9 = 90 و 7 × 15 = 105، إذن 7/9 أكبر.",
+      "options": [
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "7/9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "7/19   ,   6/8",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "7 × 8 = 56 و 6 × 19 = 114، إذن 6/8 أكبر.",
+      "options": [
+        {
+          "text_ar": "6/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/19",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "5/17   ,   4/5",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "5 × 5 = 25 و 4 × 17 = 68، إذن 4/5 أكبر.",
+      "options": [
+        {
+          "text_ar": "5/17",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "12/19   ,   7/9",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "12 × 9 = 108 و 7 × 19 = 133، إذن 7/9 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12/19",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "7/9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "11/17   ,   5/7",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "11 × 7 = 77 و 5 × 17 = 85، إذن 5/7 أكبر.",
+      "options": [
+        {
+          "text_ar": "11/17",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "7/13   ,   4/5",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "7 × 5 = 35 و 4 × 13 = 52، إذن 4/5 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/13",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "9/15   ,   7/9",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "9 × 9 = 81 و 7 × 15 = 105، إذن 7/9 أكبر.",
+      "options": [
+        {
+          "text_ar": "7/9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "14/19   ,   8/9",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "14 × 9 = 126 و 8 × 19 = 152، إذن 8/9 أكبر.",
+      "options": [
+        {
+          "text_ar": "14/19",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8/9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "9/15   ,   4/5",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "9 × 5 = 45 و 4 × 15 = 60، إذن 4/5 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "8/14   ,   5/7",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "8 × 7 = 56 و 5 × 14 = 70، إذن 5/7 أكبر.",
+      "options": [
+        {
+          "text_ar": "5/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8/14",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "7/12   ,   3/5",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "7 × 5 = 35 و 3 × 12 = 36، إذن 3/5 أكبر.",
+      "options": [
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/12",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "3/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "9/20   ,   6/8",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "9 × 8 = 72 و 6 × 20 = 120، إذن 6/8 أكبر.",
+      "options": [
+        {
+          "text_ar": "6/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/20",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "7/18   ,   6/8",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "7 × 8 = 56 و 6 × 18 = 108، إذن 6/8 أكبر.",
+      "options": [
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/18",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "8/11   ,   6/7",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "8 × 7 = 56 و 6 × 11 = 66، إذن 6/7 أكبر.",
+      "options": [
+        {
+          "text_ar": "8/11",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        },
+        {
+          "text_ar": "6/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "6/15   ,   5/7",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "6 × 7 = 42 و 5 × 15 = 75، إذن 5/7 أكبر.",
+      "options": [
+        {
+          "text_ar": "5/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/15",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.COMPARE",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ الكسرين أكبر؟",
+      "expression": "9/18   ,   6/8",
+      "hint_ar": "وحّد المقامين أو اضرب تبادلياً. البسط الأكبر لا يعني كسراً أكبر ما دام المقام مختلفاً.",
+      "explanation_ar": "9 × 8 = 72 و 6 × 18 = 108، إذن 6/8 أكبر.",
+      "options": [
+        {
+          "text_ar": "الكسران متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "لا يمكن المقارنة",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/18",
+          "is_correct": false,
+          "misconception_tag": "frc.compare_numerators_only"
+        }
+      ]
+    }
+  ]
+}

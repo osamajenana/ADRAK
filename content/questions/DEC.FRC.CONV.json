@@ -1,0 +1,936 @@
+{
+  "skill_code": "DEC.FRC.CONV",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/2",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 2 = 0.5.",
+      "options": [
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.12",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "3/5",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "3 ÷ 5 = 0.6.",
+      "options": [
+        {
+          "text_ar": "0.6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.35",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "8/10",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "8 ÷ 10 = 0.8.",
+      "options": [
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.81",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/5",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 5 = 0.2.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.0",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.15",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "4/5",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "4 ÷ 5 = 0.8.",
+      "options": [
+        {
+          "text_ar": "0.8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.45",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "2/4",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "2 ÷ 4 = 0.5.",
+      "options": [
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.24",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/4",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 4 = 0.25.",
+      "options": [
+        {
+          "text_ar": "0.23",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.14",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "5/10",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "5 ÷ 10 = 0.5.",
+      "options": [
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.51",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "3/10",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "3 ÷ 10 = 0.3.",
+      "options": [
+        {
+          "text_ar": "0.31",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "3/4",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "3 ÷ 4 = 0.75.",
+      "options": [
+        {
+          "text_ar": "0.77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.76",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.34",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.75",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "4/5",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "4 ÷ 5 = 0.8.",
+      "options": [
+        {
+          "text_ar": "0.9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.45",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "7/8",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "7 ÷ 8 = 0.875.",
+      "options": [
+        {
+          "text_ar": "0.875",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.874",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.78",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.876",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "3/10",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "3 ÷ 10 = 0.3.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.31",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "3/4",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "3 ÷ 4 = 0.75.",
+      "options": [
+        {
+          "text_ar": "0.75",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.73",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.34",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "2/4",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "2 ÷ 4 = 0.5.",
+      "options": [
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.24",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/4",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 4 = 0.25.",
+      "options": [
+        {
+          "text_ar": "0.24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.14",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.27",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.25",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "9/10",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "9 ÷ 10 = 0.9.",
+      "options": [
+        {
+          "text_ar": "0.91",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/5",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 5 = 0.2.",
+      "options": [
+        {
+          "text_ar": "0.1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.15",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "6/10",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "6 ÷ 10 = 0.6.",
+      "options": [
+        {
+          "text_ar": "0.6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.8",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.61",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "2/8",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "2 ÷ 8 = 0.25.",
+      "options": [
+        {
+          "text_ar": "0.24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.28",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.23",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "8/20",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "8 ÷ 20 = 0.4.",
+      "options": [
+        {
+          "text_ar": "0.4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.82",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "9/20",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "9 ÷ 20 = 0.45.",
+      "options": [
+        {
+          "text_ar": "0.92",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.44",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.47",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "3/25",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "3 ÷ 25 = 0.12.",
+      "options": [
+        {
+          "text_ar": "0.11",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.325",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.13",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "10/16",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "10 ÷ 16 = 0.625.",
+      "options": [
+        {
+          "text_ar": "0.626",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.625",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.1016",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.627",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/20",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 20 = 0.05.",
+      "options": [
+        {
+          "text_ar": "0.05",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.03",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.07",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.12",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/25",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 25 = 0.04.",
+      "options": [
+        {
+          "text_ar": "0.06",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.05",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.04",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.125",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "15/16",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "15 ÷ 16 = 0.9375.",
+      "options": [
+        {
+          "text_ar": "0.9375",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.9377",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.9374",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.1516",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "8/16",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "8 ÷ 16 = 0.5.",
+      "options": [
+        {
+          "text_ar": "0.3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.816",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "1/16",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "1 ÷ 16 = 0.0625.",
+      "options": [
+        {
+          "text_ar": "0.116",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.0625",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.0626",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.0624",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.FRC.CONV",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل الكسر الآتي إلى عدد عشري:",
+      "expression": "11/16",
+      "hint_ar": "الكسر يعني قسمة: اقسم البسط على المقام، ولا تقرأ الرقمين كما يظهران بعد الفاصلة.",
+      "explanation_ar": "11 ÷ 16 = 0.6875.",
+      "options": [
+        {
+          "text_ar": "0.1116",
+          "is_correct": false,
+          "misconception_tag": "dec.frc_read_digits"
+        },
+        {
+          "text_ar": "0.6877",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6874",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "0.6875",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

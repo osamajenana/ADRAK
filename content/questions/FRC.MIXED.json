@@ -1,0 +1,936 @@
+{
+  "skill_code": "FRC.MIXED",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "4 1/4",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "4 × 4 = 16، ثم 16 + 1 = 17. إذن الكسر 17/4.",
+      "options": [
+        {
+          "text_ar": "17/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "5/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "17/16",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 1/3",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 3 = 9، ثم 9 + 1 = 10. إذن الكسر 10/3.",
+      "options": [
+        {
+          "text_ar": "1/3",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "4/3",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "10/9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10/3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 4/6",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 6 = 18، ثم 18 + 4 = 22. إذن الكسر 22/6.",
+      "options": [
+        {
+          "text_ar": "7/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "22/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22/18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 1/4",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 4 = 12، ثم 12 + 1 = 13. إذن الكسر 13/4.",
+      "options": [
+        {
+          "text_ar": "4/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "1/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "13/12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13/4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "4 2/4",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "4 × 4 = 16، ثم 16 + 2 = 18. إذن الكسر 18/4.",
+      "options": [
+        {
+          "text_ar": "6/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "2/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "18/16",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18/4",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "2 1/3",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "2 × 3 = 6، ثم 6 + 1 = 7. إذن الكسر 7/3.",
+      "options": [
+        {
+          "text_ar": "1/3",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "3/3",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "7/6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/3",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "4 4/5",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "4 × 5 = 20، ثم 20 + 4 = 24. إذن الكسر 24/5.",
+      "options": [
+        {
+          "text_ar": "8/5",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "4/5",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "24/5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24/20",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "4 2/5",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "4 × 5 = 20، ثم 20 + 2 = 22. إذن الكسر 22/5.",
+      "options": [
+        {
+          "text_ar": "22/20",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/5",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "6/5",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "22/5",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 2/6",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 6 = 18، ثم 18 + 2 = 20. إذن الكسر 20/6.",
+      "options": [
+        {
+          "text_ar": "20/18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "5/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "20/6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 2/4",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 4 = 12، ثم 12 + 2 = 14. إذن الكسر 14/4.",
+      "options": [
+        {
+          "text_ar": "5/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "14/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14/12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 4/7",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 7 = 21، ثم 21 + 4 = 25. إذن الكسر 25/7.",
+      "options": [
+        {
+          "text_ar": "7/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "4/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "25/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25/21",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "7 2/7",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "7 × 7 = 49، ثم 49 + 2 = 51. إذن الكسر 51/7.",
+      "options": [
+        {
+          "text_ar": "51/49",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "9/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "51/7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "8 3/6",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "8 × 6 = 48، ثم 48 + 3 = 51. إذن الكسر 51/6.",
+      "options": [
+        {
+          "text_ar": "11/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "3/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "51/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "51/48",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "4 4/12",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "4 × 12 = 48، ثم 48 + 4 = 52. إذن الكسر 52/12.",
+      "options": [
+        {
+          "text_ar": "52/48",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "52/12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "8/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "9 5/6",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "9 × 6 = 54، ثم 54 + 5 = 59. إذن الكسر 59/6.",
+      "options": [
+        {
+          "text_ar": "5/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "59/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "59/54",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "2 10/12",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "2 × 12 = 24، ثم 24 + 10 = 34. إذن الكسر 34/12.",
+      "options": [
+        {
+          "text_ar": "34/24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "34/12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "5 7/11",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "5 × 11 = 55، ثم 55 + 7 = 62. إذن الكسر 62/11.",
+      "options": [
+        {
+          "text_ar": "62/55",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "7/11",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "62/11",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12/11",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "8 1/6",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "8 × 6 = 48، ثم 48 + 1 = 49. إذن الكسر 49/6.",
+      "options": [
+        {
+          "text_ar": "1/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "49/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "49/48",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 11/12",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 12 = 36، ثم 36 + 11 = 47. إذن الكسر 47/12.",
+      "options": [
+        {
+          "text_ar": "47/36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "47/12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "11/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "7 11/12",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "7 × 12 = 84، ثم 84 + 11 = 95. إذن الكسر 95/12.",
+      "options": [
+        {
+          "text_ar": "95/84",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "95/12",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "11/12",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "9 3/4",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "9 × 4 = 36، ثم 36 + 3 = 39. إذن الكسر 39/4.",
+      "options": [
+        {
+          "text_ar": "39/36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "39/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 1/4",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 4 = 12، ثم 12 + 1 = 13. إذن الكسر 13/4.",
+      "options": [
+        {
+          "text_ar": "1/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "13/4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13/12",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/4",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "7 2/7",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "7 × 7 = 49، ثم 49 + 2 = 51. إذن الكسر 51/7.",
+      "options": [
+        {
+          "text_ar": "51/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "51/49",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "2 2/11",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "2 × 11 = 22، ثم 22 + 2 = 24. إذن الكسر 24/11.",
+      "options": [
+        {
+          "text_ar": "4/11",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "24/22",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2/11",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "24/11",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "9 6/9",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "9 × 9 = 81، ثم 81 + 6 = 87. إذن الكسر 87/9.",
+      "options": [
+        {
+          "text_ar": "15/9",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "87/9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/9",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "87/81",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "5 1/7",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "5 × 7 = 35، ثم 35 + 1 = 36. إذن الكسر 36/7.",
+      "options": [
+        {
+          "text_ar": "36/7",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "36/35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 1/3",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 3 = 9، ثم 9 + 1 = 10. إذن الكسر 10/3.",
+      "options": [
+        {
+          "text_ar": "10/9",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1/3",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "10/3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4/3",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 5/7",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 7 = 21، ثم 21 + 5 = 26. إذن الكسر 26/7.",
+      "options": [
+        {
+          "text_ar": "26/21",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "5/7",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "26/7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "3 8/11",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "3 × 11 = 33، ثم 33 + 8 = 41. إذن الكسر 41/11.",
+      "options": [
+        {
+          "text_ar": "41/33",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11/11",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "8/11",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "41/11",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "FRC.MIXED",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "حوّل العدد الكسري الآتي إلى كسر غير فعلي:",
+      "expression": "6 3/6",
+      "hint_ar": "اضرب العدد الصحيح في المقام ثم أضف البسط — لا تجمع الصحيح إلى البسط مباشرة.",
+      "explanation_ar": "6 × 6 = 36، ثم 36 + 3 = 39. إذن الكسر 39/6.",
+      "options": [
+        {
+          "text_ar": "9/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_convert_add"
+        },
+        {
+          "text_ar": "3/6",
+          "is_correct": false,
+          "misconception_tag": "frc.mixed_ignore_whole"
+        },
+        {
+          "text_ar": "39/6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "39/36",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "skill_code": "DEC.ADD",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "9.6 + 0.11",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "9.6 تساوي 9.60، وبمحاذاة الفاصلتين: 9.60 + 0.11 = 9.71.",
+      "options": [
+        {
+          "text_ar": "9.71",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.17",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "9.69",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.72",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "8.4 + 0.2",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "8.4 تساوي 8.40، وبمحاذاة الفاصلتين: 8.40 + 0.20 = 8.6.",
+      "options": [
+        {
+          "text_ar": "8.6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8.4",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8.8",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "2.1 + 0.4",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "2.1 تساوي 2.10، وبمحاذاة الفاصلتين: 2.10 + 0.40 = 2.5.",
+      "options": [
+        {
+          "text_ar": "2.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.5",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.3",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "9.8 + 0.75",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "9.8 تساوي 9.80، وبمحاذاة الفاصلتين: 9.80 + 0.75 = 10.55.",
+      "options": [
+        {
+          "text_ar": "10.56",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.83",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "10.55",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10.53",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "1.9 + 0.89",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "1.9 تساوي 1.90، وبمحاذاة الفاصلتين: 1.90 + 0.89 = 2.79.",
+      "options": [
+        {
+          "text_ar": "2.77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.81",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.98",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "2.79",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "3.9 + 0.78",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "3.9 تساوي 3.90، وبمحاذاة الفاصلتين: 3.90 + 0.78 = 4.68.",
+      "options": [
+        {
+          "text_ar": "4.66",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.70",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3.87",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "4.68",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "4.9 + 0.72",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "4.9 تساوي 4.90، وبمحاذاة الفاصلتين: 4.90 + 0.72 = 5.62.",
+      "options": [
+        {
+          "text_ar": "4.81",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "5.61",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.62",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.60",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "9.1 + 0.93",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "9.1 تساوي 9.10، وبمحاذاة الفاصلتين: 9.10 + 0.93 = 10.03.",
+      "options": [
+        {
+          "text_ar": "10.03",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10.01",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.94",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "10.02",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "9.7 + 0.11",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "9.7 تساوي 9.70، وبمحاذاة الفاصلتين: 9.70 + 0.11 = 9.81.",
+      "options": [
+        {
+          "text_ar": "9.81",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.82",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.18",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "9.80",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "8.1 + 0.61",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "8.1 تساوي 8.10، وبمحاذاة الفاصلتين: 8.10 + 0.61 = 8.71.",
+      "options": [
+        {
+          "text_ar": "8.62",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "8.69",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8.73",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "8.71",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "23.6 + 2.77",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "23.6 تساوي 23.60، وبمحاذاة الفاصلتين: 23.60 + 2.77 = 26.37.",
+      "options": [
+        {
+          "text_ar": "26.35",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26.37",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "26.39",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25.83",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "12.6 + 6.28",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "12.6 تساوي 12.60، وبمحاذاة الفاصلتين: 12.60 + 6.28 = 18.88.",
+      "options": [
+        {
+          "text_ar": "18.34",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "18.88",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18.87",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "18.89",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "54.7 + 9.56",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "54.7 تساوي 54.70، وبمحاذاة الفاصلتين: 54.70 + 9.56 = 64.26.",
+      "options": [
+        {
+          "text_ar": "63.63",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "64.24",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64.25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64.26",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "85.2 + 1.75",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "85.2 تساوي 85.20، وبمحاذاة الفاصلتين: 85.20 + 1.75 = 86.95.",
+      "options": [
+        {
+          "text_ar": "86.97",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "86.94",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "86.77",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "86.95",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "76.6 + 6.38",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "76.6 تساوي 76.60، وبمحاذاة الفاصلتين: 76.60 + 6.38 = 82.98.",
+      "options": [
+        {
+          "text_ar": "82.44",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "82.96",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "82.97",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "82.98",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "29.2 + 2.7",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "29.2 تساوي 29.20، وبمحاذاة الفاصلتين: 29.20 + 2.70 = 31.9.",
+      "options": [
+        {
+          "text_ar": "31.9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32.0",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32.1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "31.7",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "79.4 + 6.94",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "79.4 تساوي 79.40، وبمحاذاة الفاصلتين: 79.40 + 6.94 = 86.34.",
+      "options": [
+        {
+          "text_ar": "86.34",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "85.98",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "86.32",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "86.36",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "88.1 + 2.42",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "88.1 تساوي 88.10، وبمحاذاة الفاصلتين: 88.10 + 2.42 = 90.52.",
+      "options": [
+        {
+          "text_ar": "90.50",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90.43",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "90.52",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "90.54",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "83.9 + 9.37",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "83.9 تساوي 83.90، وبمحاذاة الفاصلتين: 83.90 + 9.37 = 93.27.",
+      "options": [
+        {
+          "text_ar": "93.26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "93.29",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "93.27",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "92.46",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "88.2 + 6.67",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "88.2 تساوي 88.20، وبمحاذاة الفاصلتين: 88.20 + 6.67 = 94.87.",
+      "options": [
+        {
+          "text_ar": "94.85",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "94.87",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "94.69",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "94.86",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "33.1 + 8.44",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "33.1 تساوي 33.10، وبمحاذاة الفاصلتين: 33.10 + 8.44 = 41.54.",
+      "options": [
+        {
+          "text_ar": "41.52",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41.56",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41.54",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41.45",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "75.4 + 8.97",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "75.4 تساوي 75.40، وبمحاذاة الفاصلتين: 75.40 + 8.97 = 84.37.",
+      "options": [
+        {
+          "text_ar": "84.39",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84.01",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "84.36",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "84.37",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "71.3 + 5.71",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "71.3 تساوي 71.30، وبمحاذاة الفاصلتين: 71.30 + 5.71 = 77.01.",
+      "options": [
+        {
+          "text_ar": "76.99",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "77.02",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "76.74",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "77.01",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "86.4 + 9.51",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "86.4 تساوي 86.40، وبمحاذاة الفاصلتين: 86.40 + 9.51 = 95.91.",
+      "options": [
+        {
+          "text_ar": "95.89",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "95.90",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "95.55",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "95.91",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "74.3 + 1.49",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "74.3 تساوي 74.30، وبمحاذاة الفاصلتين: 74.30 + 1.49 = 75.79.",
+      "options": [
+        {
+          "text_ar": "75.79",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "75.52",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "75.78",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "75.81",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "56.4 + 2.27",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "56.4 تساوي 56.40، وبمحاذاة الفاصلتين: 56.40 + 2.27 = 58.67.",
+      "options": [
+        {
+          "text_ar": "58.67",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "58.69",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "58.31",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "58.66",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "32.1 + 8.8",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "32.1 تساوي 32.10، وبمحاذاة الفاصلتين: 32.10 + 8.80 = 40.9.",
+      "options": [
+        {
+          "text_ar": "40.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41.1",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "41.0",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "40.9",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "78.7 + 4.82",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "78.7 تساوي 78.70، وبمحاذاة الفاصلتين: 78.70 + 4.82 = 83.52.",
+      "options": [
+        {
+          "text_ar": "83.54",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "82.89",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "83.50",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "83.52",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "59.6 + 1.85",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "59.6 تساوي 59.60، وبمحاذاة الفاصلتين: 59.60 + 1.85 = 61.45.",
+      "options": [
+        {
+          "text_ar": "61.43",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "61.45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "60.91",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "61.47",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.ADD",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الجمع:",
+      "expression": "14.2 + 6.11",
+      "hint_ar": "حاذِ الفواصل تحت بعضها لا الأرقام الأخيرة، وأكمل المنازل الناقصة بأصفار على اليمين.",
+      "explanation_ar": "14.2 تساوي 14.20، وبمحاذاة الفاصلتين: 14.20 + 6.11 = 20.31.",
+      "options": [
+        {
+          "text_ar": "20.13",
+          "is_correct": false,
+          "misconception_tag": "dec.right_align"
+        },
+        {
+          "text_ar": "20.32",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20.33",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20.31",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

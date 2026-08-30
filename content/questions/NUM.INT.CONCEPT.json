@@ -1,0 +1,936 @@
+{
+  "skill_code": "NUM.INT.CONCEPT",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-5   ,   -4",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-4 يقع على يمين -5 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-5",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-13   ,   -8",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-8 يقع على يمين -13 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-13",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-11   ,   -3",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-3 يقع على يمين -11 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-11",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-13   ,   -4",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-4 يقع على يمين -13 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-13",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-12   ,   -7",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-7 يقع على يمين -12 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-7",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-16   ,   -9",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-9 يقع على يمين -16 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-9",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-16",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-13   ,   -6",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-6 يقع على يمين -13 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-6",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-13",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-15   ,   -8",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-8 يقع على يمين -15 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-15",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-7   ,   -2",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-2 يقع على يمين -7 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-2",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-7",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-12   ,   -3",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-3 يقع على يمين -12 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-12",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-46   ,   -33",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-33 يقع على يمين -46 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-46",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-33",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "46",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-40   ,   -30",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-30 يقع على يمين -40 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-30",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-40",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-19   ,   -4",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-4 يقع على يمين -19 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-19",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-15   ,   -8",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-8 يقع على يمين -15 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-8",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-15",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-61   ,   -28",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-28 يقع على يمين -61 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-61",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-28",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "61",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-47   ,   -36",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-36 يقع على يمين -47 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "47",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-47",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-48   ,   -32",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-32 يقع على يمين -48 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-32",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-48",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-56   ,   -34",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-34 يقع على يمين -56 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-34",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-56",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-39   ,   -37",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-37 يقع على يمين -39 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-37",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-39",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "39",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-54   ,   -37",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-37 يقع على يمين -54 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-37",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-54",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-43   ,   -6",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-6 يقع على يمين -43 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-43",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "43",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-34   ,   25",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "25 يقع على يمين -34 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-34",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-55   ,   36",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "36 يقع على يمين -55 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-55",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "55",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-54   ,   -24",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-24 يقع على يمين -54 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-54",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-32   ,   22",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "22 يقع على يمين -32 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "22",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-32",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-10   ,   3",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "3 يقع على يمين -10 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "3",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-10",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-44   ,   -35",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-35 يقع على يمين -44 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-35",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-44",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين يقع إلى اليمين على خط الأعداد؟",
+      "expression": "-75   ,   -39",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-39 يقع على يمين -75 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "75",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-39",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-75",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-35   ,   -27",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-27 يقع على يمين -35 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-27",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "-35",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        }
+      ]
+    },
+    {
+      "skill_code": "NUM.INT.CONCEPT",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "أيّ العددين أكبر؟",
+      "expression": "-58   ,   -22",
+      "hint_ar": "على خط الأعداد كلّما اتجهت يميناً كبر العدد. السالب الأبعد عن الصفر هو الأصغر لا الأكبر.",
+      "explanation_ar": "-22 يقع على يمين -58 على خط الأعداد، فهو أكبر.",
+      "options": [
+        {
+          "text_ar": "-58",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "العددان متساويان",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "58",
+          "is_correct": false,
+          "misconception_tag": "int.magnitude_order"
+        },
+        {
+          "text_ar": "-22",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}

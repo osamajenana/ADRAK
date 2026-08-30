@@ -1,0 +1,936 @@
+{
+  "skill_code": "DEC.MUL",
+  "count": 30,
+  "questions": [
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "9.2 × 0.7",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "6.43",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.44",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.42",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "64.4",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "5.5 × 0.5",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "2.73",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.77",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.75",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "27.5",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "4.2 × 0.6",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "2.52",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "25.2",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "2.54",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.53",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "6.1 × 0.7",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "4.25",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "42.7",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "4.27",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "8.2 × 0.3",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "2.48",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.44",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "24.6",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "2.46",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "7.7 × 0.2",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "1.56",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.54",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.55",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15.4",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "5.5 × 0.9",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "4.93",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.94",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.95",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "49.5",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "6.1 × 0.8",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "4.88",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "48.8",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "4.87",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.90",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "7.8 × 0.6",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "4.69",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.67",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.68",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "46.8",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "2.3 × 0.9",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "2.05",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "20.7",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "2.07",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "2.08",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "18.2 × 0.5",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "9.3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.1",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "91",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "9.0",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "16.5 × 0.4",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "6.7",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "6.5",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "66",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "6.6",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "31.5 × 0.3",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "9.46",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.45",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "9.47",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "94.5",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "27.7 × 0.5",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "13.85",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "13.86",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "138.5",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "13.83",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "38.5 × 0.5",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "192.5",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "19.25",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19.26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "19.23",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "34.5 × 0.4",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "13.6",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "14.0",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "138",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "13.8",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "37.9 × 0.4",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "15.18",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "151.6",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "15.14",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15.16",
+          "is_correct": true,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "38.5 × 0.4",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "15.2",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15.4",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "15.3",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "154",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "28.1 × 0.4",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "112.4",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "11.26",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11.24",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11.22",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "11.2 × 0.9",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "10.08",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10.06",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "10.07",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "100.8",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "17.8 × 0.64",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "11.394",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11.390",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "11.392",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "113.92",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "31.4 × 0.53",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "16.642",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16.643",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "16.640",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "166.42",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "35.9 × 0.12",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "4.309",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.310",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.308",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "43.08",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "22.6 × 0.25",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "5.64",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.63",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.65",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "56.5",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "32.2 × 0.18",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "57.96",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "5.796",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.797",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "5.798",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "38.3 × 0.13",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "4.979",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.978",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "4.977",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "49.79",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "19.3 × 0.17",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "3.281",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "32.81",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "3.279",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "3.283",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "11.2 × 0.16",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "17.92",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "1.790",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.792",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.794",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "34.4 × 0.67",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "23.048",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "230.48",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "23.049",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "23.050",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    },
+    {
+      "skill_code": "DEC.MUL",
+      "type": "mcq",
+      "difficulty": "hard",
+      "stem_ar": "احسب ناتج الضرب:",
+      "expression": "11.1 × 0.16",
+      "hint_ar": "اضرب الأرقام كأنها أعداد صحيحة، ثم عُدّ المنازل العشرية في العددين معاً واجمعها.",
+      "explanation_ar": "عدد المنازل العشرية في ناتج الضرب هو مجموع منازل العددين، لا أكبرهما كما في الجمع.",
+      "options": [
+        {
+          "text_ar": "1.776",
+          "is_correct": true,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "1.778",
+          "is_correct": false,
+          "misconception_tag": null
+        },
+        {
+          "text_ar": "17.76",
+          "is_correct": false,
+          "misconception_tag": "dec.mul_align_point"
+        },
+        {
+          "text_ar": "1.774",
+          "is_correct": false,
+          "misconception_tag": null
+        }
+      ]
+    }
+  ]
+}
